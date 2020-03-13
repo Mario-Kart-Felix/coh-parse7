@@ -31,5 +31,5 @@ function fixParsed(o) {
     }
     fixValue(o);
     removeUnderscore(o);
-    return o;
+    return o.value ? o.value : o;
 }
