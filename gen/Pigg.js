@@ -2,13 +2,13 @@
 
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
-    define(['kaitai-struct/KaitaiStream', './Boostsets', './AttribNames', './Messages', './Classes'], factory);
+    define(['kaitai-struct/KaitaiStream', './Boostsets', './Powercats', './Powersets', './AttribNames', './Messages', './Classes'], factory);
   } else if (typeof module === 'object' && module.exports) {
-    module.exports = factory(require('kaitai-struct/KaitaiStream'), require('./Boostsets'), require('./AttribNames'), require('./Messages'), require('./Classes'));
+    module.exports = factory(require('kaitai-struct/KaitaiStream'), require('./Boostsets'), require('./Powercats'), require('./Powersets'), require('./AttribNames'), require('./Messages'), require('./Classes'));
   } else {
-    root.Pigg = factory(root.KaitaiStream, root.Boostsets, root.AttribNames, root.Messages, root.Classes);
+    root.Pigg = factory(root.KaitaiStream, root.Boostsets, root.Powercats, root.Powersets, root.AttribNames, root.Messages, root.Classes);
   }
-}(this, function (KaitaiStream, Boostsets, AttribNames, Messages, Classes) {
+}(this, function (KaitaiStream, Boostsets, Powercats, Powersets, AttribNames, Messages, Classes) {
 var Pigg = (function() {
   function Pigg(_io, _parent, _root) {
     this._io = _io;
@@ -78,11 +78,23 @@ var Pigg = (function() {
           var _io__raw__m_value = new KaitaiStream(this._raw__m_value);
           this._m_value = new Boostsets(_io__raw__m_value, this, null);
           break;
+        case "bin/powercats.bin":
+          this._raw__raw__m_value = io.readBytes(this.packSize);
+          this._raw__m_value = KaitaiStream.processZlib(this._raw__raw__m_value);
+          var _io__raw__m_value = new KaitaiStream(this._raw__m_value);
+          this._m_value = new Powercats(_io__raw__m_value, this, null);
+          break;
         case "bin/classes.bin":
           this._raw__raw__m_value = io.readBytes(this.packSize);
           this._raw__m_value = KaitaiStream.processZlib(this._raw__raw__m_value);
           var _io__raw__m_value = new KaitaiStream(this._raw__m_value);
           this._m_value = new Classes(_io__raw__m_value, this, null);
+          break;
+        case "bin/powersets.bin":
+          this._raw__raw__m_value = io.readBytes(this.packSize);
+          this._raw__m_value = KaitaiStream.processZlib(this._raw__raw__m_value);
+          var _io__raw__m_value = new KaitaiStream(this._raw__m_value);
+          this._m_value = new Powersets(_io__raw__m_value, this, null);
           break;
         case "bin/attrib_names.bin":
           this._raw__raw__m_value = io.readBytes(this.packSize);
