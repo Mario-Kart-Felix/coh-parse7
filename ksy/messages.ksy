@@ -22,15 +22,25 @@ types:
       - {id: value, type: item, repeat: expr, repeat-expr: count}
   item:
     seq:
-      - {id: id, type: u4string}
-      - {id: message, type: u4}
-      - {id: help, type: u4}
+      - {id: key, type: u4string}
+      - {id: value, type: string_id}
+      - {id: help, type: string_id}
       - {id: vars, type: var_array}
   u4string:
     seq:
       - {id: len, type: u4}
       - {id: value, type: str, size: len}
+  string_id:
+    seq: [{id: index, type: u4}]
+    instances:
+      value: 
+        value: _root.strings.value.value[index]
   var_array:
     seq:
       - {id: count, type: u4}
-      - {id: value, type: u4, repeat: expr, repeat-expr: count}
+      - {id: value, type: var_id, repeat: expr, repeat-expr: count}
+  var_id:
+    seq: [{id: index, type: u4}]
+    instances:
+      value:
+        value: _root.vars.value.value[index]

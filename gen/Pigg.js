@@ -2,13 +2,13 @@
 
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
-    define(['kaitai-struct/KaitaiStream', './Boostsets', './AttribNames', './Messages'], factory);
+    define(['kaitai-struct/KaitaiStream', './Boostsets', './AttribNames', './Messages', './Classes'], factory);
   } else if (typeof module === 'object' && module.exports) {
-    module.exports = factory(require('kaitai-struct/KaitaiStream'), require('./Boostsets'), require('./AttribNames'), require('./Messages'));
+    module.exports = factory(require('kaitai-struct/KaitaiStream'), require('./Boostsets'), require('./AttribNames'), require('./Messages'), require('./Classes'));
   } else {
-    root.Pigg = factory(root.KaitaiStream, root.Boostsets, root.AttribNames, root.Messages);
+    root.Pigg = factory(root.KaitaiStream, root.Boostsets, root.AttribNames, root.Messages, root.Classes);
   }
-}(this, function (KaitaiStream, Boostsets, AttribNames, Messages) {
+}(this, function (KaitaiStream, Boostsets, AttribNames, Messages, Classes) {
 var Pigg = (function() {
   function Pigg(_io, _parent, _root) {
     this._io = _io;
@@ -72,11 +72,17 @@ var Pigg = (function() {
         var _pos = io.pos;
         io.seek(this.offset);
         switch (this._root.strings.value[this.nameId].value) {
-        case "bin/clientmessages-en.bin":
+        case "bin/boostsets.bin":
           this._raw__raw__m_value = io.readBytes(this.packSize);
           this._raw__m_value = KaitaiStream.processZlib(this._raw__raw__m_value);
           var _io__raw__m_value = new KaitaiStream(this._raw__m_value);
-          this._m_value = new Messages(_io__raw__m_value, this, null);
+          this._m_value = new Boostsets(_io__raw__m_value, this, null);
+          break;
+        case "bin/classes.bin":
+          this._raw__raw__m_value = io.readBytes(this.packSize);
+          this._raw__m_value = KaitaiStream.processZlib(this._raw__raw__m_value);
+          var _io__raw__m_value = new KaitaiStream(this._raw__m_value);
+          this._m_value = new Classes(_io__raw__m_value, this, null);
           break;
         case "bin/attrib_names.bin":
           this._raw__raw__m_value = io.readBytes(this.packSize);
@@ -84,11 +90,11 @@ var Pigg = (function() {
           var _io__raw__m_value = new KaitaiStream(this._raw__m_value);
           this._m_value = new AttribNames(_io__raw__m_value, this, null);
           break;
-        case "bin/boostsets.bin":
+        case "bin/clientmessages-en.bin":
           this._raw__raw__m_value = io.readBytes(this.packSize);
           this._raw__m_value = KaitaiStream.processZlib(this._raw__raw__m_value);
           var _io__raw__m_value = new KaitaiStream(this._raw__m_value);
-          this._m_value = new Boostsets(_io__raw__m_value, this, null);
+          this._m_value = new Messages(_io__raw__m_value, this, null);
           break;
         default:
           this._raw__raw__m_value = io.readBytes(this.packSize);

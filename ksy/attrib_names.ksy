@@ -4,14 +4,17 @@ meta:
   encoding: ascii
 seq:
   - {id: header, type: header}
-  - {id: damage_attribs, type: attribarray}
-  - {id: defense_attribs, type: attribarray}
-  - {id: boost_attribs, type: attribarray}
-  - {id: group_attribs, type: attribarray}
-  - {id: mode_attribs, type: attribarray}
-  - {id: elusivity_attribs, type: attribarray}
-  - {id: stack_attribs, type: attribarray}
+  - {id: value, type: body}
 types:
+  body:
+    seq:
+      - {id: damage_attribs, type: attribarray}
+      - {id: defense_attribs, type: attribarray}
+      - {id: boost_attribs, type: attribarray}
+      - {id: group_attribs, type: attribarray}
+      - {id: mode_attribs, type: attribarray}
+      - {id: elusivity_attribs, type: attribarray}
+      - {id: stack_attribs, type: attribarray}
   attribarray: 
     seq:
       - {id: count, type: u4}

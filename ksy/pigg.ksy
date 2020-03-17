@@ -3,7 +3,7 @@ meta:
   file-extension: pigg
   endian: le
   encoding: ascii
-  imports: ['messages', 'attrib_names', 'boostsets']
+  imports: ['messages', 'attrib_names', 'boostsets', 'classes']
 seq:
   - {id: magic, contents: [0x23, 0x1, 0,0]}
   - {id: version, type: u2}
@@ -39,6 +39,7 @@ types:
             '"bin/clientmessages-en.bin"': messages
             '"bin/attrib_names.bin"': attrib_names
             '"bin/boostsets.bin"': boostsets
+            '"bin/classes.bin"': classes
             _: nothing
   nothing: {}
   strings:

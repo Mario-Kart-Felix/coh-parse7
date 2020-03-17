@@ -63,6 +63,29 @@ var Messages = (function() {
     return String;
   })();
 
+  var VarId = Messages.VarId = (function() {
+    function VarId(_io, _parent, _root) {
+      this._io = _io;
+      this._parent = _parent;
+      this._root = _root || this;
+
+      this._read();
+    }
+    VarId.prototype._read = function() {
+      this.index = this._io.readU4le();
+    }
+    Object.defineProperty(VarId.prototype, 'value', {
+      get: function() {
+        if (this._m_value !== undefined)
+          return this._m_value;
+        this._m_value = this._root.vars.value.value[this.index];
+        return this._m_value;
+      }
+    });
+
+    return VarId;
+  })();
+
   var Strings = Messages.Strings = (function() {
     function Strings(_io, _parent, _root) {
       this._io = _io;
@@ -80,6 +103,29 @@ var Messages = (function() {
     }
 
     return Strings;
+  })();
+
+  var StringId = Messages.StringId = (function() {
+    function StringId(_io, _parent, _root) {
+      this._io = _io;
+      this._parent = _parent;
+      this._root = _root || this;
+
+      this._read();
+    }
+    StringId.prototype._read = function() {
+      this.index = this._io.readU4le();
+    }
+    Object.defineProperty(StringId.prototype, 'value', {
+      get: function() {
+        if (this._m_value !== undefined)
+          return this._m_value;
+        this._m_value = this._root.strings.value.value[this.index];
+        return this._m_value;
+      }
+    });
+
+    return StringId;
   })();
 
   var U4string = Messages.U4string = (function() {
@@ -110,7 +156,7 @@ var Messages = (function() {
       this.count = this._io.readU4le();
       this.value = new Array(this.count);
       for (var i = 0; i < this.count; i++) {
-        this.value[i] = this._io.readU4le();
+        this.value[i] = new VarId(this._io, this, this._root);
       }
     }
 
@@ -126,9 +172,9 @@ var Messages = (function() {
       this._read();
     }
     Item.prototype._read = function() {
-      this.id = new U4string(this._io, this, this._root);
-      this.message = this._io.readU4le();
-      this.help = this._io.readU4le();
+      this.key = new U4string(this._io, this, this._root);
+      this.value = new StringId(this._io, this, this._root);
+      this.help = new StringId(this._io, this, this._root);
       this.vars = new VarArray(this._io, this, this._root);
     }
 

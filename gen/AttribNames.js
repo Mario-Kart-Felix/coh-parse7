@@ -19,32 +19,28 @@ var AttribNames = (function() {
   }
   AttribNames.prototype._read = function() {
     this.header = new Header(this._io, this, this._root);
-    this.damageAttribs = new Attribarray(this._io, this, this._root);
-    this.defenseAttribs = new Attribarray(this._io, this, this._root);
-    this.boostAttribs = new Attribarray(this._io, this, this._root);
-    this.groupAttribs = new Attribarray(this._io, this, this._root);
-    this.modeAttribs = new Attribarray(this._io, this, this._root);
-    this.elusivityAttribs = new Attribarray(this._io, this, this._root);
-    this.stackAttribs = new Attribarray(this._io, this, this._root);
+    this.value = new Body(this._io, this, this._root);
   }
 
-  var Attribarray = AttribNames.Attribarray = (function() {
-    function Attribarray(_io, _parent, _root) {
+  var Body = AttribNames.Body = (function() {
+    function Body(_io, _parent, _root) {
       this._io = _io;
       this._parent = _parent;
       this._root = _root || this;
 
       this._read();
     }
-    Attribarray.prototype._read = function() {
-      this.count = this._io.readU4le();
-      this.value = new Array(this.count);
-      for (var i = 0; i < this.count; i++) {
-        this.value[i] = new Attribname(this._io, this, this._root);
-      }
+    Body.prototype._read = function() {
+      this.damageAttribs = new Attribarray(this._io, this, this._root);
+      this.defenseAttribs = new Attribarray(this._io, this, this._root);
+      this.boostAttribs = new Attribarray(this._io, this, this._root);
+      this.groupAttribs = new Attribarray(this._io, this, this._root);
+      this.modeAttribs = new Attribarray(this._io, this, this._root);
+      this.elusivityAttribs = new Attribarray(this._io, this, this._root);
+      this.stackAttribs = new Attribarray(this._io, this, this._root);
     }
 
-    return Attribarray;
+    return Body;
   })();
 
   var Attribname = AttribNames.Attribname = (function() {
@@ -63,24 +59,6 @@ var AttribNames = (function() {
     }
 
     return Attribname;
-  })();
-
-  var Header = AttribNames.Header = (function() {
-    function Header(_io, _parent, _root) {
-      this._io = _io;
-      this._parent = _parent;
-      this._root = _root || this;
-
-      this._read();
-    }
-    Header.prototype._read = function() {
-      this._unnamed0 = this._io.readBytes(20);
-      this.s = this._io.readU4le();
-      this._unnamed2 = this._io.readBytes(this.s);
-      this._unnamed3 = this._io.readBytes(4);
-    }
-
-    return Header;
   })();
 
   var String = AttribNames.String = (function() {
@@ -107,6 +85,43 @@ var AttribNames = (function() {
     });
 
     return String;
+  })();
+
+  var Attribarray = AttribNames.Attribarray = (function() {
+    function Attribarray(_io, _parent, _root) {
+      this._io = _io;
+      this._parent = _parent;
+      this._root = _root || this;
+
+      this._read();
+    }
+    Attribarray.prototype._read = function() {
+      this.count = this._io.readU4le();
+      this.value = new Array(this.count);
+      for (var i = 0; i < this.count; i++) {
+        this.value[i] = new Attribname(this._io, this, this._root);
+      }
+    }
+
+    return Attribarray;
+  })();
+
+  var Header = AttribNames.Header = (function() {
+    function Header(_io, _parent, _root) {
+      this._io = _io;
+      this._parent = _parent;
+      this._root = _root || this;
+
+      this._read();
+    }
+    Header.prototype._read = function() {
+      this._unnamed0 = this._io.readBytes(20);
+      this.s = this._io.readU4le();
+      this._unnamed2 = this._io.readBytes(this.s);
+      this._unnamed3 = this._io.readBytes(4);
+    }
+
+    return Header;
   })();
 
   return AttribNames;
