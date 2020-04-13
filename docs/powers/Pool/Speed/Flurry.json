@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P189132002",
-  "help": "P135640947",
-  "shortHelp": "P2562606845",
-  "targetHelp": "P2366756416",
-  "targetShortHelp": "P2848422893",
+  "display": "Flurry",
+  "help": "Unleashes a super fast Flurry of punches to pummel your foe. Flurry is so dizzying that it has a chance to Disorient the target. Recharge: Very Fast",
+  "shortHelp": "Melee, Moderate DMG(Smash), Foe Disorient",
+  "targetHelp": "You have been Disoriented.",
+  "targetShortHelp": "Disorient",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -148,8 +148,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1545979143",
-              "victimHit": "P2876742505",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -211,8 +211,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P583235414",
-              "victimHit": "P3613904985",
+              "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -274,8 +274,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1545979143",
-              "victimHit": "P2876742505",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -363,8 +363,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P583235414",
-              "victimHit": "P3613904985",
+              "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -397,7 +397,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Dominator",
+        "Dominator",
         "eq",
         "&&"
       ],
@@ -436,8 +436,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P583235414",
-              "victimHit": "P3613904985",
+              "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -470,7 +470,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Dominator",
+        "Dominator",
         "eq",
         "&&"
       ],
@@ -535,8 +535,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P583235414",
-              "victimHit": "P3613904985",
+              "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -560,7 +560,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq",
         "enttype",
         "target>",
@@ -603,9 +603,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3869921732",
-              "victimHit": "P1280790469",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -637,7 +637,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "&&",
         "kMeter",
@@ -686,9 +686,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3869921732",
-              "victimHit": "P1280790469",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -711,7 +711,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "kMeter",
         "source>",
@@ -759,9 +759,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3869921732",
-              "victimHit": "P1280790469",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -801,7 +801,7 @@
         "<",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&",
         "enttype",
@@ -845,9 +845,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2008332946",
-              "victimHit": "P2162615548",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],
@@ -892,7 +892,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "&&",
         "enttype",
@@ -936,8 +936,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1545979143",
-              "victimHit": "P2876742505",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -961,7 +961,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq",
         "enttype",
         "target>",
@@ -1004,9 +1004,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3869921732",
-              "victimHit": "P1280790469",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -1048,7 +1048,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "&&",
         "enttype",
@@ -1092,8 +1092,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1545979143",
-              "victimHit": "P2876742505",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -1126,7 +1126,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "&&",
         "kMeter",
@@ -1175,9 +1175,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3869921732",
-              "victimHit": "P1280790469",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -1200,7 +1200,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "kMeter",
         "source>",
@@ -1248,9 +1248,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3869921732",
-              "victimHit": "P1280790469",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -1290,7 +1290,7 @@
         "<",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&",
         "enttype",
@@ -1334,9 +1334,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2008332946",
-              "victimHit": "P2162615548",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],

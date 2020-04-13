@@ -2,9 +2,9 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P1779251207",
-  "help": "P418076162",
-  "shortHelp": "P1842882825",
+  "display": "Blaster's Wrath: Recharge/Chance for Fire Damage",
+  "help": "UNIQUE -- No more than 1 enhancement of this type may be slotted by a character. Gives the slotted power a chance to inflict minor fire damage, and reduces the power's recharge time by {Boost.Attrib.RechargeTime.Scale}%. This enhancement's chance to trigger is equal to approximately 4 times per minute. This enhancement can only be slotted by Blasters and may be slotted into any Blaster damage power.",
+  "shortHelp": "Increases Attack Rate, Chance for Fire Damage",
   "targetHelp": "",
   "targetShortHelp": "",
   "attackerAttack": "",
@@ -32,7 +32,7 @@
     "&&",
     "arch",
     "char>",
-    "Class_Blaster",
+    "Blaster",
     "eq",
     "&&"
   ],
@@ -161,8 +161,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2798397535",
-              "victimHit": "P459143670",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -229,8 +229,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2798397535",
-              "victimHit": "P459143670",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
               "float": "",
               "defenseFloat": ""
             }

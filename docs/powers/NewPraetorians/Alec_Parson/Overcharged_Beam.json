@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P2383726350",
-  "help": "P2671137532",
-  "shortHelp": "P927305478",
-  "targetHelp": "P2283663779",
-  "targetShortHelp": "P1149385915",
+  "display": "Overcharged Beam",
+  "help": "You overcharge your beam rifle, releasing the accumulated power in a massive blast of energy targeted at your foes. This blast erupts on hitting the target, causing energy damage and significantly lowering the defenses of all foes caught in the burst. There is also a lingering damage over time effect, but this is much less powerful than the initial burst. Additionally, there is a strong chance that affected targets will be stunned.",
+  "shortHelp": "Ranged (Targeted AoE), Extreme DMG(Energy), Minor DoT (Energy), -DEF (Foe, All), Chance for Stun (Foe)",
+  "targetHelp": "Your defenses have been reduced. There is a chance you may also be stunned.",
+  "targetShortHelp": "-DEF (All), Chance for Stun",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -132,8 +132,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -174,8 +174,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P59899910",
-              "victimHit": "P3210640873",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -272,8 +272,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P583235414",
-              "victimHit": "P3613904985",
+              "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -341,8 +341,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P583235414",
-              "victimHit": "P3613904985",
+              "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }

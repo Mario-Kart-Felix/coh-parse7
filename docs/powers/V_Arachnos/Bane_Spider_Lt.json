@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2103519298",
-    "help": "P1697337459",
-    "shortHelp": "P3890975956",
+    "display": "Mace Beam Volley",
+    "help": "The Nullifier Mace is capable of firing a tremendous bolt of force from the end of it. Arachnos Troopers call this the Power Blast, the Arbiters who invented it scoff at this simple term.",
+    "shortHelp": "Cone Ranged, Moderate DMG(Energy/Smash), Foe Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -134,8 +134,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -176,8 +176,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -234,8 +234,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -302,11 +302,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P775034031",
-    "help": "P3511304521",
-    "shortHelp": "P3584630219",
-    "targetHelp": "P2732474384",
-    "targetShortHelp": "P4225273632",
+    "display": "Poisonous Ray",
+    "help": "You fire a Poisonous Ray from your mace.",
+    "shortHelp": "Ranged, Moderate DoT(Toxic), -Def",
+    "targetHelp": "You have been poisoned and your defense has been reduced.",
+    "targetShortHelp": "DoT(Poison), -Def",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -431,8 +431,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -534,9 +534,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3645535907",
-    "help": "P1196525362",
-    "shortHelp": "P1196525362",
+    "display": "Surveillance",
+    "help": "Resistance",
+    "shortHelp": "Resistance",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -796,14 +796,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P78341141",
-    "help": "P581519165",
-    "shortHelp": "P3567599116",
+    "display": "Hide",
+    "help": "Hide makes you almost impossible to detect. When properly 'Hidden\", a Stalker can pull off Critical hits with his attacks, and even land a massive 'Assassins Strike' with an Assassins power. When you attack or are damaged while using this power, you will be discovered. Even if discovered, you are hard to see and retain some bonus to Defense. Unlike most stealth powers, Hide can be used at the same time as other Concealment powers, giving you even greater stealth capability. Very low Endurance cost.",
+    "shortHelp": "Toggle: Self Stealth, +DEF(Melee, Ranged, AoE)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P4234907424",
+    "attackerHit": "You are concealed by your {PowerName}.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1279,11 +1279,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1943041994",
-    "help": "P1069944315",
-    "shortHelp": "P1923307270",
-    "targetHelp": "P2833281680",
-    "targetShortHelp": "P1943041994",
+    "display": "Placate",
+    "help": "Allow you to trick a foe to no longer attack you. A Successful Placate will also Hide you. This Hide is very brief, and offers no Defense bonus, but it will allow you to deliver a Critical Hit or an Assassins Strike. However, if you attack a Placated Foe, he will be able to attack you back. Recharge: Long",
+    "shortHelp": "Melee, Foe Placate, Self Stealth/Hide",
+    "targetHelp": "You have been Placated.",
+    "targetShortHelp": "Placate",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1409,7 +1409,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P89862521",
+                "victimHit": "{PlayerSource} has Placated you.",
                 "float": "",
                 "defenseFloat": ""
               }

@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2664724052",
-    "help": "P2353135322",
-    "shortHelp": "P3080198159",
+    "display": "Power Sink",
+    "help": "Power Sink leeches energy directly from the bodies of all nearby foes, draining their Endurance. Each foe you draw energy from increases your Endurance. If there are no foes within range, you will not gain any Endurance. Recharge: Long",
+    "shortHelp": "PBAoE, Self +End, Foe -End",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -167,7 +167,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2636688992",
+                "attackerHit": "{PowerName} steals some Endurance from {PlayerDest}.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -230,7 +230,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2636688992",
+                "attackerHit": "{PowerName} steals some Endurance from {PlayerDest}.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -340,7 +340,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P3264726269",
+                "victimHit": "Your {PowerName} increases your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -407,14 +407,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P571716827",
-    "help": "P4270215962",
-    "shortHelp": "P3265949263",
+    "display": "Charged Armor",
+    "help": "When you toggle on this power, you are surrounded in a charged field that makes you highly resistant to Smashing, Lethal and Energy damage. Recharge: Fast",
+    "shortHelp": "Toggle: Self +Res(Smash, Lethal, Energy)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P782710974",
+    "attackerHit": "Your {PowerName} has made you highly resistant to smashing, lethal and energy damage.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -696,11 +696,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1547907555",
-    "help": "P2572123170",
-    "shortHelp": "P2228407903",
-    "targetHelp": "P1353367615",
-    "targetShortHelp": "P3220742713",
+    "display": "Electric Shackles",
+    "help": "Electric Shackles binds a foes limbs, leaving the target held and helpless. The target is drained of some Endurance and some of that Endurance may be transferred back to you. You must be level 41 and have Power Sink or Charged Armor before selecting this power. Damage: Minor, Recharge: Long",
+    "shortHelp": "Ranged, Minor DMG(Energy), Foe Hold, -End",
+    "targetHelp": "The Electric Shackles is holding you helpless.",
+    "targetShortHelp": "Hold",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -859,8 +859,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -901,8 +901,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1025,8 +1025,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1067,8 +1067,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1200,7 +1200,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&"
         ],
@@ -1239,9 +1239,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1108631074",
-                "victimHit": "P1338858480",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -1286,7 +1286,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&"
         ],
@@ -1325,9 +1325,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1108631074",
-                "victimHit": "P1338858480",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -1383,7 +1383,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1051884142",
+                "attackerHit": "You recover some of the Endurance you drained.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -1451,9 +1451,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2460757215",
-    "help": "P1697655323",
-    "shortHelp": "P2089016955",
+    "display": "Conserve Power",
+    "help": "You can focus for a moment to conserve your Endurance. After activating this power, you expend less Endurance on all other powers for a while. You must have one other Mu Mastery power to select this power. You must be level 41 and have Power Sink or Charged Armor before selecting this power. Recharge: Very Long",
+    "shortHelp": "Self Endurance Discount",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1602,7 +1602,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3913578720",
+                "attackerHit": "Your concentrate and Conserve your Power. Your powers now cost less Endurance for a while.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -1706,9 +1706,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P67243325",
-    "help": "P3539474161",
-    "shortHelp": "P3884577881",
+    "display": "Summon Adept",
+    "help": "Scirocco has shown you how to call upon a mystical Mu Adept to assist you. The Mu pulse with the blood of their slaughtered ancestors in their veins, and are well practiced in the dark arts. Your access to this Adept is very limited. You can only summon him once every 15 minutes and he will leave after 4 minutes, or if you exit a zone or mission. You must be level 44 and have two other Mu Mastery Powers before selecting this power. Recharge: Extremely Long",
+    "shortHelp": "Summon Mu Adept: Ranged Moderate DMG(Energy)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1185560707",
-    "help": "P1400152898",
-    "shortHelp": "P2554536452",
+    "display": "Aid Other",
+    "help": "You heal a single targeted ally. This power is interruptible unless you have also trained Field Medic, in which case it is not interruptible.",
+    "shortHelp": "Close, Heal(Ally)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -167,11 +167,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P318795767",
-    "help": "P1459388746",
-    "shortHelp": "P1913008537",
-    "targetHelp": "P2272198144",
-    "targetShortHelp": "P1988279693",
+    "display": "Injection",
+    "help": "You fire a small dart at a target. The dart is set up to release a beneficial serum or deleterious toxin, depending on whether it strikes friend or foe. If striking a friend, the ally is freed from any Immobilization, Sleep, Disorient, Hold, Fear or Confuse effects and is resistant to such effects for a brief time. If striking a foe, the enemy suffers reduced damage potential, attack speed and chance to hit. The serum's effects will improve with multiple applications from you, but the toxin's do not. The toxin's effect is also shorter in duration than the serum's effect. Both serum and toxin improve as you advance in level.",
+    "shortHelp": "Ranged, +Status Protection(Ally, PvE), +Status Resistance(Ally, PvP) OR -DMG(Foe, All), -Rech(Foe), -ToHit(Foe)",
+    "targetHelp": "You have been struck by a dart fired by a Field Medic. If the Medic is you ally, you have gained protections against Status Effects. If the Medic is your enemy, you are suffering reduced damage, attack speed and chance to hit.",
+    "targetShortHelp": "Special (Ally or Foe)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -316,8 +316,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3625688781",
-                "victimHit": "P346663008",
+                "attackerHit": "You aid {PlayerDest} with an {PowerName} that increases their status effect protections.",
+                "victimHit": "{PlayerSource} aids you with an {PowerName} that boosts your status protections.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -384,8 +384,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1826984151",
-                "victimHit": "P2690098810",
+                "attackerHit": "You aid {PlayerDest} with an {PowerName} that increases their status effect resistances.",
+                "victimHit": "{PlayerSource} aids you with an {PowerName} that boosts your status resistances.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -457,8 +457,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3219803828",
-                "victimHit": "P1542844764",
+                "attackerHit": "You harm {PlayerDest} with an {PowerName} that reduces damage, attack speed and chance to hit.",
+                "victimHit": "{PlayerSource} harms you with an {PowerName} that reduces your damage, attack speed and chance to hit.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -600,8 +600,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3219803828",
-                "victimHit": "P1542844764",
+                "attackerHit": "You harm {PlayerDest} with an {PowerName} that reduces damage, attack speed and chance to hit.",
+                "victimHit": "{PlayerSource} harms you with an {PowerName} that reduces your damage, attack speed and chance to hit.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -738,11 +738,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P916602661",
-    "help": "P2677437201",
-    "shortHelp": "P2929137069",
-    "targetHelp": "P2428240350",
-    "targetShortHelp": "P3634501938",
+    "display": "Aid Self",
+    "help": "You are able to heal yourself. This hypo also leaves you wide awake and resistant to stun effects. If you have also trained Field Medic, this power will also grant you an unenhanceable, long duration endurance over time effect. Purchasing Aid Self requires the user to be level 14 and possess either Aid Other or Injection.",
+    "shortHelp": "Self, Heal, +Res(Stun), +EndGain(Synergy)",
+    "targetHelp": "Due to your Field Medic training, you are gaining a constant stream of endurance over time due from Aid Self.",
+    "targetShortHelp": "+EndGain",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -879,8 +879,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P635299126",
-                "victimHit": "P2555131039",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Heal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Heal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -977,7 +977,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P3071582989",
+                "victimHit": "You have gained {Damage} points of endurance due to lingering effects of your improved {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1044,16 +1044,16 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1292134238",
-    "help": "P3493714642",
-    "shortHelp": "P3144079514",
-    "targetHelp": "P2307869758",
-    "targetShortHelp": "P345555159",
+    "display": "Resuscitate",
+    "help": "You revive a fallen ally, restoring health, but not endurance, completely. The target will also be protected from incurring any XP Debt for 15 seconds. This power is interruptible. You must be at least level 14 and have two other Medicine Powers before selecting Resuscitate.",
+    "shortHelp": "Close, Resurrect(Ally)",
+    "targetHelp": "You have been resuscitated and are are protected from XP Debt for 15 seconds.",
+    "targetShortHelp": "+XP Debt Protection",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P771575161",
-    "victimHit": "P1594339728",
-    "confirm": "P4235897563",
+    "attackerHit": "You revive {PlayerDest} from the brink of death. He is very weak and needs to rest.",
+    "victimHit": "{PlayerSource} returns you from the brink of death. However, you are very weak, and must rest for a while to regain your strength.",
+    "confirm": "{PlayerSource} would like to Resuscitate you. You will be fully Healed, but have no Endurance for a 30 seconds. Do you Accept?",
     "floatRewarded": "",
     "powerDefenseFloat": "",
     "icon": "Medicine_SmellingSalts.tga",
@@ -1193,8 +1193,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P610729340",
-                "victimHit": "P2029379553",
+                "attackerHit": "You heal {PlayerDest} with {PowerName} for {Damage} points of damage over time.",
+                "victimHit": "{PlayerSource} heals you with their {PowerName} for {Damage} points of damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1297,11 +1297,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P313280796",
-    "help": "P2267118290",
-    "shortHelp": "P91966900",
-    "targetHelp": "P2319544569",
-    "targetShortHelp": "P1205656971",
+    "display": "Field Medic",
+    "help": "Your skill as a Field Medic is unparalleled. In addition to permanently removing the interrupt time Aid Other and adding Endurance recovery to Aid Self, using this power will grant a powerful boost in the effectiveness of your healing powers and reduce your resistance to healing debuffs. This effect increases with level. You must be at least level 14 and have trained any two other Medicine powers before you can train as a Field Medic. Recharge: Very Long",
+    "shortHelp": "Self, +Heal, -Res(Heal), Special",
+    "targetHelp": "The effectiveness of your healing powers has been increased and you are less resistant to healing debuffs.",
+    "targetShortHelp": "+Str(Heal), -Res(Heal)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1458,7 +1458,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P68475290",
+                "victimHit": "You have channeled your knowledge as a {PowerName} to become a more effective healer.",
                 "float": "",
                 "defenseFloat": ""
               }

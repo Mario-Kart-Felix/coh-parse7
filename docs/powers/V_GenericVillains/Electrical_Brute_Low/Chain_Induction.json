@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P1045457615",
-  "help": "P2937017059",
-  "shortHelp": "P2980306831",
-  "targetHelp": "P211370863",
-  "targetShortHelp": "P1988226113",
+  "display": "Chain Induction",
+  "help": "This Electric Melee attack deals moderate Smashing and Energy damage and may drain some of the targets Endurance. However, this attack also induces an unstable electric charge that may jump to another enemy target. The charge will jump randomly between multiple targets, until it inevitably dissipates. Enhancements and Fury will only boost the effectiveness of the initial attacks, not the jumping charge. Damage: Moderate, Recharge: Slow",
+  "shortHelp": "Melee, Moderate DMG(Smash/Energy), Foe -End +Special",
+  "targetHelp": "You still carry a charge leftover from the Chain Induction punch. You may accidentally release this charge and zap a nearby ally.",
+  "targetShortHelp": "Charged",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -133,8 +133,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -175,8 +175,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -295,7 +295,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P1933366843",
+              "victimHit": "{PlayerSource} shocks you with a {PowerName} and drains some of your Endurance!",
               "float": "",
               "defenseFloat": ""
             }

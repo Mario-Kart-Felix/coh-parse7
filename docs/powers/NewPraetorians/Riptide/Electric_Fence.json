@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3997347655",
-  "help": "P1115008344",
-  "shortHelp": "P1210008111",
-  "targetHelp": "P2336640111",
-  "targetShortHelp": "P1888276239",
+  "display": "Bioelectric Fence",
+  "help": "You surrounds a target in an Electric Fence, immobilizing them and dealing energy damage over time. This attack also drains endurance from your target and may reduce their recovery rate.",
+  "shortHelp": "Ranged, Moderate DoT(Energy), -End (Foe), Immobilize (Foe), Chance for -Rec(Foe)",
+  "targetHelp": "You are immobilized and suffering energy damage over time. You are also experiencing endurance loss. Your recovery may also be reduced.",
+  "targetShortHelp": "DoT (Energy), Immobilize, -End, Chance for -Rec",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -132,8 +132,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P59899910",
-              "victimHit": "P3210640873",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -175,7 +175,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P1644485461",
+              "victimHit": "{PlayerSource}'s {PowerName} drains {Damage} points of your endurance.",
               "float": "",
               "defenseFloat": ""
             }
@@ -291,7 +291,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P3299273090",
+              "victimHit": "Your recovery rate has been reduced by {PlayerSource}'s {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -353,8 +353,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4257051740",
-              "victimHit": "P2588894681",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -423,8 +423,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4257051740",
-              "victimHit": "P2588894681",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }

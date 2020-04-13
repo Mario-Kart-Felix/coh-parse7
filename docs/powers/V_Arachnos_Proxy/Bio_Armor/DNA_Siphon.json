@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P867009152",
-  "help": "P200914759",
-  "shortHelp": "P1198011509",
-  "targetHelp": "P2689340369",
-  "targetShortHelp": "P4124952637",
+  "display": "DNA Siphon",
+  "help": "You can siphon genetic material from nearby enemies, causing a minor amount of Lethal damage and a minor amount of Toxic damage over time. Living enemies will provide the user with a small boost to health and endurance. These foes will have their regeneration rate reduced for a short period of time. Defeated enemies provide a weaker sample of material and thus will boost recovery and regeneration for a short while. While Efficient Adaptation is active, this power will grant bonus regeneration and recovery per defeated target hit. While Defensive Adaptation is active, this power will grant bonus health per living target hit. While Offensive Adaptation is active this power's regeneration debuff is increased in effectiveness. Damage: Minor, Recharge: Very Long",
+  "shortHelp": "Click, PBAoE Minor DMG(Lethal/Toxic) Foe -Regen, Taunt, Self +HP, +End, +Special",
+  "targetHelp": "Your genetic make up has been weakened by the DNA Siphon thus reducing your regeneration.",
+  "targetShortHelp": "-DoT(Toxic), -Regen",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -142,8 +142,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -185,8 +185,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4250172858",
-              "victimHit": "P1470793739",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -227,7 +227,7 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2813168458",
+              "attackerHit": "Your {PowerName} siphons {Damage} points of health as well as some endurance!",
               "victimHit": "",
               "float": "",
               "defenseFloat": ""

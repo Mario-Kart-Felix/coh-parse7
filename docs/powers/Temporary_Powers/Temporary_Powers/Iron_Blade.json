@@ -2,9 +2,9 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": true,
-  "display": "P2885809703",
-  "help": "P1175389121",
-  "shortHelp": "P3465884966",
+  "display": "Iron Blade",
+  "help": "According to Buck Salinger, it's a well known fact that Fey creatures such as the Fir Bolg, Red Caps and Tuatha fear iron more than any other substance. This iron blade you recovered may be of some use against them. You may carry it for 3 days before returning it to the village. Recharge: Fast",
+  "shortHelp": "Melee, Moderate DMG(Lethal), Foe -DEF",
   "targetHelp": "",
   "targetShortHelp": "",
   "attackerAttack": "",
@@ -135,8 +135,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -232,8 +232,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2851307520",
-              "victimHit": "P105122461",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -257,7 +257,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq"
       ],
       "flags": [],
@@ -295,9 +295,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P200668957",
-              "victimHit": "P1006421129",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],

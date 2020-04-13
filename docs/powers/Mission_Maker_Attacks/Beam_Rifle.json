@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P372881666",
-    "help": "P1230578654",
-    "shortHelp": "P2140791329",
+    "display": "Single Shot",
+    "help": "You fire a single blast from your Beam Rifle which deals Moderate Energy damage and has a chance to knock the target down. If the target is suffering from Disintegrate, Single Shot will reduce the target's regeneration rate slightly. Damage: Moderate, Recharge: Fast",
+    "shortHelp": "Ranged, Moderate DMG(Energy), Foe Knockdown, Special",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -138,8 +138,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -196,8 +196,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -258,9 +258,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P434868702",
-                "victimHit": "P1124785590",
-                "float": "P3729946649",
+                "attackerHit": "Your {PowerName} effect reduces {PlayerDest} regeneration rate slightly due to Disintegration.",
+                "victimHit": "{PlayerSource}'s Disintegration effect reduces your regeneration rate with their {PowerName}!",
+                "float": "Disintegrate",
                 "defenseFloat": ""
               }
             ],
@@ -326,9 +326,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1295646782",
-    "help": "P4044724951",
-    "shortHelp": "P2815878953",
+    "display": "Charged Shot",
+    "help": "By charging up your Beam Rifle, you're able to launch a concentrated blast of energy at your foe to cause High Energy damage. The impact strikes with such force that it can knock your target off of their feet. Charge Shot causes additional damage if the target is suffering from Disintegration. Damage: High, Recharge: Moderate",
+    "shortHelp": "Ranged, High DMG(Energy), Foe Knockdown, Special",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -458,8 +458,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -506,8 +506,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -564,8 +564,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -625,9 +625,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1004705030",
-                "victimHit": "P3640013785",
-                "float": "P3729946649",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [DISINTEGRATE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [DISINTEGRATE].",
+                "float": "Disintegrate",
                 "defenseFloat": ""
               }
             ],
@@ -693,11 +693,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P290039893",
-    "help": "P2657227041",
-    "shortHelp": "P2096597985",
-    "targetHelp": "P52378253",
-    "targetShortHelp": "P3100956268",
+    "display": "Cutting Beam",
+    "help": "You fire a constant stream of energy from your weapon and sweep it in a broad arc blasting all foes in a wide cone in front of you. Cutting beam deals Moderate Energy damage and reduces the targets' Defense. This power will cause Minor Energy damage over time if the target is suffering from Disintegration. Damage: Moderate, Recharge: Long",
+    "shortHelp": "Ranged (Cone), Moderate DMG(Energy), Foe -Def(All), Special",
+    "targetHelp": "Your defense has been reduced by the Cutting Beam!",
+    "targetShortHelp": "-Def",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -825,8 +825,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -921,9 +921,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2293254689",
-                "victimHit": "P2074994392",
-                "float": "P3729946649",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time [DISINTEGRATE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time [DISINTEGRATE].",
+                "float": "Disintegrate",
                 "defenseFloat": ""
               }
             ],
@@ -989,9 +989,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3729946649",
-    "help": "P2795346558",
-    "shortHelp": "P2034489808",
+    "display": "Disintegrate",
+    "help": "You fire a stream of energy at your foe which causes them to slowly disintegrate and suffer High Energy damage over 10 seconds. Using Beam Rifle powers on targets affected by Disintegrate will inflict additional effects. Damage: High, Recharge: Long",
+    "shortHelp": "Ranged, High DoT(Energy), Foe -Regen, Special",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1121,8 +1121,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1200,8 +1200,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2771849471",
-                "victimHit": "P4171373485",
+                "attackerHit": "Your {PowerName} effect reduces {PlayerDest} regeneration rate.",
+                "victimHit": "{PlayerSource} effect reduces your regeneration rate with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1309,14 +1309,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P153482222",
-    "help": "P1876677102",
-    "shortHelp": "P2468750317",
+    "display": "Aim",
+    "help": "Greatly increases the chance to hit of your attacks for a few seconds. Slightly increases damage. Recharge: Long",
+    "shortHelp": "Self +To-hit, +DMG",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P4115236128",
+    "attackerHit": "You activate {PowerName} and increase the power of your next few attacks.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1440,7 +1440,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1102956951",
+                "attackerHit": "You quickly take aim and are more accurate and more deadly for a short while.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -1551,11 +1551,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P937537777",
-    "help": "P1746295472",
-    "shortHelp": "P3155223699",
-    "targetHelp": "P3540767336",
-    "targetShortHelp": "P2848422893",
+    "display": "Lancer Shot",
+    "help": "You charge up your Beam Rifle and deliver an incredibly focused ray of energy that deals Superior Energy damage and will briefly stun the target. Lancer Shot will cause additional damage if the target is suffering from Disintegrate. Damage: Superior, Recharge: Slow",
+    "shortHelp": "Ranged, Superior DMG(Energy), Foe Stun, Special",
+    "targetHelp": "You have disoriented by the Lancer Shot's impact.",
+    "targetShortHelp": "Disorient",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1683,8 +1683,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1725,8 +1725,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1786,9 +1786,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1004705030",
-                "victimHit": "P3640013785",
-                "float": "P3729946649",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [DISINTEGRATE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [DISINTEGRATE].",
+                "float": "Disintegrate",
                 "defenseFloat": ""
               }
             ],
@@ -1854,11 +1854,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4113413988",
-    "help": "P1972726495",
-    "shortHelp": "P2335393485",
-    "targetHelp": "P3269849711",
-    "targetShortHelp": "P3450006853",
+    "display": "Piercing Beam",
+    "help": "You release a supercharged beam in a narrow cone of energy that pierces through up to 3 enemies. Piercing Beam deals High Energy damage and briefly reduces their damage resistance. If a target struck by Piercing Beam is also affected by Disintegrate it will immediately suffer additional damage. Damage: High, Recharge: Long",
+    "shortHelp": "Narrow Ranged (Cone), High DMG(Energy), Foes -Res, Special",
+    "targetHelp": "Your damage resistance has been reduced by the Piercing Beam.",
+    "targetShortHelp": "-Res",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1986,8 +1986,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2090,9 +2090,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1004705030",
-                "victimHit": "P3640013785",
-                "float": "P3729946649",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [DISINTEGRATE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [DISINTEGRATE].",
+                "float": "Disintegrate",
                 "defenseFloat": ""
               }
             ],
@@ -2158,11 +2158,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P148366414",
-    "help": "P226314582",
-    "shortHelp": "P2319771172",
-    "targetHelp": "P128734841",
-    "targetShortHelp": "P4162463289",
+    "display": "Overcharge",
+    "help": "You overcharge your Beam Rifle and release a massive blast of energy at a group of distant foes causing Extreme Energy damage, causing Minor Energy damage over time, reducing the defense of all affected foes and potentially stunning affected foes. If Overcharge strikes a target suffering from Disintegrate they will be affected by a much stronger stun. Damage: Extreme, Recharge: Very Long",
+    "shortHelp": "Ranged (Targeted AoE), Extreme DMG(Energy), Foe Minor DoT (Energy), -Def(All), Disorient, Special",
+    "targetHelp": "You have been disoriented and are suffering energy damage over time from the Overcharge.",
+    "targetShortHelp": "Disorient, Minor DoT(Energy)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2290,8 +2290,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2332,8 +2332,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2429,9 +2429,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3724791541",
-                "victimHit": "P2933042658",
-                "float": "P3729946649",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName} [DISINTEGRATE].",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName} [DISINTEGRATE].",
+                "float": "Disintegrate",
                 "defenseFloat": ""
               }
             ],
@@ -2490,9 +2490,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3724791541",
-                "victimHit": "P2933042658",
-                "float": "P3729946649",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName} [DISINTEGRATE].",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName} [DISINTEGRATE].",
+                "float": "Disintegrate",
                 "defenseFloat": ""
               }
             ],

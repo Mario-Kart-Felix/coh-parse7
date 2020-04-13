@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1233880528",
-    "help": "P1661730324",
-    "shortHelp": "P3329958317",
-    "targetHelp": "P480187152",
-    "targetShortHelp": "P1759808529",
+    "display": "Piercing Rounds",
+    "help": "You take aim and fire a single, powerful round at your target, piercing through any defenses they may have. The target suffers lethal damage, followed by toxic damage as the poison in the round seeps into the wound. The target may also be literally pierced and suffer from a bleeding wound causing lethal damage over time. The target is also exhausted, suffering reduced damage and resistance.",
+    "shortHelp": "Ranged (Narrow Cone), High DMG(Lethal), Minor DoT(Lethal/Toxic), -DMG(Foe, All), -RES(Foe, All)",
+    "targetHelp": "You have been poisoned and your damage output and resistances have been reduced.",
+    "targetShortHelp": "DoT(Toxic), -DMG(All)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -133,8 +133,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -175,8 +175,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -319,8 +319,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -387,11 +387,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P161526169",
-    "help": "P462223306",
-    "shortHelp": "P1914297799",
-    "targetHelp": "P1367103757",
-    "targetShortHelp": "P2211841663",
+    "display": "Weakening Shot",
+    "help": "You fire a particularly potent round at your opponent. This round is full of toxins which catalyze those introduced by your other attacks. In addition to significantly weakening your opponent, these catalysts may alter the toxins in the target's bloodstream, causing additional damage and stunning them.",
+    "shortHelp": "Ranged, -DMG(Foe, All), -DEF(Foe, All), -RES(Foe, Status Effects), -ToHit(Foe), -Heal(Foe), -End(Foe), Chance for High DMG(Toxic), Stun",
+    "targetHelp": "Your chance to hit, the strength of your attacks and the potency of your powers' status effects have all been reduced. Additionally, you may take additional damage and be stunned.",
+    "targetShortHelp": "Special",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -527,7 +527,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2076622043",
+                "victimHit": "{PlayerSource} hits you with her {PowerName} and significantly weakens your body!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -719,8 +719,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2851307520",
-                "victimHit": "P105122461",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -762,8 +762,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }

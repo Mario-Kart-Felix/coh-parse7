@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1898196680",
-    "help": "P2698584595",
-    "shortHelp": "P237929186",
-    "targetHelp": "P3096940318",
-    "targetShortHelp": "P3220742713",
+    "display": "Dominate",
+    "help": "Painfully tears at the mind of a single foe. Dominate deals Psionic damage and renders a foe helpless, lost in his own mind and unable to defend himself. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Ranged, Moderate DMG(Psionic), Foe Hold",
+    "targetHelp": "You have been Dominated and cannot act.",
+    "targetShortHelp": "Hold",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -156,8 +156,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -198,8 +198,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -261,8 +261,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -329,8 +329,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -376,7 +376,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "==",
           "&&"
         ],
@@ -415,9 +415,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2747949761",
-                "victimHit": "P2479051093",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -462,7 +462,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "==",
           "&&"
         ],
@@ -501,9 +501,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2747949761",
-                "victimHit": "P2479051093",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -569,11 +569,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1476679299",
-    "help": "P1818379305",
-    "shortHelp": "P3125035697",
-    "targetHelp": "P3338491291",
-    "targetShortHelp": "P3472027048",
+    "display": "Mass Hypnosis",
+    "help": "Hypnotizes a group of foes at a distance and puts them to Sleep. The targets will remain asleep for some time, but will awaken if attacked. This power deals no damage, but if done discreetly, the targets will never be aware of your presence. Recharge: Slow",
+    "shortHelp": "Ranged (Targeted AoE), Foe Sleep",
+    "targetHelp": "You have been rendered unconscious.",
+    "targetShortHelp": "Sleep",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -721,8 +721,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P786700626",
-                "victimHit": "P2415654930",
+                "attackerHit": "You Sleep {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Sleeps you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -810,8 +810,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P786700626",
-                "victimHit": "P2415654930",
+                "attackerHit": "You Sleep {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Sleeps you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -878,14 +878,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2948774010",
-    "help": "P1202247190",
-    "shortHelp": "P2207717524",
+    "display": "Mind Over Body",
+    "help": "When you toggle on this power, you empower your Mind Over Body to become highly resistant to Smashing, Lethal and Psionic damage. You must be level 41 and have Dominate or Mass Hypnosis before selecting this power. Recharge: Fast",
+    "shortHelp": "Toggle: Self +Res(Smash, Lethal, Psionics)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P631656156",
+    "attackerHit": "Your {PowerName} has made you highly resistant to smashing and lethal damage.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1189,11 +1189,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3752193437",
-    "help": "P1269794327",
-    "shortHelp": "P1307556126",
-    "targetHelp": "P4213198885",
-    "targetShortHelp": "P1116895679",
+    "display": "World of Confusion",
+    "help": "This toggle power allows you to cause psionic damage and cause confusion within a group of foes, creating chaos. The chance of confusing an enemy is lower than then chance of damaging them, and it may take multiple hits to affect stronger opponents. All affected foes within the area will turn and attack each other, ignoring all heroes. You must have two other Psychic Mastery powers to select this power. You will not receive any Experience Points for foes defeated by Confused enemies. You must be level 41 and have Dominate or Mass Hypnosis before selecting this power. Recharge: Moderate",
+    "shortHelp": "Toggle: PBAoE, Minor DoT(Psionic), Foe Confuse",
+    "targetHelp": "You are confused and may attack an incorrect target.",
+    "targetShortHelp": "Confuse",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1349,8 +1349,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4049735792",
-                "victimHit": "P553075930",
+                "attackerHit": "You Confuse {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Confuses you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1418,8 +1418,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4049735792",
-                "victimHit": "P553075930",
+                "attackerHit": "You Confuse {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Confuses you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1476,8 +1476,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1544,15 +1544,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P289841888",
-    "help": "P2284578091",
-    "shortHelp": "P488012662",
-    "targetHelp": "P2335203856",
-    "targetShortHelp": "P3220742713",
+    "display": "Telekinesis",
+    "help": "Lifts a foe, and any nearby foes, off the ground and repels them. The targets are helpless, unable to take action, and will continue to hover away, picking up any passing targets, as long as you keep this power active. Keeping up this level of concentration costs a lot of Endurance. You must be level 44 and have two other Psychic Mastery powers before selecting this power. Recharge: Slow",
+    "shortHelp": "Toggle: Ranged (Targeted AoE), Foe Hold, Repel",
+    "targetHelp": "You are being held helpless by Telekinesis.",
+    "targetShortHelp": "Hold",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P4182303717",
-    "victimHit": "P1128839865",
+    "attackerHit": "You move {PlayerDest} with your {PowerName}.",
+    "victimHit": "{PlayerSource} uses {PowerName} to control you.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -1709,8 +1709,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1838,8 +1838,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }

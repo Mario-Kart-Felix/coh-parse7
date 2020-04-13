@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P4277270469",
-  "help": "P3119539010",
-  "shortHelp": "P1553130658",
-  "targetHelp": "P630142524",
-  "targetShortHelp": "P830967228",
+  "display": "Tesla Cage",
+  "help": "Tesla Cage confines the target in an electrical prison. The target is overwhelmed by the electrical charge and is left helpless and can be attacked. The target is drained of some Endurance and some of that Endurance may be transferred back to you. Damage: Minor, Recharge: Moderate",
+  "shortHelp": "Ranged, Moderate DMG(Energy), Foe Hold, -End",
+  "targetHelp": "The Tesla Cage is holding you helpless.",
+  "targetShortHelp": "Hold, -End",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -137,8 +137,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4134654113",
-              "victimHit": "P3642575485",
+              "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -179,8 +179,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -222,7 +222,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P456748222",
+              "victimHit": "{PlayerSource} shocks you with their {PowerName} and drains some of your Endurance!",
               "float": "",
               "defenseFloat": ""
             }
@@ -280,9 +280,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3923044256",
-              "victimHit": "P491364241",
-              "float": "P2144434522",
+              "attackerHit": "You Hold {PlayerDest} with your {PowerName} [OVERPOWER].",
+              "victimHit": "{PlayerSource} Holds you with their {PowerName} [OVERPOWER].",
+              "float": "Overpower",
               "defenseFloat": ""
             }
           ],

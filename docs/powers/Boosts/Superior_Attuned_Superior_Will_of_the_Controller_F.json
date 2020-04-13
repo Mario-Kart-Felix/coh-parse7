@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1809369189",
-    "help": "P3616280017",
-    "shortHelp": "P1677934820",
+    "display": "Superior Will of the Controller: Recharge/Chance for Psionic Damage",
+    "help": "UNIQUE -- No more than 1 enhancement of this type may be slotted by a character. Gives the slotted power a chance to inflict moderate psionic damage and reduces recharge time by {Boost.Attrib.RechargeTime.Scale}%. This enhancement's chance to trigger is equal to approximately 5 times per minute. This enhancement can only be slotted by Controllers and may be slotted into most control powers and requires the user to be level 50.",
+    "shortHelp": "Increases Attack Rate, Chance for Psionic Damage",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -33,7 +33,7 @@
       "&&",
       "arch",
       "char>",
-      "Class_Controller",
+      "Controller",
       "eq",
       "&&",
       "level",
@@ -172,8 +172,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -240,8 +240,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }

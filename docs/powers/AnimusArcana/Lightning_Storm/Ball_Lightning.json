@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P2138267515",
-  "help": "P659887587",
-  "shortHelp": "P743718736",
-  "targetHelp": "P1857563944",
-  "targetShortHelp": "P1299169841",
+  "display": "Ball Lightning",
+  "help": "You fire a highly charged ball of electrical energy that erupts on hitting its target. This deals energy damage over time to all affected targets and drains some of their endurance. Targets may also suffer from a reduced recovery rate.",
+  "shortHelp": "Targeted AoE, High DMG(Energy), High DoT (Energy), -End(Foe), Chance for -Rec(Foe)",
+  "targetHelp": "You are suffering energy damage over time and are losing endurance. You may also be suffering from a suppressed recovery rate.",
+  "targetShortHelp": "DoT (Energy), -End, Chance for -Rec",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -132,8 +132,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -174,8 +174,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P59899910",
-              "victimHit": "P3210640873",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -253,7 +253,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P2150922502",
+              "victimHit": "Your recovery has been reduced by {PlayerSource}'s {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }

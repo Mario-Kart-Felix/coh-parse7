@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": true,
-  "display": "P3203627492",
-  "help": "P1057088692",
-  "shortHelp": "P194590156",
-  "targetHelp": "P278813324",
-  "targetShortHelp": "P2190949330",
+  "display": "Idol of Lughebu",
+  "help": "When you rescued Suzanne Trent, she gave you this idol she found in the Pantheon's lair. While carrying it, you have the ability to drain the life from nearby foes, increasing your own Hit Points. The idol must be returned to the MAGI vault within 24 hours. Recharge: Slow",
+  "shortHelp": "Melee, Moderate DMG(Negative), Foe -To Hit, Self +HP",
+  "targetHelp": "Your Accuracy has been reduced by the magic of the Idol of Lughebu.",
+  "targetShortHelp": "-To Hit",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -135,8 +135,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2637081052",
-              "victimHit": "P936402029",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -177,7 +177,7 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3467427143",
+              "attackerHit": "You gain {Damage} hit points from your {PowerName}!",
               "victimHit": "",
               "float": "",
               "defenseFloat": ""
@@ -237,7 +237,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq"
       ],
       "flags": [],
@@ -275,9 +275,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P18433730",
-              "victimHit": "P213926672",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],

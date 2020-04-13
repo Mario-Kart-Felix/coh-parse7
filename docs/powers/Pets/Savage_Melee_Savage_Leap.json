@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1339193839",
-    "help": "P112698744",
-    "shortHelp": "P615360225",
+    "display": "Savage Leap",
+    "help": "You throw yourself at your distant foes while slashing and tearing wildly causing superior lethal damage and cause your foes you suffer from additional minor lethal damage over time. Savage Leap build 4 stacks of Blood Frenzy. Damage: Superior, Minor DoT, Recharge: Long",
+    "shortHelp": "PBAoE, Superior DMG(Lethal), Foe Minor DoT(Lethal), +3 Blood Frenzy, Self Teleport",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -106,7 +106,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq"
         ],
         "flags": [],
@@ -144,8 +144,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -187,8 +187,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -212,7 +212,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Tanker",
+          "Tanker",
           "eq"
         ],
         "flags": [],
@@ -250,8 +250,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -293,8 +293,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -318,7 +318,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Stalker",
+          "Stalker",
           "eq"
         ],
         "flags": [],
@@ -356,8 +356,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -399,8 +399,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -424,7 +424,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Brute",
+          "Brute",
           "eq"
         ],
         "flags": [],
@@ -462,8 +462,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -505,8 +505,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -538,11 +538,11 @@
           "&&",
           "arch",
           "source.owner>",
-          "Class_Tanker",
+          "Tanker",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Tanker",
+          "Tanker",
           "eq",
           "||",
           "&&"
@@ -609,11 +609,11 @@
           "&&",
           "arch",
           "source.owner>",
-          "Class_Tanker",
+          "Tanker",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Tanker",
+          "Tanker",
           "eq",
           "||",
           "&&"

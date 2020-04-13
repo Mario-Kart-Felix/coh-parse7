@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P1547907555",
-  "help": "P2572123170",
-  "shortHelp": "P2228407903",
-  "targetHelp": "P1353367615",
-  "targetShortHelp": "P3220742713",
+  "display": "Electric Shackles",
+  "help": "Electric Shackles binds a foes limbs, leaving the target held and helpless. The target is drained of some Endurance and some of that Endurance may be transferred back to you. You must be level 41 and have Power Sink or Charged Armor before selecting this power. Damage: Minor, Recharge: Long",
+  "shortHelp": "Ranged, Minor DMG(Energy), Foe Hold, -End",
+  "targetHelp": "The Electric Shackles is holding you helpless.",
+  "targetShortHelp": "Hold",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -165,8 +165,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4134654113",
-              "victimHit": "P3642575485",
+              "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -207,8 +207,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P59899910",
-              "victimHit": "P3210640873",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -331,8 +331,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4134654113",
-              "victimHit": "P3642575485",
+              "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -373,8 +373,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P59899910",
-              "victimHit": "P3210640873",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -506,7 +506,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&"
       ],
@@ -545,9 +545,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1108631074",
-              "victimHit": "P1338858480",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],
@@ -592,7 +592,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&"
       ],
@@ -631,9 +631,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1108631074",
-              "victimHit": "P1338858480",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],
@@ -689,7 +689,7 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1051884142",
+              "attackerHit": "You recover some of the Endurance you drained.",
               "victimHit": "",
               "float": "",
               "defenseFloat": ""

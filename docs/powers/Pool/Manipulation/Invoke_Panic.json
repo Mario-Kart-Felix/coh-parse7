@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P1725419144",
-  "help": "P3362584505",
-  "shortHelp": "P190660955",
-  "targetHelp": "P860302379",
-  "targetShortHelp": "P332045248",
+  "display": "Invoke Panic",
+  "help": "When fully engaged in battle, you are a frightening presence and can use this to your advantage. This power causes sheer terror in all foes around you, causing them to tremble uncontrollably in fear. In order to acquire this ability, you must be level 14 and possess any two other powers from the Presence pool.",
+  "shortHelp": "PBAoE, Fear (Foe)",
+  "targetHelp": "You have been terrorized.",
+  "targetShortHelp": "Fear",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -159,8 +159,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P508540991",
-              "victimHit": "P1197143274",
+              "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -248,8 +248,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P508540991",
-              "victimHit": "P1197143274",
+              "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -282,7 +282,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Dominator",
+        "Dominator",
         "eq",
         "&&"
       ],
@@ -321,9 +321,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3990911190",
-              "victimHit": "P2101634009",
-              "float": "P3920860852",
+              "attackerHit": "You Terrorize {PlayerDest} with your {PowerName} [DOMINATION!].",
+              "victimHit": "{PlayerSource} Terrorizes you with their {PowerName} [DOMINATION!].",
+              "float": "Domination!",
               "defenseFloat": ""
             }
           ],
@@ -355,7 +355,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Dominator",
+        "Dominator",
         "eq",
         "&&"
       ],
@@ -420,9 +420,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3990911190",
-              "victimHit": "P2101634009",
-              "float": "P3920860852",
+              "attackerHit": "You Terrorize {PlayerDest} with your {PowerName} [DOMINATION!].",
+              "victimHit": "{PlayerSource} Terrorizes you with their {PowerName} [DOMINATION!].",
+              "float": "Domination!",
               "defenseFloat": ""
             }
           ],

@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3804756563",
-  "help": "P2692239500",
-  "shortHelp": "P1608306014",
-  "targetHelp": "P861697510",
-  "targetShortHelp": "P3278563378",
+  "display": "Spirit Shark",
+  "help": "You are empowered with the Spirit of the Mako Shark. You can project this spirit to attack and maul your opponent. The Shark Spirit will manifest and attack your foe, quickly dealing heavy lethal damage over time. Damage: Heavy(DoT), Recharge: Fast",
+  "shortHelp": "Ranged, Heavy DoT(Lethal), Foe Knockback",
+  "targetHelp": "You are being mauled by a Spirit Shark.",
+  "targetShortHelp": "DoT(Lethal)",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -168,8 +168,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -210,8 +210,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1956156720",
-              "victimHit": "P3390955917",
+              "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+              "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }
@@ -268,8 +268,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3137354887",
-              "victimHit": "P130826600",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -331,8 +331,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -379,8 +379,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1956156720",
-              "victimHit": "P3390955917",
+              "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+              "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }
@@ -408,7 +408,7 @@
         "eq",
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "==",
         "&&"
       ],
@@ -447,9 +447,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P200668957",
-              "victimHit": "P1006421129",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -491,7 +491,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "==",
         "&&"
       ],
@@ -530,9 +530,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P200668957",
-              "victimHit": "P1006421129",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -580,7 +580,7 @@
         "!",
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "==",
         "&&"
       ],
@@ -619,9 +619,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P200668957",
-              "victimHit": "P1006421129",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -677,8 +677,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2798397535",
-              "victimHit": "P459143670",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -719,8 +719,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1083355571",
-              "victimHit": "P3022741469",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage over time.",
               "float": "",
               "defenseFloat": ""
             }

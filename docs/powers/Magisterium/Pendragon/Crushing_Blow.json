@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P775678673",
-  "help": "P841909827",
-  "shortHelp": "P3924153307",
-  "targetHelp": "P3569588152",
-  "targetShortHelp": "P4064553973",
+  "display": "Crushing Blow",
+  "help": "You swing your weapon at your target with tremendous force. The blow causes smashing damage and internal trauma, which causes lethal damage over time. The target also suffers a reduction in movement speed and ability to fly.",
+  "shortHelp": "Melee, Moderate DMG(Smashing), Minor DoT (Lethal), -Speed(Foe,All), -Fly(Foe)",
+  "targetHelp": "You are bleeding internally. Your movement speed and your ability to fly have been reduced.",
+  "targetShortHelp": "DoT(Lethal), -Speed(All), -Fly",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -132,8 +132,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -174,8 +174,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3137354887",
-              "victimHit": "P130826600",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -291,7 +291,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P1928603242",
+              "victimHit": "You are temporarily unable to fly due to {PlayerSource}'s {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -334,7 +334,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P1039383874",
+              "victimHit": "You have gained 1 Rage!",
               "float": "",
               "defenseFloat": ""
             }

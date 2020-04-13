@@ -3,15 +3,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4164717180",
-    "help": "P3867344021",
-    "shortHelp": "P1331656250",
-    "targetHelp": "P810523703",
-    "targetShortHelp": "P1306857758",
+    "display": "Twilight Grasp",
+    "help": "You channel Negative Energy from the Netherworld through yourself to a targeted foe. Twilight Grasp drains the power from that target and slowly transfers it to you and all nearby allies. The targeted foe's chance to hit, damage and regeneration rate are reduced, while you and your nearby allies are healed. Recharge: Moderate",
+    "shortHelp": "Ranged, Foe -To Hit, -DMG, -Regen, Team Heal",
+    "targetHelp": "The Twilight Grasp has reduced your chance to hit, Damage potential, and regeneration rate.",
+    "targetShortHelp": "-To Hit, -DMG, -Regen",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P1216526605",
-    "victimHit": "P3862772857",
+    "attackerHit": "You hit {PlayerDest} with your {PowerName} reducing their damage and chance to hit and healing you and your allies!",
+    "victimHit": "{PlayerSource} hits you with their {PowerName} reducing your damage output and chance to hit!",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -405,11 +405,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1281699562",
-    "help": "P2097823509",
-    "shortHelp": "P2412290026",
-    "targetHelp": "P274040453",
-    "targetShortHelp": "P2018496806",
+    "display": "Tar Patch",
+    "help": "Drops a large patch of viscous Negative Energy which dramatically slows down enemies that run through it and reduces their damage resistance. Affected targets stuck in the Tar Patch cannot jump or fly. Recharge: Slow",
+    "shortHelp": "Ranged (Location AoE), Target -Speed, -Res, -Fly",
+    "targetHelp": "Your Running speed and damage resistance is reduced by the Tar Patch. You cannot jump or fly away while in the Tar Patch",
+    "targetShortHelp": "-SPD, -Res, -Fly",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -611,15 +611,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1936194933",
-    "help": "P208736741",
-    "shortHelp": "P553898035",
-    "targetHelp": "P3570112387",
-    "targetShortHelp": "P3286818350",
+    "display": "Darkest Night",
+    "help": "While active, you channel Negative Energy onto a targeted foe. While Darkest Night is active the target, and all foes nearby, will have their chance to hit and Damage potential reduced as long as you keep the power active. Recharge: Moderate",
+    "shortHelp": "Toggle: Ranged (Targeted AoE), Foe -DMG, -To Hit",
+    "targetHelp": "Your chance to hit and Damage potential are reduced by the darkness.",
+    "targetShortHelp": "-To Hit, -DMG",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2595569261",
-    "victimHit": "P3431256571",
+    "attackerHit": "Your {PowerName} reduced the chance to hit and damage of {PlayerDest}.",
+    "victimHit": "{PlayerSource} reduces your chance to hit and damage with his {PowerName}.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -852,14 +852,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3229109842",
-    "help": "P852421223",
-    "shortHelp": "P205558678",
-    "targetHelp": "P2253919205",
-    "targetShortHelp": "P2669148710",
+    "display": "Howling Twilight",
+    "help": "Activating this power channels the power of the Netherworld to weaken your foes, in an attempt to revive all nearby fallen allies. You must stand near your defeated allies to revive them, then select a foe. The selected foe and all nearby foes will be Slowed, Disoriented, have their Regeneration rate reduced and drained of some life. Revived allies will have full Hit Points and Endurance and will be protected from XP Debt for 90 seconds. Recharge: Very Long",
+    "shortHelp": "Ranged (AoE), Minor DMG(Negative), Target Slow, -Recharge, -Regen, Disorient, Ally Rez",
+    "targetHelp": "You have been Disoriented. Your Attack rate and Running speed are reduced by the Howling Twilight.",
+    "targetShortHelp": "-Recharge, -SPD, Disorient",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2728479627",
+    "attackerHit": "Your {PowerName} reduced the attack rate and movement speed of {PlayerDest}.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1065,8 +1065,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2637081052",
-                "victimHit": "P936402029",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1107,8 +1107,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1619677251",
-                "victimHit": "P1771033909",
+                "attackerHit": "You Scare {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Scares you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1216,8 +1216,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1341,8 +1341,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1445,18 +1445,18 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2272064692",
-    "help": "P890111217",
-    "shortHelp": "P4241292887",
-    "targetHelp": "P1026795561",
-    "targetShortHelp": "P2430370769",
+    "display": "Shadow Fall",
+    "help": "Envelops you and your nearby teammates in a shroud of darkness. Shadow Fall does not grant Invisibility, but it does make you harder to detect. Even if you are discovered, Shadow Fall grants a bonus to Defense bonus to all attacks and Resistance to Fear, while reducing Energy, Negative Energy, and Psionic Damage. You cannot use any other Concealment type power while using Shadow Fall. Recharge: Slow",
+    "shortHelp": "Toggle: PBAoE, Team Stealth, +DEF(All), +Res(Energy, Negative, Psionics, Fear)",
+    "targetHelp": "Shadow Fall has made you difficult to detect, which increases your Defense. Shadowfall also partially absorbs and deflects Energy, Negative Energy and Psionic damage. You are also less fearful.",
+    "targetShortHelp": "Stealth, +DEF(All), +Res(Energy, Negative, Psionics, Fear))",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P1701765549",
-    "victimHit": "P1493333783",
+    "attackerHit": "You hide {PlayerDest} within your {PowerName}.",
+    "victimHit": "You are hidden within the Shadow Fall.",
     "confirm": "",
     "floatRewarded": "",
-    "powerDefenseFloat": "P3802943013",
+    "powerDefenseFloat": "Avoided",
     "icon": "DarkMiasma_ShadowFall.tga",
     "type": "TOGGLE",
     "numAllowed": 1,
@@ -1998,11 +1998,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2548525324",
-    "help": "P3364846949",
-    "shortHelp": "P3376381813",
-    "targetHelp": "P335404104",
-    "targetShortHelp": "P1128528124",
+    "display": "Fearsome Stare",
+    "help": "Instills tremendous Fear within a cone area in front of you, causing all affected targets to tremble in Terror uncontrollably, attacking only when attacked and even then with a reduced chance to hit. Recharge: Slow",
+    "shortHelp": "Ranged (Cone), Foe Fear, -To Hit",
+    "targetHelp": "The Fearsome Stare has terrified you and reduced your chance to hit.",
+    "targetShortHelp": "Fear, -To Hit",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2141,8 +2141,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2255,8 +2255,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2344,8 +2344,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2412,15 +2412,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P799801114",
-    "help": "P2575616074",
-    "shortHelp": "P778647036",
-    "targetHelp": "P4121526834",
-    "targetShortHelp": "P3220742713",
+    "display": "Petrifying Gaze",
+    "help": "Petrifies a single targeted foe with a terrifying gaze. The victim is Held and defenseless. Recharge: Slow",
+    "shortHelp": "Ranged Hold",
+    "targetHelp": "The Petrifying Gaze has stopped you in your tracks!",
+    "targetShortHelp": "Hold",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2901818041",
-    "victimHit": "P1063217015",
+    "attackerHit": "Your {Powername} Holds {PlayerDest}.",
+    "victimHit": "{PlayerSource} attempts to Hold you with a Petrifying Gaze.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -2555,8 +2555,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2644,8 +2644,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2712,11 +2712,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P801416744",
-    "help": "P140060975",
-    "shortHelp": "P36099885",
-    "targetHelp": "P2465675986",
-    "targetShortHelp": "P4032697821",
+    "display": "Black Hole",
+    "help": "Opens up a Black Hole to the Netherworld that temporarily pulls in all foes within its grasp. The victims become phase shifted and are completely intangible. They are hard to see, and cannot affect or be affected by those in normal space. Recharge: Slow",
+    "shortHelp": "Ranged (Targeted AoE), Foe Intangible",
+    "targetHelp": "You have been sucked into a Black Hole. You cannot affect or be affected by anyone in your vicinity.",
+    "targetShortHelp": "Intangible",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2855,9 +2855,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3946614762",
-                "victimHit": "P1631193337",
-                "float": "P801416744",
+                "attackerHit": "You pull {PlayerDest} into another dimension making them intangible.",
+                "victimHit": "{PlayerSource} sucks you into a {PowerName} making you intangible!",
+                "float": "Black Hole",
                 "defenseFloat": ""
               }
             ],
@@ -3038,9 +3038,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P931100509",
+                "attackerHit": "You pull {PlayerDest} into another dimension. He is now intangible.",
                 "victimHit": "",
-                "float": "P801416744",
+                "float": "Black Hole",
                 "defenseFloat": ""
               }
             ],
@@ -3237,9 +3237,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1851218085",
-    "help": "P3238865442",
-    "shortHelp": "P2290037222",
+    "display": "Dark Servant",
+    "help": "Summons a Dark Servant to your aid. The Dark Servant possesses an assortment of dark powers to weaken your foes. The summoned entity is not a willing servant, and it is only your power that binds it in this realm. The Dark Servant can be buffed and healed. Recharge: Very Long",
+    "shortHelp": "Summon Dark Servant: Ranged Debuff Special",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

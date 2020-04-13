@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2786855971",
-    "help": "P1131046375",
-    "shortHelp": "P4285314984",
+    "display": "Soul Drain",
+    "help": "Using this power, you can drain the essence of all nearby foes' souls, thus increasing your own strength. Each affected foe will lose some Hit Points and add to your Damage and Accuracy. Damage: Moderate, Recharge: Very Long",
+    "shortHelp": "PBAoE Moderate DMG(Negative), Self +DMG, +ACC",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -163,8 +163,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2637081052",
-                "victimHit": "P936402029",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -366,7 +366,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&"
         ],
@@ -405,9 +405,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2089728924",
-                "victimHit": "P3370211094",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -452,7 +452,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&"
         ],
@@ -491,9 +491,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2089728924",
-                "victimHit": "P3370211094",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -559,14 +559,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3063295318",
-    "help": "P312009320",
-    "shortHelp": "P1918436433",
+    "display": "Dark Embrace",
+    "help": "You tap into the energy of the Netherworld to protect yourself from damage. This Dark Embrace shrouds you and grants resistance to Lethal, Smashing, Negative Energy and Toxic damage. Recharge: Fast",
+    "shortHelp": "Toggle: Self +Res(Smash, Lethal, Negative, Toxic)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2437032337",
+    "attackerHit": "Your {PowerName} protects you from lethal, smashing, toxic and negative energy.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -959,9 +959,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P314575027",
-    "help": "P1927358793",
-    "shortHelp": "P3047510863",
+    "display": "Power Boost",
+    "help": "Greatly boosts the secondary effects of your powers. Your powers effects like Disorients, Holds, Immobilizes, Heals, Defense Buffs, Endurance Drains, Knockbacks and more, are all improved. The effects of Power Boost last a short while, and only the next couple of attacks will be boosted. You must be level 41 and have Soul Drain or Dark Embrace before selecting this power. Recharge: Long",
+    "shortHelp": "Self +Special",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1132,7 +1132,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3834136190",
+                "attackerHit": "You tap into your inner power and boost the abilities of your next few attacks.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -1200,11 +1200,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1796648775",
-    "help": "P2698330643",
-    "shortHelp": "P1048474847",
-    "targetHelp": "P1069028202",
-    "targetShortHelp": "P337683231",
+    "display": "Soul Storm",
+    "help": "Like Ghost Widow, you can summon the souls of your victims to do your bidding. Soul Storm enraptures a single target Holding them while their life-force is drained from their body. You must be level 41 and have Soul Drain or Dark Embrace before selecting this power. Recharge: Slow",
+    "shortHelp": "Ranged, Moderate DoT(Negative), Foe Hold",
+    "targetHelp": "You are being Held by a Soul Storm. You are taking negative Damage over time as your life is drained.",
+    "targetShortHelp": "Hold DoT(Negative)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1362,8 +1362,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1404,8 +1404,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1461699593",
-                "victimHit": "P3815778435",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1493,8 +1493,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1535,8 +1535,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1461699593",
-                "victimHit": "P3815778435",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1582,7 +1582,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&"
         ],
@@ -1621,9 +1621,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1234176580",
-                "victimHit": "P3108255959",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -1668,7 +1668,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&"
         ],
@@ -1707,9 +1707,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1234176580",
-                "victimHit": "P3108255959",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -1775,9 +1775,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P944562137",
-    "help": "P3085455630",
-    "shortHelp": "P3663361456",
+    "display": "Summon Mistress",
+    "help": "Ghost Widow has assigned a Fortunata Mistress for you to command. Arguably, the most powerful of the Fortunatas, these rare few have mastered numerous psychic abilities and risen to the top of Lord Recluse's beautiful Black Widows. Your access to this Fortunata is very limited. You can only summon her once every 15 minutes and she will leave after 4 minutes, or if you exit a zone or mission. You must be level 44 and have two other Soul Mastery Powers before selecting this power. Recharge: Extremely Long",
+    "shortHelp": "Summon Fortunata Mistress: Ranged Moderate DMG(Psionic)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

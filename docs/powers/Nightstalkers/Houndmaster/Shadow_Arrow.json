@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P502393259",
-  "help": "P3340982239",
-  "shortHelp": "P3000818036",
-  "targetHelp": "P298651602",
-  "targetShortHelp": "P1270291867",
+  "display": "Shadow Arrow",
+  "help": "You fire an arrow of nether energy at your target. The target suffers smashing damage from the force of the blow and suffers negative energy damage over time, as the energy seeps into their soul. There is a chance that the target will be immobilized by this attack. There is also a chance that some of the spirit energy will splash on collision with the target, creating a pool of nether energy at the target's feet.",
+  "shortHelp": "Ranged, Minor DMG(Smashing), Minor DoT(Negative Energy), Chance for Debuff(Foe)",
+  "targetHelp": "You are suffering negative energy damage over time. There is also a chance you are immobilized.",
+  "targetShortHelp": "DoT(Negative Energy), Immobilize",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -135,8 +135,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -177,8 +177,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1461699593",
-              "victimHit": "P3815778435",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -221,7 +221,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P3148369604",
+              "victimHit": "You have been ensnared by a nether energy patch created by {PlayerSource}'s {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }

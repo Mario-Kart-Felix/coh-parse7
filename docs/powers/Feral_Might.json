@@ -4,9 +4,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1196284902",
-      "help": "P1031847805",
-      "shortHelp": "P2165549301",
+      "display": "Feral Blow",
+      "help": "You lash out at a nearby foe dealing Light damage. In primal (human) form you will deal smashing damage and will heal yourself and up to 3 nearby allies for a tiny amount of health. In Hunter form you'll deal lethal damage and reduce the target's defense. In Prowler form you'll deal lethal damage, cause minor lethal damage over time and have a small chance to stun. This power builds 1 Primal Energy. Damage: Light, Recharge: Very Fast",
+      "shortHelp": "Melee, Light DMG(Special), Special",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -184,9 +184,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1062390466",
-      "help": "P1499292409",
-      "shortHelp": "P2306190580",
+      "display": "Vicious Strike",
+      "help": "You strike a foe dealing Moderate damage. In primal (human) form you will deal smashing damage and will heal yourself and up to 3 nearby allies for a small amount of health. In Hunter form you'll deal lethal damage and reduce the target's damage resistance. In Prowler form you'll deal lethal damage, cause minor lethal damage over time and have a fair chance to stun. This power builds 1 primal energy. Damage: Moderate, Recharge: Fast",
+      "shortHelp": "Melee, Moderate DMG(Special), Special",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -363,9 +363,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P934111749",
-      "help": "P3114522882",
-      "shortHelp": "P2594265392",
+      "display": "Brutal Swipe",
+      "help": "You lash out at nearby foes in a single broad strike hitting up to 5 enemies in a cone in front of you. In primal (human) form you will deal smashing damage and will heal yourself and up to 3 nearby allies for a fair amount of health. In Hunter form you'll deal lethal damage and reduce the targets' defense. In Prowler form you'll deal lethal damage, cause minor lethal damage over time and have a good chance to stun. Brutal Swipe builds 1 Primal Energy. Damage: High, Recharge: Moderate",
+      "shortHelp": "Melee Cone, High DMG(Special), Special",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -543,14 +543,14 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P646754087",
-      "help": "P1132577876",
-      "shortHelp": "P2551847774",
+      "display": "Hunter Form",
+      "help": "By activating this toggle, you will shapeshift into the mighty Hunter. This wolf-like creature attacks its foes with tooth and nail. While in this form you will be focused on delivering powerful debuff effects onto foes you strike with your melee attacks as well as area of effect debuffs that affect all nearby foes. You'll also benefit from an increase to movement and jumping speed. Hunter Form costs no endurance and cannot be slotted. However, it grants the user the Hunter's Howl power. This powerful debuff consumes the user's Primal Energy to deliver a powerful debuff to nearby foes. It can be slotted as normal. While shapeshifted you will have limited access to Pool Powers. Recharge: Fast",
+      "shortHelp": "Toggle, Hunter Form",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
       "attackerAttackFloater": "",
-      "attackerHit": "P621815075",
+      "attackerHit": "You shapeshift into a Hunter!",
       "victimHit": "",
       "confirm": "",
       "floatRewarded": "",
@@ -1282,11 +1282,11 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P783176078",
-      "help": "P4061628283",
-      "shortHelp": "P2385241564",
-      "targetHelp": "P2617566111",
-      "targetShortHelp": "P2324520958",
+      "display": "Hunter's Howl",
+      "help": "While in Hunter Form you can use this power to unleash an unnerving howl to significantly weaken the attack speed, movement speed and chance to hit of nearby foes for a short time. This power's potency varies depending on the amount of Primal Energy the user has. Hunter's Howl drains all of the user's Primal Energy. This power is automatically awarded when Hunter Form is purchased. Recharge: Very Long",
+      "shortHelp": "PBAoE, Foe -Recharge, -To Hit, Requires Hunter Form, -All Primal Energy",
+      "targetHelp": "Your movement speed, attack rate and chance to hit has been significantly reduced by the Hunter's Howl.",
+      "targetShortHelp": "-Speed, -Recharge, -To Hit",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -1440,8 +1440,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1327104528",
-                  "victimHit": "P3719668032",
+                  "attackerHit": "Your {PowerName} reduces {PlayerDest}'s movement speed, attack rate and chance to hit.",
+                  "victimHit": "{PlayerSource} reduces your movement speed, attack rate and chance to hit with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -1699,8 +1699,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1327104528",
-                  "victimHit": "P3719668032",
+                  "attackerHit": "Your {PowerName} reduces {PlayerDest}'s movement speed, attack rate and chance to hit.",
+                  "victimHit": "{PlayerSource} reduces your movement speed, attack rate and chance to hit with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -2011,9 +2011,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3798325431",
-      "help": "P3660975427",
-      "shortHelp": "P2142605536",
+      "display": "Pack Frenzy",
+      "help": "You let out a primal howl driving your team mates into a frenzy boosting their damage moderately for a short time. If in primal form you'll also boost your team's chance to hit. However, if you're in Hunter or Prowler form you'll instead boost their recharge rate. This power requires 10 Primal Energy to be used. Recharge: Very Long",
+      "shortHelp": "PBAoE, Allies +DMG, +To Hit, -10 Primal Energy",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -2164,7 +2164,7 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2816041539",
+                  "attackerHit": "You inspire your nearby allies boosting their damage and to hit chance!",
                   "victimHit": "",
                   "float": "",
                   "defenseFloat": ""
@@ -2401,9 +2401,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1011666750",
-      "help": "P1356536967",
-      "shortHelp": "P3412148648",
+      "display": "Call of the Wild",
+      "help": "You call 2 wolves to your side to aid you in combat. These wolves will bite and shred your foe. These summoned wolves will only remain with you for a short time before returning to the wild. Recharge: Very Long",
+      "shortHelp": "Summon Wolves",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -2660,9 +2660,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2034750271",
-      "help": "P20902435",
-      "shortHelp": "P361135218",
+      "display": "Primal Strike",
+      "help": "You strike your foe will the primal forces of nature to deal Superior damage. In primal (human) form you will deal smashing damage and will heal yourself and up to 3 nearby allies for a good amount of health. In Hunter form you'll deal lethal damage and reduce the target's damage slightly. In Prowler form you'll deal lethal damage, cause minor lethal damage over time and have a high chance to stun. This power builds 1 primal energy. Damage: Superior, Recharge: Slow",
+      "shortHelp": "Melee, Superior DMG(Special), Special",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -2839,14 +2839,14 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1607556773",
-      "help": "P3846564702",
-      "shortHelp": "P1991639433",
+      "display": "Prowler Form",
+      "help": "By activating this toggle, you will shapeshift into the deadly Prowler. This panther-like creature attacks its foes vicious claw and bite attacks. While in this form you will be focused on dealing tremendous damage, stunning and terrorizing foes. Hunter Form costs no endurance and cannot be slotted. However, it grants the user the Pounce power. Pounce is an attack power that benefits from stealth granted by Primalist's Cloak. This power can be slotted as normal. While shapeshifted you will have limited access to Pool Powers. Recharge: Fast",
+      "shortHelp": "Toggle, Prowler Form",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
       "attackerAttackFloater": "",
-      "attackerHit": "P1670952232",
+      "attackerHit": "You shapeshift into a deadly Prowler!",
       "victimHit": "",
       "confirm": "",
       "floatRewarded": "",
@@ -3578,9 +3578,9 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P3415102207",
-      "help": "P3084501654",
-      "shortHelp": "P3739708281",
+      "display": "Pounce",
+      "help": "While in Prowler form you can use Pounce to land a devastating attack to deal Superior Lethal damage and stunning even the toughest foe very briefly. The target will also bleed for a short time causing damage over time. If you are hidden with Primalist's Cloak when you execute this attack you have a 100% chance to deal additional damage, inflict a longer duration stun and a more powerful damage over time effect. Pounce builds 1 Primal Energy, but will build 2 if the user attacks while concealed from Primalist's Cloak. Damage: Special, Recharge: Long",
+      "shortHelp": "Melee, Special DMG(Lethal), Foe Stun, Moderate DoT(Lethal), Requires Prowler Form",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -3730,8 +3730,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3785438311",
-                  "victimHit": "P1873832980",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3796,9 +3796,9 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P874561645",
-                  "victimHit": "P3279068675",
-                  "float": "P3978731479",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL!].",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL!].",
+                  "float": "CRITICAL!",
                   "defenseFloat": ""
                 }
               ],
@@ -3863,9 +3863,9 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P874561645",
-                  "victimHit": "P3279068675",
-                  "float": "P3978731479",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL!].",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL!].",
+                  "float": "CRITICAL!",
                   "defenseFloat": ""
                 }
               ],
@@ -3926,8 +3926,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3785438311",
-                  "victimHit": "P1873832980",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3992,8 +3992,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3785438311",
-                  "victimHit": "P1873832980",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4059,9 +4059,9 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P874561645",
-                  "victimHit": "P3279068675",
-                  "float": "P3978731479",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL!].",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL!].",
+                  "float": "CRITICAL!",
                   "defenseFloat": ""
                 }
               ],
@@ -4122,8 +4122,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3137354887",
-                  "victimHit": "P130826600",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4220,8 +4220,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3137354887",
-                  "victimHit": "P130826600",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4323,8 +4323,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P583235414",
-                  "victimHit": "P3613904985",
+                  "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4390,8 +4390,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P583235414",
-                  "victimHit": "P3613904985",
+                  "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4456,8 +4456,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P583235414",
-                  "victimHit": "P3613904985",
+                  "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4545,8 +4545,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P583235414",
-                  "victimHit": "P3613904985",
+                  "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4615,14 +4615,14 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2679742778",
-      "help": "P2685750861",
-      "shortHelp": "P2927938371",
+      "display": "Nature's Boon",
+      "help": "Activating this power will dramatically increase the benefits offered by Pack Master and the secondary effects of your melee attacks for a short while. Nature's Boon will double the healing granted by Primal form's melee attacks, it will increase the debuff effects while in Hunter form by 50% and it will double your critical hit chance while in Prowler form in and out of hide as well as increasing the potency of your bleeds. Additionally you will gain a large endurance cost discount for the duration of this power's effect. Recharge: Very Long",
+      "shortHelp": "Self, +Special, +End Discount, -10 Primal Energy",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
       "attackerAttackFloater": "",
-      "attackerHit": "P1080953083",
+      "attackerHit": "You channel nature's power through you vastly improving the gifts granted by your various forms!",
       "victimHit": "",
       "confirm": "",
       "floatRewarded": "",
@@ -5322,11 +5322,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P862005438",
-      "help": "P3290879237",
-      "shortHelp": "P120571169",
-      "targetHelp": "P2833281680",
-      "targetShortHelp": "P1943041994",
+      "display": "Primal Guile",
+      "help": "This power allows you to become less of a threat for a moment by placating nearby foes preventing them from being able to attack you for a short time. Recharge: Very Long",
+      "shortHelp": "PBAoE, Foe Placate",
+      "targetHelp": "You have been Placated.",
+      "targetShortHelp": "Placate",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -5464,7 +5464,7 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P254088221",
+                  "attackerHit": "You Placate {PlayerDest}.",
                   "victimHit": "",
                   "float": "",
                   "defenseFloat": ""
@@ -5527,8 +5527,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P254088221",
-                  "victimHit": "P1894553525",
+                  "attackerHit": "You Placate {PlayerDest}.",
+                  "victimHit": "The {PowerName} Placates you and you cannot target {PlayerSource}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5595,9 +5595,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3405608187",
-      "help": "P12849989",
-      "shortHelp": "P3244460878",
+      "display": "Upheaval",
+      "help": "You channel the forces of nature and release them shattering the earth beneath you sending shards of stone and debris out at nearby foes causing high damage and potentially knocking them down. In primal (human) form you will deal smashing damage and will heal yourself and up to 3 nearby allies for a large amount of health. In Hunter form you'll deal lethal damage and reduce the targets' resistance slightly. In Prowler form you'll deal lethal damage, cause minor lethal damage over time and have a high chance to stun. Upheaval will deal high damage if the user has no Primal Energy, however it will deal additional damage for each charge of Primal Energies the user owns. Upheaval consumes all Primal Energies. Damage: Special, Recharge: Long",
+      "shortHelp": "PBAoE, Special DMG, Foe Knockdown, -All Primal Energy",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -5777,9 +5777,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2688257406",
-      "help": "P3541865876",
-      "shortHelp": "P2137720999",
+      "display": "Savage Blow",
+      "help": "Before delivering an absolutely punishing blow you concentrate and channel the forces of nature into your strike to cause Extreme damage. In primal (human) form you will deal smashing damage and will heal yourself and up to 3 nearby allies for a moderate amount of health. In Hunter form you'll deal lethal damage and significantly reduce the target's damage. In Prowler form you'll deal lethal damage, cause moderate lethal damage over time and stun the target. This power builds 2 primal energy. Damage: Extreme, Recharge: Slow",
+      "shortHelp": "Melee, Extreme DMG(Special), Special",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",

@@ -2,9 +2,9 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P1502950482",
-  "help": "P439827539",
-  "shortHelp": "P2548401771",
+  "display": "Arcane Bolt",
+  "help": "You channel arcane energies into a concentrated blast and release them upon your target dealing Moderate energy damage and possibly knocking them down. Recharge: Moderate",
+  "shortHelp": "Ranged, Moderate DMG(Energy), Foe Knockdown",
   "targetHelp": "",
   "targetShortHelp": "",
   "attackerAttack": "",
@@ -149,8 +149,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -212,8 +212,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1956156720",
-              "victimHit": "P3390955917",
+              "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+              "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }
@@ -281,8 +281,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1956156720",
-              "victimHit": "P3390955917",
+              "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+              "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }
@@ -344,8 +344,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -369,7 +369,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq",
         "enttype",
         "target>",
@@ -412,9 +412,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2448610967",
-              "victimHit": "P2717639939",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -446,7 +446,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "&&",
         "kMeter",
@@ -495,9 +495,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2448610967",
-              "victimHit": "P2717639939",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -520,7 +520,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "kMeter",
         "source>",
@@ -568,9 +568,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2448610967",
-              "victimHit": "P2717639939",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -610,7 +610,7 @@
         "<",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&",
         "enttype",
@@ -654,9 +654,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P671317907",
-              "victimHit": "P2496594556",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],
@@ -701,7 +701,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "&&",
         "enttype",
@@ -745,8 +745,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -770,7 +770,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq",
         "enttype",
         "target>",
@@ -813,9 +813,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2448610967",
-              "victimHit": "P2717639939",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -857,7 +857,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "&&",
         "enttype",
@@ -901,8 +901,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -935,7 +935,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "&&",
         "kMeter",
@@ -984,9 +984,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2448610967",
-              "victimHit": "P2717639939",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -1009,7 +1009,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "kMeter",
         "source>",
@@ -1057,9 +1057,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2448610967",
-              "victimHit": "P2717639939",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -1099,7 +1099,7 @@
         "<",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&",
         "enttype",
@@ -1143,9 +1143,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P671317907",
-              "victimHit": "P2496594556",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],

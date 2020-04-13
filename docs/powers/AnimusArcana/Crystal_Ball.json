@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P20492702",
-    "help": "P1215234597",
-    "shortHelp": "P2618014533",
+    "display": "Temporal Mending",
+    "help": "You mend the wounds of yourself and nearby allies by placing your bodies in a past or future state where they are far less injured, immediately healing them and continuing to do so for several seconds. Allies are also resistant to attack and movement speed debuffs for a short time.",
+    "shortHelp": "PBAoE, Heal(Ally), HoT(Ally), +RES(Speed/Rech Debuff)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -270,11 +270,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1147937862",
-    "help": "P1637363885",
-    "shortHelp": "P4169908495",
-    "targetHelp": "P1217953173",
-    "targetShortHelp": "P2798249455",
+    "display": "Time's Juncture",
+    "help": "You create a time dilation field around you causing enemies who get too close to be slowed to a crawl. Affected targets will see their movement speed, damage and chance to hit decreased substantially. Enemies affected by Delayed have these affects increased.",
+    "shortHelp": "PBAoE, -DMG(Foe, All), -Speed(Foe, All), -ToHit(Foe)",
+    "targetHelp": "You are suffering from reduced damage potential, movement speed and chance to hit.",
+    "targetShortHelp": "-DMG(All), -Speed(All), -ToHit",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -822,9 +822,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2926793761",
-    "help": "P3744945696",
-    "shortHelp": "P497290145",
+    "display": "Farsight",
+    "help": "You give your allies a brief glimpse into the future, providing them an increase in their perception, chance to hit and defenses.",
+    "shortHelp": "PBAoE, +ToHit(Team), +DEF(Team, All), +Perception(Team)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1204,11 +1204,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P218551415",
-    "help": "P1528569743",
-    "shortHelp": "P1106324220",
-    "targetHelp": "P878057226",
-    "targetShortHelp": "P1755291844",
+    "display": "Crush",
+    "help": "You create a gravity well around a single target. This crushing well causes continual smashing damage and immobilizes the target. Flying targets are also brought to the ground.",
+    "shortHelp": "Ranged, High DoT(Smashing), Immobilize(Foe), -Speed(Foe, All), -Fly(Foe)",
+    "targetHelp": "You are immobilized and suffering smashing damage over time. Your movement speed and ability to fly are also inhibited.",
+    "targetShortHelp": "DoT (Smashing), Immobilize, -Speed(All), -Fly",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1334,8 +1334,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1545979143",
-                "victimHit": "P2876742505",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1377,8 +1377,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1553,11 +1553,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3545215282",
-    "help": "P391882084",
-    "shortHelp": "P1688142890",
-    "targetHelp": "P357099267",
-    "targetShortHelp": "P3885675710",
+    "display": "Lift",
+    "help": "You negate the force of gravity around your target, violently sending them into the air. This causes smashing damage when they fall to the ground.",
+    "shortHelp": "Ranged, High DMG(Smashing), Knockup(Foe), -Fly",
+    "targetHelp": "You are unable to fly for a short time.",
+    "targetShortHelp": "-Fly",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1683,8 +1683,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1725,8 +1725,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1828,11 +1828,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2368889973",
-    "help": "P4239368151",
-    "shortHelp": "P2099526529",
-    "targetHelp": "P3115809911",
-    "targetShortHelp": "P1345785363",
+    "display": "Spectral Wounds",
+    "help": "You create spectral wounds on your target, which struggles with its grip on reality. This causes psionic damage and prevents the target from fleeing briefly, though some of this damage is not real and will be undone within a few seconds if the target survives.",
+    "shortHelp": "Ranged, High DMG(Psionic), -Run",
+    "targetHelp": "You are suffering from spectral wounds and are unable to run away.",
+    "targetShortHelp": "Special, -Run",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1958,8 +1958,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2001,8 +2001,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }

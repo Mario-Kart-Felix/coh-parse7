@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P1724149063",
-  "help": "P2272596916",
-  "shortHelp": "P1188704680",
-  "targetHelp": "P3615033851",
-  "targetShortHelp": "P3100956268",
+  "display": "Radiation Siphon",
+  "help": "You pummel your foe with a deadly smashing attack dealing High Energy and Smashing damage and reducing their defense. Hitting Contaminated targets will also heal you for a large amount of health over 3 seconds and remove the Contaminated effect from the target. However, uncontaminated targets have a moderate chance to be affected by the Contaminated effect. Hitting Contaminated foes with single target Radiation Melee powers cause a small burst of damage to foes near the target. Damage: High Moderate, Recharge: Moderate",
+  "shortHelp": "Melee, High DMG(Energy/Smash), Foe, -Def, -Contaminated, Special",
+  "targetHelp": "Your defense has been reduced by Radiation Siphon!",
+  "targetShortHelp": "-Def",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -148,8 +148,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -190,8 +190,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -253,8 +253,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -295,8 +295,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -414,9 +414,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P303727486",
-              "victimHit": "P4180007661",
-              "float": "P3342354899",
+              "attackerHit": "You contaminate {PlayerDest}!",
+              "victimHit": "{PlayerSource} has contaminated you.",
+              "float": "Contaminated!",
               "defenseFloat": ""
             }
           ],
@@ -481,8 +481,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1044716283",
-              "victimHit": "P361883193",
+              "attackerHit": "Your absorb the radioactive contamination from {PlayerDest}!",
+              "victimHit": "{PlayerSource} draws the radioactive contamination from you to heal themselves.",
               "float": "",
               "defenseFloat": ""
             }
@@ -528,7 +528,7 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3203057719",
+              "attackerHit": "Your {PowerName} heals you for {Damage} points of health.",
               "victimHit": "",
               "float": "",
               "defenseFloat": ""
@@ -627,8 +627,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2798397535",
-              "victimHit": "P459143670",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -690,9 +690,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P303727486",
-              "victimHit": "P4180007661",
-              "float": "P3342354899",
+              "attackerHit": "You contaminate {PlayerDest}!",
+              "victimHit": "{PlayerSource} has contaminated you.",
+              "float": "Contaminated!",
               "defenseFloat": ""
             }
           ],
@@ -763,9 +763,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2448610967",
-              "victimHit": "P2717639939",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -832,9 +832,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2448610967",
-              "victimHit": "P2717639939",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -900,9 +900,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2448610967",
-              "victimHit": "P2717639939",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -978,9 +978,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2448610967",
-              "victimHit": "P2717639939",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],

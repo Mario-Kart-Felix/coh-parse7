@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": true,
-  "display": "P4127777832",
-  "help": "P1592857452",
-  "shortHelp": "P3836380500",
-  "targetHelp": "P3464153110",
-  "targetShortHelp": "P3418692413",
+  "display": "Sands of Mu",
+  "help": "You recovered this strange black sand from a Circle of Thorns hideout. While carrying it, you have the ability to deal a flurry of punches charged with the Negative Energy of the Netherworld. The sands must be returned to the MAGI vault within 24 hours. Recharge: Moderate",
+  "shortHelp": "Melee (Cone), High DoT(Smash/Negative), Foe -To Hit",
+  "targetHelp": "You are being pummeled by negative energy! Your Accuracy is reduced.",
+  "targetShortHelp": "DoT(Smash/Negative), -To Hit",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -136,8 +136,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1545979143",
-              "victimHit": "P2876742505",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -178,8 +178,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1461699593",
-              "victimHit": "P3815778435",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -238,7 +238,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq"
       ],
       "flags": [],
@@ -276,9 +276,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P18433730",
-              "victimHit": "P213926672",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],

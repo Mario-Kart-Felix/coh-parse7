@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1328468718",
-    "help": "P1203385520",
-    "shortHelp": "P94735558",
-    "targetHelp": "P135053930",
-    "targetShortHelp": "P2096238824",
+    "display": "Experimental Injection",
+    "help": "You inject an ally with a compound that greatly boosts their regeneration, recovery and resistance to status effects for a short time. Recharge: Long",
+    "shortHelp": "Melee Ranged, Ally +Regeneration, +Recovery, +Res(Status)",
+    "targetHelp": "The Experimental Injection has boosted your protection to status effects as well as improving your recovery and regeneration.",
+    "targetShortHelp": "+Res(Disorient, Sleep, Immobilize, Hold, Confuse, Terrorize), +Regeneration, +Recovery",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -295,8 +295,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2484629825",
-                "victimHit": "P2575821223",
+                "attackerHit": "You give {PlayerDest} a {PowerName} granting them increased regeneration, recovery and protection to status effects.",
+                "victimHit": "{PlayerSource} gives you a {PowerName} which grants you additional status protection, regeneration and recovery.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -363,11 +363,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3918991870",
-    "help": "P3052953614",
-    "shortHelp": "P564743825",
+    "display": "Toxic Dart",
+    "help": "You fire a toxic dart at your target causing an very minor amount of immediate lethal damage followed by a High amount of toxic damage over time. Recharge: Fast",
+    "shortHelp": "Ranged, Minor DMG(Lethal), High DMG(Toxic)",
     "targetHelp": "",
-    "targetShortHelp": "P2068814994",
+    "targetShortHelp": "High DoT(Toxic)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -504,8 +504,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -567,8 +567,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -630,8 +630,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -655,7 +655,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq",
           "enttype",
           "target>",
@@ -698,9 +698,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -732,7 +732,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "&&",
           "kMeter",
@@ -781,9 +781,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -806,7 +806,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "kMeter",
           "source>",
@@ -854,9 +854,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -896,7 +896,7 @@
           "<",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&",
           "enttype",
@@ -940,9 +940,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2425438994",
-                "victimHit": "P744308477",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -987,7 +987,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "&&",
           "enttype",
@@ -1031,8 +1031,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1056,7 +1056,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq",
           "enttype",
           "target>",
@@ -1099,9 +1099,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1143,7 +1143,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "&&",
           "enttype",
@@ -1187,8 +1187,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1221,7 +1221,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "&&",
           "kMeter",
@@ -1270,9 +1270,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1295,7 +1295,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "kMeter",
           "source>",
@@ -1343,9 +1343,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1385,7 +1385,7 @@
           "<",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&",
           "enttype",
@@ -1429,9 +1429,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2425438994",
-                "victimHit": "P744308477",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -1462,7 +1462,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Tanker",
+          "Tanker",
           "eq",
           "&&"
         ],
@@ -1527,7 +1527,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Tanker",
+          "Tanker",
           "eq",
           "&&"
         ],
@@ -1627,9 +1627,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3804641709",
-    "help": "P2090770867",
-    "shortHelp": "P2136643654",
+    "display": "Speed of Sound",
+    "help": "Your experiments have yielded incredible results. By activating this power, you're able to run at incredible speeds. In fact, while this power is active, you gain access to the Jaunt power. Jaunt allows you to teleport to a distant location once every short while.",
+    "shortHelp": "Toggle: Self +Speed, (Special)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1952,9 +1952,9 @@
     "autoIssue": true,
     "autoIssueSaveLevel": false,
     "free": true,
-    "display": "P2849472036",
-    "help": "P1668245844",
-    "shortHelp": "P102559963",
+    "display": "Jaunt",
+    "help": "Clicking on this power and then selecting a location will cause the caster to vanish and reappear at their target location. Recharge: Moderate",
+    "shortHelp": "Click, Self Teleport",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2188,9 +2188,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P175884314",
-    "help": "P2053028295",
-    "shortHelp": "P2083644558",
+    "display": "Corrosive Vial",
+    "help": "You hurl a vial of toxic fluid that explodes upon impact leaving a corrosive puddle at your target's feet. Any foe that stands within the puddle will take toxic damage and have their defense reduced for a short while. Corrosive Vial requires you to have 2 powers from the Experimentation power pool. Damage: High (DoT), Recharge: Slow",
+    "shortHelp": "Ranged (Targeted AoE), High DoT(Toxic), -Defense",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2411,9 +2411,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2583349838",
-    "help": "P3575408574",
-    "shortHelp": "P4180239599",
+    "display": "Adrenal Booster",
+    "help": "You inject yourself with a concentrated experimental serum that boosts your damage, recharge, chance to hit and secondary effects for a short time. Adrenal Booster requires you to have 2 powers from the Experimentation power pool. Recharge: Very Long",
+    "shortHelp": "Self, +To Hit, +Recharge, +Damage, +Special",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2561,7 +2561,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1759066797",
+                "attackerHit": "You inject yourself with a {PowerName} to boost your damage, chance to hit, recharge rate and secondary effect of your most your powers.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""

@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P775034031",
-    "help": "P1226459038",
-    "shortHelp": "P48792747",
-    "targetHelp": "P3352238936",
-    "targetShortHelp": "P2240527002",
+    "display": "Poisonous Ray",
+    "help": "The Bane Mace can fire a nasty Poison Ray. This toxin is suspended in a polarized plasma field and delivered like an energy blast. Upon impact, the toxin directly attacks the immune system, reducing the affected targets Defense and Damage Resistance as it deals toxic damage. Damage: Moderate, Recharge: Slow",
+    "shortHelp": "Ranged DoT(Poison), Foe -RES, -DEF",
+    "targetHelp": "Your Defense and Damage Resistances have been reduced. You are taking toxic damage over time.",
+    "targetShortHelp": "DoT(Poison), -RES, -DEF",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -164,8 +164,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -206,8 +206,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -269,8 +269,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -311,8 +311,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -457,7 +457,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -496,8 +496,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -545,7 +545,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -584,8 +584,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -652,14 +652,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2874341642",
-    "help": "P2713246616",
-    "shortHelp": "P3556458012",
+    "display": "Scorpion Shield",
+    "help": "Black Scorpion's technologies are impressive indeed. This energy shield grants you Defense to Lethal, Smashing and Energy attacks, as well as improves your damage resistance to Toxic damage. Recharge: Fast",
+    "shortHelp": "Toggle: Self, +Def(Smash,Lethal,Energy), +Res(Toxic)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P562105923",
+    "attackerHit": "Your {PowerName} protects you from lethal, smashing, Toxic and energy.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1089,9 +1089,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2464121079",
-    "help": "P578385695",
-    "shortHelp": "P3163084516",
+    "display": "Disruptor Blast",
+    "help": "Fires a tremendous charge of kinetic energy from your Bane Mace. This charge is so powerful it will explode on impact, blasting all nearby foes. Some affected foes may be knocked back by the force of the blast. You must be level 41 and have Poisonous Ray or Scorpion Shield before selecting this power. Damage: Moderate, Recharge: Long",
+    "shortHelp": "Ranged (Targeted AoE), Moderate DMG(Smashing/Energy), Foe Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1252,8 +1252,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1294,8 +1294,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1357,8 +1357,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1399,8 +1399,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1462,8 +1462,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1531,8 +1531,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1583,7 +1583,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -1622,8 +1622,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1671,7 +1671,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -1710,8 +1710,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1778,14 +1778,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4148086331",
-    "help": "P3995461663",
-    "shortHelp": "P2378869502",
+    "display": "Focused Accuracy",
+    "help": "When this power is activated, the Villain focuses their senses to dramatically improve their accuracy. Additionally, Focused Accuracy increase your Perception, allowing you to better see stealthy foes. It also grants you resistance to powers that DeBuff your Accuracy. Focused Accuracy is a toggle power and must be activated and deactivated manually. Like all toggle powers, while active, Focused Accuracy drains Endurance while active. You must be level 41 and have Poisonous Ray or Scorpion Shield before selecting this power. Recharge: Slow",
+    "shortHelp": "Toggle: Self +To Hit, +ACC, +Perception, Res(DeBuff To Hit)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2534745051",
+    "attackerHit": "Your {PowerName} increases your accuracy.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -2159,9 +2159,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3037255610",
-    "help": "P4019378823",
-    "shortHelp": "P2979234735",
+    "display": "Summon Tarantula",
+    "help": "Black Scorpion has granted you an Toxic Tarantula for you to command. Weaver One developed the Tarantula Exoskeleton Armor, which so radically transforms an Arachnos troop that hardly anything human is recognizable. Your access to this Tarantula is very limited. You can only summon it once every 15 minutes and it will leave after 4 minutes, or if you exit a zone or mission. You must be level 44 and have two other Mace Mastery Powers before selecting this power. Recharge: Extremely Long",
+    "shortHelp": "Summon Tarantula: Ranged Moderate DMG(Toxic)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

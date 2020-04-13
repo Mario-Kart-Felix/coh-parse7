@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2059206902",
-    "help": "P3414040536",
-    "shortHelp": "P3657703781",
-    "targetHelp": "P4141842723",
-    "targetShortHelp": "P3423146141",
+    "display": "Enflame",
+    "help": "All foes that pass through these flames will be burned.",
+    "shortHelp": "Fire DoT",
+    "targetHelp": "The flames are burning you.",
+    "targetShortHelp": "DoT(Fire)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -103,11 +103,11 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Blaster",
+          "Blaster",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq",
           "||"
         ],
@@ -146,8 +146,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -171,7 +171,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "arch",
           "source.owner>",
@@ -214,8 +214,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -239,7 +239,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Defender",
+          "Defender",
           "eq"
         ],
         "flags": [],
@@ -277,8 +277,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -302,7 +302,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Tanker",
+          "Tanker",
           "eq"
         ],
         "flags": [],
@@ -340,8 +340,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -365,11 +365,11 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Peacebringer",
+          "Peacebringer",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Warshade",
+          "Warshade",
           "eq",
           "||"
         ],
@@ -408,8 +408,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -433,11 +433,11 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Brute",
+          "Brute",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "||"
         ],
@@ -476,8 +476,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -501,16 +501,16 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Arachnos_Widow",
+          "Arachnos Widow",
           "eq",
           "||",
           "arch",
           "source.owner>",
-          "Class_Arachnos_Soldier",
+          "Arachnos Soldier",
           "eq",
           "||"
         ],
@@ -549,8 +549,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -574,7 +574,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Dominator",
+          "Dominator",
           "eq"
         ],
         "flags": [],
@@ -612,8 +612,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -637,7 +637,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Primalist",
+          "Primalist",
           "eq"
         ],
         "flags": [],
@@ -675,8 +675,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -700,7 +700,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Sentinel",
+          "Sentinel",
           "eq"
         ],
         "flags": [],
@@ -738,8 +738,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -806,9 +806,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1351516182",
-    "help": "P1984539263",
-    "shortHelp": "P1351516182",
+    "display": "Avoid",
+    "help": "Foes will avoid this area.",
+    "shortHelp": "Avoid",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1003,9 +1003,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1879715222",
-    "help": "P1879715222",
-    "shortHelp": "P1879715222",
+    "display": "Self Destruct",
+    "help": "Self Destruct",
+    "shortHelp": "Self Destruct",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

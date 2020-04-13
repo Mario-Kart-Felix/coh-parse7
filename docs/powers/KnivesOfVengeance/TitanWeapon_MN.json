@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1762936478",
-    "help": "P2331815998",
-    "shortHelp": "P2959806276",
-    "targetHelp": "P2787641084",
-    "targetShortHelp": "P3214140212",
+    "display": "Agile Sweep",
+    "help": "You quickly strike your opponent from a defensive position, causing smashing damage. The force of the blow also has a chance to slow their response time. Additionally, your chance to hit and your defense against melee and smashing attacks is increased for a short time.",
+    "shortHelp": "Melee, Minor DMG(Smashing), +DEF(Self, Melee, Smashing), +ToHit(Self), Chance for -Rech(Foe)",
+    "targetHelp": "Your attack speed has been reduced.",
+    "targetShortHelp": "-Recharge",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -133,8 +133,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -270,7 +270,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P596409667",
+                "victimHit": "Your attack speed has been reduced by {PlayerSource}'s {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -339,11 +339,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P775678673",
-    "help": "P841909827",
-    "shortHelp": "P3924153307",
-    "targetHelp": "P3569588152",
-    "targetShortHelp": "P4064553973",
+    "display": "Crushing Blow",
+    "help": "You swing your weapon at your target with tremendous force. The blow causes smashing damage and internal trauma, which causes lethal damage over time. The target also suffers a reduction in movement speed and ability to fly.",
+    "shortHelp": "Melee, Moderate DMG(Smashing), Minor DoT (Lethal), -Speed(Foe,All), -Fly(Foe)",
+    "targetHelp": "You are bleeding internally. Your movement speed and your ability to fly have been reduced.",
+    "targetShortHelp": "DoT(Lethal), -Speed(All), -Fly",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -469,8 +469,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -511,8 +511,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -628,7 +628,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P1928603242",
+                "victimHit": "You are temporarily unable to fly due to {PlayerSource}'s {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -697,11 +697,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P917994905",
-    "help": "P4227573268",
-    "shortHelp": "P1011720999",
-    "targetHelp": "P2657881316",
-    "targetShortHelp": "P2192792164",
+    "display": "Shockwave Strike",
+    "help": "You swing your weapon in a wide arc and create a shockwave which travels in the direction of your target. Opponents hit by the shockwave suffer smashing damage. Targets may also be knocked back and suffer a brief reduction in their regeneration and recovery.",
+    "shortHelp": "Melee, High DMG (Smashing), Knockback(Foe), -Regen(Foe), -Rec(Foe)",
+    "targetHelp": "You have been knocked back and suffer exhaustion, reducing your regeneration and recovery.",
+    "targetShortHelp": "Knockback, -Regen, -Rec",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -827,8 +827,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -892,8 +892,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -997,11 +997,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2144434522",
-    "help": "P903477532",
-    "shortHelp": "P138627049",
-    "targetHelp": "P2657881316",
-    "targetShortHelp": "P702867462",
+    "display": "Overpower",
+    "help": "You channel your energy into an especially powerful swing. This swing does significant smashing damage and causes sufficient trauma to induce lethal damage due to internal bleeding.",
+    "shortHelp": "Melee, Superior DMG (Smashing), Moderate DoT (Lethal), Chance for Knockup(Foe), -Fly(Foe)",
+    "targetHelp": "You have been knocked back and suffer exhaustion, reducing your regeneration and recovery.",
+    "targetShortHelp": "DoT(Lethal), Chance for Knockup, -Fly",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1127,8 +1127,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1169,8 +1169,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1233,8 +1233,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }

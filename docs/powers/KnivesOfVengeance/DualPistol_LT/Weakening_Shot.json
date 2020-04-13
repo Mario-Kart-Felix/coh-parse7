@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P161526169",
-  "help": "P462223306",
-  "shortHelp": "P1914297799",
-  "targetHelp": "P1367103757",
-  "targetShortHelp": "P2211841663",
+  "display": "Weakening Shot",
+  "help": "You fire a particularly potent round at your opponent. This round is full of toxins which catalyze those introduced by your other attacks. In addition to significantly weakening your opponent, these catalysts may alter the toxins in the target's bloodstream, causing additional damage and stunning them.",
+  "shortHelp": "Ranged, -DMG(Foe, All), -DEF(Foe, All), -RES(Foe, Status Effects), -ToHit(Foe), -Heal(Foe), -End(Foe), Chance for High DMG(Toxic), Stun",
+  "targetHelp": "Your chance to hit, the strength of your attacks and the potency of your powers' status effects have all been reduced. Additionally, you may take additional damage and be stunned.",
+  "targetShortHelp": "Special",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -142,7 +142,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P2076622043",
+              "victimHit": "{PlayerSource} hits you with her {PowerName} and significantly weakens your body!",
               "float": "",
               "defenseFloat": ""
             }
@@ -334,8 +334,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2851307520",
-              "victimHit": "P105122461",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -377,8 +377,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P583235414",
-              "victimHit": "P3613904985",
+              "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }

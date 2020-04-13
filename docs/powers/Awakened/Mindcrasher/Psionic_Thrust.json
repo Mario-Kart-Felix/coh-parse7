@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3611631710",
-  "help": "P659479324",
-  "shortHelp": "P3020885907",
-  "targetHelp": "P958647071",
-  "targetShortHelp": "P2214086559",
+  "display": "Psionic Thrust",
+  "help": "You hack your target with a blade formed from within your mind. This manifested blade causes psionic damage and leaves injuries that cause additional lethal damage over time. The target also suffers a reduction in their attack speed, chance to hit, regeneration and recovery. The target may also be taunted to attack you if they are not already doing so.",
+  "shortHelp": "Melee, Moderate DMG (Psionic), Moderate DoT (Lethal), -Rech(Foe), -ToHit(Foe), -Regen(Foe), -Rec(Foe), Chance for Taunt(Foe)",
+  "targetHelp": "You are suffering lethal damage over time. You are also experiencing reduced attack speed, chance to hit, regeneration and recovery. You may also be taunted.",
+  "targetShortHelp": "DoT (Lethal), -Rech, -Regen, -Rec, -ToHit, Chance for Taunt",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -133,8 +133,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P801507873",
-              "victimHit": "P3863231487",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -175,8 +175,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3137354887",
-              "victimHit": "P130826600",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -340,8 +340,8 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P2708473379",
-              "float": "P2462063619",
+              "victimHit": "You have been taunted by {PlayerSource}'s {PowerName}.",
+              "float": "TAUNTED",
               "defenseFloat": ""
             }
           ],

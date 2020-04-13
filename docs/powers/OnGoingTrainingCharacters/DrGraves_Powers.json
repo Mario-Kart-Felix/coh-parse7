@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P369601562",
-    "help": "P1591252466",
-    "shortHelp": "P4219235673",
-    "targetHelp": "P2735666026",
-    "targetShortHelp": "P2190949330",
+    "display": "Dark Blast",
+    "help": "A long range blast of dark energy. Deals moderate Negative Energy damage and reduces the target's chance to hit. Damage: Moderate, Recharge: Fast",
+    "shortHelp": "Ranged, Moderate DMG(Negative), Foe -To Hit",
+    "targetHelp": "The Dark Blast has reduced your chance to hit.",
+    "targetShortHelp": "-To Hit",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -135,8 +135,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2637081052",
-                "victimHit": "P936402029",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -238,9 +238,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1229299309",
-    "help": "P2262952324",
-    "shortHelp": "P1434861979",
+    "display": "Zombie Horde",
+    "help": "Summons one to three Zombies (depending on your level) to do your bidding. Zombies are very tough but can be slow and stupid. They start out with only rudimentary melee attacks, but can be empowered with range and even life draining powers. You may only have 3 Zombies under your control at any given time. If you attempt to summon more Zombies, you can only replace the ones you have lost in battle. If you already have three, the power will fail. Recharge: Very Long",
+    "shortHelp": "Summon Zombies",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -940,11 +940,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3488406895",
-    "help": "P1685551695",
-    "shortHelp": "P2098711268",
-    "targetHelp": "P4275364033",
-    "targetShortHelp": "P533426840",
+    "display": "Gloom",
+    "help": "Gloom slowly drains a target of life, while reducing their chance to hit Slower than Dark Blast, but deals more damage over time. Damage: High(DoT), Recharge: Moderate",
+    "shortHelp": "Ranged, High DoT(Negative), Foe -To Hit",
+    "targetHelp": "The Gloom is causing damage to you and reducing your chance to hit.",
+    "targetShortHelp": "DoT(Negative), -To Hit",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1072,8 +1072,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1461699593",
-                "victimHit": "P3815778435",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1175,9 +1175,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3240964949",
-    "help": "P410154166",
-    "shortHelp": "P60863633",
+    "display": "Grave Knight",
+    "help": "You can summon one to two powerful Grave Knights (depending on your level) to do your bidding. Grave Knights come well equipped with several attack powers and can be empowered with even more. You may only have 2 Grave Knights under your control at any given time. If you attempt to summon more Grave Knights, you can only replace the ones you have lost in battle. If you already have two, the power will fail. Recharge: Very Long",
+    "shortHelp": "Summon Grave Knight",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1498,9 +1498,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P175982904",
-    "help": "P2671953981",
-    "shortHelp": "P1906443399",
+    "display": "Nullify Pain",
+    "help": "Nullify Pain will heal nearby allies for some hit points by numbing the pain caused by their wounds. Nullify Pain is not as potent as Soothe, but can heal multiple targets at once. Recharge: Moderate",
+    "shortHelp": "PBAoE, Team +Heal",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1629,8 +1629,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3262186852",
-                "victimHit": "P1319995399",
+                "attackerHit": "You nullify some of {PlayerDest}'s pain and heal them for {Damage} points of health.",
+                "victimHit": "{PlayerSource} nullifies some of your pain to heal you for {Damage} points of health.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1697,9 +1697,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2163960007",
-    "help": "P3872587599",
-    "shortHelp": "P553708814",
+    "display": "Soothe",
+    "help": "You heal an ally by numbing their pain and calming their mind. You cannot use this power on yourself.",
+    "shortHelp": "Ally Heal",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1826,8 +1826,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P222304424",
-                "victimHit": "P3640235457",
+                "attackerHit": "You heal {PlayerDest} for {Damage} points.",
+                "victimHit": "{PlayerSource} heals you for {Damage} points.",
                 "float": "",
                 "defenseFloat": ""
               }

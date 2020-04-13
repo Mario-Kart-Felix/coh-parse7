@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P1104194742",
-  "help": "P3414040536",
-  "shortHelp": "P3657703781",
-  "targetHelp": "P2117539195",
-  "targetShortHelp": "P3423146141",
+  "display": "Flame Thrower",
+  "help": "All foes that pass through these flames will be burned.",
+  "shortHelp": "Fire DoT",
+  "targetHelp": "The Flamethrower is burning you.",
+  "targetShortHelp": "DoT(Fire)",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -101,7 +101,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Blaster",
+        "Blaster",
         "eq"
       ],
       "flags": [],
@@ -139,8 +139,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2798397535",
-              "victimHit": "P459143670",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -164,7 +164,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Defender",
+        "Defender",
         "eq"
       ],
       "flags": [],
@@ -202,8 +202,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2798397535",
-              "victimHit": "P459143670",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -227,7 +227,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Sentinel",
+        "Sentinel",
         "eq",
         "enttype",
         "source.owner>",
@@ -270,8 +270,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2798397535",
-              "victimHit": "P459143670",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
               "float": "",
               "defenseFloat": ""
             }

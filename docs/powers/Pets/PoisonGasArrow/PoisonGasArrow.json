@@ -2,9 +2,9 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P2744262583",
-  "help": "P2193135293",
-  "shortHelp": "P3124410153",
+  "display": "Poison Gas Arrow",
+  "help": "The poisonous gas has severely weakened your attacks and is making it difficult to breathe.",
+  "shortHelp": "-DMG, Sleep",
   "targetHelp": "",
   "targetShortHelp": "",
   "attackerAttack": "",
@@ -192,7 +192,7 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1714562465",
+              "attackerHit": "You put {PlayerDest} to sleep with your {PowerName}!",
               "victimHit": "",
               "float": "",
               "defenseFloat": ""
@@ -217,7 +217,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Defender",
+        "Defender",
         "eq"
       ],
       "flags": [],
@@ -345,11 +345,11 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "arch",
         "source.owner>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "||"
       ],
@@ -418,7 +418,7 @@
         "eq",
         "arch",
         "source.owner>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "&&"
       ],
@@ -483,7 +483,7 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1714562465",
+              "attackerHit": "You put {PlayerDest} to sleep with your {PowerName}!",
               "victimHit": "",
               "float": "",
               "defenseFloat": ""
@@ -512,7 +512,7 @@
         "eq",
         "arch",
         "source.owner>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "!",
         "&&"
@@ -578,7 +578,7 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1714562465",
+              "attackerHit": "You put {PlayerDest} to sleep with your {PowerName}!",
               "victimHit": "",
               "float": "",
               "defenseFloat": ""

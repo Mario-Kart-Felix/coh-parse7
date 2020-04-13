@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3989574906",
-  "help": "P3598892329",
-  "shortHelp": "P217014364",
-  "targetHelp": "P2288367870",
-  "targetShortHelp": "P2612824204",
+  "display": "Spine Burst",
+  "help": "You fling dozens of spines in a sphere around yourself, hitting multiple nearby targets. Affected targets suffer lethal damage and are poisoned. This poison slows an affected target's movement and attack speeds. It may also cause immobilization and additional toxic damage over time.",
+  "shortHelp": "PBAoE, High DMG (Lethal), -Speed(Foe,All), -Rech(Foe), Chance for Minor DoT (Toxic), Immobilize (Foe)",
+  "targetHelp": "You have been poisoned and suffer reduced movement and attack speeds. You may also suffer immobilization and toxic damage over time.",
+  "targetShortHelp": "-Speed(All), -Rech, Chance for DoT(Toxic), Immobilize",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -132,8 +132,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -284,8 +284,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4250172858",
-              "victimHit": "P1470793739",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -348,8 +348,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4257051740",
-              "victimHit": "P2588894681",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -413,8 +413,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4257051740",
-              "victimHit": "P2588894681",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }

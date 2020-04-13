@@ -2,9 +2,9 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P2786855971",
-  "help": "P1131046375",
-  "shortHelp": "P4285314984",
+  "display": "Soul Drain",
+  "help": "Using this power, you can drain the essence of all nearby foes' souls, thus increasing your own strength. Each affected foe will lose some Hit Points and add to your Damage and Accuracy. Damage: Moderate, Recharge: Very Long",
+  "shortHelp": "PBAoE Moderate DMG(Negative), Self +DMG, +ACC",
   "targetHelp": "",
   "targetShortHelp": "",
   "attackerAttack": "",
@@ -162,8 +162,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2637081052",
-              "victimHit": "P936402029",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -365,7 +365,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&"
       ],
@@ -404,9 +404,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2089728924",
-              "victimHit": "P3370211094",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],
@@ -451,7 +451,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&"
       ],
@@ -490,9 +490,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2089728924",
-              "victimHit": "P3370211094",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],

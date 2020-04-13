@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2993048958",
-    "help": "P379035600",
-    "shortHelp": "P239126756",
-    "targetHelp": "P4273593017",
-    "targetShortHelp": "P2103286178",
+    "display": "Vicious Bite",
+    "help": "You deliver a powerful bite to your target, crushing bone. This causes smashing damage, as well as minor lethal damage due to bleeding.",
+    "shortHelp": "Melee, Minor DMG(Smashing), Minor DoT(Lethal)",
+    "targetHelp": "You are bleeding, suffering lethal damage over time.",
+    "targetShortHelp": "Minor DoT(Lethal)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -134,8 +134,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -177,8 +177,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -283,11 +283,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P68199730",
-    "help": "P822505930",
-    "shortHelp": "P1884966538",
-    "targetHelp": "P958519286",
-    "targetShortHelp": "P3842290472",
+    "display": "Maiming Bite",
+    "help": "You lunge and sink your teeth into your target, crunching down hard. This causes smashing and lethal damage while also reducing the target's movement speed for a short time.",
+    "shortHelp": "Melee, Moderate DMG(Smashing/Lethal), Foe -Speed, -Def",
+    "targetHelp": "Your movement speeds and defense against all types of damage have been reduced.",
+    "targetShortHelp": "-Speed(All), -DEF(All)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -414,8 +414,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -456,8 +456,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -670,11 +670,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2538644110",
-    "help": "P1957909556",
-    "shortHelp": "P2993478847",
-    "targetHelp": "P2183607626",
-    "targetShortHelp": "P3100956268",
+    "display": "Feral Charge",
+    "help": "You charge your foe, snapping at them in an attempt to knock them off guard. This snapping action catches bone, causing smashing and lethal damage and reduces the target's defense.",
+    "shortHelp": "Melee, High DMG(Smashing/Lethal), -DEF(Foe, All)",
+    "targetHelp": "Your defense has been reduced by the Feral Charge.",
+    "targetShortHelp": "-Def",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -801,8 +801,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -843,8 +843,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -984,11 +984,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2318816524",
-    "help": "P3433400699",
-    "shortHelp": "P1459923285",
-    "targetHelp": "P4019738887",
-    "targetShortHelp": "P161371670",
+    "display": "Growl",
+    "help": "You snarl at nearby enemies, instilling a minor sense of fear in them. This reduces damage potential and chance to hit for a short time.",
+    "shortHelp": "PBAoE, -DMG(Foe, All), -ToHit(Foe)",
+    "targetHelp": "You are suffering reduced damage output and chance to hit.",
+    "targetShortHelp": "-DMG(All), -ToHit",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1122,7 +1122,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P407233489",
+                "victimHit": "{PlayerSource} growls at you reducing your damage and chance to hit.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1260,9 +1260,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3830383326",
-    "help": "P2211841663",
-    "shortHelp": "P2211841663",
+    "display": "Grant Deadly Howl",
+    "help": "Special",
+    "shortHelp": "Special",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

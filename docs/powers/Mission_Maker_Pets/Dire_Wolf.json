@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1196525362",
-    "help": "P2655763289",
-    "shortHelp": "P3740769832",
+    "display": "Resistance",
+    "help": "Dire Wolves are resistant to Placate and Confuse effects as well as cold, lethal and smashing damage. They also have a minor amount of defense to Melee, Ranged and AoE attacks.",
+    "shortHelp": "Auto: +Res(Placate, Confuse, Taunt, Cold, Lethal, Smash) +Def(Melee, Ranged, AoE)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -412,11 +412,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2993048958",
-    "help": "P499669620",
-    "shortHelp": "P429012212",
-    "targetHelp": "P3272411351",
-    "targetShortHelp": "P2103286178",
+    "display": "Vicious Bite",
+    "help": "The beast delivers a quick bite to their target causing Light Lethal damage and Minor Lethal damage over time. Damage: Light, Recharge: Very Fast",
+    "shortHelp": "Melee, Light DMG(Lethal), Foe Minor DoT(Lethal)",
+    "targetHelp": "You're bleeding from the Vicious Bite.",
+    "targetShortHelp": "Minor DoT(Lethal)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -548,8 +548,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -591,8 +591,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -661,9 +661,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1247110959",
-    "help": "P1720205226",
-    "shortHelp": "P3583698820",
+    "display": "Super Leap",
+    "help": "Beasts can super leap!",
+    "shortHelp": "Self Leap",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -993,9 +993,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3586044733",
-    "help": "P1515326513",
-    "shortHelp": "P1291662329",
+    "display": "Wild Charge",
+    "help": "The beast breaks into a sprint that boosts damage dealt for the next few seconds. While Wild Charge is in effect the beast will move much faster than normal and be resistant to slow effects. Recharge: Long",
+    "shortHelp": "Self +DMG, +Speed, +Res(Slow, Immobilize)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1124,7 +1124,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2068452172",
+                "attackerHit": "{PlayerSource} begins a {PowerName} boosting their damage and movement speed.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -1310,11 +1310,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2184461729",
-    "help": "P4160789205",
-    "shortHelp": "P1506893330",
-    "targetHelp": "P2356236683",
-    "targetShortHelp": "P1286666794",
+    "display": "Chilling Howl",
+    "help": "The Dire Wolf lets out a concentrated, but narrow blast of arctic air that chills foes causing Moderate Cold damage and additional lingering Cold damage as well as reducing the target's movement and attack speeds. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Ranged (Narrow Cone), Moderate DMG(Cold), Minor DoT(Cold), -Rech, -Speed, -Fly",
+    "targetHelp": "You're suffering cold damage over time and have your movement and recharge rate reduced slightly.",
+    "targetShortHelp": "Minor DoT(Cold), -Fly, -Rech, -Speed",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1447,8 +1447,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1490,8 +1490,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3556385711",
-                "victimHit": "P658755009",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1669,11 +1669,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2312255126",
-    "help": "P526676836",
-    "shortHelp": "P4104590061",
-    "targetHelp": "P2356236683",
-    "targetShortHelp": "P1286666794",
+    "display": "Freezing Roar",
+    "help": "The Dire Wolf breathes out freezing air in a broad cone in front of it chilling all foes for Moderate Cold damage and lingering Cold Damage over time. Affected foes will also have their movement and attack speeds reduced. Damage: Moderate, Recharge: Long",
+    "shortHelp": "Ranged (Cone), Moderate DMG(Cold), Minor DoT(Cold), -Rech, -Speed, -Fly",
+    "targetHelp": "You're suffering cold damage over time and have your movement and recharge rate reduced slightly.",
+    "targetShortHelp": "Minor DoT(Cold), -Fly, -Rech, -Speed",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1806,8 +1806,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1849,8 +1849,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3556385711",
-                "victimHit": "P658755009",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2028,11 +2028,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P68199730",
-    "help": "P1759894003",
-    "shortHelp": "P3326667845",
-    "targetHelp": "P3272411351",
-    "targetShortHelp": "P2103286178",
+    "display": "Maiming Bite",
+    "help": "The beast lunges and sinks their teeth into the victim before tearing viciously. Maiming Bite causes Moderate Lethal damage and reduces the target's movement speed moderately for a short time. Damage: Moderate, Recharge: Fast",
+    "shortHelp": "Melee, Moderate DMG(Lethal), Foe -Speed, -Def",
+    "targetHelp": "You're bleeding from the Vicious Bite.",
+    "targetShortHelp": "Minor DoT(Lethal)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2166,8 +2166,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2344,9 +2344,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1659836107",
-    "help": "P2396775590",
-    "shortHelp": "P1659836107",
+    "display": "Train Beasts",
+    "help": "Your Dire Wolf has been trained, it can now use Maiming Bite and Chilling Howl.",
+    "shortHelp": "Train Beasts",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2533,9 +2533,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2901772066",
-    "help": "P3151944946",
-    "shortHelp": "P1429329392",
+    "display": "Terrible Howl",
+    "help": "The Dire Wolf is capable of letting out a Terrible Roar that will cause High Cold damage, slow and terrorize all nearby foes for a short time. Recharge: Long",
+    "shortHelp": "PBAoE, High DMG(Cold), Foe Terrorize, Minor DoT(Cold), -Rech, -Speed",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2675,8 +2675,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2764,8 +2764,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2822,8 +2822,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2864,8 +2864,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3556385711",
-                "victimHit": "P658755009",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3043,9 +3043,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3251859872",
-    "help": "P3822456470",
-    "shortHelp": "P2151143074",
+    "display": "Will of the Wild",
+    "help": "When the Dire Wolf is dangerously low on health it will become enraged and suffer significantly less damage for a short time as well as recovering a portion of its health. Once this power wears off it will leave it partially drained of endurance. Recharge: Very Long",
+    "shortHelp": "Self, +Max HP, +Res(Lethal, Smash, Fire, Cold)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -3351,9 +3351,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P594479349",
-    "help": "P3748669899",
-    "shortHelp": "P594479349",
+    "display": "Tame Beasts",
+    "help": "Your Dire Wolf has been tamed it can now use Terrible Howl and Will of the Wild.",
+    "shortHelp": "Tame Beasts",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

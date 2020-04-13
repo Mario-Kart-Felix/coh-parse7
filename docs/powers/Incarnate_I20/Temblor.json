@@ -3,14 +3,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3887291173",
-    "help": "P601667973",
-    "shortHelp": "P1237802494",
+    "display": "Granite Armor",
+    "help": "When you activate this power, you are transformed into a massive bulk of unyielding Granite. Your incredible mass makes you almost completely invulnerable and resistant to most effects. However, you also become quite heavy, cannot fly, your attack and movement speed are Slowed and you do less damage. Granite Armor also grants you high resistance to Defense DeBuffs.Cannot be active at the same time as other Armors in this set, Fly powers, Sprint, Super Speed, or Jump powers. Recharge: Slow",
+    "shortHelp": "Self, +Res(All but Psionics), +DEF(All but Psionics), -SPD, -Recharge, -DMG",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2575653961",
+    "attackerHit": "Your Granite Armor has made you practically invulnerable!",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -571,14 +571,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P265760604",
-    "help": "P1712881187",
-    "shortHelp": "P2993602068",
+    "display": "Earth's Embrace",
+    "help": "You are so connected to the Earth, you can draw upon its power to add to your own health. Activating this power increases your maximum Hit Points, and grants you resistance to Toxic Damage. Recharge: Very Long",
+    "shortHelp": "Self +HP, Res(Toxic)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P1325981346",
+    "attackerHit": "Your {PowerName} has increased your maximum Hit Points.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -867,14 +867,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P832014938",
-    "help": "P2201496496",
-    "shortHelp": "P2362314667",
-    "targetHelp": "P59337628",
-    "targetShortHelp": "P1503949059",
+    "display": "Mud Pots",
+    "help": "While this power is active, you draw upon the geothermal power of the Earth to create a bubbling pool of hot mud around yourself. All foes in melee range will become snared and entrapped in the mud, Immobilizing some and slowing others. The boiling heat from Mud Pots also deals some damage over time to the snared foes. Damage: Minor(DoT), Recharge: Fast",
+    "shortHelp": "Toggle: PBAoE, Minor DoT(Fire), Foe Immobilize, -SPD",
+    "targetHelp": "The Mud Pots are burning you and reducing your Running speed. You may be immobilized, as well.",
+    "targetShortHelp": "DoT(Fire), Immobilize, -SPD",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3184577122",
+    "attackerHit": "Your {PowerName} Slow all nearby foes.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1178,8 +1178,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1083355571",
-                "victimHit": "P3022741469",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1246,9 +1246,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2550309372",
-    "help": "P339426154",
-    "shortHelp": "P2544749673",
+    "display": "Quicksand",
+    "help": "Your Running speed, Jump height and Defense are reduced by the Quicksand.",
+    "shortHelp": "-Speed, -Jump, -Fly, -DEF",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1446,11 +1446,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1247417221",
-    "help": "P2944472620",
-    "shortHelp": "P153652083",
-    "targetHelp": "P1940093302",
-    "targetShortHelp": "P1935306243",
+    "display": "Stone Prison",
+    "help": "Immobilizes a single target within an earthy formation and deals some Smashing damage over time. Some more resilient foes may require multiple attacks to Immobilize. Stone Prison can also reduce a target's Defense. Damage: Moderate(DoT), Recharge: Fast",
+    "shortHelp": "Ranged, Moderate DoT(Smash), Foe Immobilize, -DEF, -Fly",
+    "targetHelp": "You are being crushed by a Stone Prison. You are immobile and cannot fly. Your Defenses are reduced.",
+    "targetShortHelp": "DoT(Smashing), Immobilize, -Fly, -DEF",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1577,8 +1577,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1545979143",
-                "victimHit": "P2876742505",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1620,8 +1620,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1749,8 +1749,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1908,11 +1908,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1486930030",
-    "help": "P831309527",
-    "shortHelp": "P2785664101",
-    "targetHelp": "P2556554454",
-    "targetShortHelp": "P2471844614",
+    "display": "Fossilize",
+    "help": "Encases a single target within solid stone. The stone slowly crushes the victim, dealing Smashing damage. The Fossilized victim is held helpless and unable to defend himself. Damage, Moderate, Recharge: Moderate",
+    "shortHelp": "Ranged, Moderate DMG(Smash), Foe Hold, -DEF",
+    "targetHelp": "You have been Fossilized and are held. Your Defenses are reduced.",
+    "targetShortHelp": "Hold, -DEF",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2039,8 +2039,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2116,8 +2116,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2175,8 +2175,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2334,11 +2334,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4250901496",
-    "help": "P1095291228",
-    "shortHelp": "P1625010446",
-    "targetHelp": "P2366756416",
-    "targetShortHelp": "P2848422893",
+    "display": "Stone Fist",
+    "help": "Your stone covered fists attack swiftly for moderate damage, and may Disorient your opponent. Damage: Moderate, Recharge: Fast",
+    "shortHelp": "Melee Moderate DMG(Smash), Foe Minor Disorient",
+    "targetHelp": "You have been Disoriented.",
+    "targetShortHelp": "Disorient",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2464,8 +2464,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2522,8 +2522,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2592,9 +2592,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3042336983",
-    "help": "P2604819612",
-    "shortHelp": "P3647229724",
+    "display": "Tremor",
+    "help": "You can cause a localized earthquake immediately around you. This will deal moderate damage to every foe in melee range, while knocking them back. Damage: Moderate, Recharge: Slow",
+    "shortHelp": "PBAoE, Moderate DMG(Smash), Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2726,8 +2726,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2785,8 +2785,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2855,11 +2855,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1523181219",
-    "help": "P3767210672",
-    "shortHelp": "P2442703215",
-    "targetHelp": "P2525070448",
-    "targetShortHelp": "P3220742713",
+    "display": "Seismic Smash",
+    "help": "This massive attack hits with all the force of the Earth itself. It deals tremendous amounts of damage, and may Hold the target if they are not defeated outright. Damage: Extreme, Recharge: Slow",
+    "shortHelp": "Melee, Extreme DMG(Smash), Foe Hold",
+    "targetHelp": "You have been immobilized by the crushing earth.",
+    "targetShortHelp": "Hold",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2985,8 +2985,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3027,8 +3027,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }

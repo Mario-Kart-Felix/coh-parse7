@@ -4,9 +4,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3947542499",
-      "help": "P950412167",
-      "shortHelp": "P1751429594",
+      "display": "Absorption",
+      "help": "Kheldians have a natural mild resistance to Energy and Negative Energy damage. This Auto power is always on and costs no Endurance.",
+      "shortHelp": "Auto: Self +Res (Energy,Negative)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -199,9 +199,9 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P1065735556",
-      "help": "P2851402526",
-      "shortHelp": "P2537599147",
+      "display": "Shadow Step",
+      "help": "You can Teleport long distances. Shadow Step has no recharge time, and can be reactivated without pause, as long as you have Endurance.",
+      "shortHelp": "Ranged (Location), Self Teleport",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -512,14 +512,14 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3739561431",
-      "help": "P1446009781",
-      "shortHelp": "P834102750",
+      "display": "Gravity Shield",
+      "help": "When you toggle on Gravity Shield, you become highly resistant to Smashing and Lethal damage, deflecting away such physical attacks. Recharge: Very Fast",
+      "shortHelp": "Toggle: Self +Res(Smash, Lethal)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
       "attackerAttackFloater": "",
-      "attackerHit": "P631656156",
+      "attackerHit": "Your {PowerName} has made you highly resistant to smashing and lethal damage.",
       "victimHit": "",
       "confirm": "",
       "floatRewarded": "",
@@ -846,9 +846,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2429842395",
-      "help": "P447551701",
-      "shortHelp": "P2860844037",
+      "display": "Orbiting Death",
+      "help": "You surround yourself with orbiting particles and dark matter that will continually cause Negative Energy damage to any nearby foes. Damage: Minor(DoT), Recharge: Fast",
+      "shortHelp": "Toggle: PBAoE Minor DoT(Negative)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -985,8 +985,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1461699593",
-                  "victimHit": "P3815778435",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -1088,14 +1088,14 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1378030895",
-      "help": "P2748889156",
-      "shortHelp": "P79251066",
+      "display": "Penumbral Shield",
+      "help": "When you toggle on Penumbral Shield, you become highly resistant to Fire, Cold, and Toxic damage. Recharge: Very Fast",
+      "shortHelp": "Toggle: Self +Res(Fire, Cold, Toxic)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
       "attackerAttackFloater": "",
-      "attackerHit": "P3259787072",
+      "attackerHit": "Your {PowerName} has made you highly resistant to fire, cold and toxic damage.",
       "victimHit": "",
       "confirm": "",
       "floatRewarded": "",
@@ -1463,16 +1463,16 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P3415254202",
-      "help": "P472417842",
-      "shortHelp": "P2036146223",
+      "display": "Shadow Recall",
+      "help": "You can Teleport one of your teammates to yourself. The target must be a teammate or leaguemate and can be selected from the Team Window. You can also rescue a fallen teammate who may be in a hostile location, as long as he is on the same map. Range is not infinite, but extremely long and can be enhanced. This power can be interrupted. Recharge: Fast",
+      "shortHelp": "Zone-Range: Teleport Teammate",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
       "attackerAttackFloater": "",
-      "attackerHit": "P3355628540",
+      "attackerHit": "You Recall {PlayerDest} close to you",
       "victimHit": "",
-      "confirm": "P1594673917",
+      "confirm": "{PlayerSource} would like to Teleport you. Do you Accept?",
       "floatRewarded": "",
       "powerDefenseFloat": "",
       "icon": "UmbralAura_ShadowRecall",
@@ -1703,18 +1703,18 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1233902469",
-      "help": "P732923265",
-      "shortHelp": "P1954811778",
+      "display": "Shadow Cloak",
+      "help": "You surround yourself with shadowy particles that bend the light around you, making you difficult to spot at a distance. You can be seen only at close range, or if you attack a target. Even if seen, the Shadow Cloak grants you a bonus to Defense and some protection from Immobilization. Shadow Cloak also allows you to see things in a new light, allowing you to better see stealthy foes. Unlike some stealth powers, Shadow Cloak has no movement penalty. Shadow Cloak will not work with any other form of Concealment power such as Shadow Fall or Steamy Mist. Recharge: Very Fast",
+      "shortHelp": "Toggle: Self Stealth, +DEF, +Perception, Res (Immobilize)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
       "attackerAttackFloater": "",
-      "attackerHit": "P4234907424",
+      "attackerHit": "You are concealed by your {PowerName}.",
       "victimHit": "",
       "confirm": "",
       "floatRewarded": "",
-      "powerDefenseFloat": "P3802943013",
+      "powerDefenseFloat": "Avoided",
       "icon": "UmbralAura_ShadowCloak.tga",
       "type": "TOGGLE",
       "numAllowed": 1,
@@ -2253,14 +2253,14 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1223241359",
-      "help": "P2645471712",
-      "shortHelp": "P2119377510",
+      "display": "Twilight Shield",
+      "help": "When you toggle on Twilight Shield, you become highly resistant to Energy and Negative Energy damage. Recharge: Very Fast",
+      "shortHelp": "Toggle: Self +Res(Energy, Negative)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
       "attackerAttackFloater": "",
-      "attackerHit": "P1795074363",
+      "attackerHit": "Your {PowerName} has made you highly resistant to energy and negative energy damage.",
       "victimHit": "",
       "confirm": "",
       "floatRewarded": "",
@@ -2587,14 +2587,14 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P508543496",
-      "help": "P3056401558",
-      "shortHelp": "P2162812352",
+      "display": "Black Dwarf",
+      "help": "Kheldians are masters of energy and matter. A Warshade can transform into a massive unstoppable essence draining beast known as a Black Dwarf. When you choose this power, you will have access to 6 other powers that can only be used while in this form. You will not be able to use any other powers while in Black Dwarf form. Black Dwarf has awesome resistance to all damage except Psionics, as well as controlling effects. Black Dwarf also has improved HP and Endurance Recovery, but is limited to melee attacks. Recharge: Very Fast",
+      "shortHelp": "Toggle: Shapeshift, Special",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
       "attackerAttackFloater": "",
-      "attackerHit": "P2107100164",
+      "attackerHit": "You transform into a {PowerName}!",
       "victimHit": "",
       "confirm": "",
       "floatRewarded": "",
@@ -3907,11 +3907,11 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P3973217115",
-      "help": "P591447398",
-      "shortHelp": "P872478083",
-      "targetHelp": "P3843410386",
-      "targetShortHelp": "P3643653994",
+      "display": "Black Dwarf Strike",
+      "help": "The Black Dwarf Strike is a moderate melee attack that releases Nictus Dark Energy on impact, which can Knock Down foes, and slows a targets attack and movement speed. This power is only available while in Black Dwarf Form. Damage: Moderate, Recharge: Very Fast",
+      "shortHelp": "Melee, Moderate DMG(Smash/Negative), Foe -Recharge, -SPD, Knockback",
+      "targetHelp": "Your Attack speed and movement speed have been reduced by the Black Dwarf Strike. You focus your attacks on the Black Dwarf.",
+      "targetShortHelp": "-SPD, -Recharge, Taunt",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -4062,8 +4062,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P119576033",
-                  "victimHit": "P1719855107",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4104,8 +4104,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4167,8 +4167,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P119576033",
-                  "victimHit": "P1719855107",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4209,8 +4209,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4368,8 +4368,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4431,8 +4431,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4627,11 +4627,11 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P2606045213",
-      "help": "P1550236963",
-      "shortHelp": "P900531700",
-      "targetHelp": "P1130044837",
-      "targetShortHelp": "P619923407",
+      "display": "Black Dwarf Smite",
+      "help": "Black Dwarf Smite is powerful melee attack that can often Disorient or Knock Down opponents. Black Dwarf Smite can also bring down fliers, and slows a targets attack and movement speed. This power is only available while in Black Dwarf Form. Damage: Heavy, Recharge: Fast",
+      "shortHelp": "Melee, Heavy DMG(Negative/Smash), Foe -Recharge, -SPD, -Fly, Disorient",
+      "targetHelp": "You have been knocked out of the air and your Attack and movement speeds have been reduced by the Black Dwarf Smite. You focus your attacks on the Black Dwarf.",
+      "targetShortHelp": "-SPD, -Recharge, -Fly, Disorient, Taunt",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -4783,8 +4783,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P119576033",
-                  "victimHit": "P1719855107",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4825,8 +4825,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4888,8 +4888,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P119576033",
-                  "victimHit": "P1719855107",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4930,8 +4930,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4999,8 +4999,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5062,8 +5062,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5250,8 +5250,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P583235414",
-                  "victimHit": "P3613904985",
+                  "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5339,8 +5339,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P583235414",
-                  "victimHit": "P3613904985",
+                  "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5535,11 +5535,11 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P658698346",
-      "help": "P1805307529",
-      "shortHelp": "P3770236974",
-      "targetHelp": "P2769134689",
-      "targetShortHelp": "P3643653994",
+      "display": "Black Dwarf Drain",
+      "help": "You tap the primal forces of your Nictus power to create an Essence Draining conduit between a foe and yourself. This will transfer Hit Points from your enemy to yourself. Foes drained in this manner have their attack and movement speed reduced. This power is only available while in Black Dwarf Form. Damage: Moderate, Recharge: Slow",
+      "shortHelp": "Melee, Moderate DMG(Negative), Foe -Recharge, -SPD; Self +HP",
+      "targetHelp": "Your Attack speed and movement speed have been reduced by the Black Dwarf Drain. You focus your attacks on the Black Dwarf.",
+      "targetShortHelp": "-SPD, -Recharge, Taunt",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -5684,8 +5684,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5742,8 +5742,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P635299126",
-                  "victimHit": "P2555131039",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Heal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Heal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -6012,9 +6012,9 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P1257881243",
-      "help": "P405300893",
-      "shortHelp": "P838151008",
+      "display": "Black Dwarf Mire",
+      "help": "Black Dwarf Mire can drain the essence of all nearby foes, thus increasing your own strength. Each affected foe will lose some Hit Points and add to your Damage and Accuracy. Damage: Moderate, Recharge: Slow",
+      "shortHelp": "PBAoE, Moderate DMG(Negative), Foe -Recharge, -SPD; Self +DMG, +ACC",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -6160,8 +6160,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -6396,9 +6396,9 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P2258620009",
-      "help": "P2755309550",
-      "shortHelp": "P2537599147",
+      "display": "Black Dwarf Step",
+      "help": "Black Dwarfs can Teleport long distances. Black Dwarf Step has no recharge time, and can be reactivated without pause, as long as you have Endurance.",
+      "shortHelp": "Ranged (Location), Self Teleport",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -6714,11 +6714,11 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P3656297460",
-      "help": "P2276168607",
-      "shortHelp": "P45218014",
-      "targetHelp": "P3507812471",
-      "targetShortHelp": "P1980192711",
+      "display": "Black Dwarf Antagonize",
+      "help": "This power attracts the attention of a foe and all those around him. Use this to pull villains off of an ally in trouble. An Accuracy check is required to Taunt enemy players, but is not needed against critter targets. Recharge: Moderate",
+      "shortHelp": "Ranged (Targeted AoE), Foe Taunt",
+      "targetHelp": "You focus your attacks on the Black Dwarf.",
+      "targetShortHelp": "Taunt",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -6863,7 +6863,7 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3213965175",
+                  "attackerHit": "You Provoke {PlayerDest} to attack you.",
                   "victimHit": "",
                   "float": "",
                   "defenseFloat": ""
@@ -7046,8 +7046,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1479558089",
-                  "victimHit": "P2556803736",
+                  "attackerHit": "Your {PowerName} partially hit! {PlayerDest} is not taunted but their range is reduced!",
+                  "victimHit": "{Playersource} partially hits you with their {PowerName}! Your range is reduced but the Taunt is not successful!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7118,9 +7118,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1048529385",
-      "help": "P1463704420",
-      "shortHelp": "P2939871007",
+      "display": "Stygian Circle",
+      "help": "You can tap into your Nictus power to drain the remaining essence of all nearby defeated foes to heal yourself, and recover Endurance. The more defeated foes affected, the more you will be healed. Additionally, the more powerful the defeated foes you drain, the more health you will recover. Recharge: Slow",
+      "shortHelp": "PBAoE Self +HP (Special), +End",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -7386,8 +7386,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P635299126",
-                  "victimHit": "P2555131039",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Heal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Heal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7454,8 +7454,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P635299126",
-                  "victimHit": "P2555131039",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Heal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Heal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7527,8 +7527,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P635299126",
-                  "victimHit": "P2555131039",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Heal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Heal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7595,8 +7595,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P635299126",
-                  "victimHit": "P2555131039",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Heal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Heal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7663,14 +7663,14 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1920156553",
-      "help": "P465479600",
-      "shortHelp": "P2948427046",
-      "targetHelp": "P3552799334",
-      "targetShortHelp": "P409663583",
+      "display": "Nebulous Form",
+      "help": "You can Phase Shift to become out of sync with normal space. Although you do not become completely Invisible, you are translucent and hard to see. You are intangible, and cannot affect or be affected by those in normal space. Even gravity has a weak hold on you. You can jump great distances while in Nebulous Form. However, after 30 seconds the phase out effect will wear off. 30 seconds later, if this power is still active the user will become phased out once again. Cannot be used with Rest. Recharge: Slow",
+      "shortHelp": "Toggle: Self Intangible, +Jump",
+      "targetHelp": "You have phased out of normal space rendering yourself intangible. You cannot be affected by nor can you affect other targets. You also gain a bonus to your jump height.",
+      "targetShortHelp": "Self Intangible, +Jump",
       "attackerAttack": "",
       "attackerAttackFloater": "",
-      "attackerHit": "P1409113320",
+      "attackerHit": "You Phase Shift out of normal space. You are now intangible, are hard to see, and cannot affect or be affected by those in normal space.",
       "victimHit": "",
       "confirm": "",
       "floatRewarded": "",
@@ -8055,8 +8055,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3282672142",
-                  "victimHit": "P1918954866",
+                  "attackerHit": "You Intangibilize {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Intangibilizes you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -8382,9 +8382,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2164615232",
-      "help": "P1519346809",
-      "shortHelp": "P1151462287",
+      "display": "Shadow Slip",
+      "help": "Shadow Slip allows you to teleport very long distances, even across city zones. Activating this power will bring up a menu that allows the user to choose which zone they'll teleport to. Recharge: Very Long",
+      "shortHelp": "Long Range Teleport",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -8779,11 +8779,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3990186459",
-      "help": "P3908464484",
-      "shortHelp": "P4232518503",
-      "targetHelp": "P2366756416",
-      "targetShortHelp": "P2848422893",
+      "display": "Inky Aspect",
+      "help": "Inky Aspect allows you to sacrifice some of your own Hit Points to keep enemies near you Disoriented and unable to use any powers. Endurance cost for this is minimal, but the power can be dangerous to use. Recharge: Moderate",
+      "shortHelp": "PBAoE, Foe Disorient, Self -HP",
+      "targetHelp": "You have been Disoriented.",
+      "targetShortHelp": "Disorient",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -8925,8 +8925,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P583235414",
-                  "victimHit": "P3613904985",
+                  "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -8984,8 +8984,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P943663967",
-                  "victimHit": "P4055702145",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Special damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Special damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -9074,8 +9074,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P583235414",
-                  "victimHit": "P3613904985",
+                  "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -9142,11 +9142,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1297486751",
-      "help": "P3678326758",
-      "shortHelp": "P3228648468",
-      "targetHelp": "P1601124334",
-      "targetShortHelp": "P2862738113",
+      "display": "Stygian Return",
+      "help": "Should you fall in battle, your Stygian Return can drain the life force of all foes around you to bring yourself back from the brink of death. The more foes nearby, the more Ht Points and Endurance are restored to you. Stygian Return will actually leave you invulnerable for a brief time, and protected from XP Debt for 90 seconds. There must be at least one foe nearby to fuel the Transfer and revive yourself. Damage: Moderate, Recharge: Very Long",
+      "shortHelp": "Self Rez, Special",
+      "targetHelp": "You have stolen the essence of your enemies to revive yourself. You are untouchable for 10 seconds and are protected from XP Debt for 20 seconds.",
+      "targetShortHelp": "Invulnerable, +XP Debt Protection",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -9282,8 +9282,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -9324,8 +9324,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P755481548",
-                  "victimHit": "P3653129634",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Heal damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Heal damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -9369,7 +9369,7 @@
                 {
                   "attackerHit": "",
                   "victimHit": "",
-                  "float": "P2901365799",
+                  "float": "Untouchable",
                   "defenseFloat": ""
                 }
               ],
@@ -9446,8 +9446,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P4257051740",
-                  "victimHit": "P2588894681",
+                  "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -9550,9 +9550,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1927810339",
-      "help": "P1710713812",
-      "shortHelp": "P1895773880",
+      "display": "Eclipse",
+      "help": "The dark Nictus power allows you to tap the essence of your foe's soul and transfer it to yourself. This will drain the Endurance of all nearby enemies and add to your own. It will also increase your resistance to all damage. The more foes affected, the more Endurance and Damage Resistance you will gain. Affected foes are unable to recover Endurance for a short while. Recharge: Very Long",
+      "shortHelp": "Melee (AoE), Foe -END, - Recovery; Self +End, + Res (All DMG)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -9689,8 +9689,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1794566065",
-                  "victimHit": "P3739022570",
+                  "attackerHit": "Your {PowerName} drains {PlayerDest}'s Endurance!",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} and drains some of your Endurance!",
                   "float": "",
                   "defenseFloat": ""
                 }

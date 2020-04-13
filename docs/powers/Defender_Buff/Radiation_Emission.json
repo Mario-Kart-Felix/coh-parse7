@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3533172966",
-    "help": "P972381749",
-    "shortHelp": "P336745852",
+    "display": "Radiant Aura",
+    "help": "You can use Radiant Aura to heal some of your wounds, and the wounds of your group. This power has a small radius, so your allies need to be near you if they wish to be affected. Recharge: Moderate",
+    "shortHelp": "PBAoE, Ally +Heal",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -138,8 +138,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1645239844",
-                "victimHit": "P4291132995",
+                "attackerHit": "You heal {PlayerDest} {Damage} points of damage.",
+                "victimHit": "{PlayerSource} heals you for {Damage} points of damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -206,15 +206,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3091774412",
-    "help": "P3488173255",
-    "shortHelp": "P1946311240",
-    "targetHelp": "P4112896100",
-    "targetShortHelp": "P2125517953",
+    "display": "Radiation Infection",
+    "help": "Infects a targeted foe with deadly radiation, severely reducing their chance to hit and Defense. All foes that come near the target will also become infected. The Radiation Infection will last until you deactivate it, or until the original target is defeated. Recharge: Moderate",
+    "shortHelp": "Toggle: Ranged (Targeted AoE), Foe -DEF, -To Hit",
+    "targetHelp": "The Radiation Infection has reduced your Defense and chance to hit.",
+    "targetShortHelp": "-DEF, -To Hit",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2574572377",
-    "victimHit": "P3177972463",
+    "attackerHit": "Your {PowerName} weakens all nearby foes.",
+    "victimHit": "You have been weakened by a {PowerName} from {PlayerSource}, decreasing your chance to hit and defense!",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -440,15 +440,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P275167913",
-    "help": "P1318712485",
-    "shortHelp": "P97385079",
-    "targetHelp": "P2470092775",
-    "targetShortHelp": "P2942153168",
+    "display": "Accelerate Metabolism",
+    "help": "Activating this power emits radiation that increases the running speed, attack speed, Endurance recovery, and damage potential of all nearby allies. Affected heroes' metabolisms are increased so much that they become resistant to effects such as Sleep, Hold, Disorient, Immobilization and Endurance Drain. Recharge: Very Long",
+    "shortHelp": "PBAoE, Ally +SPD, +Recharge, +Recovery, +DMG +Res(Effects)",
+    "targetHelp": "Your metabolism has been boosted. Your movement speed and attack rate are improved. Your damage and Endurance recovery are increased as well. Lastly, you are resistant to Sleep, Mez, Disorient, Immobilization and Endurance Drain.",
+    "targetShortHelp": "+SPD, +Recharge, +Recovery, +Dam, +Res(Effects)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P1550301107",
-    "victimHit": "P3547230991",
+    "attackerHit": "You begin to accelerate your metabolism, and the metabolism of all nearby allies.",
+    "victimHit": "{PlayerSource} boosts your damage, speed, recharge, recovery and resistance to status effects with {PowerName}.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -847,15 +847,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1082274496",
-    "help": "P3740945099",
-    "shortHelp": "P2214322243",
-    "targetHelp": "P3774123069",
-    "targetShortHelp": "P3022714566",
+    "display": "Enervating Field",
+    "help": "While this power is active, you irradiate a targeted foe, and all foes nearby, with a deadly dose of radiation. This radiation weakens exposed targets, decreasing the damage of their attacks. It also significantly weakens their resistance, so they will take much more damage from other attacks. Recharge: Moderate",
+    "shortHelp": "Toggle: Ranged (Targeted AoE), Foe -DMG, -Res",
+    "targetHelp": "Your Damage potential and Resistances have been reduced.",
+    "targetShortHelp": "-DMG, -Res",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2100668018",
-    "victimHit": "P1913293537",
+    "attackerHit": "Your {PowerName} reduced the damage potential of all nearby foes.",
+    "victimHit": "{PlayerSource} reduced your damage and resistance to damage with an {PowerName}!",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -1095,16 +1095,16 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3057588896",
-    "help": "P221070614",
-    "shortHelp": "P2944072660",
-    "targetHelp": "P4243034196",
-    "targetShortHelp": "P1832549363",
+    "display": "Mutation",
+    "help": "Using a concentrated burst of radiation, you can revive a fallen hero and Mutate them into a killing machine. The Mutated hero has increased damage, chance to hit, Endurance recovery, and attack speed and is protected from XP Debt fort 90 seconds. The entire experience is very taxing on the Mutated hero, and they will soon be severely weakened. All effects of the Mutation will eventually wear off. Recharge: Very Long",
+    "shortHelp": "Close, Ally Rez, Special",
+    "targetHelp": "Your have been mutated. Your chance to hit and attack rate are improved. Your damage and Endurance recovery are increased as well. You are also protected from XP Debt for 90 seconds. The experience is taxing however, and you will soon weaken when all of the effects of this mutation wear off.",
+    "targetShortHelp": "Mutated",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
     "victimHit": "",
-    "confirm": "P2790445096",
+    "confirm": "{PlayerSource} would like to Resurrect and Mutate you. You will have full Health and Endurance and be extremely powerful for a while, but will weaken after 90 seconds. Do you Accept?",
     "floatRewarded": "",
     "powerDefenseFloat": "",
     "icon": "RadiationPoisoning_Mutation.tga",
@@ -1229,8 +1229,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P610729340",
-                "victimHit": "P2029379553",
+                "attackerHit": "You heal {PlayerDest} with {PowerName} for {Damage} points of damage over time.",
+                "victimHit": "{PlayerSource} heals you with their {PowerName} for {Damage} points of damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1458,7 +1458,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P3161843313",
+                "victimHit": "Your accelerated Mutation has worn off, and you are now weakened.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1640,15 +1640,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3321233827",
-    "help": "P1417733947",
-    "shortHelp": "P4020505167",
-    "targetHelp": "P3611700118",
-    "targetShortHelp": "P319543156",
+    "display": "Lingering Radiation",
+    "help": "You can emit Lingering Radiation that reduces the attack rate, movement speed, and Regeneration rate of the target, and all nearby foes. Recharge: Slow",
+    "shortHelp": "Ranged (Targeted AoE), Foe -Speed, -Recharge, -Regen",
+    "targetHelp": "Your Attack rate, Running speed, and Regeneration rate have been reduced by the Lingering Radiation.",
+    "targetShortHelp": "-SPD, -Recharge, -Regen",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3060559231",
-    "victimHit": "P2645330428",
+    "attackerHit": "Your {PowerName} Slows all nearby foes.",
+    "victimHit": "{PlayerSource} slows your attack speed, movement rate and regeneration rate with their {PowerName}",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -2028,11 +2028,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2196045966",
-    "help": "P2718652843",
-    "shortHelp": "P1228973208",
-    "targetHelp": "P835496752",
-    "targetShortHelp": "P3220742713",
+    "display": "Choking Cloud",
+    "help": "While active, you generate toxic radioactive gas around yourself. Any nearby foes may be overcome by the gas, leaving them choking and helpless. Recharge: Long",
+    "shortHelp": "Toggle: PBAoE, Foe Hold",
+    "targetHelp": "You are caught in a Choking Cloud.",
+    "targetShortHelp": "Hold",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2169,8 +2169,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2232,8 +2232,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2321,8 +2321,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2389,9 +2389,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P310781374",
-    "help": "P3389218973",
-    "shortHelp": "P783614258",
+    "display": "Fallout",
+    "help": "After an ally falls in battle, you can activate this power to extract the energy from their body to deal a massive amount of Energy damage to any nearby foes. All affected foes are extremely weakened by the Fallout, and their chance to hit, Defense, Damage and Damage Resistance is severely reduced. Damage: Extreme, Recharge: Very Long",
+    "shortHelp": "Post-Defeat: PBAoE, Extreme DMG(Energy), Foe -To Hit, -DEF, -DMG, -Res(All)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2528,8 +2528,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2158078059",
-                "victimHit": "P2416771117",
+                "attackerHit": "You use the energy of {PlayerDest} to unleash a massive {PowerName}!",
+                "victimHit": "{PlayerSource} uses your energy to unleash a massive {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2640,11 +2640,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P987369644",
-    "help": "P1862265700",
-    "shortHelp": "P3111590990",
-    "targetHelp": "P3632529316",
-    "targetShortHelp": "P799513638",
+    "display": "EM Pulse",
+    "help": "You can unleash a massive pulse of electromagnetic energy. This EMP can affect machines, and is even powerful enough to affect synaptic brain patterns. It will drain the Endurance and HP Regeneration of all affected targets and leave them incapacitated and Held for a long while. Additionally, most machines and robots will take moderate high damage. However, this power uses a lot of Endurance and leaves you unable to recover Endurance for a while. Recharge: Very Long",
+    "shortHelp": "PBAoE, Foe Hold, -END, -Regen, Special vs. Robots; Self -Recovery",
+    "targetHelp": "You are Held by the EMP Pulse and your Regeneration Rate is reduced.",
+    "targetShortHelp": "Hold, -Regen",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2784,8 +2784,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2826,8 +2826,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1102804825",
-                "victimHit": "P456748222",
+                "attackerHit": "Your {PowerName} drains {PlayerDest} of some Endurance.",
+                "victimHit": "{PlayerSource} shocks you with their {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2869,8 +2869,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3216666060",
-                "victimHit": "P1491019888",
+                "attackerHit": "Your {PowerName} reduces the regeneration rate of {PlayerDest}!",
+                "victimHit": "{PlayerSource} reduces your regeneration rate with an {PowerName}",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2933,8 +2933,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3023,8 +3023,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3065,8 +3065,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1102804825",
-                "victimHit": "P456748222",
+                "attackerHit": "Your {PowerName} drains {PlayerDest} of some Endurance.",
+                "victimHit": "{PlayerSource} shocks you with their {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3108,8 +3108,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3216666060",
-                "victimHit": "P1491019888",
+                "attackerHit": "Your {PowerName} reduces the regeneration rate of {PlayerDest}!",
+                "victimHit": "{PlayerSource} reduces your regeneration rate with an {PowerName}",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3169,8 +3169,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3228,7 +3228,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2665432657",
+                "attackerHit": "Your {PowerName} has left you exhausted!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""

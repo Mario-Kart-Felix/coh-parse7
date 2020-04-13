@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1574051147",
-    "help": "P1989695603",
-    "shortHelp": "P3102457097",
-    "targetHelp": "P2933561752",
-    "targetShortHelp": "P1722645486",
+    "display": "Ice Blast",
+    "help": "Ice Blast hurls shards of ice at foes and Slows their attacks and movement for a time. Slower recharge than Ice Bolt, but more damage. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Ranged, Moderate DMG(Cold/Smash), Foe -Recharge, -SPD",
+    "targetHelp": "Your Attack rate and Running speed are reduced.",
+    "targetShortHelp": "-Recharge, -SPD",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -154,8 +154,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -196,8 +196,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -259,8 +259,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -301,8 +301,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -353,7 +353,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -392,8 +392,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -441,7 +441,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -480,8 +480,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -638,14 +638,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1870821033",
-    "help": "P4045475606",
-    "shortHelp": "P2940947448",
+    "display": "Hibernate",
+    "help": "When you activate this power, you encase yourself in a block of solid ice, making yourself invulnerable, though you are frozen solid and cannot act. While Hibernating within this block of ice, you heal damage and recover endurance at an incredible rate. You can emerge at will by deactivating the power, but you cannot Hibernate for more than 30 seconds. If you activate this power while in the air, you will fall. Recharge: Long",
+    "shortHelp": "Toggle: Self +Regeneration, +Recovery, Invulnerable; Self Hold",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2677645364",
+    "attackerHit": "You Hibernate in a block of ice, and are almost completely invulnerable while you heal at an astonishing rate.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1029,14 +1029,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3142488911",
-    "help": "P476041688",
-    "shortHelp": "P1519366478",
+    "display": "Frozen Armor",
+    "help": "While this power is active, you coat yourself in rock hard Frozen Armor. The hardness of the Frozen Armor offers good defense to Smashing and Lethal attack as well as reduces Cold damage. Also, Fire attacks deal slightly less damage. You must be level 41 and have Ice Blast or Hibernate before selecting this power. Recharge: Very Fast",
+    "shortHelp": "Toggle: Self +Def(Smash, Lethal), +Res(Cold, Fire)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P484090270",
+    "attackerHit": "You are now more defensive to smashing and lethal attacks.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1488,11 +1488,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2163593760",
-    "help": "P2558706424",
-    "shortHelp": "P4220714299",
-    "targetHelp": "P8249571",
-    "targetShortHelp": "P2155113270",
+    "display": "Frost Breath",
+    "help": "Unleashes a cone of frosty breath that can Slow your opponents' movement and attacks. Very accurate and very deadly at medium range. You must have two other Ice Mastery power to select this power. You must be level 41 and have Ice Blast or Hibernate before selecting this power. Damage: Moderate(DoT), Recharge: Slow",
+    "shortHelp": "Close (Cone), Moderate DoT(Cold), Foe -Recharge, -SPD",
+    "targetHelp": "You are freezing. Your Attack rate and Running speed are reduced by the Frost Breath.",
+    "targetShortHelp": "DoT(Cold), -Recharge, -SPD",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1638,8 +1638,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3556385711",
-                "victimHit": "P658755009",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1690,7 +1690,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -1729,8 +1729,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3556385711",
-                "victimHit": "P658755009",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1792,8 +1792,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3556385711",
-                "victimHit": "P658755009",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1841,7 +1841,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -1880,8 +1880,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3556385711",
-                "victimHit": "P658755009",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2038,11 +2038,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3792791682",
-    "help": "P3187478429",
-    "shortHelp": "P899722639",
-    "targetHelp": "P2933561752",
-    "targetShortHelp": "P1722645486",
+    "display": "Ice Storm",
+    "help": "Shred your foes with this Ice Storm. This power deals a lot of damage in a large area and can Slow all affected targets movement and attack speed. You must be level 44 and have two other Ice Mastery Powers before selecting this power. Damage: Minor(DoT), Recharge: Long",
+    "shortHelp": "Ranged (Location AoE), Minor DoT(Cold), Foe -Recharge, -SPD",
+    "targetHelp": "Your Attack rate and Running speed are reduced.",
+    "targetShortHelp": "-Recharge, -SPD",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",

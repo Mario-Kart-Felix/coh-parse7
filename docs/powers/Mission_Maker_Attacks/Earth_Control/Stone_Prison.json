@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P1247417221",
-  "help": "P2944472620",
-  "shortHelp": "P153652083",
-  "targetHelp": "P1940093302",
-  "targetShortHelp": "P1935306243",
+  "display": "Stone Prison",
+  "help": "Immobilizes a single target within an earthy formation and deals some Smashing damage over time. Some more resilient foes may require multiple attacks to Immobilize. Stone Prison can also reduce a target's Defense. Damage: Moderate(DoT), Recharge: Fast",
+  "shortHelp": "Ranged, Moderate DoT(Smash), Foe Immobilize, -DEF, -Fly",
+  "targetHelp": "You are being crushed by a Stone Prison. You are immobile and cannot fly. Your Defenses are reduced.",
+  "targetShortHelp": "DoT(Smashing), Immobilize, -Fly, -DEF",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -133,8 +133,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1545979143",
-              "victimHit": "P2876742505",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -176,8 +176,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4257051740",
-              "victimHit": "P2588894681",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -380,9 +380,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2458169698",
-              "victimHit": "P690160208",
-              "float": "P2144434522",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName} [OVERPOWER].",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName} [OVERPOWER].",
+              "float": "Overpower",
               "defenseFloat": ""
             }
           ],

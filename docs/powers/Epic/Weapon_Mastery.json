@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3189667928",
-    "help": "P153366950",
-    "shortHelp": "P1642214998",
-    "targetHelp": "P874279021",
-    "targetShortHelp": "P715538108",
+    "display": "Web Grenade",
+    "help": "Upon impact, the Web Grenade expels a strong, tenuous, and very sticky substance that can Immobilize most targets. This non-lethal device deals no damage and does not prevent targets from attacking, although their attack rate is Slowed. The Web can bring down flying entities and halts jumping. Recharge: Fast",
+    "shortHelp": "Ranged, Target Immobilize, -Recharge, -Fly",
+    "targetHelp": "The Web Grenade is holding you in place and reducing your Accuracy.",
+    "targetShortHelp": "Immobilize, -Recharge, -Fly",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -152,8 +152,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -241,8 +241,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -541,11 +541,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4162546018",
-    "help": "P1505439020",
-    "shortHelp": "P3697396555",
-    "targetHelp": "P1293295007",
-    "targetShortHelp": "P1637966331",
+    "display": "Caltrops",
+    "help": "You toss a handful of Caltrops at a targeted location and spread the tiny metal spikes over a large area. Any villains that pass over the Caltrops will be forced to move at a slower rate. They will also take some trivial Lethal damage over time. Damage: Minor(DoT), Recharge: Slow",
+    "shortHelp": "Ranged (Location AoE), Minor DoT(Lethal), Foe -Speed",
+    "targetHelp": "The Caltrops are damaging your feet. Your Running speed is reduced as a result.",
+    "targetShortHelp": "DoT(Lethal), -SPD",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -754,9 +754,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1845709286",
-    "help": "P1521102321",
-    "shortHelp": "P1884795216",
+    "display": "Shuriken",
+    "help": "A classic small throwing weapon, you can throw Shurikens at a pretty fast rate of fire. You must be level 41 and have Web Grenade or Caltrops before selecting this power. Damage: Minor, Recharge: Fast",
+    "shortHelp": "Ranged, Minor DMG(Lethal)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -903,8 +903,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -932,7 +932,7 @@
           "eq",
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "==",
           "&&"
         ],
@@ -971,9 +971,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1034,8 +1034,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1078,7 +1078,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "==",
           "&&"
         ],
@@ -1117,9 +1117,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1167,7 +1167,7 @@
           "!",
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "==",
           "&&"
         ],
@@ -1206,9 +1206,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1274,14 +1274,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P265520239",
-    "help": "P806526052",
-    "shortHelp": "P2378869502",
+    "display": "Targeting Drone",
+    "help": "When this device is activated, the small Targeting Drone hovers around your head and emits targeting laser sights. The lasers can dramatically improve your chance to hit and increase your perception, allowing you to better see stealthy foes. Targeting Drone also grants you resistance to powers that debuff your chance to hit. This is a toggle power and must be activated and deactivated manually. Like all toggle powers, Targeting Drone costs endurance while active. You must be level 41 and have Web Grenade or Caltrops before selecting this power. Recharge: Slow",
+    "shortHelp": "Toggle: Self +To Hit, +ACC, +Perception, Res(DeBuff To Hit)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2534745051",
+    "attackerHit": "Your {PowerName} increases your accuracy.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1643,9 +1643,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2060741548",
-    "help": "P1936490605",
-    "shortHelp": "P735711430",
+    "display": "Exploding Shuriken",
+    "help": "This small throwing star is rigged to explode on impact. You must be level 44 and have two other Weapon Mastery Powers before selecting this power. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Ranged (Targeted AoE), Moderate DMG(Lethal)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1812,8 +1812,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1841,7 +1841,7 @@
           "eq",
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "==",
           "&&"
         ],
@@ -1880,9 +1880,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1943,8 +1943,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1987,7 +1987,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "==",
           "&&"
         ],
@@ -2026,9 +2026,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -2076,7 +2076,7 @@
           "!",
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "==",
           "&&"
         ],
@@ -2115,9 +2115,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],

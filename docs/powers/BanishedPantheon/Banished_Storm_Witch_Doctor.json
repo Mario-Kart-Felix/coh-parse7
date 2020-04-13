@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2072098604",
-    "help": "P1452379753",
-    "shortHelp": "P3159627674",
-    "targetHelp": "P1452379753",
-    "targetShortHelp": "P3159627674",
+    "display": "Knife",
+    "help": "Basic stabbing and cutting blade.",
+    "shortHelp": "Melee Lethal, Low Dam",
+    "targetHelp": "Basic stabbing and cutting blade.",
+    "targetShortHelp": "Melee Lethal, Low Dam",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -133,8 +133,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -201,11 +201,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3304416267",
-    "help": "P1359730876",
-    "shortHelp": "P1397128752",
-    "targetHelp": "P1359730876",
-    "targetShortHelp": "P1397128752",
+    "display": "Thunder Clap",
+    "help": "The Witch Doctor's Thunder Clap has left your Disoriented.",
+    "shortHelp": "Stun",
+    "targetHelp": "The Witch Doctor's Thunder Clap has left your Disoriented.",
+    "targetShortHelp": "Stun",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -331,8 +331,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -399,11 +399,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P406048882",
-    "help": "P1937748797",
-    "shortHelp": "P2642434242",
-    "targetHelp": "P1937748797",
-    "targetShortHelp": "P2642434242",
+    "display": "Charged Bolts",
+    "help": "The Clockwork can quickly hurl small bolts of electricity at foes. Charged Bolts deals light damage and also drains some Endurance.",
+    "shortHelp": "Ranged Energy, -End",
+    "targetHelp": "The Clockwork can quickly hurl small bolts of electricity at foes. Charged Bolts deals light damage and also drains some Endurance.",
+    "targetShortHelp": "Ranged Energy, -End",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -529,8 +529,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -572,7 +572,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P1318363829",
+                "victimHit": "{PlayerSource} shocks you with his {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -639,11 +639,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1760327861",
-    "help": "P2334564066",
-    "shortHelp": "P3532911029",
-    "targetHelp": "P2334564066",
-    "targetShortHelp": "P3532911029",
+    "display": "Hurricane",
+    "help": "The Witch Doctor's Hurricane has reduced your Range and Accuracy.",
+    "shortHelp": "-Range, -ACC",
+    "targetHelp": "The Witch Doctor's Hurricane has reduced your Range and Accuracy.",
+    "targetShortHelp": "-Range, -ACC",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -737,21 +737,21 @@
         "requires": [
           "arch",
           "target>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq",
           "arch",
           "target>",
-          "Class_Tanker",
-          "eq",
-          "||",
-          "arch",
-          "target>",
-          "Class_Stalker",
+          "Tanker",
           "eq",
           "||",
           "arch",
           "target>",
-          "Class_Brute",
+          "Stalker",
+          "eq",
+          "||",
+          "arch",
+          "target>",
+          "Brute",
           "eq",
           "||",
           "!"
@@ -894,8 +894,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -962,11 +962,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P741247010",
-    "help": "P335189892",
-    "shortHelp": "P1564690285",
-    "targetHelp": "P335189892",
-    "targetShortHelp": "P1564690285",
+    "display": "Lightning Storm",
+    "help": "The Witch Doctor can summon a massive Lightning Storm overhead that will strike any foe that approaches the Witch Doctor. Lightning Bolts from this storm can knock down and damage all foes near the strike, and can cause panic. Lightning Bolts will continue to strike for the lifetime of the storm.",
+    "shortHelp": "Summon Lightning Storm",
+    "targetHelp": "The Witch Doctor can summon a massive Lightning Storm overhead that will strike any foe that approaches the Witch Doctor. Lightning Bolts from this storm can knock down and damage all foes near the strike, and can cause panic. Lightning Bolts will continue to strike for the lifetime of the storm.",
+    "targetShortHelp": "Summon Lightning Storm",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",

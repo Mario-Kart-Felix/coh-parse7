@@ -2,15 +2,15 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P4175715938",
-  "help": "P1448353643",
-  "shortHelp": "P45218014",
-  "targetHelp": "P4173113734",
-  "targetShortHelp": "P1980192711",
+  "display": "Dragon's Roar",
+  "help": "Taunt foes to attack you. Useful to pull enemies off allies and keep them attacking you to raise your Fury. A To Hit check is required to Taunt enemy players, but is not needed against critter targets. Recharge: Moderate",
+  "shortHelp": "Ranged (Targeted AoE), Foe Taunt",
+  "targetHelp": "You have been Taunted.",
+  "targetShortHelp": "Taunt",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
-  "victimHit": "P1469662144",
+  "victimHit": "{PlayerSource} Taunts you!",
   "confirm": "",
   "floatRewarded": "",
   "powerDefenseFloat": "",
@@ -195,7 +195,7 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3752458412",
+              "attackerHit": "You Taunt {PlayerDest} to attack you.",
               "victimHit": "",
               "float": "",
               "defenseFloat": ""
@@ -264,8 +264,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P583975673",
-              "victimHit": "P3669502634",
+              "attackerHit": "Your {PowerName} hit, and you Taunt {PlayerDest} to attack you.",
+              "victimHit": "{Playersource} hit you with their {Powername}. You have been Taunted!",
               "float": "",
               "defenseFloat": ""
             }
@@ -333,8 +333,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1479558089",
-              "victimHit": "P4215765545",
+              "attackerHit": "Your {PowerName} partially hit! {PlayerDest} is not taunted but their range is reduced!",
+              "victimHit": "{Playersource} partially hits you with their Taunt! Your range is reduced but the Taunt is not successful!",
               "float": "",
               "defenseFloat": ""
             }

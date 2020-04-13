@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2292978182",
-    "help": "P915789469",
-    "shortHelp": "P2707916763",
-    "targetHelp": "P3199664469",
-    "targetShortHelp": "P3214140212",
+    "display": "Mental Blast",
+    "help": "This basic attack does moderate Psionic damage, and can slightly reduce a target's attack speed. Damage: Moderate, Recharge: Fast",
+    "shortHelp": "Ranged, Moderate DMG(Psionic), Target -Recharge",
+    "targetHelp": "The Mental Blast has slowed your Attack rate.",
+    "targetShortHelp": "-Recharge",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -133,8 +133,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -237,9 +237,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3627278130",
-    "help": "P3857782861",
-    "shortHelp": "P1254867148",
+    "display": "Build Up",
+    "help": "Greatly increases the amount of damage you deal for a few seconds, as well as slightly increasing your chance to hit. Note: If you select this power, you may not also select Follow Up. Recharge: Long",
+    "shortHelp": "Self +DMG, +To Hit",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -369,7 +369,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1761228578",
+                "attackerHit": "You tap into your inner strength with your {PowerName} and are more accurate and more deadly for a short while.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -480,15 +480,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P810634828",
-    "help": "P3871196796",
-    "shortHelp": "P1118005641",
-    "targetHelp": "P1010802951",
-    "targetShortHelp": "P2217246121",
+    "display": "Smoke Grenade",
+    "help": "The Smoke Grenade envelops all those in the affected area in a cloud of smoke. Most villains will not be able to see past normal melee range, although some may have better perception. If the villains are attacked, they will be alerted to your presence, but will suffer a penalty to their chance to hit. Recharge: Slow",
+    "shortHelp": "Ranged (Target AoE), Foe -Perception, -To Hit",
+    "targetHelp": "Your visual range and chance to hit have been reduced by the Smoke Grenade.",
+    "targetShortHelp": "-Perception, -To Hit",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3070891156",
-    "victimHit": "P503998744",
+    "attackerHit": "Your {PowerName} hits {PlayerDest} slightly reducing their chance to hit and dramatically reducing their perception!",
+    "victimHit": "{PlayerSource} hits you with a {PowerName} slightly decreasing your chance to hit and dramatically reducing your perception!",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -709,11 +709,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3322898677",
-    "help": "P3913017569",
-    "shortHelp": "P3662060797",
-    "targetHelp": "P2034057112",
-    "targetShortHelp": "P460077861",
+    "display": "Slash",
+    "help": "Slash does extreme lethal damage to your foe, then poisons them. The poison does toxic damage over time and slows their recovery rate and movement speed. NOTE: This power will deal critical damage if used after a successful Placate or while the user is hidden with the Night Widow or Fortunata Mask Presence power. Damage: Extreme Recharge: Slow",
+    "shortHelp": "Extreme DMG (Lethal), DoT(Toxic), -Recharge, -SPD",
+    "targetHelp": "You are poisoned! Your Attack speed and Running speed are reduced.",
+    "targetShortHelp": "DoT(Toxic), -Recharge, -SPD",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -839,8 +839,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -956,8 +956,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1019,9 +1019,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1089,11 +1089,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P731777543",
-    "help": "P1821745195",
-    "shortHelp": "P1435836796",
-    "targetHelp": "P2034057112",
-    "targetShortHelp": "P460077861",
+    "display": "Eviscerate",
+    "help": "Eviscerate does superior lethal damage to your foe, then poisons them. The poison does toxic damage over time and slows their recovery rate and movement speed. NOTE: This power may deal critical damage if used after a successful Placate or while the user is hidden with the Night Widow or Fortunata Mask Presence power. Damage: Superior Recharge: Very Slow",
+    "shortHelp": "Superior DMG (Lethal), DoT(Toxic), -Recharge, -SPD",
+    "targetHelp": "You are poisoned! Your Attack speed and Running speed are reduced.",
+    "targetShortHelp": "DoT(Toxic), -Recharge, -SPD",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1219,8 +1219,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1336,8 +1336,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1399,9 +1399,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1469,11 +1469,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3056948712",
-    "help": "P3095381109",
-    "shortHelp": "P301762502",
-    "targetHelp": "P3982417829",
-    "targetShortHelp": "P3214140212",
+    "display": "Psychic Scream",
+    "help": "This howl of Psionic energy resonates in the minds of all foes within its conical area of effect, inflicting moderate damage. Damage: Moderate, Recharge: Slow",
+    "shortHelp": "Ranged (Cone), Moderate DMG(Psionic), Foe -Recharge",
+    "targetHelp": "The Psychic Scream has reduced your Attack rate.",
+    "targetShortHelp": "-Recharge",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1599,8 +1599,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }

@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3056353429",
-  "help": "P2233916772",
-  "shortHelp": "P3103639522",
-  "targetHelp": "P1765857107",
-  "targetShortHelp": "P1805940059",
+  "display": "Agile Cross",
+  "help": "You execute a sweeping right hook that can strike multiple targets in your frontal arc. This attack will cause smashing damage. The force of the attack causes trauma, which causes minor lethal damage and reduced regeneration and recovery rates.",
+  "shortHelp": "Melee (Cone), High DMG (Smashing), Minor DoT (Toxic), Chance for -Regen(Foe), -Rec(Foe)",
+  "targetHelp": "You are affected by trauma and are suffering internal bleeding. Your regeneration and recovery are reduced.",
+  "targetShortHelp": "DoT(Lethal), -Regen, -Rec",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -132,8 +132,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -174,8 +174,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3137354887",
-              "victimHit": "P130826600",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -216,8 +216,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4250172858",
-              "victimHit": "P1470793739",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -283,7 +283,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P2866546577",
+              "victimHit": "Your regeneration and recovery are reduced by {PlayerSource}'s {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }

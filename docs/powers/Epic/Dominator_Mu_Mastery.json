@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2664724052",
-    "help": "P2353135322",
-    "shortHelp": "P3080198159",
+    "display": "Power Sink",
+    "help": "Power Sink leeches energy directly from the bodies of all nearby foes, draining their Endurance. Each foe you draw energy from increases your Endurance. If there are no foes within range, you will not gain any Endurance. Recharge: Long",
+    "shortHelp": "PBAoE, Self +End, Foe -End",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -167,7 +167,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2636688992",
+                "attackerHit": "{PowerName} steals some Endurance from {PlayerDest}.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -230,7 +230,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2636688992",
+                "attackerHit": "{PowerName} steals some Endurance from {PlayerDest}.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -340,7 +340,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P3264726269",
+                "victimHit": "Your {PowerName} increases your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -407,14 +407,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P571716827",
-    "help": "P4270215962",
-    "shortHelp": "P3265949263",
+    "display": "Charged Armor",
+    "help": "When you toggle on this power, you are surrounded in a charged field that makes you highly resistant to Smashing, Lethal and Energy damage. Recharge: Fast",
+    "shortHelp": "Toggle: Self +Res(Smash, Lethal, Energy)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P782710974",
+    "attackerHit": "Your {PowerName} has made you highly resistant to smashing, lethal and energy damage.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -696,11 +696,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2138267515",
-    "help": "P3980616319",
-    "shortHelp": "P256474272",
-    "targetHelp": "P2467806480",
-    "targetShortHelp": "P1831456333",
+    "display": "Ball Lightning",
+    "help": "Hurls a highly charged ball of Mu lightning that explodes on contact. Ball Lightning deals good damage in an area of effect, and drains some Endurance from each target it hits. You must be level 41 and have Power Sink or Charged Armor before selecting this power. Damage: Moderate(DoT), Recharge: Long",
+    "shortHelp": "Ranged (Targeted AoE), Moderate DoT(Energy), Foe -End",
+    "targetHelp": "The Ball Lightning is continuing to electrocute you.",
+    "targetShortHelp": "DoT(Energy)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -858,8 +858,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -900,8 +900,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -998,8 +998,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1040,8 +1040,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1178,7 +1178,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -1217,8 +1217,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1266,7 +1266,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -1305,8 +1305,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1373,9 +1373,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1673764374",
-    "help": "P1814740612",
-    "shortHelp": "P483656561",
+    "display": "Surge of Power",
+    "help": "When you activate this power, you transform your body into living Electricity and become extremely resistant to all damage but Psionics, and your endurance recovery is also increased. Expending all this energy will leave you exhausted, drained of all your endurance and unable to recover endurance for a short time. You must be level 41 and have Power Sink or Charged Armor before selecting this power. Recharge: Very Long",
+    "shortHelp": "Self, +Res(Special)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1708,7 +1708,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P3718465258",
+                "victimHit": "Your {PowerName} power has left you exhausted.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1929,9 +1929,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2939588278",
-    "help": "P2525210792",
-    "shortHelp": "P3101645066",
+    "display": "Summon Guardian",
+    "help": "Scirocco has shown you how to call upon a mystical Mu Guardian to assist you. The Mu pulse with the blood of their slaughtered ancestors in their veins, and are well practiced in the dark arts. Your access to this Guardian is very limited. You can only summon him once every 15 minutes and he will leave after 4 minutes, or if you exit a zone or mission. You must be level 44 and have two other Mu Mastery Powers before selecting this power. Recharge: Extremely Long",
+    "shortHelp": "Summon Mu Guardian: Ranged Moderate DMG(Energy)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

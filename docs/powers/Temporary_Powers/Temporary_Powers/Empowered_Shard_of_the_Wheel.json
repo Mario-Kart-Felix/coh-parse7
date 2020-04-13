@@ -2,9 +2,9 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": true,
-  "display": "P403617704",
-  "help": "P1539170269",
-  "shortHelp": "P3976048092",
+  "display": "Empowered Shard of the Wheel",
+  "help": "This broken piece of an ancient artifact has been empowered by the Banished Pantheon. While carrying it, you can scorch your enemies with your hands. It lasts for 90 minutes. Recharge: Very Fast",
+  "shortHelp": "Melee, Minor DMG(Fire)",
   "targetHelp": "",
   "targetShortHelp": "",
   "attackerAttack": "",
@@ -135,8 +135,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2798397535",
-              "victimHit": "P459143670",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -178,8 +178,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1083355571",
-              "victimHit": "P3022741469",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -203,7 +203,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq"
       ],
       "flags": [],
@@ -241,9 +241,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P716869925",
-              "victimHit": "P2151965844",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],

@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3317068946",
-  "help": "P3799867397",
-  "shortHelp": "P822824738",
-  "targetHelp": "P365823007",
-  "targetShortHelp": "P3846046795",
+  "display": "Exhausting Shot",
+  "help": "You fire a specialized bullet of your creation at your target, inflicting them with a poison that rapidly exhausts their body. The targets suffer no damage, but instead lose endurance and endure reduced regeneration, recovery and damage output. Note that Exhausting Shot is unaffected by Range changes. Recharge: Slow",
+  "shortHelp": "Ranged, -DMG(Foe, All), -End(Foe), -Regen(Foe), -Rec(Foe), -Fly(Foe)",
+  "targetHelp": "You are suffering from reduced regeneration, recovery and damage output. Additionally, you suffer from a brief endurance drain and are unable to fly.",
+  "targetShortHelp": "-End, -Regen, -Rec, -DMG, -Fly",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -139,7 +139,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P2847436642",
+              "victimHit": "{PlayerSource} strikes you with an {PowerName}, draining some endurance and reducing your damage potential, recovery and regeneration.",
               "float": "",
               "defenseFloat": ""
             }
@@ -330,7 +330,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P3732528915",
+              "victimHit": "You are unable to fly due to {PlayerSource}'s {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }

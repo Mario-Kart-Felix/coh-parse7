@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P1082437617",
-  "help": "P2440390348",
-  "shortHelp": "P1526741235",
-  "targetHelp": "P3462979101",
-  "targetShortHelp": "P3427980061",
+  "display": "Electric Fence",
+  "help": "Surrounds and Immobilizes a single target in an Electric Fence. Deals some damage over time and slowly drains some Endurance. Useful for keeping villains at bay and bringing down fliers. Damage: Minor(DoT), Recharge: Fast",
+  "shortHelp": "Ranged, Moderate DoT(Energy), Foe Immobilize, -End, -Fly, -Knockback",
+  "targetHelp": "You are immobilized by the Electric Fence.",
+  "targetShortHelp": "Dot(Energy), Immobilize, -End, -Fly, -KB",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -134,8 +134,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P59899910",
-              "victimHit": "P3210640873",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -176,8 +176,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4257051740",
-              "victimHit": "P2588894681",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -219,7 +219,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P456748222",
+              "victimHit": "{PlayerSource} shocks you with their {PowerName} and drains some of your Endurance!",
               "float": "",
               "defenseFloat": ""
             }
@@ -385,9 +385,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2458169698",
-              "victimHit": "P690160208",
-              "float": "P2144434522",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName} [OVERPOWER].",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName} [OVERPOWER].",
+              "float": "Overpower",
               "defenseFloat": ""
             }
           ],

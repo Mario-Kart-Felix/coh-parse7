@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P736128081",
-    "help": "P280360562",
-    "shortHelp": "P2176690407",
+    "display": "Opportunity Strikes: Recharge/Chance for +Opportunity (Sentinel)",
+    "help": "UNIQUE -- No more than 1 enhancement of this type may be slotted by a character. Gives the slotted power a chance to boost your Opportunity chances for a short time, and reduces the power's recharge time by {Boost.Attrib.RechargeTime.Scale}%. This enhancement's chance to trigger is equal to approximately 1 times per minute. This enhancement can only be slotted by Sentinels and may be slotted into any Sentinel damage power.",
+    "shortHelp": "Increases Attack Rate, Chance for +Opportunity",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -33,7 +33,7 @@
       "&&",
       "arch",
       "char>",
-      "Class_Sentinel",
+      "Sentinel",
       "eq",
       "&&"
     ],
@@ -219,9 +219,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2319226647",
+                "attackerHit": "Your opportunity is increased by {Damage} from {PowerName}!",
                 "victimHit": "",
-                "float": "P3854408193",
+                "float": "OPPORTUNITY STRIKES!",
                 "defenseFloat": ""
               }
             ],

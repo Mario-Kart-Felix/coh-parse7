@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3269743464",
-  "help": "P1326715329",
-  "shortHelp": "P2467689381",
-  "targetHelp": "P92563144",
-  "targetShortHelp": "P3363051928",
+  "display": "Lightning Bolt",
+  "help": "You launch a bolt of electrical energy at your foe, causing energy damage and draining the target's endurance. The target also has a chance to suffer reduced recovery.",
+  "shortHelp": "Ranged, Superior DMG(Energy), -End(Foe), Chance for -Rec(Foe)",
+  "targetHelp": "You are losing endurance. Your recovery may also be suppressed.",
+  "targetShortHelp": "-End, Chance for -Rec",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -132,8 +132,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -211,7 +211,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P2150922502",
+              "victimHit": "Your recovery has been reduced by {PlayerSource}'s {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }

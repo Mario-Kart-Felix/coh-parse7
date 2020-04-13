@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P976795034",
-    "help": "P4287657080",
-    "shortHelp": "P2211841663",
-    "targetHelp": "P4287657080",
-    "targetShortHelp": "P2211841663",
+    "display": "Psionic Suffering",
+    "help": "A single target is condemned to suffer severe psychic trauma.",
+    "shortHelp": "Special",
+    "targetHelp": "A single target is condemned to suffer severe psychic trauma.",
+    "targetShortHelp": "Special",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -165,13 +165,13 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P540014662",
-    "help": "P939917763",
-    "shortHelp": "P2211841663",
-    "targetHelp": "P167955281",
-    "targetShortHelp": "P2211841663",
+    "display": "Suffer in Silence",
+    "help": "A single foe is condemned to suffer psychic pain alone. Should the target remain near allies, they will spread their pain to others, causing major damage.",
+    "shortHelp": "Special",
+    "targetHelp": "You must suffer your psychic pain in silence. Move away from your allies to minimize damage!",
+    "targetShortHelp": "Special",
     "attackerAttack": "",
-    "attackerAttackFloater": "P264901550",
+    "attackerAttackFloater": "Suffer in Silence Has Begun!",
     "attackerHit": "",
     "victimHit": "",
     "confirm": "",
@@ -305,8 +305,8 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2694901652",
-                "float": "P1262612913",
+                "victimHit": "{PlayerSource} targets you for {PowerName}! Move away from your teammates!",
+                "float": "{PlayerDest} is targeted by Suffer in Silence! Move away from the group!",
                 "defenseFloat": ""
               }
             ],
@@ -532,13 +532,13 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P849887693",
-    "help": "P150408308",
-    "shortHelp": "P2211841663",
-    "targetHelp": "P4099842060",
-    "targetShortHelp": "P2211841663",
+    "display": "Shared Suffering",
+    "help": "A single foe is condemned to suffer psychic pain, but they must not do so alone. Allies must collapse around the affected target in order to share the otherwise lethal damage amongst each other.",
+    "shortHelp": "Special",
+    "targetHelp": "You must share the psychic pain you suffer with the group. They must join you in order to minimize damage!",
+    "targetShortHelp": "Special",
     "attackerAttack": "",
-    "attackerAttackFloater": "P356735574",
+    "attackerAttackFloater": "Shared Suffering Has Begun!",
     "attackerHit": "",
     "victimHit": "",
     "confirm": "",
@@ -672,8 +672,8 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P527593775",
-                "float": "P1877028372",
+                "victimHit": "{PlayerSource} targets you for {PowerName}! Find refuge with your teammates!",
+                "float": "{PlayerDest} is targeted for Shared Suffering! Gather your allies!",
                 "defenseFloat": ""
               }
             ],
@@ -795,8 +795,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3815705742",
-                "victimHit": "P720190800",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Unique1 damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Unique1 damage.",
                 "float": "",
                 "defenseFloat": ""
               }

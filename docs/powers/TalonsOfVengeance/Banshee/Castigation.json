@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3213186380",
-  "help": "P271203906",
-  "shortHelp": "P531270007",
-  "targetHelp": "P3336769681",
-  "targetShortHelp": "P327822722",
+  "display": "Castigation",
+  "help": "You speak vicious words of castigation at the opponents arrayed before you. These words have a debilitating effect on the morale of afflicted targets. In addition to sustaining negative energy and energy damage, your targets suffer from reduced regeneration, recovery, defense and resistance.",
+  "shortHelp": "Ranged, Minor DMG(Energy), Minor DoT(Negative Energy), -Regen(Foe), -Rec(Foe), -Def(Foe,All), -Res(Foe, All)",
+  "targetHelp": "Your regeneration, recovery, defense and resistance have been reduced.",
+  "targetShortHelp": "-Regen, -Rec, -DEF(All), -RES(All)",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -133,8 +133,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -175,8 +175,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1461699593",
-              "victimHit": "P3815778435",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -220,7 +220,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P699639597",
+              "victimHit": "{PlayerSource}'s {PowerName} reduces your regeneration and recovery.",
               "float": "",
               "defenseFloat": ""
             }

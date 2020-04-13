@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2615246092",
-    "help": "P3424959268",
-    "shortHelp": "P1042542408",
-    "targetHelp": "P832163127",
-    "targetShortHelp": "P1042542408",
+    "display": "Irradiated Ground",
+    "help": "While active you will scorch the earth beneath you leaving toxic clouds of radioactive gas in your wake. Foes that enter these clouds will suffer Minor Toxic damage, have their defense reduced and also have a tiny chance of being Contaminated. Hitting Contaminated foes with single target Radiation Melee powers cause a small burst of damage to foes near the target. Damage: Minor, Recharge: Moderate",
+    "shortHelp": "Minor DoT(Toxic) Patch, Foe -Def, Special",
+    "targetHelp": "Radiation burns you causing minor toxic damage and reduces your defense!",
+    "targetShortHelp": "Minor DoT(Toxic) Patch, Foe -Def, Special",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -103,7 +103,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq"
         ],
         "flags": [],
@@ -141,8 +141,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -166,7 +166,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq"
         ],
         "flags": [],
@@ -204,9 +204,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P716869925",
-                "victimHit": "P2151965844",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -229,7 +229,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Tanker",
+          "Tanker",
           "eq"
         ],
         "flags": [],
@@ -267,8 +267,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -292,7 +292,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Brute",
+          "Brute",
           "eq"
         ],
         "flags": [],
@@ -330,8 +330,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -449,9 +449,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P303727486",
-                "victimHit": "P4180007661",
-                "float": "P3342354899",
+                "attackerHit": "You contaminate {PlayerDest}!",
+                "victimHit": "{PlayerSource} has contaminated you.",
+                "float": "Contaminated!",
                 "defenseFloat": ""
               }
             ],
@@ -522,9 +522,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1879715222",
-    "help": "P1879715222",
-    "shortHelp": "P1879715222",
+    "display": "Self Destruct",
+    "help": "Self Destruct",
+    "shortHelp": "Self Destruct",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

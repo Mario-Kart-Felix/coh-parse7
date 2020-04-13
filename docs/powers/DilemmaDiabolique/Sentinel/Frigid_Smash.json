@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P408277575",
-  "help": "P3932976455",
-  "shortHelp": "P2393928884",
-  "targetHelp": "P1584763563",
-  "targetShortHelp": "P2625185174",
+  "display": "Frigid Smash",
+  "help": "You wind up a massive smash, striking the ground with tremendous force. This unleashes a shock wave of death energy in a cone which causes cold damage, with the lingering effect of death also dealing negative energy damage over time. Additionally, the target's defense against and resistance to cold and negative energy attacks are reduced. Finally, the longer the Sentinel remains alive, the more likely his presence will sap the target's soul, causing them to suffer increased endurance cost for all powers.",
+  "shortHelp": "Ranged (Cone), Minor DMG (Cold), Minor DoT (Negative Energy), -DEF(Foe, Cold/Negative Energy), -RES(Foe, Cold/Negative Energy), Knockup(Foe), Chance for +EndCost(Foe)",
+  "targetHelp": "Your resistance against cold and negative energy attacks has been reduced, and there is the potential for your powers to cost more endurance to execute.",
+  "targetShortHelp": "-RES (Cold & Negative Energy), Chance for +EndCost",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -132,8 +132,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4173738004",
-              "victimHit": "P1163387325",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -174,8 +174,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1461699593",
-              "victimHit": "P3815778435",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -216,8 +216,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1956156720",
-              "victimHit": "P3390955917",
+              "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+              "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }
@@ -391,7 +391,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P4179021727",
+              "victimHit": "{PlayerSource}'s {PowerName} has increased the endurance cost of your powers!",
               "float": "",
               "defenseFloat": ""
             }

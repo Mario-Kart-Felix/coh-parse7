@@ -3,14 +3,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3978803010",
-    "help": "P4044875704",
-    "shortHelp": "P3032934705",
+    "display": "Personal Force Field",
+    "help": "The Personal Force Field is almost impenetrable to all attacks, even Psionics and Enemy Teleportation, although attacks from more powerful foes may get through more easily. Personal Force Field will also reduce the damage of almost any attacks that do get through. The Personal Force Field works both ways; while it is active, you can only use powers that affect yourself. Cannot be used with Rest. Recharge: Slow",
+    "shortHelp": "Toggle: Self +Def, Res(All except Toxic)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3782792257",
+    "attackerHit": "Your {PowerName} makes you virtually invulnerable to most attacks, but you can only cast powers on yourself while the Force Field is active.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -528,15 +528,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1823934049",
-    "help": "P1556736481",
-    "shortHelp": "P1152404173",
-    "targetHelp": "P1096740762",
-    "targetShortHelp": "P2240545096",
+    "display": "Deflection Shield",
+    "help": "Dramatically protects an ally from Smashing, Lethal and all Melee attacks for a limited time. Also reduces Toxic damage. You cannot stack multiple Deflection Shields on the same target; however, the shield can be improved by another ally using the same power. Can also be used in conjunction with your Insulation Shield. You cannot use this power on yourself. Recharge: Very Fast",
+    "shortHelp": "Ranged, Ally +DEF(Smash, Lethal, Melee), Res(Toxic)",
+    "targetHelp": "You have been encased in a Deflection Shield. Your Defense to Smashing, Lethal and Melee attacks is increased, and your ability to resist Toxic attacks is increased as well.",
+    "targetShortHelp": "+DEF(Smash, Lethal, Melee), Res(Toxic)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P737094794",
-    "victimHit": "P2660225500",
+    "attackerHit": "You protect {PlayerDest} from Smashing, Lethal and Melee attacks, as well as Toxic Damage, with your {PowerName}.",
+    "victimHit": "{PlayerSource} protects you from Smashing, Lethal and Melee attacks with a {PowerName} and grants you some resistance to Toxic damage.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -795,9 +795,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3532762553",
-    "help": "P1133545432",
-    "shortHelp": "P1949322042",
+    "display": "Force Bolt",
+    "help": "Discharges a bolt of force that knocks down foes and deals some Smashing Damage. Damage: Minor, Recharge: Fast",
+    "shortHelp": "Ranged, Minor DMG(Smash), Foe Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -934,8 +934,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1010,9 +1010,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2008332946",
-                "victimHit": "P2162615548",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -1073,8 +1073,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1142,8 +1142,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1210,15 +1210,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4034787409",
-    "help": "P1302168924",
-    "shortHelp": "P3550036896",
-    "targetHelp": "P3977068540",
-    "targetShortHelp": "P346136420",
+    "display": "Insulation Shield",
+    "help": "Dramatically protects an ally from Fire, Cold, Energy, Negative Energy, Ranged and AoE attacks for a limited time. The Insulation also protects the target from Endurance Draining effects. You cannot stack multiple Insulation Shields on the same target; however, the shield can be improved by another ally using the same power. Can also be used in conjunction with your Deflection Shield. You cannot use this power on yourself. Recharge: Very Fast",
+    "shortHelp": "Ranged, Ally +DEF(Fire, Cold, Energy, Negative, Ranged, AoE), Res (End Drain)",
+    "targetHelp": "The Insulation Shield is improving your Defense to Fire, Cold, Energy, Negative Energy, Ranged and AoE attacks. The Insulation Shield also protects you from Endurance Draining effects.",
+    "targetShortHelp": "+DEF(Fire, Cold, Energy, Negative, Ranged, AoE)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P1217548023",
-    "victimHit": "P2372394357",
+    "attackerHit": "You protect {PlayerDest} from fire, cold, energy, negative energy, ranged and AoE attacks with your {PowerName}.",
+    "victimHit": "{PlayerSource} protects you from fire, cold, energy, negative energy, ranged and AoE attacks with a {PowerName}.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -1481,11 +1481,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3517858636",
-    "help": "P1774286945",
-    "shortHelp": "P3258422862",
-    "targetHelp": "P1488189929",
-    "targetShortHelp": "P1145282425",
+    "display": "Detention Field",
+    "help": "Encases a targeted foe in a Detention Force Field. The captured target cannot be harmed, is Immobilized, and cannot attack or aid their allies. The target can, however, use powers on themselves. Recharge: Slow",
+    "shortHelp": "Ranged, Foe Capture (Special)",
+    "targetHelp": "You have been captured in a Detention Field. You cannot be harmed, however, you can only use powers which affect yourself.",
+    "targetShortHelp": "Capture",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1624,9 +1624,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1752562003",
-                "victimHit": "P1053776284",
-                "float": "P3517858636",
+                "attackerHit": "You encase {PlayerDest} in an impenetrable {PowerName}. They cannot move and can only affect themselves now.",
+                "victimHit": "{PlayerSource} encases you in an impenetrable {PowerName}. You cannot move and can only affect yourself!",
+                "float": "Detention Field",
                 "defenseFloat": ""
               }
             ],
@@ -1694,9 +1694,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1752562003",
-                "victimHit": "P1053776284",
-                "float": "P3517858636",
+                "attackerHit": "You encase {PlayerDest} in an impenetrable {PowerName}. They cannot move and can only affect themselves now.",
+                "victimHit": "{PlayerSource} encases you in an impenetrable {PowerName}. You cannot move and can only affect yourself!",
+                "float": "Detention Field",
                 "defenseFloat": ""
               }
             ],
@@ -1804,15 +1804,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3137523235",
-    "help": "P1398218065",
-    "shortHelp": "P2876428248",
-    "targetHelp": "P1240327833",
-    "targetShortHelp": "P3780623979",
+    "display": "Dispersion Bubble",
+    "help": "Creates a large bubble which protects all allies inside. While active, the Dispersion Bubble gives all allies within increased Defense against all attack types. The Dispersion Bubble also protects allies from Immobilization, Disorient, and Hold effects. Recharge: Slow",
+    "shortHelp": "Toggle: PBAoE, Team +Res(Hold, Immobilize, Disorient) +DEF(All)",
+    "targetHelp": "The Dispersion Bubble is increasing your Defenses to all attacks and providing protection from Hold, Immobilize and Disorienting attacks.",
+    "targetShortHelp": "+Res(Hold, Immobilize, Disorient) +DEF(All)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P1309444121",
-    "victimHit": "P2704196223",
+    "attackerHit": "You protect {PlayerDest} from all damage types with your {PowerName}.",
+    "victimHit": "{PlayerSource} protects you from all damage types with a {PowerName}.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -2130,14 +2130,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3240570147",
-    "help": "P716710627",
-    "shortHelp": "P2358627271",
+    "display": "Repulsion Field",
+    "help": "This Toggle power creates a field that violently repels nearby foes. Each villain that is repelled costs you additional Endurance. Recharge: Slow",
+    "shortHelp": "Toggle: PBAoE Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P662208976",
+    "attackerHit": "You protect yourself with your {PowerName}, and will knock down any villain that approaches you.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -2268,8 +2268,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2373,8 +2373,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4243055354",
-                "victimHit": "P2549913424",
+                "attackerHit": "You knocked {PlayerDest} from their feet with your {PowerName} attack!",
+                "victimHit": "{PlayerSource} knocks you from your feet with their {PowerName} attack!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2518,11 +2518,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3990140054",
-    "help": "P572067890",
-    "shortHelp": "P2541127357",
-    "targetHelp": "P2366756416",
-    "targetShortHelp": "P2848422893",
+    "display": "Repulsion Bomb",
+    "help": "A powerful Repulsion Bomb is hurled at your foes dealing a moderate amount of damage and knocking them off of their feet. Foes struck by Repulsion Bomb have a good chance to become disoriented. Damage: Moderate, Recharge: Slow",
+    "shortHelp": "Ranged (Targeted AoE), Moderate DMG(Smash), Foe Knockdown, Disorient",
+    "targetHelp": "You have been Disoriented.",
+    "targetShortHelp": "Disorient",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2658,8 +2658,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2734,9 +2734,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2008332946",
-                "victimHit": "P2162615548",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -2797,8 +2797,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2866,8 +2866,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2930,8 +2930,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3020,8 +3020,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3088,14 +3088,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4195196004",
-    "help": "P294228437",
-    "shortHelp": "P2016297432",
+    "display": "Force Bubble",
+    "help": "Creates a large bubble which protects all allies inside. While active, this power keeps all foes at bay, protecting all allies inside from melee or short ranged attacks. More powerful foes may be able to penetrate the Force Bubble, but may slip and get knocked down and forced back if they try. Recharge: Slow",
+    "shortHelp": "Toggle: PBAoE Foe Repel, Knockdown",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P947844219",
+    "attackerHit": "Your {PowerName} keeps your foes at bay.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -3287,8 +3287,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1153017445",
-                "victimHit": "P4162104512",
+                "attackerHit": "You knocked {PlayerDest} from their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you from your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3351,8 +3351,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3421,8 +3421,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3491,8 +3491,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3490945591",
-                "victimHit": "P500455014",
+                "attackerHit": "Your {PowerName} partially hit! {PlayerDest} is not repelled by the Force Bubble!",
+                "victimHit": "{Playersource} partially hits you with their Force Bubble! You evaded the Repel!",
                 "float": "",
                 "defenseFloat": ""
               }

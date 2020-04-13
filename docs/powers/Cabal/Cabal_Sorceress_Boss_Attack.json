@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3269743464",
-    "help": "P356212656",
-    "shortHelp": "P2642434242",
+    "display": "Lightning Bolt",
+    "help": "The cabal sorceress can send a large blast of electrical energy at a foe. Lightning bolt deals good damage and also drains some Endurance.",
+    "shortHelp": "Ranged Energy, -End",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -133,8 +133,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -176,7 +176,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2184287736",
+                "victimHit": "{PlayerSource} shocks you with her {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -243,9 +243,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2138267515",
-    "help": "P857582188",
-    "shortHelp": "P3097711731",
+    "display": "Ball Lightning",
+    "help": "Hurls a highly charged ball of lightning that explodes on contact. Ball Lightning deals good damage in an area and also drains some Endurance from each target it hits.",
+    "shortHelp": "Targeted AoE Energy, -End",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -373,8 +373,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -415,8 +415,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -458,7 +458,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2184287736",
+                "victimHit": "{PlayerSource} shocks you with her {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -525,11 +525,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1760327861",
-    "help": "P2810352472",
-    "shortHelp": "P108962572",
-    "targetHelp": "P2810352472",
-    "targetShortHelp": "P108962572",
+    "display": "Hurricane",
+    "help": "The driving winds of the Hurricane are blinding you. Your Range and Accuracy are reduced.",
+    "shortHelp": "-Range, -ACC, Knockback",
+    "targetHelp": "The driving winds of the Hurricane are blinding you. Your Range and Accuracy are reduced.",
+    "targetShortHelp": "-Range, -ACC, Knockback",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -623,21 +623,21 @@
         "requires": [
           "arch",
           "target>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq",
           "arch",
           "target>",
-          "Class_Tanker",
-          "eq",
-          "||",
-          "arch",
-          "target>",
-          "Class_Stalker",
+          "Tanker",
           "eq",
           "||",
           "arch",
           "target>",
-          "Class_Brute",
+          "Stalker",
+          "eq",
+          "||",
+          "arch",
+          "target>",
+          "Brute",
           "eq",
           "||",
           "!"
@@ -780,8 +780,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -848,9 +848,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P741247010",
-    "help": "P2696194993",
-    "shortHelp": "P1564690285",
+    "display": "Lightning Storm",
+    "help": "The cabal sorceress can summon a massive Lightning Storm overhead that will strike any foe that approaches her. Lightning Bolts from this storm can knock down and damage all foes near the strike, and can cause panic. Lightning Bolts will continue to strike for the lifetime of the storm.",
+    "shortHelp": "Summon Lightning Storm",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1048,9 +1048,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2583867379",
-    "help": "P58999238",
-    "shortHelp": "P2888124115",
+    "display": "Gale",
+    "help": "The cabal sorceress can call forth a tremendous gust of Gale force winds that knock down foes and deal some Smashing damage in a wide cone area. Damage: Minor, Recharge: Moderate",
+    "shortHelp": "Ranged (Cone), Minor DMG(Smash), Foe Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1178,8 +1178,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1220,8 +1220,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1288,9 +1288,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P347968085",
-    "help": "P2831690773",
-    "shortHelp": "P4204814252",
+    "display": "Charged Brawl",
+    "help": "The cabal sorceress has electrocuted you and temporarily halted your Endurance Recovery with Charged Brawl.",
+    "shortHelp": "-Recovery",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1419,8 +1419,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1461,8 +1461,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1504,7 +1504,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2184287736",
+                "victimHit": "{PlayerSource} shocks you with her {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }

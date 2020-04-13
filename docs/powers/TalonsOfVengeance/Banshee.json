@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3945760502",
-    "help": "P1057419618",
-    "shortHelp": "P3451490917",
-    "targetHelp": "P2001212807",
-    "targetShortHelp": "P2203276213",
+    "display": "Curse",
+    "help": "You place a curse on your target, darkening their soul and weakening their body. The target suffers energy and negative energy damage, as well as a reduction in their combat speed, chance to hit, range and healing effectiveness.",
+    "shortHelp": "Ranged, Minor DMG (Energy), Minor DoT(Negative Energy), -RES(Heal,Foe), -Rech(Foe), -ToHit(Foe), -Range(Foe)",
+    "targetHelp": "You have been weakened.",
+    "targetShortHelp": "-Heal, -Rech, -ToHit, -Range",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -134,8 +134,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -176,8 +176,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1461699593",
-                "victimHit": "P3815778435",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -353,11 +353,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1045916292",
-    "help": "P1207337083",
-    "shortHelp": "P3938276542",
-    "targetHelp": "P4260876864",
-    "targetShortHelp": "P332045248",
+    "display": "Condemnation",
+    "help": "You speak words of condemnation while coalescing a mass of dark energy between your hands. When complete, you hurl this mass at your target, striking them with the full fury of your words. The target suffers energy and negative energy damage, and may be terrified by the force of your condemnation.",
+    "shortHelp": "Targeted AoE, Moderate DMG(Energy), Minor DoT (Negative Energy), Chance for Fear(Foe)",
+    "targetHelp": "You are afraid and find combat action more difficult.",
+    "targetShortHelp": "Fear",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -484,8 +484,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -526,8 +526,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1461699593",
-                "victimHit": "P3815778435",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -597,8 +597,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -665,11 +665,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3213186380",
-    "help": "P271203906",
-    "shortHelp": "P531270007",
-    "targetHelp": "P3336769681",
-    "targetShortHelp": "P327822722",
+    "display": "Castigation",
+    "help": "You speak vicious words of castigation at the opponents arrayed before you. These words have a debilitating effect on the morale of afflicted targets. In addition to sustaining negative energy and energy damage, your targets suffer from reduced regeneration, recovery, defense and resistance.",
+    "shortHelp": "Ranged, Minor DMG(Energy), Minor DoT(Negative Energy), -Regen(Foe), -Rec(Foe), -Def(Foe,All), -Res(Foe, All)",
+    "targetHelp": "Your regeneration, recovery, defense and resistance have been reduced.",
+    "targetShortHelp": "-Regen, -Rec, -DEF(All), -RES(All)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -796,8 +796,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -838,8 +838,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1461699593",
-                "victimHit": "P3815778435",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -883,7 +883,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P699639597",
+                "victimHit": "{PlayerSource}'s {PowerName} reduces your regeneration and recovery.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1029,11 +1029,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3096135527",
-    "help": "P3819632221",
-    "shortHelp": "P2210037598",
-    "targetHelp": "P1959451890",
-    "targetShortHelp": "P3305480933",
+    "display": "Lamentation",
+    "help": "You cry out in a sorrowful lamentation, causing energy and negative energy damage in those around you. There is a chance that your lamentations affect your enemy so deeply that you may feed upon their suffering, healing yourself and increasing the endurance cost of their powers.",
+    "shortHelp": "PBAoE, High DMG(Energy), Moderate DoT(Negative Energy), -DMG(Foe,All), Chance for Heal(Self) and +EndCost(Foe)",
+    "targetHelp": "Your defenses, resistances, regeneration and recovery have been reduced.",
+    "targetShortHelp": "-DEF(All), -RES(All), -Regen, -Rec",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1160,8 +1160,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1202,8 +1202,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1461699593",
-                "victimHit": "P3815778435",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1378,7 +1378,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P103906993",
+                "victimHit": "{PlayerSource}'s feeds upon the deep sorrow invoked within you by her {PowerName}, healing herself and increasing the endurance cost of your powers.",
                 "float": "",
                 "defenseFloat": ""
               }

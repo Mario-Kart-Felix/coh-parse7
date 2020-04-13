@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3876174936",
-    "help": "P1174537567",
-    "shortHelp": "P1722587764",
-    "targetHelp": "P3482489949",
-    "targetShortHelp": "P80878853",
+    "display": "Time Wall",
+    "help": "You're create time barrier to immobilize a single enemy. Enemies behind this barrier will have time slow down around them reducing their attack rate. Enemies that are strong enough to cross the barrier will still have their movement speed reduced. Time is slowed to such an extreme that their wounds will take longer to heal, reducing their regeneration rate. Time Wall applies the Delayed effect on its target. Damage, debuff and control effects from other Time Manipulation powers are increased on targets affected by Delayed. Recharge: Long.",
+    "shortHelp": "Ranged Foe, -Speed, -Recharge, -Regen, Special",
+    "targetHelp": "Your attack rate, movement speed and regeneration rate have been reduced",
+    "targetShortHelp": "-Speed, -Recharge, -Regen, Special",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -390,8 +390,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -515,8 +515,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -678,11 +678,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3258150666",
-    "help": "P2266667788",
-    "shortHelp": "P3020650585",
-    "targetHelp": "P2226078588",
-    "targetShortHelp": "P786987390",
+    "display": "Aging Touch",
+    "help": "You touch an enemy and accelerate their aging process causing exhaustion and psionic damage. Affected enemies will continue to age for a limited time, and suffering psionic damage over time. Targets affected by the Delayed effect will suffer from a more psionic damage over time. Damage: Minor, Recharge: Fast",
+    "shortHelp": "Melee, Minor DMG(Psionic)",
+    "targetHelp": "You are aging rapidly!",
+    "targetShortHelp": "DoT(Psionic)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -820,8 +820,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -878,8 +878,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2287672660",
-                "victimHit": "P3092393664",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -939,9 +939,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3867479343",
-                "victimHit": "P1113111613",
-                "float": "P2238940030",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage over time [TIME CRAWL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage over time [TIME CRAWL].",
+                "float": "Time Crawl",
                 "defenseFloat": ""
               }
             ],
@@ -1002,8 +1002,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1065,8 +1065,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2154700027",
-                "victimHit": "P2909674836",
+                "attackerHit": "Your {PowerName} drains some endurance from {PlayerDest}!",
+                "victimHit": "{PlayerSource}' {PowerName} aging effect is exhausting you, draining some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1128,8 +1128,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2154700027",
-                "victimHit": "P2909674836",
+                "attackerHit": "Your {PowerName} drains some endurance from {PlayerDest}!",
+                "victimHit": "{PlayerSource}' {PowerName} aging effect is exhausting you, draining some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1257,11 +1257,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1303004440",
-    "help": "P3574924825",
-    "shortHelp": "P4217442808",
-    "targetHelp": "P711223845",
-    "targetShortHelp": "P2288338409",
+    "display": "Time Stop",
+    "help": "You trap your target within the flow of time causing them to be held helpless. Even those resistant to the effects of Time Stop's hold will still have their regeneration rate and healing effects reduced for a brief period. Targets affected by the Delayed effect will suffer from a more powerful hold, however its benefits are brief. Recharge: Long",
+    "shortHelp": "Ranged Hold, Foe -Regen, -Heal",
+    "targetHelp": "You have been held by Time Stop. Your healing effects and regeneration rate have also been reduced.",
+    "targetShortHelp": "Hold, -Heal, -Regen",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1400,8 +1400,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1560,8 +1560,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1662,9 +1662,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2743884841",
-                "victimHit": "P4071014763",
-                "float": "P2238940030",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName} [TIME CRAWL].",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName} [TIME CRAWL].",
+                "float": "Time Crawl",
                 "defenseFloat": ""
               }
             ],
@@ -1754,9 +1754,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2743884841",
-                "victimHit": "P4071014763",
-                "float": "P2238940030",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName} [TIME CRAWL].",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName} [TIME CRAWL].",
+                "float": "Time Crawl",
                 "defenseFloat": ""
               }
             ],
@@ -1881,14 +1881,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2237651091",
-    "help": "P1778750416",
-    "shortHelp": "P2004938713",
-    "targetHelp": "P2111457154",
-    "targetShortHelp": "P3433539956",
+    "display": "Chronos",
+    "help": "You distort time around you, selecting a period of time where your abilities are at your highest. Your damage, attack rate and chance to hit are dramatically increased for a brief period. This power places the Accelerated effect on you. While this is in effect, the target has any healing and healing over time effects from Temporal Healing or Lord of Time significantly increased. Recharge: Very Long",
+    "shortHelp": "Self +Damage, +Recharge, +ToHit",
+    "targetHelp": "Your movements have been sped up as if you're flowing more quickly through time. You gain a significant bonus to your damage, recharge rate and chance to hit.",
+    "targetShortHelp": "+Damage, +Recharge, +ToHit",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2111457154",
+    "attackerHit": "Your movements have been sped up as if you're flowing more quickly through time. You gain a significant bonus to your damage, recharge rate and chance to hit.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -2328,9 +2328,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2000655700",
-    "help": "P958461877",
-    "shortHelp": "P3567939747",
+    "display": "End of Time",
+    "help": "You open a gate in time that can suck in enemies and send them into a distant unknown future. The affected enemies will be quickly returned to the present time, but not before being temporarily exposed to radiation and the bitter cold of an empty void. Targets affected by the Delayed effect will suffer bonus damage. Damage: High, Recharge: Long",
+    "shortHelp": "PBAoE, High DMG(Cold/Energy)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2471,8 +2471,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2513,8 +2513,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2615,9 +2615,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P305497965",
-                "victimHit": "P3100154220",
-                "float": "P2238940030",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [TIME CRAWL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [TIME CRAWL].",
+                "float": "Time Crawl",
                 "defenseFloat": ""
               }
             ],
@@ -2678,8 +2678,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2720,8 +2720,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2822,9 +2822,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P305497965",
-                "victimHit": "P3100154220",
-                "float": "P2238940030",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [TIME CRAWL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [TIME CRAWL].",
+                "float": "Time Crawl",
                 "defenseFloat": ""
               }
             ],
@@ -2951,9 +2951,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P350494983",
-    "help": "P2504081713",
-    "shortHelp": "P1549578266",
+    "display": "Temporal Healing",
+    "help": "You mend your wounds by placing your bodies in a past or future state where they are far less injured. Temporal Mending will immediately absorb damage as it's inflicted. Additionally, you will gain some resistance to slow effects and regeneration debuffs. If you are affected by the Accelerated effect, you absorb even more damage from this power. Recharge: Low",
+    "shortHelp": "Self +Absorb, +Recovery, +Res(Slow, Regen Debuff)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -3314,11 +3314,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1925669722",
-    "help": "P834216939",
-    "shortHelp": "P978298712",
-    "targetHelp": "P1995465160",
-    "targetShortHelp": "P1128528124",
+    "display": "Future Pain",
+    "help": "You lay your hands on your foe dig into his future timeline for the most painful experience the foe will ever go through and plant those memories on his present mind inflicting great psionic damage. The visions of this pain may be enough to make your foe cower in fear. Targets affected by the Delayed effect will suffer a more terrifying experience. Recharge: Slow",
+    "shortHelp": "Melee, Foe Fear, High DMG(Psionic)",
+    "targetHelp": "The experience of pain from the future has terrified you.",
+    "targetShortHelp": "Fear, -To Hit",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -3458,8 +3458,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3521,8 +3521,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3584,8 +3584,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3673,8 +3673,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3739,9 +3739,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1030808637",
-                "victimHit": "P645298738",
-                "float": "P2238940030",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName} [TIME CRAWL].",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName} [TIME CRAWL].",
+                "float": "Time Crawl",
                 "defenseFloat": ""
               }
             ],
@@ -3831,9 +3831,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1030808637",
-                "victimHit": "P645298738",
-                "float": "P2238940030",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName} [TIME CRAWL].",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName} [TIME CRAWL].",
+                "float": "Time Crawl",
                 "defenseFloat": ""
               }
             ],
@@ -3960,11 +3960,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2492549625",
-    "help": "P2445501245",
-    "shortHelp": "P2086920595",
-    "targetHelp": "P3178789783",
-    "targetShortHelp": "P1202965873",
+    "display": "Time Shift",
+    "help": "You shift time on an area, replacing your foes with future or past versions of themselves. This shift can be very disorienting and will incapacitate affected foes. Stronger foes may be able to resist the effect, but they still will have their movement speed and accuracy reduced. Targets affected by the Delayed effect will suffer from a more powerful disorientation, however its benefits are brief. Recharge: Very Long",
+    "shortHelp": "AoE, Foe Disorient, -Speed, -ToHit",
+    "targetHelp": "You have been disoriented by future visions of pain.",
+    "targetShortHelp": "Disorient, -Speed, -ToHit",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -4105,8 +4105,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -4195,8 +4195,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -4261,9 +4261,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2568140292",
-                "victimHit": "P97366193",
-                "float": "P2238940030",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName} [TIME CRAWL].",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName} [TIME CRAWL].",
+                "float": "Time Crawl",
                 "defenseFloat": ""
               }
             ],
@@ -4353,9 +4353,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2568140292",
-                "victimHit": "P97366193",
-                "float": "P2238940030",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName} [TIME CRAWL].",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName} [TIME CRAWL].",
+                "float": "Time Crawl",
                 "defenseFloat": ""
               }
             ],
@@ -4640,14 +4640,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2954229281",
-    "help": "P1364588078",
-    "shortHelp": "P3687402365",
+    "display": "Time Lord",
+    "help": "You are a time lord, for you time is just a small hurdle that can easily be overcome or ignored. As a time lord, all your attacks recharge faster and you are resistant to energy attacks in addition to disorient effects, movement debuffs and recharge debuffs. If you are affected by the Accelerated effect, your powers will recharge even faster and you will become nearly immune to recharge debuffs. This power is always on and cost no endurance.",
+    "shortHelp": "Auto: Self +Recharge, Res (Slow, Energy, Stun)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3207966633",
+    "attackerHit": "Your {PowerName} has increased your rate of attack.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",

@@ -2,9 +2,9 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P2786855971",
-  "help": "P516516113",
-  "shortHelp": "P4285314984",
+  "display": "Soul Drain",
+  "help": "Using this power, you can drain the essence of all nearby foes' souls, thus increasing your own strength. Each affected foe will lose some Hit Points and add to your Damage and Accuracy. You must be level 41 and have Dark Consumption or Dark Embrace before selecting this power. Damage: Moderate, Recharge: Very Long",
+  "shortHelp": "PBAoE Moderate DMG(Negative), Self +DMG, +ACC",
   "targetHelp": "",
   "targetShortHelp": "",
   "attackerAttack": "",
@@ -158,8 +158,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2637081052",
-              "victimHit": "P936402029",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -366,7 +366,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Controller",
+        "Controller",
         "==",
         "&&"
       ],
@@ -405,8 +405,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2637081052",
-              "victimHit": "P936402029",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -454,7 +454,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Controller",
+        "Controller",
         "==",
         "&&"
       ],
@@ -493,8 +493,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2637081052",
-              "victimHit": "P936402029",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
               "float": "",
               "defenseFloat": ""
             }

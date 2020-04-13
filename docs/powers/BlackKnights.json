@@ -4,10 +4,10 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P641673238",
-      "help": "P1277555435",
-      "shortHelp": "P3552490042",
-      "targetHelp": "P2844234629",
+      "display": "Knock Away",
+      "help": "You kick your target, dealing smashing damage and knocking them back. This also boosts your morale, increasing all damage for a short time.",
+      "shortHelp": "Melee, High DMG(Smashing), Knockback, +ToHit(Self)",
+      "targetHelp": "You have been kicked away from the Black Feather!",
       "targetShortHelp": "",
       "attackerAttack": "",
       "attackerAttackFloater": "",
@@ -134,8 +134,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P119576033",
-                  "victimHit": "P1719855107",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -177,8 +177,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -290,11 +290,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P738515790",
-      "help": "P517393984",
-      "shortHelp": "P1229030817",
-      "targetHelp": "P3306624924",
-      "targetShortHelp": "P3423146141",
+      "display": "Blazing Arrow",
+      "help": "You launch a blazing arrow at your foe, dealing lethal damage and setting the target on fire. The target suffers additional fire damage over time.",
+      "shortHelp": "Ranged, High DMG(Lethal), Minor DoT(Fire)",
+      "targetHelp": "You are on fire and burning.",
+      "targetShortHelp": "DoT(Fire)",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -421,8 +421,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3785438311",
-                  "victimHit": "P1873832980",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -463,8 +463,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1083355571",
-                  "victimHit": "P3022741469",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -531,11 +531,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2694431337",
-      "help": "P3340982239",
-      "shortHelp": "P1273859842",
-      "targetHelp": "P3444743913",
-      "targetShortHelp": "P2792219773",
+      "display": "Nether Arrow",
+      "help": "You fire an arrow of nether energy at your target. The target suffers smashing damage from the force of the blow and suffers negative energy damage over time, as the energy seeps into their soul. There is a chance that the target will be immobilized by this attack. There is also a chance that some of the spirit energy will splash on collision with the target, creating a pool of nether energy at the target's feet.",
+      "shortHelp": "Ranged, Moderate DMG(Smashing), Minor DoT(Negative Energy), Chance for Immobilize(Foe) and Debuff(Foe)",
+      "targetHelp": "You are suffering negative energy over time. There is also a chance you are immobilized or ensnared in nether energy.",
+      "targetShortHelp": "DoT(Negative Energy), Chance for Immobilize",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -664,8 +664,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P119576033",
-                  "victimHit": "P1719855107",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -706,8 +706,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1461699593",
-                  "victimHit": "P3815778435",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -771,8 +771,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P4257051740",
-                  "victimHit": "P2588894681",
+                  "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -837,7 +837,7 @@
               "messages": [
                 {
                   "attackerHit": "",
-                  "victimHit": "P3148369604",
+                  "victimHit": "You have been ensnared by a nether energy patch created by {PlayerSource}'s {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -912,11 +912,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2050216221",
-      "help": "P1283697307",
-      "shortHelp": "P3276250946",
-      "targetHelp": "P1142702649",
-      "targetShortHelp": "P2993629167",
+      "display": "Crystal Arrow",
+      "help": "You fire an arrow of crystalline nether energy at your target. This arrow pierces the target, causing lethal damage, while the frigid temperature of the arrow causes additional cold damage. This temperature has a chance of crystallizing vapor in the air around the target, giving a small chance of holding the opponent.",
+      "shortHelp": "Ranged, Moderate DMG(Lethal, Cold), Chance for Hold(Foe)",
+      "targetHelp": "You are held in place and unable to take any actions.",
+      "targetShortHelp": "Held",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -1043,8 +1043,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3785438311",
-                  "victimHit": "P1873832980",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -1085,8 +1085,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P4173738004",
-                  "victimHit": "P1163387325",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -1150,8 +1150,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P4134654113",
-                  "victimHit": "P3642575485",
+                  "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -1220,11 +1220,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2722205293",
-      "help": "P3924034555",
-      "shortHelp": "P143755325",
-      "targetHelp": "P640453073",
-      "targetShortHelp": "P373215750",
+      "display": "Hack",
+      "help": "You hack your opponent, causing lethal damage and reducing their defense.",
+      "shortHelp": "Melee, Superior DMG(Lethal), -DEF(Foe, All)",
+      "targetHelp": "Your defense against all attacks has been reduced.",
+      "targetShortHelp": "-DEF",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -1350,8 +1350,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3785438311",
-                  "victimHit": "P1873832980",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -1471,11 +1471,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3322898677",
-      "help": "P2731624561",
-      "shortHelp": "P2606630028",
-      "targetHelp": "P640453073",
-      "targetShortHelp": "P373215750",
+      "display": "Slash",
+      "help": "You perform a quick slash that deals lethal damage and reduces a target's defense.",
+      "shortHelp": "Melee, High DMG (Lethal), -DEF(Foe,All)",
+      "targetHelp": "Your defense against all attacks has been reduced.",
+      "targetShortHelp": "-DEF",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -1601,8 +1601,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3785438311",
-                  "victimHit": "P1873832980",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -1722,11 +1722,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1506946495",
-      "help": "P3136747777",
-      "shortHelp": "P2311232036",
-      "targetHelp": "P3786994077",
-      "targetShortHelp": "P3466505374",
+      "display": "Nether Blade",
+      "help": "You discharge a beam of nether energy from your sword, striking the target for negative energy damage and causing negative energy damage over time.",
+      "shortHelp": "Ranged, Moderate DMG(Negative Energy), Minor DoT(Negative Energy)",
+      "targetHelp": "You are suffering negative energy damage over time.",
+      "targetShortHelp": "DoT (Negative Energy)",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -1852,8 +1852,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -1894,8 +1894,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1461699593",
-                  "victimHit": "P3815778435",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -1962,11 +1962,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P4235155361",
-      "help": "P318581814",
-      "shortHelp": "P151381450",
-      "targetHelp": "P640453073",
-      "targetShortHelp": "P373215750",
+      "display": "Slice",
+      "help": "You slice your sword in a wide arc, attacking all enemies in front of you. This causes lethal damage and reduces the defense of all affected targets.",
+      "shortHelp": "Melee (Cone), Moderate DMG (Lethal), -DEF(Foe,All)",
+      "targetHelp": "Your defense against all attacks has been reduced.",
+      "targetShortHelp": "-DEF",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -2092,8 +2092,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3785438311",
-                  "victimHit": "P1873832980",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -2213,11 +2213,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P4277773761",
-      "help": "P1376130917",
-      "shortHelp": "P2594193685",
-      "targetHelp": "P622897809",
-      "targetShortHelp": "P2708689718",
+      "display": "Whirling Sword",
+      "help": "You perform a Whirling Sword maneuver, attacking all foes in melee range for lethal damage and reducing their defense. This attack wounds your opponents, causing them to take additional lethal damage over time.",
+      "shortHelp": "PBAoE, Moderate DMG(Lethal), Minor DoT(Lethal), -DEF(Foe, All)",
+      "targetHelp": "You are suffering lethal damage over time and your defense against all attacks has been reduced.",
+      "targetShortHelp": "DoT(Lethal), -DEF",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -2343,8 +2343,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3785438311",
-                  "victimHit": "P1873832980",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -2385,8 +2385,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3137354887",
-                  "victimHit": "P130826600",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -2506,11 +2506,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1583216299",
-      "help": "P336179572",
-      "shortHelp": "P127653278",
-      "targetHelp": "P640453073",
-      "targetShortHelp": "P373215750",
+      "display": "Head Splitter",
+      "help": "You perform a devastating attack that deals lethal damage and reduces a target's defense. The target may also be knocked to the ground.",
+      "shortHelp": "Melee, Extreme DMG(Lethal), -DEF(Foe, All), Chance for Knockdown",
+      "targetHelp": "Your defense against all attacks has been reduced.",
+      "targetShortHelp": "-DEF",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -2636,8 +2636,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3785438311",
-                  "victimHit": "P1873832980",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -2694,8 +2694,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -2817,11 +2817,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P369601562",
-      "help": "P3864341800",
-      "shortHelp": "P603416223",
-      "targetHelp": "P1112986366",
-      "targetShortHelp": "P972587174",
+      "display": "Dark Blast",
+      "help": "You fire a blast of dark energy at a single target. This attack causes negative energy damage and reduces the target's chance to hit.",
+      "shortHelp": "Ranged, High DMG(Negative Energy), -ToHit(Foe)",
+      "targetHelp": "You are suffering a reduced chance to hit.",
+      "targetShortHelp": "-ToHit",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -2947,8 +2947,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3050,11 +3050,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2726905308",
-      "help": "P2982261903",
-      "shortHelp": "P2805060893",
-      "targetHelp": "P3365976690",
-      "targetShortHelp": "P3942165660",
+      "display": "Tenebrous Tentacles",
+      "help": "You can create a rift to the Netherworld that allows its native creatures to slip their oily tentacles into our reality. These creatures will snare all foes within range, immobilizing them while the tentacles drain their life and reduce their chance to hit.",
+      "shortHelp": "Ranged (Cone), Moderate DMG(Negative Energy), High DoT (Smashing), -ToHit(Foe), Immobilize(Foe)",
+      "targetHelp": "You are suffering smashing damage over time. You are also immobilized and suffer a reduced chance to hit.",
+      "targetShortHelp": "DoT (Smashing), Immobilize, -ToHit",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -3183,8 +3183,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1545979143",
-                  "victimHit": "P2876742505",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3225,8 +3225,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3303,8 +3303,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P4257051740",
-                  "victimHit": "P2588894681",
+                  "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3371,11 +3371,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P326798890",
-      "help": "P4271229204",
-      "shortHelp": "P4211316226",
-      "targetHelp": "P1112986366",
-      "targetShortHelp": "P972587174",
+      "display": "Torrent",
+      "help": "You summon a wave of mire that sweeps away foes within its arc. The attack causes smashing damage and sends foes flying while reducing their chance to hit.",
+      "shortHelp": "Ranged (Cone), High DMG(Smashing), Knockback(Foe), -ToHit(Foe)",
+      "targetHelp": "You are suffering a reduced chance to hit.",
+      "targetShortHelp": "-ToHit",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -3502,8 +3502,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P119576033",
-                  "victimHit": "P1719855107",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3544,8 +3544,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3649,11 +3649,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P4164717180",
-      "help": "P4031377176",
-      "shortHelp": "P701139906",
-      "targetHelp": "P381222544",
-      "targetShortHelp": "P2552254470",
+      "display": "Twilight Grasp",
+      "help": "You channel negative energy from the Netherworld through yourself to a targeted foe. This energy drains your target's life force and slowly transfers it to you and all nearby allies. The targeted foe's regeneration, chance to hit and damage are reduced, while you and your nearby allies are healed.",
+      "shortHelp": "Ranged, -DMG(Foe,All), -ToHit(Foe), -Regen(Foe), Heal(Self and Allies)",
+      "targetHelp": "Your damage potential, chance to hit and regeneration rate have been reduced.",
+      "targetShortHelp": "-ToHit, -DMG(All), -Regen",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -3827,7 +3827,7 @@
               "messages": [
                 {
                   "attackerHit": "",
-                  "victimHit": "P116014197",
+                  "victimHit": "{PlayerSource} captures you within a {PowerName}, reducing your damage, chance to hit and regeneration rate.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3973,11 +3973,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3172577890",
-      "help": "P4191425894",
-      "shortHelp": "P125293911",
-      "targetHelp": "P3636718603",
-      "targetShortHelp": "P3634371065",
+      "display": "Nether Well",
+      "help": "Drops a large patch of viscous Negative Energy which dramatically slows down enemies that run through it and reduces their damage resistance. Affected targets are stuck and cannot jump or fly. Recharge: Slow",
+      "shortHelp": "Targeted AoE, -RES(Foe, All), -Speed(Foe, All), -Fly(Foe), -Jump(Foe)",
+      "targetHelp": "Your movement speed and damage resistance have been reduced. You also find it more difficult to jump or fly away.",
+      "targetShortHelp": "-RES(All), -Speed(All), -Fly, -Jump",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -4174,9 +4174,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2272064692",
-      "help": "P3009532524",
-      "shortHelp": "P3936679536",
+      "display": "Shadow Fall",
+      "help": "Envelops you and your nearby teammates in a shroud of darkness. Shadow Fall does not grant Invisibility, but it does make you harder to detect. Even if you are discovered, Shadow Fall grants a bonus to defense against all attacks and resistance to Fear, while reducing energy, negative energy, and psionic damage.",
+      "shortHelp": "PBAoE, Stealth (Team), +DEF(Team, All), +RES(Team, Energy, Negative, Psionics, Fear)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -4556,11 +4556,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2073963686",
-      "help": "P209469858",
-      "shortHelp": "P2393929800",
-      "targetHelp": "P3027190388",
-      "targetShortHelp": "P2788454079",
+      "display": "Nether Void",
+      "help": "You envelop your target in a mass of nether energy which can break through an opponent's phased state. The target is held and unable to move as the nether energy drains their life essence, causing negative energy damage over time.",
+      "shortHelp": "Ranged, High DoT(Negative Energy), Hold(Foe)",
+      "targetHelp": "You are held in place and are suffering negative energy damage over time. These effects will apply to you even if phased.",
+      "targetShortHelp": "DoT(Negative Energy), Held",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -4691,8 +4691,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P4134654113",
-                  "victimHit": "P3642575485",
+                  "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4733,8 +4733,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1461699593",
-                  "victimHit": "P3815778435",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4801,9 +4801,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3932635806",
-      "help": "P2476771851",
-      "shortHelp": "P643157694",
+      "display": "Fade",
+      "help": "You partially bring yourself and all nearby teammates into the Netherworld, vastly increasing their Defense to all attacks for a very short period of time as well as increasing their resistance to Defense Debuffs.",
+      "shortHelp": "PBAoE, +DEF(Team, All), +RES(Team,Defense Debuffs)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -5126,9 +5126,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1060058665",
-      "help": "P3996461432",
-      "shortHelp": "P3418814687",
+      "display": "Dread Servant",
+      "help": "Summons a Dark Servant to your aid. This Dark Servant possesses an assortment of dark powers to weaken your foes.",
+      "shortHelp": "Summon",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -5327,11 +5327,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3906164584",
-      "help": "P2982261903",
-      "shortHelp": "P2973187460",
-      "targetHelp": "P469768464",
-      "targetShortHelp": "P4264862535",
+      "display": "Penumbral Grasp",
+      "help": "You can create a rift to the Netherworld that allows its native creatures to slip their oily tentacles into our reality. These creatures will snare all foes within range, immobilizing them while the tentacles drain their life and reduce their chance to hit.",
+      "shortHelp": "Ranged, High DoT (Smashing/Negative Energy), -ToHit(Foe), Immobilize(Foe)",
+      "targetHelp": "You are suffering smashing and negative energy damage over time. You are also immobilized and suffer a reduced chance to hit.",
+      "targetShortHelp": "DoT (Smashing/Negative Energy), Immobilize, -ToHit",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -5458,8 +5458,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1545979143",
-                  "victimHit": "P2876742505",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5500,8 +5500,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1461699593",
-                  "victimHit": "P3815778435",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5577,8 +5577,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P4257051740",
-                  "victimHit": "P2588894681",
+                  "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5647,9 +5647,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P396729071",
-      "help": "P2438266768",
-      "shortHelp": "P2427759820",
+      "display": "Resist Physical Damage",
+      "help": "You are naturally tough and inherently resistant to smashing and lethal damage, in addition to Defense Debuffs.",
+      "shortHelp": "Self, +RES(Smashing, Lethal, Defense Debuff)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -5876,11 +5876,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1650856938",
-      "help": "P568502767",
-      "shortHelp": "P125293911",
-      "targetHelp": "P3636718603",
-      "targetShortHelp": "P3634371065",
+      "display": "Nether Energy",
+      "help": "Drops a large patch of viscous Negative Energy which dramatically slows down enemies that run through it and reduces their damage resistance. Affected targets are stuck and cannot jump or fly.",
+      "shortHelp": "Targeted AoE, -RES(Foe, All), -Speed(Foe, All), -Fly(Foe), -Jump(Foe)",
+      "targetHelp": "Your movement speed and damage resistance have been reduced. You also find it more difficult to jump or fly away.",
+      "targetShortHelp": "-RES(All), -Speed(All), -Fly, -Jump",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -6219,11 +6219,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1046237613",
-      "help": "P2912376921",
-      "shortHelp": "P1196525362",
-      "targetHelp": "P2912376921",
-      "targetShortHelp": "P1196525362",
+      "display": "Damage Resistance",
+      "help": "The Black Knights are naturally resistant to negative energy damage, but have a weakness to energy attacks.",
+      "shortHelp": "Resistance",
+      "targetHelp": "The Black Knights are naturally resistant to negative energy damage, but have a weakness to energy attacks.",
+      "targetShortHelp": "Resistance",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -6444,11 +6444,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1046237613",
-      "help": "P2912376921",
-      "shortHelp": "P1196525362",
-      "targetHelp": "P2912376921",
-      "targetShortHelp": "P1196525362",
+      "display": "Damage Resistance",
+      "help": "The Black Knights are naturally resistant to negative energy damage, but have a weakness to energy attacks.",
+      "shortHelp": "Resistance",
+      "targetHelp": "The Black Knights are naturally resistant to negative energy damage, but have a weakness to energy attacks.",
+      "targetShortHelp": "Resistance",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -6669,11 +6669,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1046237613",
-      "help": "P2367210818",
-      "shortHelp": "P1196525362",
-      "targetHelp": "P2367210818",
-      "targetShortHelp": "P1196525362",
+      "display": "Damage Resistance",
+      "help": "The more powerful Black Knights are naturally resistant to negative energy damage and have lost their weakness to energy attacks.",
+      "shortHelp": "Resistance",
+      "targetHelp": "The more powerful Black Knights are naturally resistant to negative energy damage and have lost their weakness to energy attacks.",
+      "targetShortHelp": "Resistance",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -6858,11 +6858,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1046237613",
-      "help": "P2367210818",
-      "shortHelp": "P1196525362",
-      "targetHelp": "P2367210818",
-      "targetShortHelp": "P1196525362",
+      "display": "Damage Resistance",
+      "help": "The more powerful Black Knights are naturally resistant to negative energy damage and have lost their weakness to energy attacks.",
+      "shortHelp": "Resistance",
+      "targetHelp": "The more powerful Black Knights are naturally resistant to negative energy damage and have lost their weakness to energy attacks.",
+      "targetShortHelp": "Resistance",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -7047,11 +7047,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1046237613",
-      "help": "P2367210818",
-      "shortHelp": "P1196525362",
-      "targetHelp": "P2367210818",
-      "targetShortHelp": "P1196525362",
+      "display": "Damage Resistance",
+      "help": "The more powerful Black Knights are naturally resistant to negative energy damage and have lost their weakness to energy attacks.",
+      "shortHelp": "Resistance",
+      "targetHelp": "The more powerful Black Knights are naturally resistant to negative energy damage and have lost their weakness to energy attacks.",
+      "targetShortHelp": "Resistance",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -7236,11 +7236,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2661532902",
-      "help": "P3515803521",
-      "shortHelp": "P1196525362",
+      "display": "Damage Pet",
+      "help": "Dread Servant is resistant to Negative Energy but Vulnerable to Energy.",
+      "shortHelp": "Resistance",
       "targetHelp": "",
-      "targetShortHelp": "P1196525362",
+      "targetShortHelp": "Resistance",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -7463,9 +7463,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1428351949",
-      "help": "P3316121004",
-      "shortHelp": "P3713664723",
+      "display": "Deflection",
+      "help": "Your mastery of the shield allows you to easily deflect melee attacks, and attacks that do get through your ironclad defenses tend to do less damage.",
+      "shortHelp": "Auto (Self), +DEF(Melee), +RES(Lethal, Smashing)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -7697,9 +7697,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P792759059",
-      "help": "P310875265",
-      "shortHelp": "P1026126722",
+      "display": "Active Defense",
+      "help": "You gain the benefits of training with your shield, with bonus protection against Sleep, Disorient, Fear, Immobilize, Confusion, Repel, Knockback, Hold and Defense Debuff effects.",
+      "shortHelp": "Auto (Self), +RES (Disorient, Hold, Immobilize, Sleep, Fear, Confuse, Repel, Knockback, Defense Debuff)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -8049,9 +8049,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1013475773",
-      "help": "P3143893765",
-      "shortHelp": "P623082251",
+      "display": "Phalanx Fighting",
+      "help": "Fighting very near your allies allows you to deflect attacks much easier. You will gain a small bonus to your melee, ranged and area of effect defense for each ally near you.",
+      "shortHelp": "Auto (Self), Special, +DEF(Melee, Ranged, AoE)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -8304,9 +8304,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2102485145",
-      "help": "P681107236",
-      "shortHelp": "P3881126166",
+      "display": "Grant Cover",
+      "help": "You are able to use your shield to defend nearby allies. Any teammates who remain nearby gain a bonus to their defense. Additionally, the caster and teammates will gain some resistance to defense and recharge rate debuffs.",
+      "shortHelp": "PBAoE, +DEF(Team, All but Psionic), +RES(Team, Defense Debuff, Recharge Debuff)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -8630,11 +8630,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P4212191260",
-      "help": "P3493783255",
-      "shortHelp": "P2226361307",
-      "targetHelp": "P919969351",
-      "targetShortHelp": "P4017937404",
+      "display": "Mercurial Blow",
+      "help": "You strike your foe with a lightning fast blow from your staff, dealing smashing damage and reducing defenses.",
+      "shortHelp": "Melee, Moderate DMG (Smashing), -DEF(Foe, All)",
+      "targetHelp": "Your defenses have been reduced.",
+      "targetShortHelp": "-DEF(All)",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -8760,8 +8760,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P119576033",
-                  "victimHit": "P1719855107",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -8866,10 +8866,10 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3729913855",
-      "help": "P3887752091",
-      "shortHelp": "P2122040303",
-      "targetHelp": "P3449836305",
+      "display": "Serpent's Reach",
+      "help": "You fully extend your staff and release a burst of energy at a distant target. This target suffers smashing damage and may be knocked down.",
+      "shortHelp": "Ranged, Superior DMG (Smashing), Chance for Knockdown(Foe)",
+      "targetHelp": "You have been knocked down by the force of this attack!",
       "targetShortHelp": "",
       "attackerAttack": "",
       "attackerAttackFloater": "",
@@ -8996,8 +8996,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P119576033",
-                  "victimHit": "P1719855107",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -9054,8 +9054,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -9124,11 +9124,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2812989599",
-      "help": "P2253303830",
-      "shortHelp": "P2733800141",
-      "targetHelp": "P2420251619",
-      "targetShortHelp": "P1931983737",
+      "display": "Innocuous Strikes",
+      "help": "You batter your the feet and legs of nearby opponents with a flurry of blows from your staff. This attack deals smashing damage to all foes within its cone. All affected targets will have their movement speed reduced, with a chance of being immobilized briefly.",
+      "shortHelp": "Melee (Cone), High DoT (Smashing), -Speed(Foe, All), Chance for Immobilize(Foe)",
+      "targetHelp": "You are suffering smashing damage over time and your movement speed has been reduced. You may also be immobilized.",
+      "targetShortHelp": "DoT (Smashing), -Speed(All), Chance for Immobilize",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -9254,8 +9254,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1545979143",
-                  "victimHit": "P2876742505",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -9299,7 +9299,7 @@
               "messages": [
                 {
                   "attackerHit": "",
-                  "victimHit": "P123342164",
+                  "victimHit": "Your movement speed has been reduced by {PlayerSource}'s {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -9399,8 +9399,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P4257051740",
-                  "victimHit": "P2588894681",
+                  "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -9471,11 +9471,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1980192711",
-      "help": "P2218249752",
-      "shortHelp": "P27666661",
-      "targetHelp": "P30067664",
-      "targetShortHelp": "P1980192711",
+      "display": "Taunt",
+      "help": "You taunt your targets, provoking their anger and focusing their attacks.",
+      "shortHelp": "Targeted AoE, Taunt",
+      "targetHelp": "You have been taunted.",
+      "targetShortHelp": "Taunt",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -9604,7 +9604,7 @@
               "messages": [
                 {
                   "attackerHit": "",
-                  "victimHit": "P4007394885",
+                  "victimHit": "{PlayerSource} taunts you, drawing the attention of your attacks.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -9673,11 +9673,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1426350644",
-      "help": "P2331815998",
-      "shortHelp": "P2291575598",
-      "targetHelp": "P2787641084",
-      "targetShortHelp": "P3214140212",
+      "display": "Defensive Sweep",
+      "help": "You quickly strike your opponent from a defensive position, causing smashing damage. The force of the blow also has a chance to slow their response time. Additionally, your chance to hit and your defense against melee and smashing attacks is increased for a short time.",
+      "shortHelp": "Melee, Moderate DMG(Smashing), +DEF(Self, Melee, Smashing), +ToHit(Self), Chance for -Rech(Foe)",
+      "targetHelp": "Your attack speed has been reduced.",
+      "targetShortHelp": "-Recharge",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -9803,8 +9803,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P119576033",
-                  "victimHit": "P1719855107",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -9940,7 +9940,7 @@
               "messages": [
                 {
                   "attackerHit": "",
-                  "victimHit": "P596409667",
+                  "victimHit": "Your attack speed has been reduced by {PlayerSource}'s {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -10009,11 +10009,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P775678673",
-      "help": "P841909827",
-      "shortHelp": "P1702953204",
-      "targetHelp": "P3569588152",
-      "targetShortHelp": "P4064553973",
+      "display": "Crushing Blow",
+      "help": "You swing your weapon at your target with tremendous force. The blow causes smashing damage and internal trauma, which causes lethal damage over time. The target also suffers a reduction in movement speed and ability to fly.",
+      "shortHelp": "Melee, High DMG(Smashing), Minor DoT (Lethal), -Speed(Foe,All), -Fly(Foe)",
+      "targetHelp": "You are bleeding internally. Your movement speed and your ability to fly have been reduced.",
+      "targetShortHelp": "DoT(Lethal), -Speed(All), -Fly",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -10139,8 +10139,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P119576033",
-                  "victimHit": "P1719855107",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -10181,8 +10181,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3137354887",
-                  "victimHit": "P130826600",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -10298,7 +10298,7 @@
               "messages": [
                 {
                   "attackerHit": "",
-                  "victimHit": "P1928603242",
+                  "victimHit": "You are temporarily unable to fly due to {PlayerSource}'s {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -10367,11 +10367,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1098375175",
-      "help": "P3367214968",
-      "shortHelp": "P622114559",
-      "targetHelp": "P2340029775",
-      "targetShortHelp": "P1685142300",
+      "display": "Penumbral Strike",
+      "help": "You swing your weapon in a wide arc and create a nether shockwave which travels in the direction of your target. Opponents hit by the shockwave suffer negative energy damage. Targets will also be knocked back by the force of the blow, or exhausted by the absorbed energy, immobilizing them.",
+      "shortHelp": "Ranged, Minor DMG (Negative Energy), Knockback(Foe) OR Immobilize(Foe)",
+      "targetHelp": "You have been immobilized.",
+      "targetShortHelp": "Immobilized",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -10497,8 +10497,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -10562,8 +10562,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -10627,8 +10627,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P4257051740",
-                  "victimHit": "P2588894681",
+                  "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -10695,11 +10695,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2466830066",
-      "help": "P3302878856",
-      "shortHelp": "P2440777652",
-      "targetHelp": "P2657881316",
-      "targetShortHelp": "P702867462",
+      "display": "Follow Through",
+      "help": "You channel your energy into an especially powerful swing. This swing does significant smashing damage and causes sufficient trauma to induce lethal damage over time in the target.",
+      "shortHelp": "Melee, High DMG (Smashing), Minor DoT (Lethal), Chance for Knockup(Foe), -Fly(Foe)",
+      "targetHelp": "You have been knocked back and suffer exhaustion, reducing your regeneration and recovery.",
+      "targetShortHelp": "DoT(Lethal), Chance for Knockup, -Fly",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -10825,8 +10825,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P119576033",
-                  "victimHit": "P1719855107",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -10867,8 +10867,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3137354887",
-                  "victimHit": "P130826600",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -10931,8 +10931,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }

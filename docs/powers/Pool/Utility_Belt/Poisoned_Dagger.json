@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P2770915801",
-  "help": "P3933832557",
-  "shortHelp": "P1982294015",
-  "targetHelp": "P2854520204",
-  "targetShortHelp": "P1499539508",
+  "display": "Poisoned Dagger",
+  "help": "You throw an envenomed blade at your target causing a moderate amount of lethal damage and causing them to suffer a fair amount of toxic damage over time. Foes struck by the Poisoned Dagger will also have their damage decreased. Damage: Moderate, Recharge: Fast",
+  "shortHelp": "Ranged, Moderate DMG(Lethal), Foe Light DoT(Toxic), -DMG",
+  "targetHelp": "The poison from the Envenomed Dagger has reduced your damage and is causing you to suffer Toxic damage over time.",
+  "targetShortHelp": "DoT(Toxic), -Regen",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -153,8 +153,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -195,8 +195,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4250172858",
-              "victimHit": "P1470793739",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -224,7 +224,7 @@
         "eq",
         "arch",
         "source>",
-        "Class_Tanker",
+        "Tanker",
         "eq",
         "&&"
       ],
@@ -263,8 +263,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -292,7 +292,7 @@
         "eq",
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq",
         "&&"
       ],
@@ -331,8 +331,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -360,7 +360,7 @@
         "eq",
         "arch",
         "source>",
-        "Class_Blaster",
+        "Blaster",
         "eq",
         "&&"
       ],
@@ -399,8 +399,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -428,7 +428,7 @@
         "eq",
         "arch",
         "source>",
-        "Class_Defender",
+        "Defender",
         "eq",
         "&&"
       ],
@@ -467,8 +467,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -496,7 +496,7 @@
         "eq",
         "arch",
         "source>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "&&"
       ],
@@ -535,8 +535,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -564,7 +564,7 @@
         "eq",
         "arch",
         "source>",
-        "Class_Brute",
+        "Brute",
         "eq",
         "&&"
       ],
@@ -603,8 +603,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -632,7 +632,7 @@
         "eq",
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "&&"
       ],
@@ -671,8 +671,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -700,7 +700,7 @@
         "eq",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&"
       ],
@@ -739,8 +739,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -768,7 +768,7 @@
         "eq",
         "arch",
         "source>",
-        "Class_Dominator",
+        "Dominator",
         "eq",
         "&&"
       ],
@@ -807,8 +807,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -875,8 +875,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -900,11 +900,11 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Peacebringer",
+        "Peacebringer",
         "eq",
         "arch",
         "source>",
-        "Class_Warshade",
+        "Warshade",
         "eq",
         "||",
         "enttype",
@@ -948,8 +948,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -973,11 +973,11 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Arachnos_Soldier",
+        "Arachnos Soldier",
         "eq",
         "arch",
         "source>",
-        "Class_Arachnos_Widow",
+        "Arachnos Widow",
         "eq",
         "||",
         "enttype",
@@ -1021,8 +1021,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -1046,7 +1046,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq",
         "enttype",
         "target>",
@@ -1089,9 +1089,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P200668957",
-              "victimHit": "P1006421129",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -1123,7 +1123,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "&&",
         "kMeter",
@@ -1172,9 +1172,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P200668957",
-              "victimHit": "P1006421129",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -1197,7 +1197,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "kMeter",
         "source>",
@@ -1245,9 +1245,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P200668957",
-              "victimHit": "P1006421129",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -1287,7 +1287,7 @@
         "<",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&",
         "enttype",
@@ -1331,9 +1331,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2425438994",
-              "victimHit": "P744308477",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],
@@ -1378,7 +1378,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "&&",
         "enttype",
@@ -1422,8 +1422,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -1447,7 +1447,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq",
         "enttype",
         "target>",
@@ -1490,9 +1490,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P200668957",
-              "victimHit": "P1006421129",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -1534,7 +1534,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "&&",
         "enttype",
@@ -1578,8 +1578,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -1612,7 +1612,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "&&",
         "kMeter",
@@ -1661,9 +1661,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P200668957",
-              "victimHit": "P1006421129",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -1686,7 +1686,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "kMeter",
         "source>",
@@ -1734,9 +1734,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P200668957",
-              "victimHit": "P1006421129",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -1776,7 +1776,7 @@
         "<",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&",
         "enttype",
@@ -1820,9 +1820,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2425438994",
-              "victimHit": "P744308477",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],

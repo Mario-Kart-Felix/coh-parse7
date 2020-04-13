@@ -2,16 +2,16 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P22824042",
-  "help": "P1129485449",
-  "shortHelp": "P4216062541",
-  "targetHelp": "P2065924518",
-  "targetShortHelp": "P467787459",
+  "display": "Conduit of Pain",
+  "help": "You revive a fallen ally by becoming a Conduit of Pain and transferring the pain that was inflicted upon them back upon your enemies. This will briefly empower you increasing your damage output, recovery rate, attack rate and chance to hit. After a minute the effect will wear off leaving you weakened for 30 seconds. Your damage, attack rate and chance to hit will all be reduced during this period. Recharge: Long",
+  "shortHelp": "Ally Rez, Self +DMG, +Recharge, +Recovery, +To Hit, +Special",
+  "targetHelp": "The target of this power has been resurrected and they will have XP Debt Protection for 90 seconds. The caster of this power will have their damage, chance to hit, recovery rate and recharge substantially boosted for a short time.",
+  "targetShortHelp": "+DMG, +Recharge, +Recovery, +To Hit, +Specia",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
   "victimHit": "",
-  "confirm": "P3164885895",
+  "confirm": "{PlayerSource} would like to Resurrect you. You will have full Health and Endurance. Do you Accept?",
   "floatRewarded": "",
   "powerDefenseFloat": "",
   "icon": "PainDomination_ConduitofPain.tga",
@@ -136,8 +136,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P610729340",
-              "victimHit": "P2029379553",
+              "attackerHit": "You heal {PlayerDest} with {PowerName} for {Damage} points of damage over time.",
+              "victimHit": "{PlayerSource} heals you with their {PowerName} for {Damage} points of damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -401,7 +401,7 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3810057365",
+              "attackerHit": "The effects of {PowerName} wear off, weakening you.",
               "victimHit": "",
               "float": "",
               "defenseFloat": ""

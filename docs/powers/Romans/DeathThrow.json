@@ -3,14 +3,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2925494434",
-    "help": "P2010553670",
-    "shortHelp": "P2786507797",
-    "targetHelp": "P2253919205",
-    "targetShortHelp": "P2669148710",
+    "display": "Death Throw",
+    "help": "Activating this power channels the power of the Netherworld to weaken your foes, in an attempt to revive all nearby fallen allies. You must stand near your defeated allies to revive them, then select a foe. The selected foe and all nearby foes will be Slowed, Disoriented, and drained of some life. Revived allies will have full Hit Points and Endurance and will suffer no ill effects and is left protected from XP Debt for 90 seconds. Recharge: Very Long",
+    "shortHelp": "Ranged (AoE), Minor DMG(Negative), Target Slow, -Recharge, Disorient, Ally Rez",
+    "targetHelp": "You have been Disoriented. Your Attack rate and Running speed are reduced by the Howling Twilight.",
+    "targetShortHelp": "-Recharge, -SPD, Disorient",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2058899669",
+    "attackerHit": "Your {PowerName} reduced {PlayerDest} attack rate and movement speed.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -145,8 +145,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P444797007",
-                "victimHit": "P711449515",
+                "attackerHit": "Your {PowerName} reduces the Attack rate, and Regeneration rate of {PlayerDest}!",
+                "victimHit": "{PlayerSource} reduces your attack rate and regeneration rate with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -224,8 +224,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2637081052",
-                "victimHit": "P936402029",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -266,8 +266,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -371,8 +371,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1619677251",
-                "victimHit": "P1771033909",
+                "attackerHit": "You Scare {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Scares you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -432,8 +432,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P610729340",
-                "victimHit": "P2029379553",
+                "attackerHit": "You heal {PlayerDest} with {PowerName} for {Damage} points of damage over time.",
+                "victimHit": "{PlayerSource} heals you with their {PowerName} for {Damage} points of damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }

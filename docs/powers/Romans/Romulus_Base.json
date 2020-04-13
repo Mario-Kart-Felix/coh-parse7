@@ -3,14 +3,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1982466180",
-    "help": "P2244752890",
-    "shortHelp": "P2557169965",
+    "display": "Energized Shield",
+    "help": "Kinetic Shield creates a harmonic Energy Aura that can deflect physical attacks. Your Defense to Smashing and Lethal attacks is increased as weapons and powers like bullets, blades and punches tend to deflect off the shield. Kinetic Shield also grants you good resistance to Defense Debuffs. The Energy based nature of Kinetic Shield also offers some minimal Defense to Energy attacks. Recharge: Fast",
+    "shortHelp": "Toggle: Self +DEF(Smashing, Lethal, Energy), Res(DeBuff DEF)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3163663381",
+    "attackerHit": "You Kinetic Shield increased you Defense to Lethal, Smashing, and to some degree, Energy attacks.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -275,9 +275,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1013475773",
-    "help": "P4103732117",
-    "shortHelp": "P1879375351",
+    "display": "Phalanx Fighting",
+    "help": "Your body resonates a mild Dampening Field that absorbs kinetic energy from physical weapons. This auto power permanently reduces all incoming Smashing and Lethal damage. This power is always on and costs no Endurance.",
+    "shortHelp": "Auto: Self +Res (Smashing,Lethal)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -468,9 +468,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1689588668",
-    "help": "P322043998",
-    "shortHelp": "P2066426691",
+    "display": "Push Back",
+    "help": "You attempt to Shatter the bones of your opponent by striking them with all your might. This attack will deal great damage and can knock foes back a great ways. The power of this attack can actually extend a short distance through multiple foes. Damage: Extreme, Recharge: Slow",
+    "shortHelp": "Melee, Extreme DMG(Smash), High Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -598,8 +598,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -640,8 +640,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -708,9 +708,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3322898677",
-    "help": "P572037910",
-    "shortHelp": "P1557018022",
+    "display": "Slash",
+    "help": "You perform a quick Slash that can reduce a target's Defense, making him easier to hit. This attack causes moderate damage, but has a quick recharge time. Damage: Moderate, Recharge: Fast",
+    "shortHelp": "Melee, Moderate Dam(Lethal), Foe -DEF",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -838,8 +838,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -932,9 +932,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1000,11 +1000,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4235155361",
-    "help": "P2383231067",
-    "shortHelp": "P1106810142",
-    "targetHelp": "P2543120370",
-    "targetShortHelp": "P373215750",
+    "display": "Slice",
+    "help": "You Slice your sword in a wide arc, attacking all enemies in front of you. Slice does less damage than Slash, but can hit multiple foes and reduces their defense. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Melee (Cone), Moderate Dam(Lethal), Foe -DEF",
+    "targetHelp": "Your Defense has been reduced by the broadsword.",
+    "targetShortHelp": "-DEF",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1130,8 +1130,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1224,9 +1224,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1292,11 +1292,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4277773761",
-    "help": "P461860120",
-    "shortHelp": "P1479323249",
-    "targetHelp": "P2543120370",
-    "targetShortHelp": "P373215750",
+    "display": "Whirling Sword",
+    "help": "You perform a Whirling Sword maneuver, attacking all foes in melee range. This attack wounds your opponents, causing them to take minor damage over time and reduces their defense. Damage: Moderate, Recharge: Slow",
+    "shortHelp": "PBAoE Melee, Moderate DMG(Lethal), Foe -Def",
+    "targetHelp": "Your Defense has been reduced by the broadsword.",
+    "targetShortHelp": "-DEF",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1422,8 +1422,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1464,8 +1464,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1584,9 +1584,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1654,11 +1654,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2722205293",
-    "help": "P4293504502",
-    "shortHelp": "P528514162",
-    "targetHelp": "P2543120370",
-    "targetShortHelp": "P373215750",
+    "display": "Hack",
+    "help": "You Hack your opponent for a high amount of damage. This attack can reduce a target's Defense, making him easier to hit. Damage: High, Recharge: Moderate",
+    "shortHelp": "Melee, High Dam(Lethal), Foe -DEF",
+    "targetHelp": "Your Defense has been reduced by the broadsword.",
+    "targetShortHelp": "-DEF",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1784,8 +1784,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1878,9 +1878,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P200668957",
-                "victimHit": "P1006421129",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1946,9 +1946,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2560172621",
-    "help": "P2888349503",
-    "shortHelp": "P1865556910",
+    "display": "Pilum",
+    "help": "You throw a pilum at a foe, dealing heavy damage. Damage: High, Recharge: Moderate",
+    "shortHelp": "Ranged, High DMG(Lethal)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2076,8 +2076,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2144,11 +2144,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1196525362",
-    "help": "P536219010",
-    "shortHelp": "P1196525362",
-    "targetHelp": "P536219010",
-    "targetShortHelp": "P1196525362",
+    "display": "Resistance",
+    "help": "Archvillain resistance.",
+    "shortHelp": "Resistance",
+    "targetHelp": "Archvillain resistance.",
+    "targetShortHelp": "Resistance",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2503,15 +2503,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1982313984",
-    "help": "P4244379209",
-    "shortHelp": "P2123823464",
-    "targetHelp": "P1217409435",
-    "targetShortHelp": "P614519586",
+    "display": "Shout of Command",
+    "help": "By bouncing a carefully pitched sound wave off an ally's ear drum, you can free him from any Disorient, Hold, Sleep, Confusion, Fear, or Immobilize effects, and leave him resistant to such effects for a good while. Protection will improve with multiple applications and as you advance in level. Clarity also provides your ally enhanced perception. Recharge: Fast",
+    "shortHelp": "Ally +Res(Disorient, Hold, Sleep, Immobilize, Terrorize, Confusion), +Perception",
+    "targetHelp": "The soothing waves of sound clear your mind of all Disorient, Hold, Sleep, Confusion, Fear, and Immobilize effects and improve your Perception.",
+    "targetShortHelp": "+Res(Disorient, Hold, Sleep, Fear, Confuse, Immobilize), +Perception",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P494280712",
-    "victimHit": "P3784635774",
+    "attackerHit": "You protect {PlayerDest} from Disorient, Hold, Sleep, Confusion, Fear, and Immobilize effects with your {PowerName} power, and improve his Perception.",
+    "victimHit": "{PlayerSource} protects you from Disorient, Hold, Sleep, Confusion, Fear, and Immobilize effects and improve your Perception.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",

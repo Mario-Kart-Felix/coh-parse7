@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3251690108",
-    "help": "P1657781287",
-    "shortHelp": "P3271876145",
-    "targetHelp": "P1437075981",
-    "targetShortHelp": "P3546334860",
+    "display": "Rain of Fire",
+    "help": "Summons a Rain of Fire over a targeted location, burning foes and reducing their movement speed within a large area. Damage: Minor(DoT), Recharge: Long",
+    "shortHelp": "Ranged (Location AoE), Minor DoT(Fire), -SPD",
+    "targetHelp": "You are on fire and burning!",
+    "targetShortHelp": "DoT(Fire), -SPD",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -145,7 +145,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1985334123",
+                "attackerHit": "You call forth a {PowerName}!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -221,9 +221,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2473499941",
-    "help": "P931455852",
-    "shortHelp": "P3748902731",
+    "display": "Fire Ball",
+    "help": "Hurls an exploding Fireball that consumes a targeted foe, and all nearby enemies. Anyone in that explosion is burned and set ablaze. Damage: Moderate, Recharge: Slow",
+    "shortHelp": "Ranged (Targeted AoE), Moderate DMG(Fire/Smash)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -370,8 +370,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -412,8 +412,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -475,8 +475,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -517,8 +517,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -569,7 +569,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -608,8 +608,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -657,7 +657,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -696,8 +696,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -738,8 +738,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -797,8 +797,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1083355571",
-                "victimHit": "P3022741469",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -865,14 +865,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1503020951",
-    "help": "P2019268347",
-    "shortHelp": "P3104420862",
+    "display": "Fire Shield",
+    "help": "While this power is active, you get a good resistance to Lethal, Smashing and Fire damage. Fire Shield also provides minimal resistance to Cold damage. You must be level 41 and have Rain of Fire or Fire Ball before selecting this power. Recharge: Very Fast",
+    "shortHelp": "Toggle: Self +Res(Fire, Lethal, Smash, Cold)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3569681516",
+    "attackerHit": "You are now more resistant to Smashing, Lethal, Fire, and Cold damage.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1249,14 +1249,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1688885746",
-    "help": "P3444709047",
-    "shortHelp": "P3228648468",
-    "targetHelp": "P526672781",
-    "targetShortHelp": "P2862738113",
+    "display": "Rise of the Phoenix",
+    "help": "If you are defeated, you can rise from the ashes. The fiery resurrection blasts nearby foes with an explosion and knocks them down. You will revive with about half of your Hit Points and Endurance. Rise of the Phoenix will actually leave you invulnerable for a brief time and protected from XP Debt for 20 seconds. You must be level 41 and have Rain of Fire or Fire Ball before selecting this power. Recharge: Very Long",
+    "shortHelp": "Self Rez, Special",
+    "targetHelp": "You have risen from the ashes. You are untouchable for 15 seconds and are protected from XP Debt for 20 seconds.",
+    "targetShortHelp": "Invulnerable, +XP Debt Protection",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3309961538",
+    "attackerHit": "You rise from the ashes with the power of the Phoenix.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1641,15 +1641,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3190899346",
-    "help": "P1177973706",
-    "shortHelp": "P883673132",
-    "targetHelp": "P397266516",
-    "targetShortHelp": "P1874250117",
+    "display": "Melt Armor",
+    "help": "The searing heat from this power is enough to melt the armor and defenses of all targets in the affected area. Melt Armor significantly weakens the Defense and Damage Resistance of the affected targets. You must be level 44 and have two other Fire Mastery Powers before selecting this power. Recharge: Long",
+    "shortHelp": "Ranged (Targeted AoE), Foe -Res, -DEF",
+    "targetHelp": "Your Defense and Damage Resistances have been reduced.",
+    "targetShortHelp": "-DMG, -DEF",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P1591168787",
-    "victimHit": "P503219343",
+    "attackerHit": "Your {PowerName} reduced the Defense and Damage Resistance of {PlayerDest}.",
+    "victimHit": "{PlayerSource} reduces your Defense and Damage Resistance.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",

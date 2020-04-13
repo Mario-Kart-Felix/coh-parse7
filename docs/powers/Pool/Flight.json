@@ -3,18 +3,18 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P991533264",
-    "help": "P2697835812",
-    "shortHelp": "P3013389671",
+    "display": "Hover",
+    "help": "For hovering and aerial combat. This power is much slower than Fly, but provides some Defense to all attacks, offers good air control, costs little Endurance, and has none of the penalties associated with Fly. Switch to this mode when fighting other flying foes.",
+    "shortHelp": "Toggle: Self Fly, +DEF(All)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3690202278",
+    "attackerHit": "Your {PowerName} has made you harder to hit.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
-    "powerDefenseFloat": "P2514521623",
+    "powerDefenseFloat": "Dodged",
     "icon": "Flight_CombatFlight.tga",
     "type": "TOGGLE",
     "numAllowed": 1,
@@ -572,11 +572,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1988217601",
-    "help": "P2442465603",
-    "shortHelp": "P1853402941",
-    "targetHelp": "P2569929433",
-    "targetShortHelp": "P3885675710",
+    "display": "Air Superiority",
+    "help": "This two-handed overhead melee attack can knock a flying target to the ground.",
+    "shortHelp": "Melee, Moderate DMG(Smash), Foe -Fly",
+    "targetHelp": "You have been knocked to the ground!",
+    "targetShortHelp": "-Fly",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -712,7 +712,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1662970345",
+                "attackerHit": "Your {PowerName} drops {PlayerDest} from the skies.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -775,8 +775,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -817,8 +817,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -880,8 +880,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -928,8 +928,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -953,7 +953,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq",
           "enttype",
           "target>",
@@ -996,9 +996,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1043,7 +1043,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "&&",
           "enttype",
@@ -1087,8 +1087,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1121,7 +1121,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "&&",
           "kMeter",
@@ -1170,9 +1170,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1195,7 +1195,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "kMeter",
           "source>",
@@ -1243,9 +1243,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1285,7 +1285,7 @@
           "<",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&",
           "enttype",
@@ -1329,9 +1329,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2008332946",
-                "victimHit": "P2162615548",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -1354,7 +1354,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq",
           "enttype",
           "target>",
@@ -1397,9 +1397,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1441,7 +1441,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "&&",
           "enttype",
@@ -1485,8 +1485,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1519,7 +1519,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "&&",
           "kMeter",
@@ -1568,9 +1568,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1593,7 +1593,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "kMeter",
           "source>",
@@ -1641,9 +1641,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1683,7 +1683,7 @@
           "<",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&",
           "enttype",
@@ -1727,9 +1727,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2008332946",
-                "victimHit": "P2162615548",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -1797,9 +1797,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1808254291",
-    "help": "P3711253565",
-    "shortHelp": "P3537457746",
+    "display": "Fly",
+    "help": "Fly allows you to travel large distances quickly. If you attack a target while this power is on, your flight speed will be temporarily reduced to Hover speed. Your top Flight speed increases with your Level.",
+    "shortHelp": "Toggle: Self Fly",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2403,15 +2403,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1509433155",
-    "help": "P3692556582",
-    "shortHelp": "P426498402",
-    "targetHelp": "P44104590",
-    "targetShortHelp": "P3156923765",
+    "display": "Group Fly",
+    "help": "You can endow your nearby teammates with Flight. Be mindful! Your friends will fall if you run out of Endurance or if they travel too far away from you. Group Fly travel speed is slower than Fly. Flying allies suffer from a reduced chance to hit. You must be at least level 14 and have two other Flight Powers before selecting Group Fly.",
+    "shortHelp": "Toggle: Team Fly, -ACC",
+    "targetHelp": "You have been granted the ability to Fly. However, your chance to hit is reduced.",
+    "targetShortHelp": "-ACC, Fly",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2708193995",
-    "victimHit": "P2461148565",
+    "attackerHit": "You grant {PlayerDest} the power to fly!",
+    "victimHit": "{PlayerSource} endows you with Flight! Stay close or you will fall!",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -2800,9 +2800,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3220913873",
-    "help": "P2300929558",
-    "shortHelp": "P1537247903",
+    "display": "Afterburner",
+    "help": "Afterburner greatly increases your maximum fly speed, provides a high amount of defense, flight protection and additional flight control, however while active you can only use powers that target yourself. You must be at least level 14 and have two other Flight Powers before selecting Afterburner. This power only grants flight protection while Hover, Flight or Group Fly is active. Recharge: Long",
+    "shortHelp": "Toggle: Self +FlySpeed, Res(-Fly), +Def(All), +Flight Control",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

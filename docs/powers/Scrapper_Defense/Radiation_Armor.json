@@ -3,14 +3,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2144653993",
-    "help": "P1335681891",
-    "shortHelp": "P3242392492",
+    "display": "Alpha Barrier",
+    "help": "You cloak yourself in a field of protective radiation that grants you a good deal of resistance to Lethal, Smashing and Toxic damage. Recharge: Very Fast",
+    "shortHelp": "Toggle: Self +Res(Lethal, Smash, Toxic)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P4225245759",
+    "attackerHit": "Your {PowerName} has made you highly resistant to smashing, lethal and toxic damage.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -337,9 +337,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P939113537",
-    "help": "P1415480280",
-    "shortHelp": "P976686663",
+    "display": "Gamma Boost",
+    "help": "Gamma Boost grants you a passive boost to both regeneration and recovery. The lower your current health is, the greater the regeneration bonus you'll receive from Gamma Boost. The higher your current health is, the greater the recovery bonus you'll receive from Gamma Boost. This power is always active.",
+    "shortHelp": "Auto: Self +Regen, +Recovery, Special",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -660,14 +660,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P23665673",
-    "help": "P836177418",
-    "shortHelp": "P3858962394",
+    "display": "Proton Armor",
+    "help": "When active, your body is encased in a shield-like radiation barrier that gives you good resistance to Energy and Fire damage and moderate resistance to Cold and Negative Energy attacks. Recharge: Very Fast",
+    "shortHelp": "Toggle: Self, +Res(Energy, Fire, Cold and Negative)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3761047322",
+    "attackerHit": "Your {PowerName} has made you highly resistant to energy, fire, cold and negative energy damage.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1068,14 +1068,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P866508115",
-    "help": "P3854600597",
-    "shortHelp": "P2226972219",
+    "display": "Fallout Shelter",
+    "help": "While active you are protected from recharge, movement, hold, sleep, immobilize, stun and knockdown effects. Additionally Fallout Shelter grants you minor resistance to toxic and psionic damage as well as a measure of resistance against slow effects. Recharge: Fast",
+    "shortHelp": "Toggle: Self +Res(Hold, Sleep, Immobilize, Stun, Knockdown, Toxic, Psi, Slow)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3546381203",
+    "attackerHit": "Your {PowerName} protects you from Immobilization, Knockdown, Sleep, Disorient, and Hold effects and grants you a measure of resistance to toxic and psionic damage.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1798,9 +1798,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1418028732",
-    "help": "P3904742408",
-    "shortHelp": "P1519824445",
+    "display": "Radiation Therapy",
+    "help": "You concentrate your energies to harness the healing powers of radiation to mend your wounds and rebuild your endurance. Each nearby foe will increase the health and endurance you recover. Affected foes will have their regeneration rates substantially reduced for a short time. Recharge: Slow",
+    "shortHelp": "PBAoE, Minor DMG(Energy), Minor DoT(Toxic), Foe -Regen, Self +HP, +End, Res(-Regen)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1941,8 +1941,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1983,8 +1983,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2041,7 +2041,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P777377190",
+                "attackerHit": "Your {PowerName} heals you for {Damage} points of health!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -2083,7 +2083,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P777377190",
+                "attackerHit": "Your {PowerName} heals you for {Damage} points of health!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -2413,9 +2413,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3546528178",
-    "help": "P2941917670",
-    "shortHelp": "P2928979741",
+    "display": "Beta Decay",
+    "help": "While Beta Decay is active, nearby foes will have their chance to hit and defense decreased slightly and will be taunted. You will gain a recharge bonus per nearby target up to 10 targets. The first target grants the largest benefit. Recharge: Moderate",
+    "shortHelp": "Toggle: Foe, Taunt, -To Hit, -Defense, Self +Recharge",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2878,14 +2878,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2286575888",
-    "help": "P479492049",
-    "shortHelp": "P566747983",
+    "display": "Particle Shielding",
+    "help": "You channel a tremendous amount of radiation into a barrier around you. For a short time you will have a strong absorption shield in addition to a regeneration and recovery buff. Recharge: Long",
+    "shortHelp": "Self, +Absorb, +Regeneration",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3767545984",
+    "attackerHit": "You create a powerful radiation barrier around you to absorb incoming damage!",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -3144,11 +3144,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2728914404",
-    "help": "P341572509",
-    "shortHelp": "P524684007",
-    "targetHelp": "P3447141410",
-    "targetShortHelp": "P3521613722",
+    "display": "Ground Zero",
+    "help": "You release a mixture of radiation into the area. Nearby foes will be barraged with harmful radiation and will suffer Moderate Energy damage immediately, followed by moderate toxic damage over time. Affected foes will also have their defense reduced. Nearby allies will be healed for a moderate amount and will recover health over time. This power can affect a total of 30 targets. This includes both friends and foes. Ground Zero has no effect on the caster, only nearby allies and enemies. Damage: Moderate, Moderate DoT, Recharge: Long",
+    "shortHelp": "PBAoE, Foe Moderate DMG(Energy), Moderate DoT(Toxic), -DEF(All), Ally +HP, +Heal over time",
+    "targetHelp": "Radiation has left you weakened. You are suffering damage over time and have reduced defenses!",
+    "targetShortHelp": "Moderate DoT(Toxic), -Def",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -3294,8 +3294,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3336,8 +3336,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3438,8 +3438,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2554778236",
-                "victimHit": "P2468818622",
+                "attackerHit": "You heal {PlayerDest} with your {PowerName} for {Damage} points of health!",
+                "victimHit": "{PlayerSource} heals you with their {PowerName} for {Damage} points of health!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3480,8 +3480,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1211344262",
-                "victimHit": "P3051087840",
+                "attackerHit": "You continue to heal {PlayerDest} with your {PowerName} for {Damage} points of health!",
+                "victimHit": "{PlayerSource} continues to heal you with their {PowerName} for {Damage} points of health!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3548,9 +3548,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1089187102",
-    "help": "P1661735790",
-    "shortHelp": "P2932151954",
+    "display": "Meltdown",
+    "help": "After building up a dangerous amount of radiation you release it to both shield and empower yourself. While active you will gain a good amount of damage resistance to all types of damage, recover endurance more quickly and deal more damage for a short time. When this power wears off you will lose a small amount endurance. Recharge: Very Long",
+    "shortHelp": "Self, +Res(All), +Recovery, +DMG(All)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -3805,7 +3805,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P3718465258",
+                "victimHit": "Your {PowerName} power has left you exhausted.",
                 "float": "",
                 "defenseFloat": ""
               }

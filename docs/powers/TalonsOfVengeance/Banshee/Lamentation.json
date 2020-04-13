@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3096135527",
-  "help": "P3819632221",
-  "shortHelp": "P2210037598",
-  "targetHelp": "P1959451890",
-  "targetShortHelp": "P3305480933",
+  "display": "Lamentation",
+  "help": "You cry out in a sorrowful lamentation, causing energy and negative energy damage in those around you. There is a chance that your lamentations affect your enemy so deeply that you may feed upon their suffering, healing yourself and increasing the endurance cost of their powers.",
+  "shortHelp": "PBAoE, High DMG(Energy), Moderate DoT(Negative Energy), -DMG(Foe,All), Chance for Heal(Self) and +EndCost(Foe)",
+  "targetHelp": "Your defenses, resistances, regeneration and recovery have been reduced.",
+  "targetShortHelp": "-DEF(All), -RES(All), -Regen, -Rec",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -133,8 +133,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -175,8 +175,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1461699593",
-              "victimHit": "P3815778435",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -351,7 +351,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P103906993",
+              "victimHit": "{PlayerSource}'s feeds upon the deep sorrow invoked within you by her {PowerName}, healing herself and increasing the endurance cost of your powers.",
               "float": "",
               "defenseFloat": ""
             }

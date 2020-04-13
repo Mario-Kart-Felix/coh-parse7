@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1196525362",
-    "help": "P292019581",
-    "shortHelp": "P3036370449",
+    "display": "Resistance",
+    "help": "Demon Princes are resistant to Fear, Confuse, Placate and Sleep effects. They also have defense against Lethal, Smashing, Fire and Cold attacks. They can use Ice Blast and Shiver.",
+    "shortHelp": "Auto: Def(Lethal, Smashing, Fire, Cold) Res(Sleep, Fear, Confuse, Placate)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -408,11 +408,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1574051147",
-    "help": "P1989695603",
-    "shortHelp": "P3102457097",
-    "targetHelp": "P1851895213",
-    "targetShortHelp": "P1722645486",
+    "display": "Ice Blast",
+    "help": "Ice Blast hurls shards of ice at foes and Slows their attacks and movement for a time. Slower recharge than Ice Bolt, but more damage. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Ranged, Moderate DMG(Cold/Smash), Foe -Recharge, -SPD",
+    "targetHelp": "Your Attack rate and Running speed are reduced by the Ice Blast.",
+    "targetShortHelp": "-Recharge, -SPD",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -546,8 +546,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -588,8 +588,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -732,15 +732,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P575259887",
-    "help": "P3925256144",
-    "shortHelp": "P3242282090",
-    "targetHelp": "P681067887",
-    "targetShortHelp": "P1490875287",
+    "display": "Shiver",
+    "help": "You can blast forth a wide cone of chilling air that dramatically Slows the movement and attack rate of nearby foes. Recharge: Slow",
+    "shortHelp": "Ranged (Cone), Foe -SPD, -Recharge",
+    "targetHelp": "You are shivering. Your attack rate and movement speed are reduced.",
+    "targetShortHelp": "-SPD, -Recharge",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P706922686",
-    "victimHit": "P2807046293",
+    "attackerHit": "Your {PowerName} dramatically Slows the attack speed and movement of {PlayerDest}",
+    "victimHit": "{PlayerSource} Slows you withtheir{PowerName}.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -1027,9 +1027,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1247110959",
-    "help": "P1876085412",
-    "shortHelp": "P3583698820",
+    "display": "Super Leap",
+    "help": "Demons can Super Leap",
+    "shortHelp": "Self Leap",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1359,15 +1359,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1650697981",
-    "help": "P289766342",
-    "shortHelp": "P1421789777",
-    "targetHelp": "P2256899132",
-    "targetShortHelp": "P1722645486",
+    "display": "Chilling Embrace",
+    "help": "While active, you dramatically lower the temperature around yourself, Slowing the attack rate of all nearby foes, as well as their movement speed. Recharge: Very Fast",
+    "shortHelp": "Toggle: PBAoE, Foe -Recharge, -Speed",
+    "targetHelp": "Your Attack speed and Running speed are reduced by the Chilling Embrace.",
+    "targetShortHelp": "-Recharge, -SPD",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3060559231",
-    "victimHit": "P3023101370",
+    "attackerHit": "Your {PowerName} Slows all nearby foes.",
+    "victimHit": "The {PowerName} from {PlayerSource} slows your attack and movement speed.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -1705,11 +1705,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2306375624",
-    "help": "P180265943",
-    "shortHelp": "P2475535213",
-    "targetHelp": "P585760232",
-    "targetShortHelp": "P1722645486",
+    "display": "Ice Sword",
+    "help": "You create a blade of solid ice that deals good damage. Being hit by this Ice Sword will Slow a target's movement and attack speed, due to the intense chill. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Melee, Moderate DMG(Cold/Lethal), Foe -Recharge, -SPD",
+    "targetHelp": "You are chilled. Your Attack speed and Running speed are reduced.",
+    "targetShortHelp": "-Recharge, -SPD",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1843,8 +1843,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1885,8 +1885,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2029,11 +2029,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3118204850",
-    "help": "P1375030455",
-    "shortHelp": "P2732056965",
-    "targetHelp": "P2694712185",
-    "targetShortHelp": "P2267104667",
+    "display": "Block of Ice",
+    "help": "You can freeze a single foe in a Block of Ice. The target is frozen solid, helpless, and can be attacked. More powerful foes may not be held, but all affected targets will be Slowed and take some Cold damage. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Ranged, Moderate DMG(Cold), Foe Hold, -SPD, -Recharge",
+    "targetHelp": "You are frozen in a Block of Ice. Once free, your Attack Rate and Running speed will be reduced slightly for a while.",
+    "targetShortHelp": "Hold, -SPD, -Recharge",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2167,8 +2167,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2209,8 +2209,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2460,9 +2460,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1571431181",
-    "help": "P3342013547",
-    "shortHelp": "P1571431181",
+    "display": "Enchant Demon",
+    "help": "This Demon Prince has been Enchanted. He is now has access to Chilling Embrace, Ice Sword and Block of Ice.",
+    "shortHelp": "Enchant Demon",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2649,11 +2649,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P341049142",
-    "help": "P1773202078",
-    "shortHelp": "P3858035068",
-    "targetHelp": "P585760232",
-    "targetShortHelp": "P1722645486",
+    "display": "Ice Slash",
+    "help": "Ice Slash allows the user to create a blade of solid ice and strike a foe for high damage. Being hit by Ice Slash will Slow a foes' attack and movement speed, due to the intense chill. Damage: High, Recharge: Slow",
+    "shortHelp": "Melee, High DMG(Cold/Lethal), Foe -Recharge, -SPD",
+    "targetHelp": "You are chilled. Your Attack speed and Running speed are reduced.",
+    "targetShortHelp": "-Recharge, -SPD",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2788,8 +2788,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2830,8 +2830,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2974,14 +2974,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1695746557",
-    "help": "P684376230",
-    "shortHelp": "P987378304",
-    "targetHelp": "P1742153832",
-    "targetShortHelp": "P3472027048",
+    "display": "Frozen Aura",
+    "help": "Your mastery of cold enables you to dramatically lower the temperature immediately around you. When you perform a Frozen Aura, nearby foes will be frozen within a fragile casing of ice and suffer a moderate amount of cold damage. These frozen foes will break free if attacked. Frozen Aura deals moderate damage. Damage: Moderate Recharge: Slow",
+    "shortHelp": "PBAoE, Moderate DMG(Cold), Foe Sleep",
+    "targetHelp": "You have been chilled and cannot act until awakened.",
+    "targetShortHelp": "Sleep",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P1784789294",
+    "attackerHit": "Your {PowerName} freezes {PlayerDest} in his tracks!",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -3113,8 +3113,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P786700626",
-                "victimHit": "P2415654930",
+                "attackerHit": "You Sleep {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Sleeps you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3155,8 +3155,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3225,9 +3225,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2014736395",
-    "help": "P3370253689",
-    "shortHelp": "P1386049433",
+    "display": "Abyssal Empowerment",
+    "help": "This Demon Prince has been Empowered. It can now use Ice Slash and Frozen Aura.",
+    "shortHelp": "Empower",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

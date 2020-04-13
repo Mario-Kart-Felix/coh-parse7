@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4034968973",
-    "help": "P412115573",
-    "shortHelp": "P1519530153",
+    "display": "Mu Lightning",
+    "help": "You can send a large blast of Mu electrical energy at a foe, dealing heavy damage and draining some Endurance. Some of this Endurance may transfer back to you. Damage: High, Recharge: Fast",
+    "shortHelp": "Ranged, High DMG(Energy), Foe -End",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -169,8 +169,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -267,8 +267,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -395,7 +395,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1051884142",
+                "attackerHit": "You recover some of the Endurance you drained.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -424,7 +424,7 @@
           "eq",
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "==",
           "&&"
         ],
@@ -463,9 +463,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2448610967",
-                "victimHit": "P2717639939",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -521,8 +521,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -589,11 +589,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3988822156",
-    "help": "P2783899540",
-    "shortHelp": "P3493670038",
-    "targetHelp": "P4024297128",
-    "targetShortHelp": "P3778609849",
+    "display": "Electrifying Fences",
+    "help": "The Electrifying Fences attempts to Immobilize a group of foes in an area. This power deals some energy damage over time as it slowly drains some Endurance. Damage: Moderate(DoT), Recharge: Slow",
+    "shortHelp": "Ranged (Targeted AoE), Minor DoT(Energy), Foe Immobilize, -END",
+    "targetHelp": "You are immobilized by the Electrifying Fences. You are taking energy damage over time and are loosing some Endurance.",
+    "targetShortHelp": "Immobilize, DoT(Negative), -END",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -756,8 +756,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -798,8 +798,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -896,8 +896,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -964,8 +964,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1028,7 +1028,7 @@
           "eq",
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "==",
           "&&"
         ],
@@ -1067,9 +1067,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2448610967",
-                "victimHit": "P2717639939",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1265,8 +1265,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1083355571",
-                "victimHit": "P3022741469",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1333,11 +1333,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2138267515",
-    "help": "P288287190",
-    "shortHelp": "P256474272",
-    "targetHelp": "P2467806480",
-    "targetShortHelp": "P1831456333",
+    "display": "Ball Lightning",
+    "help": "Hurls a highly charged ball of Mu lightning that explodes on contact. Ball Lightning deals good damage in an area of effect, and drains some Endurance from each target it hits. You must be level 41 and have Mu Lightning or Electrifying Fences before selecting this power. Damage: Moderate(DoT), Recharge: Long",
+    "shortHelp": "Ranged (Targeted AoE), Moderate DoT(Energy), Foe -End",
+    "targetHelp": "The Ball Lightning is continuing to electrocute you.",
+    "targetShortHelp": "DoT(Energy)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1495,8 +1495,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1537,8 +1537,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1635,8 +1635,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1677,8 +1677,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1741,7 +1741,7 @@
           "eq",
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "==",
           "&&"
         ],
@@ -1780,9 +1780,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2448610967",
-                "victimHit": "P2717639939",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1889,8 +1889,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1931,8 +1931,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1083355571",
-                "victimHit": "P3022741469",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1999,9 +1999,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2901832587",
-    "help": "P144982780",
-    "shortHelp": "P3892317725",
+    "display": "Static Discharge",
+    "help": "Hurls multiple bolts of Mu Electricity in an arc that deals damage and drains Endurance from all affected foes in the area. You must be level 41 and have Mu Lightning or Electrifying Fences before selecting this power. Damage: Moderate, Recharge: Long",
+    "shortHelp": "Ranged (Cone), Moderate DMG(Energy), -END",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2161,8 +2161,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2259,8 +2259,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2323,7 +2323,7 @@
           "eq",
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "==",
           "&&"
         ],
@@ -2362,9 +2362,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2448610967",
-                "victimHit": "P2717639939",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -2471,7 +2471,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1051884142",
+                "attackerHit": "You recover some of the Endurance you drained.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -2529,8 +2529,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2597,9 +2597,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3896350138",
-    "help": "P88202950",
-    "shortHelp": "P957037479",
+    "display": "Summon Striker",
+    "help": "Scirocco has shown you how to call upon a mystical Mu Striker to assist you. The Mu pulse with the blood of their slaughtered ancestors in their veins, and are well practiced in the dark arts. Your access to this Striker is very limited. You can only summon him once every 15 minutes and he will leave after 4 minutes, or if you exit a zone or mission. You must be level 44 and have two other Mu Mastery Powers before selecting this power. Recharge: Extremely Long",
+    "shortHelp": "Summon Mu Strike: Ranged Moderate DMG(Energy)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

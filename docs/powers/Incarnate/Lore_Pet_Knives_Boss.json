@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": true,
-    "display": "P1690820744",
-    "help": "P2998794776",
-    "shortHelp": "P2170303666",
-    "targetHelp": "P338932406",
-    "targetShortHelp": "P3014490551",
+    "display": "Focused Shot",
+    "help": "You quickly fire a round from one of your pistols. The ammunition used contains a special toxin which causes additional toxic damage to the target, but the levels are insufficient to weaken their body.",
+    "shortHelp": "Ranged, Minor DMG(Lethal), Minor DoT (Toxic)",
+    "targetHelp": "You have been poisoned.",
+    "targetShortHelp": "DoT(Toxic)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -138,8 +138,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -180,8 +180,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -250,11 +250,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": true,
-    "display": "P947947196",
-    "help": "P3431763384",
-    "shortHelp": "P2798741881",
-    "targetHelp": "P919606529",
-    "targetShortHelp": "P1759808529",
+    "display": "Dual Shot",
+    "help": "You fire a round from each of your pistols. The ammunition used contains a special toxin which causes additional toxic damage to the target and reduces their damage. There is also a chance the target may be knocked down.",
+    "shortHelp": "Ranged, Moderate DMG(Lethal), Minor DoT (Toxic), Knockdown (Foe), -DMG(Foe,All)",
+    "targetHelp": "You have been poisoned and your damage output has been reduced.",
+    "targetShortHelp": "DoT(Toxic), -DMG(All)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -385,8 +385,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -427,8 +427,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -540,8 +540,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -604,8 +604,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -674,11 +674,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": true,
-    "display": "P161526169",
-    "help": "P462223306",
-    "shortHelp": "P1914297799",
-    "targetHelp": "P1367103757",
-    "targetShortHelp": "P2211841663",
+    "display": "Weakening Shot",
+    "help": "You fire a particularly potent round at your opponent. This round is full of toxins which catalyze those introduced by your other attacks. In addition to significantly weakening your opponent, these catalysts may alter the toxins in the target's bloodstream, causing additional damage and stunning them.",
+    "shortHelp": "Ranged, -DMG(Foe, All), -DEF(Foe, All), -RES(Foe, Status Effects), -ToHit(Foe), -Heal(Foe), -End(Foe), Chance for High DMG(Toxic), Stun",
+    "targetHelp": "Your chance to hit, the strength of your attacks and the potency of your powers' status effects have all been reduced. Additionally, you may take additional damage and be stunned.",
+    "targetShortHelp": "Special",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -817,7 +817,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2076622043",
+                "victimHit": "{PlayerSource} hits you with her {PowerName} and significantly weakens your body!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -987,8 +987,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2851307520",
-                "victimHit": "P105122461",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1077,8 +1077,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1141,8 +1141,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1211,11 +1211,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": true,
-    "display": "P3099675223",
-    "help": "P2710219100",
-    "shortHelp": "P2526091370",
-    "targetHelp": "P1200097443",
-    "targetShortHelp": "P3019349288",
+    "display": "Paralytic Shot",
+    "help": "You fire a particularly potent round at your opponent. This round is full of toxins which catalyze those introduced by your other attacks. In addition to paralyzing your opponent, these catalysts may alter the toxins in the target's bloodstream, causing additional damage and reducing their regeneration and recovery.",
+    "shortHelp": "Ranged, Hold (Foe), Chance for Superior DMG(Toxic), -Regen(Foe), -Rec(Foe)",
+    "targetHelp": "You are paralyzed by potent neurotoxins. Additionally, there is a chance you will take additional damage and suffer reductions in regeneration and recovery.",
+    "targetShortHelp": "Hold, Special",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1345,8 +1345,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2851307520",
-                "victimHit": "P105122461",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1471,8 +1471,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1534,8 +1534,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }

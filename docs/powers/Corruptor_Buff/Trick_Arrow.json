@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3890749173",
-    "help": "P3951001778",
-    "shortHelp": "P2638259388",
-    "targetHelp": "P1806432329",
-    "targetShortHelp": "P2964557942",
+    "display": "Entangling Arrow",
+    "help": "Upon impact, the Entangling Arrow releases a strong net that can Immobilize most targets. This non-lethal device deals no damage and does not prevent targets from attacking. The Entangling Arrow can bring down flying entities, halts jumping and slows all of your actions. Entangle Arrow has a fairly low Endurance cost and a bonus to its Accuracy. Recharge: Fast",
+    "shortHelp": "Ranged, Target Immobilize, -Fly, Slow",
+    "targetHelp": "You have been caught in a net. You cannot move or fly and your actions are slowed.",
+    "targetShortHelp": "Immobilize, -Fly, Slow",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -146,8 +146,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -502,8 +502,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -570,11 +570,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2538058937",
-    "help": "P912604196",
-    "shortHelp": "P2306152642",
-    "targetHelp": "P2650044405",
-    "targetShortHelp": "P2203852352",
+    "display": "Flash Arrow",
+    "help": "This arrow explodes in a dazzling flash of light and sound. The targets are so blinded that they can hardly see a thing. Most villains will not be able to see past normal melee range, although some may have better perception. If the villains are attacked, they will be alerted to your presence, but will suffer a penalty to chance to hit. Recharge: Slow",
+    "shortHelp": "Ranged (Targeted AoE), Foe -Visibility, -To Hit",
+    "targetHelp": "The flash of light has left you dazzled. Your chance to hit and range of sight are greatly diminished.",
+    "targetShortHelp": "-Visibility, -To Hit",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -711,8 +711,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2345218607",
-                "victimHit": "P2652110899",
+                "attackerHit": "You blind {PlayerDest} with your {PowerName}, reducing their perception and chance to hit!",
+                "victimHit": "{PlayerSource} blinds you with a {PowerName}, reducing your perception and chance to hit!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -815,8 +815,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2345218607",
-                "victimHit": "P2652110899",
+                "attackerHit": "You blind {PlayerDest} with your {PowerName}, reducing their perception and chance to hit!",
+                "victimHit": "{PlayerSource} blinds you with a {PowerName}, reducing your perception and chance to hit!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -920,9 +920,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3237857720",
-    "help": "P1460196302",
-    "shortHelp": "P4256049864",
+    "display": "Glue Arrow",
+    "help": "This arrow carries a cartridge of intensely sticky glue, which explodes on impact. The glue Slows the movement and attack rates of any foes in the area. Recharge: Very Slow",
+    "shortHelp": "Ranged (TargetedAoE), Foe -Speed, -Recharge",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1061,7 +1061,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4234428342",
+                "attackerHit": "You use a {PowerName} to create a sticky patch of ground!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -1137,11 +1137,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3416938233",
-    "help": "P3906379218",
-    "shortHelp": "P3570542779",
-    "targetHelp": "P2694712185",
-    "targetShortHelp": "P2267104667",
+    "display": "Ice Arrow",
+    "help": "This arrow can freeze a single foe in a block of ice. The target is frozen solid, helpless, and can be attacked. More powerful foes may not be Held, but all affected targets will be Slowed. Recharge: Moderate",
+    "shortHelp": "Ranged, Foe Hold, -SPD, -Recharge",
+    "targetHelp": "You are frozen in a Block of Ice. Once free, your Attack Rate and Running speed will be reduced slightly for a while.",
+    "targetShortHelp": "Hold, -SPD, -Recharge",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1281,8 +1281,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1602,8 +1602,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1670,9 +1670,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2744262583",
-    "help": "P3148732808",
-    "shortHelp": "P1169805848",
+    "display": "Poison Gas Arrow",
+    "help": "This arrow carries a capsule cloud of poisonous gas, which explodes on impact and weakens all foes in its vicinity. Affected foes damage potential will be severely reduced. Some foes will react badly to the poison and choke for a time, though they will react if attacked. Recharge: Slow",
+    "shortHelp": "Ranged AoE, Foe -DMG, Sleep",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1809,7 +1809,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1427562046",
+                "attackerHit": "You use a {PowerName} to release a noxious poison gas!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -1885,15 +1885,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2671335934",
-    "help": "P1084662354",
-    "shortHelp": "P1037696611",
-    "targetHelp": "P1207406105",
-    "targetShortHelp": "P2396833550",
+    "display": "Acid Arrow",
+    "help": "This arrow explodes in a small shower of acid on impact. This acid eats through armor, causing damage over time. It reduces the target's Defense as well as their Damage Resistance. Damage: Minor, Recharge: Slow",
+    "shortHelp": "Ranged AoE Minor DoT(Toxic), Foe -Res(All), -DEF",
+    "targetHelp": "Your Resistances and Defense have been weakened by the Acid Arrow.",
+    "targetShortHelp": "-Res(All), -DEF, Minor DoT(Toxic)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P724208132",
-    "victimHit": "P2478400538",
+    "attackerHit": "Your {PowerName} splashes acid on {PlayerDest}, reducing their resistances to damage.",
+    "victimHit": "{PlayerSource} hits you with an Acid Arrow. The acid is burning you and reducing your damage resistance.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -2023,8 +2023,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2169,11 +2169,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P697171009",
-    "help": "P548914281",
-    "shortHelp": "P1774769806",
-    "targetHelp": "P1489999320",
-    "targetShortHelp": "P3466742994",
+    "display": "Disruption Arrow",
+    "help": "This arrow plants a sonic resonator at a target location. The vibrations of the resonator weaken the Damage Resistance of all nearby foes. Recharge: Long",
+    "shortHelp": "Ranged (Location AoE), -Res(All)",
+    "targetHelp": "The Disruption Arrow has lowered your Resistances.",
+    "targetShortHelp": "-Res(All)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2303,7 +2303,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1919322604",
+                "attackerHit": "You plant a {PowerName} into the ground, decreasing the resistance of all enemies near it!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -2379,9 +2379,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P851023681",
-    "help": "P938977739",
-    "shortHelp": "P2794896108",
+    "display": "Oil Slick Arrow",
+    "help": "On impact, this arrow creates an oil slick that Slows foes in the area and may cause them to slip and fall. The oil slick is very flammable and may burst into flames if fire is used near it. Recharge: Long",
+    "shortHelp": "Ranged (Location AoE), Knockdown, -Speed, -DEF, +Special",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2517,7 +2517,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4100491214",
+                "attackerHit": "You coat the ground in oil from your {PowerName}!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -2593,11 +2593,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P993615740",
-    "help": "P2063198606",
-    "shortHelp": "P1500918562",
-    "targetHelp": "P3549109959",
-    "targetShortHelp": "P799513638",
+    "display": "EMP Arrow",
+    "help": "This arrow can unleash a massive pulse of electromagnetic energy on impact. This EMP can affect machines, and is even powerful enough to affect synaptic brain patterns. It will incapacitate all foes in its radius. Additionally, most machines and robots will take moderate high damage. However, this power uses a lot of Endurance and leaves you unable to recover Endurance for a while. Recharge: Very Long",
+    "shortHelp": "AoE, Foe Hold, Special vs. Robots, Self -Recovery",
+    "targetHelp": "You are held immobile by the EMP Pulse and your Regeneration Rate is reduced.",
+    "targetShortHelp": "Hold, -Regen",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2737,8 +2737,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2779,8 +2779,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1102804825",
-                "victimHit": "P456748222",
+                "attackerHit": "Your {PowerName} drains {PlayerDest} of some Endurance.",
+                "victimHit": "{PlayerSource} shocks you with their {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2822,8 +2822,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3216666060",
-                "victimHit": "P1491019888",
+                "attackerHit": "Your {PowerName} reduces the regeneration rate of {PlayerDest}!",
+                "victimHit": "{PlayerSource} reduces your regeneration rate with an {PowerName}",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2886,8 +2886,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2976,8 +2976,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3018,8 +3018,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1102804825",
-                "victimHit": "P456748222",
+                "attackerHit": "Your {PowerName} drains {PlayerDest} of some Endurance.",
+                "victimHit": "{PlayerSource} shocks you with their {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3061,8 +3061,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3216666060",
-                "victimHit": "P1491019888",
+                "attackerHit": "Your {PowerName} reduces the regeneration rate of {PlayerDest}!",
+                "victimHit": "{PlayerSource} reduces your regeneration rate with an {PowerName}",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3122,8 +3122,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3181,7 +3181,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2665432657",
+                "attackerHit": "Your {PowerName} has left you exhausted!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""

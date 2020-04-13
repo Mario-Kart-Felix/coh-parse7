@@ -2,9 +2,9 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": true,
-  "display": "P324685783",
-  "help": "P263793944",
-  "shortHelp": "P3465884966",
+  "display": "Claymore",
+  "help": "This steel Claymore may be of some use. You have this power for a total of 30 minutes. Recharge: Fast",
+  "shortHelp": "Melee, Moderate DMG(Lethal), Foe -DEF",
   "targetHelp": "",
   "targetShortHelp": "",
   "attackerAttack": "",
@@ -135,8 +135,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -196,7 +196,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq"
       ],
       "flags": [],
@@ -234,9 +234,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P200668957",
-              "victimHit": "P1006421129",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],

@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3810171802",
-  "help": "P681909925",
-  "shortHelp": "P348239392",
-  "targetHelp": "P2377566903",
-  "targetShortHelp": "P3361723807",
+  "display": "Reaper's Bolt",
+  "help": "You unleash a bolt of death energy at a single target. The affected target suffers from negative energy damage over time, endurance drain and reduced recovery. Additionally, the longer the Sentinel remains alive, the more likely his presence will sap the target's soul, causing them to suffer increased endurance cost for all powers.",
+  "shortHelp": "Ranged (Secondary Target), Moderate DMG(Negative Energy), Minor DoT(Negative Energy), EndDrain(Foe), -Rec(Foe), Chance for +EndCost(Foe)",
+  "targetHelp": "You are suffering from negative energy damage over time, endurance drain and reduced recovery. There is also the potential for your powers to cost more endurance to execute.",
+  "targetShortHelp": "DoT(Negative Energy), -End, -Rec, Chance for +EndCost",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -134,8 +134,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2637081052",
-              "victimHit": "P936402029",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -176,8 +176,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1461699593",
-              "victimHit": "P3815778435",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -349,7 +349,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P4179021727",
+              "victimHit": "{PlayerSource}'s {PowerName} has increased the endurance cost of your powers!",
               "float": "",
               "defenseFloat": ""
             }

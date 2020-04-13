@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2583867379",
-    "help": "P3697559231",
-    "shortHelp": "P2888124115",
-    "targetHelp": "P3697559231",
-    "targetShortHelp": "P2888124115",
+    "display": "Gale",
+    "help": "You can call forth a tremendous gust of Gale force winds that knock down foes and deal some Smashing damage in a wide cone area. Damage: Minor, Recharge: Moderate",
+    "shortHelp": "Ranged (Cone), Minor DMG(Smash), Foe Knockback",
+    "targetHelp": "You can call forth a tremendous gust of Gale force winds that knock down foes and deal some Smashing damage in a wide cone area. Damage: Minor, Recharge: Moderate",
+    "targetShortHelp": "Ranged (Cone), Minor DMG(Smash), Foe Knockback",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -133,8 +133,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -175,8 +175,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -217,8 +217,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -285,11 +285,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1760327861",
-    "help": "P2810352472",
-    "shortHelp": "P108962572",
-    "targetHelp": "P2810352472",
-    "targetShortHelp": "P108962572",
+    "display": "Hurricane",
+    "help": "The driving winds of the Hurricane are blinding you. Your Range and Accuracy are reduced.",
+    "shortHelp": "-Range, -ACC, Knockback",
+    "targetHelp": "The driving winds of the Hurricane are blinding you. Your Range and Accuracy are reduced.",
+    "targetShortHelp": "-Range, -ACC, Knockback",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -383,21 +383,21 @@
         "requires": [
           "arch",
           "target>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq",
           "arch",
           "target>",
-          "Class_Tanker",
-          "eq",
-          "||",
-          "arch",
-          "target>",
-          "Class_Stalker",
+          "Tanker",
           "eq",
           "||",
           "arch",
           "target>",
-          "Class_Brute",
+          "Stalker",
+          "eq",
+          "||",
+          "arch",
+          "target>",
+          "Brute",
           "eq",
           "||",
           "!"
@@ -540,8 +540,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -608,11 +608,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2117529527",
-    "help": "P254400622",
-    "shortHelp": "P3308656188",
-    "targetHelp": "P2919214753",
-    "targetShortHelp": "P2848422893",
+    "display": "Tornado",
+    "help": "Conjures up a funnel cloud at a targeted location. The Tornado will chase down your foes, tossing them into the air and hurling them great distances. The victims are left Disoriented and with reduced Defense. The Tornado is a menacing sight, and can even cause panic among your foes. Recharge: Long",
+    "shortHelp": "Summon Tornado: PBAoE Minor DAM (Smash), Foe Knockback, Fear, Disorient",
+    "targetHelp": "You have been Disoriented by the Tornado.",
+    "targetShortHelp": "Disorient",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -808,11 +808,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P132115517",
-    "help": "P3150892177",
-    "shortHelp": "P3745657044",
-    "targetHelp": "P2909147384",
-    "targetShortHelp": "P3472027048",
+    "display": "Mesmerize",
+    "help": "Mesmerize painfully assails a target with psychic energy, rendering him unconscious. The target will remain asleep for some time, but will awaken if attacked. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Ranged, Moderate DMG(Psionic), Foe Sleep",
+    "targetHelp": "You have been Mesmerized and cannot act.",
+    "targetShortHelp": "Sleep",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -937,8 +937,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P786700626",
-                "victimHit": "P2415654930",
+                "attackerHit": "You Sleep {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Sleeps you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -979,8 +979,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1037,8 +1037,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P786700626",
-                "victimHit": "P2415654930",
+                "attackerHit": "You Sleep {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Sleeps you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1105,11 +1105,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1476679299",
-    "help": "P3048550569",
-    "shortHelp": "P3472027048",
-    "targetHelp": "P3048550569",
-    "targetShortHelp": "P3472027048",
+    "display": "Mass Hypnosis",
+    "help": "The Hero has hypnotized you. You are helpless for a while, unless something snaps you out of it.",
+    "shortHelp": "Sleep",
+    "targetHelp": "The Hero has hypnotized you. You are helpless for a while, unless something snaps you out of it.",
+    "targetShortHelp": "Sleep",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1234,8 +1234,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P786700626",
-                "victimHit": "P2415654930",
+                "attackerHit": "You Sleep {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Sleeps you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1302,11 +1302,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1372864868",
-    "help": "P2068024310",
-    "shortHelp": "P1392069802",
-    "targetHelp": "P3498727642",
-    "targetShortHelp": "P3472027048",
+    "display": "Total Domination",
+    "help": "This powerful attack deals Psionic damage, and is so painful it usually renders its target unconscious. The victim is asleep, and will wake if disturbed. Damage: Superior, Recharge: Slow",
+    "shortHelp": "Ranged, High DMG(Psionic), Foe Sleep",
+    "targetHelp": "Your will has been Dominated.",
+    "targetShortHelp": "Sleep",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1432,8 +1432,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1491,8 +1491,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P786700626",
-                "victimHit": "P2415654930",
+                "attackerHit": "You Sleep {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Sleeps you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1559,11 +1559,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3056948712",
-    "help": "P3095381109",
-    "shortHelp": "P301762502",
-    "targetHelp": "P3982417829",
-    "targetShortHelp": "P3214140212",
+    "display": "Psychic Scream",
+    "help": "This howl of Psionic energy resonates in the minds of all foes within its conical area of effect, inflicting moderate damage. Damage: Moderate, Recharge: Slow",
+    "shortHelp": "Ranged (Cone), Moderate DMG(Psionic), Foe -Recharge",
+    "targetHelp": "The Psychic Scream has reduced your Attack rate.",
+    "targetShortHelp": "-Recharge",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1689,8 +1689,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1793,9 +1793,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1128608213",
-    "help": "P634414874",
-    "shortHelp": "P2663199646",
+    "display": "Telekinetic Blast",
+    "help": "You can use Telekinesis to Blast a targeted foe with the power of your mind. This attack deals Smashing and Psionic damage, and can knock your opponent back. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Ranged, Moderate DMG(Smash/Psionic), Foe Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1924,8 +1924,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1966,8 +1966,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2024,8 +2024,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2092,11 +2092,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3818834986",
-    "help": "P2068024310",
-    "shortHelp": "P1392069802",
-    "targetHelp": "P3498727642",
-    "targetShortHelp": "P3472027048",
+    "display": "Will Domination",
+    "help": "This powerful attack deals Psionic damage, and is so painful it usually renders its target unconscious. The victim is asleep, and will wake if disturbed. Damage: Superior, Recharge: Slow",
+    "shortHelp": "Ranged, High DMG(Psionic), Foe Sleep",
+    "targetHelp": "Your will has been Dominated.",
+    "targetShortHelp": "Sleep",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2222,8 +2222,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2281,8 +2281,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P786700626",
-                "victimHit": "P2415654930",
+                "attackerHit": "You Sleep {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Sleeps you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2349,11 +2349,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1282813950",
-    "help": "P3827523682",
-    "shortHelp": "P3793578626",
-    "targetHelp": "P3827523682",
-    "targetShortHelp": "P3793578626",
+    "display": "Psionic Tornado",
+    "help": "The Hero's Psionic Tornado continues to tear at your mind and slows your attack rate!",
+    "shortHelp": "Moderate DoT(Psionic), Slow",
+    "targetHelp": "The Hero's Psionic Tornado continues to tear at your mind and slows your attack rate!",
+    "targetShortHelp": "Moderate DoT(Psionic), Slow",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2479,8 +2479,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2287672660",
-                "victimHit": "P3092393664",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2573,8 +2573,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2641,11 +2641,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4071174395",
-    "help": "P422141007",
-    "shortHelp": "P1787283372",
-    "targetHelp": "P677546203",
-    "targetShortHelp": "P3214140212",
+    "display": "Psychic Wail",
+    "help": "Psychic Wail is a devastating Psionic attack that wracks the minds of all nearby foes. Those that survive will have a severely reduced attack rate and may be left Disoriented. This power leaves you drained of Endurance and unable to recover Endurance for",
+    "shortHelp": "Close (AoE), Extreme DMG(Psionic), Foe Disorient -Recharge, Self -Recovery",
+    "targetHelp": "The Psychic Wail has reduced your attack rate.",
+    "targetShortHelp": "-Recharge",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2773,8 +2773,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2815,8 +2815,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2909,8 +2909,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2967,8 +2967,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3035,11 +3035,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1196525362",
-    "help": "P536219010",
-    "shortHelp": "P1196525362",
-    "targetHelp": "P536219010",
-    "targetShortHelp": "P1196525362",
+    "display": "Resistance",
+    "help": "Archvillain resistance.",
+    "shortHelp": "Resistance",
+    "targetHelp": "Archvillain resistance.",
+    "targetShortHelp": "Resistance",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -3225,11 +3225,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1808254291",
-    "help": "P4208970941",
-    "shortHelp": "P1159653558",
-    "targetHelp": "P4208970941",
-    "targetShortHelp": "P1159653558",
+    "display": "Fly",
+    "help": "Swan can Fly!",
+    "shortHelp": "Self Travel",
+    "targetHelp": "Swan can Fly!",
+    "targetShortHelp": "Self Travel",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -3518,11 +3518,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1996639815",
-    "help": "P2211841663",
-    "shortHelp": "P2211841663",
-    "targetHelp": "P2211841663",
-    "targetShortHelp": "P2211841663",
+    "display": "Fly fx",
+    "help": "Special",
+    "shortHelp": "Special",
+    "targetHelp": "Special",
+    "targetShortHelp": "Special",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",

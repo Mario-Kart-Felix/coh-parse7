@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P916602661",
-  "help": "P2677437201",
-  "shortHelp": "P2929137069",
-  "targetHelp": "P2428240350",
-  "targetShortHelp": "P3634501938",
+  "display": "Aid Self",
+  "help": "You are able to heal yourself. This hypo also leaves you wide awake and resistant to stun effects. If you have also trained Field Medic, this power will also grant you an unenhanceable, long duration endurance over time effect. Purchasing Aid Self requires the user to be level 14 and possess either Aid Other or Injection.",
+  "shortHelp": "Self, Heal, +Res(Stun), +EndGain(Synergy)",
+  "targetHelp": "Due to your Field Medic training, you are gaining a constant stream of endurance over time due from Aid Self.",
+  "targetShortHelp": "+EndGain",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -143,8 +143,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P635299126",
-              "victimHit": "P2555131039",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Heal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Heal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -241,7 +241,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P3071582989",
+              "victimHit": "You have gained {Damage} points of endurance due to lingering effects of your improved {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }

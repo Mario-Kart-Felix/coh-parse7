@@ -4,11 +4,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P301782719",
-      "help": "P891623487",
-      "shortHelp": "P3090539366",
-      "targetHelp": "P1186591020",
-      "targetShortHelp": "P1722645486",
+      "display": "Shadow Bolt",
+      "help": "A very quick, but low damage attack that can lower your target's attack rate and movement speed. This power can be used while in Dwarf form, although only at a reduced range. While in dwarf form, this power will inflict a stronger attack and movement debuff, in addition to taunt its target. Damage: Minor, Recharge: Very Fast",
+      "shortHelp": "Ranged, Minor DMG(Negative), Foe -Recharge, -SPD",
+      "targetHelp": "Your attack rate and Running speed have been reduced by the Shadow Bolt.",
+      "targetShortHelp": "-Recharge, -SPD",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -178,11 +178,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3532688882",
-      "help": "P169076564",
-      "shortHelp": "P2696435472",
-      "targetHelp": "P4153907656",
-      "targetShortHelp": "P1722645486",
+      "display": "Ebon Eye",
+      "help": "You can emit a beam of dark energy from your eyes, dealing moderate Negative Energy damage. Ebon Eye can also slow your target's attack rate and movement speed. This power can be used while in Nova form at an increased range and with higher damage but slower recharge. Damage: Moderate, Recharge: Fast",
+      "shortHelp": "Ranged, Moderate DMG(Negative), Foe -Recharge, -SPD",
+      "targetHelp": "Your attack rate and Running speed have been reduced by the Ebon Eye.",
+      "targetShortHelp": "-Recharge, -SPD",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -352,11 +352,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2242028378",
-      "help": "P3790643013",
-      "shortHelp": "P2574696180",
-      "targetHelp": "P2350667847",
-      "targetShortHelp": "P466643657",
+      "display": "Gravimetric Snare",
+      "help": "You can hurl Gravimetric fibers to Snare your foes. Gravimetric Snare can Immobilize a single target and crush them. The target's attack rate and movement speed are also slowed, even if they resist the Immobilization effect. Damage: Moderate Damage over time, Recharge: Fast",
+      "shortHelp": "Ranged, Moderate DOT(Negative/Smash), Foe Immobilize, -Recharge, -SPD",
+      "targetHelp": "The Gravimetric Snare is holding you Immobile. Your Attack rate is reduced and once free, your Running speed will be reduced as well.",
+      "targetShortHelp": "Immobilize, -Recharge, -SPD",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -500,8 +500,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1461699593",
-                  "victimHit": "P3815778435",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -542,8 +542,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1545979143",
-                  "victimHit": "P2876742505",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -584,8 +584,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P4257051740",
-                  "victimHit": "P2588894681",
+                  "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -647,8 +647,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1461699593",
-                  "victimHit": "P3815778435",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -689,8 +689,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1545979143",
-                  "victimHit": "P2876742505",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -757,8 +757,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P4257051740",
-                  "victimHit": "P2588894681",
+                  "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -915,14 +915,14 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3668171698",
-      "help": "P2646875691",
-      "shortHelp": "P2162812352",
+      "display": "Dark Nova",
+      "help": "Kheldians are masters of energy and matter. A Warshade can transform into a flying energy beast known as a Dark Nova. When you choose this power, you will have access to 4 very powerful ranged attacks that can only be used while in this form. You will not be able to use any other powers while in Dark Nova form. Dark Nova can fly, has an increased chance to hit and improved Endurance Recovery but has no defense. Recharge: Very Fast",
+      "shortHelp": "Toggle: Shapeshift, Special",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
       "attackerAttackFloater": "",
-      "attackerHit": "P2107100164",
+      "attackerHit": "You transform into a {PowerName}!",
       "victimHit": "",
       "confirm": "",
       "floatRewarded": "",
@@ -1542,11 +1542,11 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P3505323644",
-      "help": "P3330836454",
-      "shortHelp": "P3090539366",
-      "targetHelp": "P2951545758",
-      "targetShortHelp": "P1490875287",
+      "display": "Dark Nova Bolt",
+      "help": "A very quick, but low damage attack that lowers your target's attack and movement speed. This power is only available while in Dark Nova Form. Damage: Minor, Recharge: Very Fast",
+      "shortHelp": "Ranged, Minor DMG(Negative), Foe -Recharge, -SPD",
+      "targetHelp": "Your Attack speed and movement speed have been reduced by the Dark Nova Bolt.",
+      "targetShortHelp": "-SPD, -Recharge",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -1696,8 +1696,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -1849,8 +1849,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -1921,11 +1921,11 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P2300912443",
-      "help": "P1322825223",
-      "shortHelp": "P3730608247",
-      "targetHelp": "P3911037012",
-      "targetShortHelp": "P1490875287",
+      "display": "Dark Nova Blast",
+      "help": "A much more powerful, yet slower version of Dark Nova Bolt. Dark Nova Blast sends focused negative Nictus energy at a foe. This attack can knock down foes and will leave the targets' attack and movement speed slowed. This power is only available while in Dark Nova Form. Damage: Moderate, Recharge: Fast",
+      "shortHelp": "Ranged, Moderate DMG(Negative), Foe Knockback, -Recharge, -SPD",
+      "targetHelp": "Your Attack speed and movement speed have been reduced by the Dark Nova Blast.",
+      "targetShortHelp": "-SPD, -Recharge",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -2076,8 +2076,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -2229,8 +2229,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -2298,8 +2298,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -2361,8 +2361,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -2433,11 +2433,11 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P340077525",
-      "help": "P2430835128",
-      "shortHelp": "P1286279837",
-      "targetHelp": "P1993623101",
-      "targetShortHelp": "P1490875287",
+      "display": "Dark Nova Emanation",
+      "help": "Sends bolts of Nictus dark energy to multiple targets at once within a cone area in front of the caster. Deals moderate negative energy damage to each affected foe and reduces their attack rate and movement speed. This power is only available while in Dark Nova Form. Damage: Moderate. Recharge: Slow",
+      "shortHelp": "Ranged (Cone), Moderate DMG(Negative), Foe -Recharge, -SPD, Knockback",
+      "targetHelp": "Your Attack speed and movement speed have been reduced by the Dark Nova Emanation.",
+      "targetShortHelp": "-SPD, -Recharge",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -2588,8 +2588,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -2741,8 +2741,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -2813,11 +2813,11 @@
       "autoIssue": true,
       "autoIssueSaveLevel": false,
       "free": true,
-      "display": "P2921354729",
-      "help": "P3724859564",
-      "shortHelp": "P1441718266",
-      "targetHelp": "P1201481885",
-      "targetShortHelp": "P1490875287",
+      "display": "Dark Nova Detonation",
+      "help": "You hurl a blast of Dark Matter that violently explodes on impact, damaging all foes near the target. All affected targets' attack and movement speed are slowed. Some foes may be knocked down. This power is only available while in Dark Nova Form. Damage: Moderate, Recharge: Slow",
+      "shortHelp": "Ranged (Targeted AoE), Moderate DMG(Negative), Foe Knockback, -Recharge, -SPD",
+      "targetHelp": "Your Attack speed and movement speed have been reduced by the Dark Nova Detonation.",
+      "targetShortHelp": "-SPD, -Recharge",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -2968,8 +2968,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3037,8 +3037,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3100,8 +3100,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3163,8 +3163,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3325,11 +3325,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2341052953",
-      "help": "P1581279444",
-      "shortHelp": "P3730608247",
-      "targetHelp": "P3432723974",
-      "targetShortHelp": "P1722645486",
+      "display": "Shadow Blast",
+      "help": "A much more powerful, yet slower version of Shadow Bolt. Shadow Blast sends focused negative Nictus energy at a foe. This attack can knock down foes and will leave the target's attack rate and movement speed slowed. Damage: Moderate, Recharge: Moderate",
+      "shortHelp": "Ranged, Moderate DMG(Negative), Foe Knockback, -Recharge, -SPD",
+      "targetHelp": "Your attack rate and Running speed have been reduced by the Shadow Blast.",
+      "targetShortHelp": "-Recharge, -SPD",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -3472,8 +3472,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3625,8 +3625,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3688,8 +3688,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3757,8 +3757,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -3825,9 +3825,9 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2398778183",
-      "help": "P1841023947",
-      "shortHelp": "P2368757613",
+      "display": "Starless Step",
+      "help": "You can Teleport a single foe through a dark matter wormhole directly next to you. A successful hit must be made in order to Teleport the target, and some powerful foes cannot be Teleported. This power can be interrupted. Recharge: Slow",
+      "shortHelp": "Ranged, Teleport Foe",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
@@ -4238,8 +4238,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P3282672142",
-                  "victimHit": "P1918954866",
+                  "attackerHit": "You Intangibilize {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Intangibilizes you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4290,8 +4290,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1585720180",
-                  "victimHit": "P1025310322",
+                  "attackerHit": "You Phase {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Phases you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4384,8 +4384,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1876721539",
-                  "victimHit": "P702528604",
+                  "attackerHit": "You Shackle {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Shackles you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4452,11 +4452,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3446226111",
-      "help": "P457778151",
-      "shortHelp": "P4015413642",
-      "targetHelp": "P4083732549",
-      "targetShortHelp": "P1722645486",
+      "display": "Sunless Mire",
+      "help": "Sunless Mire can drain the essence of all nearby foes, thus increasing your own strength. Each affected foe will lose some Hit Points and add to your Damage and chance to hit. Damage: Moderate, Recharge: Long",
+      "shortHelp": "PBAoE, Moderate DMG(Negative), Foe -Recharge, -SPD; Self +DMG, +To Hit",
+      "targetHelp": "Your attack rate and Running speed have been reduced by the Sunless Mire.",
+      "targetShortHelp": "-Recharge, -SPD",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -4598,8 +4598,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4829,8 +4829,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -4897,11 +4897,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P715911531",
-      "help": "P128362667",
-      "shortHelp": "P1441718266",
-      "targetHelp": "P793775765",
-      "targetShortHelp": "P1722645486",
+      "display": "Dark Detonation",
+      "help": "You hurl a blast of Dark Matter that violently explodes on impact, damaging all foes near the target. All affected targets' have their attack rate and movement speed slowed. Some foes may be knocked down. Damage: Moderate, Recharge: Slow",
+      "shortHelp": "Ranged (Targeted AoE), Moderate DMG(Negative), Foe Knockback, -Recharge, -SPD",
+      "targetHelp": "Your attack rate and Running speed have been reduced by the Dark Matter Detonation.",
+      "targetShortHelp": "-Recharge, -SPD",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -5044,8 +5044,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5107,8 +5107,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5170,8 +5170,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5239,8 +5239,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5397,11 +5397,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2333715870",
-      "help": "P4245084630",
-      "shortHelp": "P3504416083",
-      "targetHelp": "P101307655",
-      "targetShortHelp": "P3531285300",
+      "display": "Gravity Well",
+      "help": "Mastery over the forces of gravity and dark matter allows you to capture a single foe and crush them in a Gravity Well. The target is Held helpless, while he is crushed by the massive gravimetric forces. The target's attack rate and movement speed are also slowed, even if they resists the Hold effect. Damage: Superior(DoT), Recharge: Slow",
+      "shortHelp": "Melee, Superior DMG(Negative), Foe Hold -Recharge, -SPD",
+      "targetHelp": "You have been Held by the Gravity Well. Your Attack rate is reduced and once free, your Running speed will be reduced as well.",
+      "targetShortHelp": "Hold -Recharge, -SPD",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -5544,8 +5544,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5586,8 +5586,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1545979143",
-                  "victimHit": "P2876742505",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5628,8 +5628,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P4134654113",
-                  "victimHit": "P3642575485",
+                  "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5691,8 +5691,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5733,8 +5733,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1545979143",
-                  "victimHit": "P2876742505",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5801,8 +5801,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P4134654113",
-                  "victimHit": "P3642575485",
+                  "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -5959,11 +5959,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2207186138",
-      "help": "P1749816274",
-      "shortHelp": "P3770236974",
-      "targetHelp": "P3136978300",
-      "targetShortHelp": "P1722645486",
+      "display": "Essence Drain",
+      "help": "You tap the primal forces of your Nictus power to create an Essence Draining conduit between a foe and yourself. This will transfer Hit Points from your enemy to you. Foes drained in this manner have their attack rate and movement speed reduced. Damage: Moderate, Recharge: Slow",
+      "shortHelp": "Melee, Moderate DMG(Negative), Foe -Recharge, -SPD; Self +HP",
+      "targetHelp": "Your attack rate and Running speed have been reduced by the Essence Drain.",
+      "targetShortHelp": "-Recharge, -SPD",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -6100,8 +6100,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -6142,8 +6142,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P635299126",
-                  "victimHit": "P2555131039",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Heal damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Heal damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -6284,11 +6284,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P3680191049",
-      "help": "P861128165",
-      "shortHelp": "P2715767264",
-      "targetHelp": "P4200264030",
-      "targetShortHelp": "P1967383444",
+      "display": "Gravitic Emanation",
+      "help": "Gravitic Emanation sends bolts of dark Nictus energy to multiple targets within a cone area in front of the caster. Gravitic Emanation deals only minor Negative Energy damage to each affected foe, but knocks them back, leaving them Disoriented and with reduced attack rate and movement speed. Damage: Minor. Recharge: Slow",
+      "shortHelp": "Ranged (Cone), Minor DMG(Negative), Foe Disorient, Knockback, -Recharge, -SPD",
+      "targetHelp": "You have been Disoriented by the Gravitic Emanation. Your Attack rate and Running speed are reduced as well.",
+      "targetShortHelp": "Disorient, -Recharge, -SPD",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -6432,8 +6432,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -6474,8 +6474,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -6516,8 +6516,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P583235414",
-                  "victimHit": "P3613904985",
+                  "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -6579,8 +6579,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -6627,8 +6627,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -6695,8 +6695,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P583235414",
-                  "victimHit": "P3613904985",
+                  "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -6853,11 +6853,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P2044560053",
-      "help": "P2396968345",
-      "shortHelp": "P682208060",
-      "targetHelp": "P572461712",
-      "targetShortHelp": "P1967383444",
+      "display": "Unchain Essence",
+      "help": "The Warshade can release the energy of a defeated foe and cause a massive Negative Energy explosion that can devastate any remaining foes. This power can only be activated by targeting a defeated foe. Damage: Superior, Recharge: Long",
+      "shortHelp": "Ranged (Targeted AoE Special), Superior DMG(Negative), Foe Disorient, Knockback, -Recharge, -SPD",
+      "targetHelp": "You have been Disoriented by the Unchain Essence attack. Your Attack rate and Running speed are reduced as well.",
+      "targetShortHelp": "Disorient, -Recharge, -SPD",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -6993,8 +6993,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7130,8 +7130,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P583235414",
-                  "victimHit": "P3613904985",
+                  "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7219,8 +7219,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P583235414",
-                  "victimHit": "P3613904985",
+                  "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                  "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7282,8 +7282,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7351,8 +7351,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7419,14 +7419,14 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P360260552",
-      "help": "P2398269185",
-      "shortHelp": "P4107512448",
+      "display": "Dark Extraction",
+      "help": "Defeated foes are ripe for the picking. A Warshade can extract the essence from a defeated villain and infuse it with Nictus energy. The extracted energy is an echo of the target's life force, and although it is not sentient, the infused Nictus energy does give it a rudimentary spark of life. Eventually, the extracted entity will fade away into nothingness. Recharge: Long",
+      "shortHelp": "Summon Essence: Ranged Moderate DMG (Negative)",
       "targetHelp": "",
       "targetShortHelp": "",
       "attackerAttack": "",
       "attackerAttackFloater": "",
-      "attackerHit": "P2727926811",
+      "attackerHit": "You draw forth the essence from {PlayerDest} with your {PowerName}.",
       "victimHit": "",
       "confirm": "",
       "floatRewarded": "",
@@ -7603,8 +7603,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P610729340",
-                  "victimHit": "P2029379553",
+                  "attackerHit": "You heal {PlayerDest} with {PowerName} for {Damage} points of damage over time.",
+                  "victimHit": "{PlayerSource} heals you with their {PowerName} for {Damage} points of damage over time.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7671,11 +7671,11 @@
       "autoIssue": false,
       "autoIssueSaveLevel": false,
       "free": false,
-      "display": "P1356995031",
-      "help": "P2697228492",
-      "shortHelp": "P1180762553",
-      "targetHelp": "P2404449483",
-      "targetShortHelp": "P1722645486",
+      "display": "Quasar",
+      "help": "You can explode in a tremendous blast of Negative Energy, sending nearby foes flying. The Quasar deals massive damage to all nearby foes. Affected foes will be knocked down and their attack rate and movement speed will be slowed. Damage: Extreme, Recharge: Long",
+      "shortHelp": "PBAoE, Extreme DMG(Negative), Foe -Recharge, -SPD, Knockback",
+      "targetHelp": "Your Attack rate and Running speed have been reduced by the Quasar.",
+      "targetShortHelp": "-Recharge, -SPD",
       "attackerAttack": "",
       "attackerAttackFloater": "",
       "attackerHit": "",
@@ -7817,8 +7817,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7859,8 +7859,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7922,8 +7922,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P2637081052",
-                  "victimHit": "P936402029",
+                  "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                  "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                   "float": "",
                   "defenseFloat": ""
                 }
@@ -7970,8 +7970,8 @@
               ],
               "messages": [
                 {
-                  "attackerHit": "P1956156720",
-                  "victimHit": "P3390955917",
+                  "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                  "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                   "float": "",
                   "defenseFloat": ""
                 }

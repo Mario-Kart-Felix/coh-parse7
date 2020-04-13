@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P522145595",
-    "help": "P3744165951",
-    "shortHelp": "P4230215735",
+    "display": "Water Spout",
+    "help": "Conjures up a Water Spout at a targeted location. The Water Spout will chase down your foes, tossing them into the air and hurling them great distances. The victims are left Disoriented and with reduced Defense. The Water Spout is a menacing sight, and can even cause panic among your foes. Recharge: Long",
+    "shortHelp": "Summon Water Spout: PBAoE Minor DMG(Smash), Foe Knockback, Fear, Disorient",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -235,11 +235,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3332727123",
-    "help": "P3011118995",
-    "shortHelp": "P2486653415",
+    "display": "Bile Spray",
+    "help": "Sharks will eat anything, so their stomach acid must be powerful indeed. You can regurgitate this acid and spew a corrosive spray of bile at a foe. Affected foes in the cone area will take toxic damage over time. Damage: Moderate(DoT), Recharge: Long",
+    "shortHelp": "Ranged (Cone), Moderate DoT(Toxic)",
     "targetHelp": "",
-    "targetShortHelp": "P1861415682",
+    "targetShortHelp": "DoT (Toxic)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -399,8 +399,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2851307520",
-                "victimHit": "P105122461",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -441,8 +441,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -504,8 +504,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2851307520",
-                "victimHit": "P105122461",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -546,8 +546,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4250172858",
-                "victimHit": "P1470793739",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -598,7 +598,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -637,8 +637,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2851307520",
-                "victimHit": "P105122461",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -686,7 +686,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -725,8 +725,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2851307520",
-                "victimHit": "P105122461",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -793,14 +793,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1870821033",
-    "help": "P4232495290",
-    "shortHelp": "P2940947448",
+    "display": "Hibernate",
+    "help": "When you activate this power, you encase yourself in a block of solid ice, making yourself invulnerable, though you are frozen solid and cannot act. While Hibernating within this block of ice, you heal damage and recover endurance at an incredible rate. You can emerge at will by deactivating the power, but you cannot Hibernate for more than 30 seconds. If you activate this power while in the air, you will fall. You must be level 41 and have Water Spout or Bile Spray before selecting this power. Recharge: Long",
+    "shortHelp": "Toggle: Self +Regeneration, +Recovery, Invulnerable; Self Hold",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2677645364",
+    "attackerHit": "You Hibernate in a block of ice, and are almost completely invulnerable while you heal at an astonishing rate.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1196,14 +1196,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P291102471",
-    "help": "P2501658386",
-    "shortHelp": "P1178875539",
+    "display": "Shark Skin",
+    "help": "The power of the Leviathan Mako has shown you seems to have no end. Shark Skin improves your damage resistance to Lethal, Smashing and cold damage. You must be level 41 and have Water Spout or Bile Spray before selecting this power. Recharge: Fast",
+    "shortHelp": "Toggle: Self +Res(Smash, Lethal, Cold)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P778005861",
+    "attackerHit": "Your {PowerName} protects you from lethal, smashing, and cold.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1481,9 +1481,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2729503068",
-    "help": "P2165907257",
-    "shortHelp": "P928223891",
+    "display": "Summon Coralax",
+    "help": "Captain Mako has shown you how to summon a Coralax Blue Hybrid to do your bidding. The Coralax are humans who have been infected with living coral. Your access to this Hybrid is very limited. You can only summon it once every 15 minutes and it will leave after 4 minutes, or if you exit a zone or mission. You must be level 44 and have two other Leviathan Mastery Powers before selecting this power. Recharge: Extremely Long",
+    "shortHelp": "Summon Hybrid: Ranged Moderate DMG(Lethal)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

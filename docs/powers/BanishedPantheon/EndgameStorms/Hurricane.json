@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P1760327861",
-  "help": "P2126633658",
-  "shortHelp": "P1297093746",
-  "targetHelp": "P4043204255",
-  "targetShortHelp": "P4249061208",
+  "display": "Hurricane",
+  "help": "You create a localized hurricane around yourself. The storm reduces the ability of targets to hit you with their attacks, reducing the effective range of ranged attacks and the to hit chance for all attacks. Additionally, the force of the storm is enough to knockback targets who approach too close.",
+  "shortHelp": "PBAoE (Toggle), -Range(Non-Melee Foes), -ToHit(Foe), Chance for Knockback(Foe)",
+  "targetHelp": "Your chance to hit has been reduced. If you are a ranged attacker, the effective range of your attacks has also been reduced.",
+  "targetShortHelp": "-Range(Non-Melee), -ToHit",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -100,21 +100,21 @@
       "requires": [
         "arch",
         "target>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq",
         "arch",
         "target>",
-        "Class_Tanker",
-        "eq",
-        "||",
-        "arch",
-        "target>",
-        "Class_Stalker",
+        "Tanker",
         "eq",
         "||",
         "arch",
         "target>",
-        "Class_Brute",
+        "Stalker",
+        "eq",
+        "||",
+        "arch",
+        "target>",
+        "Brute",
         "eq",
         "||",
         "!"
@@ -156,7 +156,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P461658626",
+              "victimHit": "The range of your attacks has been reduced by {PlayerSource}'s {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -214,7 +214,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P3443783894",
+              "victimHit": "Your chance to hit has been reduced by {PlayerSource}'s {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -271,8 +271,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1956156720",
-              "victimHit": "P3390955917",
+              "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+              "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }

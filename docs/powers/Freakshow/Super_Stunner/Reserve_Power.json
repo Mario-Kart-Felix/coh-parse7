@@ -2,9 +2,9 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P1081927919",
-  "help": "P2364712275",
-  "shortHelp": "P3228648468",
+  "display": "Reserve Power",
+  "help": "Should you fall in battle, you can perform a Soul Transfer, sucking the life force of all foes around you to bring yourself back from the brink of death. The more foes nearby, the more life is restored to you. Drained foes are left Disoriented. The dark effects of this Soul Transfer will actually leave you invulnerable for a brief time, and protected from XP Debt for 60 seconds. There must be at least one foe nearby to fuel the Transfer and revive yourself. Damage: Moderate, Recharge: Very Long",
+  "shortHelp": "Self Rez, Special",
   "targetHelp": "",
   "targetShortHelp": "",
   "attackerAttack": "",
@@ -136,8 +136,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2559786529",
-              "victimHit": "P377644626",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -180,7 +180,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P4033344937",
+              "victimHit": "{PlayerSource} weakens your recovery with his {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }
@@ -222,7 +222,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P722791273",
+              "victimHit": "{PlayerSource} steals some of your endurance with their {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }

@@ -3,18 +3,18 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P78341141",
-    "help": "P952589196",
-    "shortHelp": "P3567599116",
+    "display": "Hide",
+    "help": "Hide makes you almost impossible to detect. When properly 'Hidden\", a Stalker can pull off Critical hits with his attacks, and even land a massive 'Assassins Strike' with an Assassins power. When you attack or are damaged while using this power, you will be discovered. Even if discovered, you are hard to see and retain some bonus to Defense. Unlike most stealth powers, Hide can be used at the same time as other Concealment powers, giving you even greater stealth capability. No Endurance cost.",
+    "shortHelp": "Toggle: Self Stealth, +DEF(Melee, Ranged, AoE)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P4234907424",
+    "attackerHit": "You are concealed by your {PowerName}.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
-    "powerDefenseFloat": "P3802943013",
+    "powerDefenseFloat": "Avoided",
     "icon": "DarkArmor_Stealth.tga",
     "type": "TOGGLE",
     "numAllowed": 1,
@@ -754,14 +754,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3063295318",
-    "help": "P312009320",
-    "shortHelp": "P1918436433",
+    "display": "Dark Embrace",
+    "help": "You tap into the energy of the Netherworld to protect yourself from damage. This Dark Embrace shrouds you and grants resistance to Lethal, Smashing, Negative Energy and Toxic damage. Recharge: Fast",
+    "shortHelp": "Toggle: Self +Res(Smash, Lethal, Negative, Toxic)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P295219657",
+    "attackerHit": "Your {PowerName} protects you from lethal, smashing, toxic and negative energy damage.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1090,14 +1090,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2114757221",
-    "help": "P509300342",
-    "shortHelp": "P4118349167",
+    "display": "Murky Cloud",
+    "help": "You create a Murky Cloud enshrouding you. This cloud can absorb all forms of energy, making you more resistant to Fire, Cold, Energy, and Negative Energy attacks, as well as Endurance Drain effects. Recharge: Fast",
+    "shortHelp": "Toggle: Self +Res(Fire, Cold, Energy, Negative, End Drain)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P1176803178",
+    "attackerHit": "You protect yourself from fire, cold, energy and negative energy damage with your {PowerName}.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1483,9 +1483,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2710481403",
-    "help": "P7452220",
-    "shortHelp": "P2826338089",
+    "display": "Shadow Dweller",
+    "help": "You are a true Shadow Dweller of the Netherworld. Your affinity for the shadows grants you an inherent bonus to all Defense, as well as an increased Perception and a resistance to Immobilization. Your Perception bonus and resistance to Immobilization improves over level. Shadow Dweller is an Auto power. It is always on and costs no Endurance.",
+    "shortHelp": "Auto: Self +DEF(All), +Res(Immobilize), +Perception",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1494,7 +1494,7 @@
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
-    "powerDefenseFloat": "P3802943013",
+    "powerDefenseFloat": "Avoided",
     "icon": "DarkArmor_SelfBuffDefense.tga",
     "type": "AUTO",
     "numAllowed": 1,
@@ -1896,14 +1896,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2987398367",
-    "help": "P1795281120",
-    "shortHelp": "P4149059456",
+    "display": "Obsidian Shield",
+    "help": "You can create a special Obsidian Shield that grants good resistance to Psionic damage. With your mind enshrouded in darkness you are protected from Sleep, Fear, Hold and Disorient attacks. Recharge: Fast",
+    "shortHelp": "Toggle: Self +Res(Psionic, Sleep, Hold, Disorient, Fear)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3621933840",
+    "attackerHit": "You protect yourself from Psionic damage, Sleep, Hold, Fear and Disorient effects with your {PowerName}.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -2308,9 +2308,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1873199416",
-    "help": "P2366588540",
-    "shortHelp": "P3460036964",
+    "display": "Dark Regeneration",
+    "help": "You can tap the dark essence of the Netherworld to drain a small amount of life from all enemies nearby, thus healing yourself. The more foes affected, the more you will be healed. Damage: Minor, Recharge: Slow",
+    "shortHelp": "PBAoE Minor DMG(Negative), Self +HP",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2446,8 +2446,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2637081052",
-                "victimHit": "P936402029",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2488,7 +2488,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1483998724",
+                "attackerHit": "Your {PowerName} regenerates {Damage} points of damage!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -2556,11 +2556,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2822656354",
-    "help": "P2924129109",
-    "shortHelp": "P272620812",
-    "targetHelp": "P2596349969",
-    "targetShortHelp": "P332045248",
+    "display": "Cloak of Fear",
+    "help": "You can wrap yourself in a nightmarish Cloak of Fear. Foes close to you are treated to visions most horrific, forcing them to tremble in terror, only attacking if attacked, and even then, with a reduced chance to hit. Recharge: Fast",
+    "shortHelp": "Toggle: PBAoE Foe Fear, -To Hit",
+    "targetHelp": "The Cloak of Fear has terrified you.",
+    "targetShortHelp": "Fear",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2704,8 +2704,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2844,8 +2844,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2912,11 +2912,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4259874860",
-    "help": "P4009417249",
-    "shortHelp": "P1601450196",
-    "targetHelp": "P2366756416",
-    "targetShortHelp": "P2848422893",
+    "display": "Oppressive Gloom",
+    "help": "The Netherworld has many mutable properties, such as the Oppressive Gloom. This power allows you to use your own Hit Points to keep enemies near you Disoriented and unable to use any powers. Endurance cost for this is minimal, but the power can be dangerous to use. Recharge: Moderate",
+    "shortHelp": "Toggle: PBAoE, Foe Disorient, Self -HP",
+    "targetHelp": "You have been Disoriented.",
+    "targetShortHelp": "Disorient",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -3060,8 +3060,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3119,8 +3119,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P943663967",
-                "victimHit": "P4055702145",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Special damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Special damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3209,8 +3209,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3277,9 +3277,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4224542807",
-    "help": "P2364712275",
-    "shortHelp": "P3228648468",
+    "display": "Soul Transfer",
+    "help": "Should you fall in battle, you can perform a Soul Transfer, sucking the life force of all foes around you to bring yourself back from the brink of death. The more foes nearby, the more life is restored to you. Drained foes are left Disoriented. The dark effects of this Soul Transfer will actually leave you invulnerable for a brief time, and protected from XP Debt for 60 seconds. There must be at least one foe nearby to fuel the Transfer and revive yourself. Damage: Moderate, Recharge: Very Long",
+    "shortHelp": "Self Rez, Special",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -3417,8 +3417,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2637081052",
-                "victimHit": "P936402029",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3460,7 +3460,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P1371533646",
+                "victimHit": "Your {PowerName} steals {Damage} hit points and brings you back from the brink of death!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3504,7 +3504,7 @@
               {
                 "attackerHit": "",
                 "victimHit": "",
-                "float": "P2901365799",
+                "float": "Untouchable",
                 "defenseFloat": ""
               }
             ],
@@ -3672,8 +3672,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -3762,8 +3762,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }

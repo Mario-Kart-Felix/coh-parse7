@@ -3,7 +3,7 @@ meta:
   file-extension: pigg
   endian: le
   encoding: ascii
-  imports: ['messages', 'attrib_names', 'boostsets', 'classes', 'powercats', 'powersets', 'powers']
+  imports: ['messages', 'attrib_names', 'boostsets', 'classes', 'powercats', 'powersets', 'powers', 'origins']
 seq:
   - {id: magic, contents: [0x23, 0x1, 0,0]}
   - {id: version, type: u2}
@@ -42,6 +42,7 @@ types:
             '"bin/classes.bin"': classes
             '"bin/powercats.bin"': powercats
             '"bin/powersets.bin"': powersets
+            '"bin/origins.bin"': origins
             '"bin/powers.bin"': powers
             _: nothing
   nothing: {}

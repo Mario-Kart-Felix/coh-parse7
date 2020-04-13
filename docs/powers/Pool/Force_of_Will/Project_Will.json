@@ -2,9 +2,9 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3891688846",
-  "help": "P2296620855",
-  "shortHelp": "P1565651396",
+  "display": "Project Will",
+  "help": "You manifest your willpower into a blast and project it toward a distant foe, causing moderate psionic and smashing damage. Project Will has a fair chance to knock the target down. Damage: Moderate, Recharge: Fast",
+  "shortHelp": "Ranged, Moderate DMG(Psionic/Smash), Foe Knockdown",
   "targetHelp": "",
   "targetShortHelp": "",
   "attackerAttack": "",
@@ -150,8 +150,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -192,8 +192,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P801507873",
-              "victimHit": "P3863231487",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -255,8 +255,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -297,8 +297,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P801507873",
-              "victimHit": "P3863231487",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -322,7 +322,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq",
         "enttype",
         "target>",
@@ -365,9 +365,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P337391442",
-              "victimHit": "P3813568828",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -399,7 +399,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "&&",
         "kMeter",
@@ -448,9 +448,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P337391442",
-              "victimHit": "P3813568828",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -473,7 +473,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "kMeter",
         "source>",
@@ -521,9 +521,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P337391442",
-              "victimHit": "P3813568828",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -563,7 +563,7 @@
         "<",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&",
         "enttype",
@@ -607,9 +607,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2747949761",
-              "victimHit": "P2479051093",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],
@@ -654,7 +654,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "&&",
         "enttype",
@@ -698,8 +698,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P801507873",
-              "victimHit": "P3863231487",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -723,7 +723,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq",
         "enttype",
         "target>",
@@ -766,9 +766,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P337391442",
-              "victimHit": "P3813568828",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -810,7 +810,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "&&",
         "enttype",
@@ -854,8 +854,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P801507873",
-              "victimHit": "P3863231487",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -888,7 +888,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "&&",
         "kMeter",
@@ -937,9 +937,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P337391442",
-              "victimHit": "P3813568828",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -962,7 +962,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "kMeter",
         "source>",
@@ -1010,9 +1010,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P337391442",
-              "victimHit": "P3813568828",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -1052,7 +1052,7 @@
         "<",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&",
         "enttype",
@@ -1096,9 +1096,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2747949761",
-              "victimHit": "P2479051093",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],
@@ -1159,8 +1159,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1956156720",
-              "victimHit": "P3390955917",
+              "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+              "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }
@@ -1228,8 +1228,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1956156720",
-              "victimHit": "P3390955917",
+              "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+              "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }

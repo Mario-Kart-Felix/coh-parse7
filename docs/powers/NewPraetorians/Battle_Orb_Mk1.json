@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2643758365",
-    "help": "P1849360091",
-    "shortHelp": "P1680234749",
+    "display": "Shield Generator",
+    "help": "You create a bubble that amplifies the defenses of all nearby allies and yourself. The bubble also protects allies inside from immobilize and stun effects.",
+    "shortHelp": "Auto (Self/Allies), +DEF (All), +RES (Immobilize, Stun)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -278,11 +278,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2504028491",
-    "help": "P533282552",
-    "shortHelp": "P3229492974",
-    "targetHelp": "P2340029775",
-    "targetShortHelp": "P368684123",
+    "display": "Plasmatic Immobilizer",
+    "help": "You fire an immobilizing blast in a cone in front of you that causes energy damage and prevents your affected targets from moving.",
+    "shortHelp": "Ranged (Cone), Minor DoT (Energy), Immobilize (Foe)",
+    "targetHelp": "You have been immobilized.",
+    "targetShortHelp": "Immobilize",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -408,8 +408,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -450,8 +450,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -518,9 +518,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3856647179",
-    "help": "P2957868163",
-    "shortHelp": "P595007694",
+    "display": "Deploy Stimulant",
+    "help": "You heal a single targeted ally while also removing any crowd control effects and granting resistance to further crowd control effects for a short time.",
+    "shortHelp": "Ranged, Heal (Ally), +RES (Stun, Hold, Sleep, Immobilize, Confuse, Terrorize)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -648,7 +648,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P4291132995",
+                "victimHit": "{PlayerSource} heals you for {Damage} points of damage.",
                 "float": "",
                 "defenseFloat": ""
               }

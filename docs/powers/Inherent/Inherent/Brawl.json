@@ -2,11 +2,11 @@
   "autoIssue": true,
   "autoIssueSaveLevel": false,
   "free": true,
-  "display": "P1212741494",
-  "help": "P3183622157",
-  "shortHelp": "P1465273047",
-  "targetHelp": "P2718797270",
-  "targetShortHelp": "P1519250219",
+  "display": "Brawl",
+  "help": "When all else fails, you have only your two fists to depend on, and will cause smashing damage to your target. Brawl also features a synergy with the Fighting pool. If you have trained Boxing or Kick, Brawl will also reduce the target's attack speed and chance to hit. The strength of this effect increases if both Boxing and Kick are owned. If you have trained Cross Punch, Brawl will also reduce the target's regeneration and recovery. Recharge: Very Fast",
+  "shortHelp": "Melee, Minor DMG (Smashing), Fighting Synergy",
+  "targetHelp": "Brawl may reduce your attack speed, chance to hit, regeneration or recovery, depending on the level of training your foe has acquired in the Fighting pool.",
+  "targetShortHelp": "Fighting Synergy",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -142,8 +142,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -167,7 +167,7 @@
       "requires": [
         "arch",
         "source>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "kImmobilized",
         "target>",
@@ -225,8 +225,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }

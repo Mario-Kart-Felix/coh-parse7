@@ -3,14 +3,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2163874469",
-    "help": "P2244752890",
-    "shortHelp": "P2557169965",
+    "display": "Kinetic Shield",
+    "help": "Kinetic Shield creates a harmonic Energy Aura that can deflect physical attacks. Your Defense to Smashing and Lethal attacks is increased as weapons and powers like bullets, blades and punches tend to deflect off the shield. Kinetic Shield also grants you good resistance to Defense Debuffs. The Energy based nature of Kinetic Shield also offers some minimal Defense to Energy attacks. Recharge: Fast",
+    "shortHelp": "Toggle: Self +DEF(Smashing, Lethal, Energy), Res(DeBuff DEF)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3163663381",
+    "attackerHit": "You Kinetic Shield increased you Defense to Lethal, Smashing, and to some degree, Energy attacks.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -277,9 +277,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P632564129",
-    "help": "P4103732117",
-    "shortHelp": "P4215017788",
+    "display": "Dampening Field",
+    "help": "Your body resonates a mild Dampening Field that absorbs kinetic energy from physical weapons. This auto power permanently reduces all incoming Smashing and Lethal damage. This power is always on and costs no Endurance.",
+    "shortHelp": "Auto: Self +Res (Smashing, Lethal)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -468,14 +468,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P265715099",
-    "help": "P1269421725",
-    "shortHelp": "P1321888080",
+    "display": "Power Shield",
+    "help": "This Power Shield creates a Electro-Magnetic shield around you that can deflect non-physical attacks. Your Defense to Fire, Cold, Energy and Negative Energy attacks is increased as these attacks are reflected or refracted off the shield. Power Shield also grants you good resistance to Defense Debuffs. Recharge: Fast",
+    "shortHelp": "Toggle: Self +DEF(Fire, Cold, Energy, Negative), Res(DeBuff DEF)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P1478393842",
+    "attackerHit": "You Power Shield increased you Defense to Fire, Cold, Energy and Negative Energy attacks.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -743,9 +743,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1420895182",
-    "help": "P4103874964",
-    "shortHelp": "P2615392788",
+    "display": "Energy Protection",
+    "help": "Your ability to channel energy makes you naturally resistant to Energy, Negative Energy and Toxic damage. This power is always on and costs no Endurance.",
+    "shortHelp": "Auto: Self +Res (Energy, Negative, Toxic)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -977,9 +977,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3807885890",
-    "help": "P1388643021",
-    "shortHelp": "P3814896443",
+    "display": "Quick Strike",
+    "help": "A quick attack that sometimes knock foes down. Fast, but low damage. Damage: Low, Recharge: Fast",
+    "shortHelp": "Melee, Light DMG(Smash/Energy), Foe -DMG, 33%% KD",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1108,8 +1108,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1150,8 +1150,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1193,7 +1193,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1703008310",
+                "attackerHit": "Your Power Siphon increases your strength!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -1297,8 +1297,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1367,9 +1367,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3513231302",
-    "help": "P3966281746",
-    "shortHelp": "P3369676297",
+    "display": "Body Blow",
+    "help": "A much more powerful, yet slower version of Quick Strike. Body Blow is capable of stunning an opponent occasionally. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Melee, Moderate DMG(Smash/Energy), +Stun",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1498,8 +1498,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1540,8 +1540,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1583,7 +1583,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1703008310",
+                "attackerHit": "Your Power Siphon increases your strength!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -1687,8 +1687,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1757,9 +1757,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P268745046",
-    "help": "P195978086",
-    "shortHelp": "P4153242871",
+    "display": "Repulsing Torrent",
+    "help": "Repulsing Torrent unleashes a cone of powerful energy that can smash foes and possibly send them flying. Damage: Moderate, Recharge: Slow",
+    "shortHelp": "Ranged (Cone), Moderate DMG(Energy/Smash), Foe Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1888,8 +1888,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1930,8 +1930,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1973,7 +1973,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1703008310",
+                "attackerHit": "Your Power Siphon increases your strength!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -2077,8 +2077,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2145,9 +2145,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P183208535",
-    "help": "P1556459424",
-    "shortHelp": "P1631766390",
+    "display": "Power Blast",
+    "help": "A much more powerful, yet slower version of Power Bolt. Power Blast sends a focused beam of energy at a foe that can knock them back. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Ranged, Moderate DMG(Energy/Smash), Foe Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2276,8 +2276,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2318,8 +2318,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2376,8 +2376,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }

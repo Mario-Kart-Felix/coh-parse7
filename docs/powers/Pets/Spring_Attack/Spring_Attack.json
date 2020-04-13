@@ -2,9 +2,9 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P1683889127",
-  "help": "P2009234454",
-  "shortHelp": "P856770533",
+  "display": "Spring Attack",
+  "help": "You have been hit with a Spring Attack.",
+  "shortHelp": "High DMG(Smashing), Foe Knockback",
   "targetHelp": "",
   "targetShortHelp": "",
   "attackerAttack": "",
@@ -105,7 +105,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq"
       ],
       "flags": [],
@@ -143,8 +143,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -168,7 +168,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Scrapper",
+        "Scrapper",
         "eq"
       ],
       "flags": [],
@@ -206,8 +206,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -231,7 +231,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Dominator",
+        "Dominator",
         "eq"
       ],
       "flags": [],
@@ -269,8 +269,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -294,7 +294,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Dominator",
+        "Dominator",
         "eq"
       ],
       "flags": [],
@@ -332,8 +332,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -357,21 +357,21 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Blaster",
+        "Blaster",
         "eq",
         "arch",
         "source.owner>",
-        "Class_Stalker",
-        "eq",
-        "||",
-        "arch",
-        "source.owner>",
-        "Class_Arachnos_Widow",
+        "Stalker",
         "eq",
         "||",
         "arch",
         "source.owner>",
-        "Class_Arachnos_Soldier",
+        "Arachnos Widow",
+        "eq",
+        "||",
+        "arch",
+        "source.owner>",
+        "Arachnos Soldier",
         "eq",
         "||"
       ],
@@ -410,8 +410,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -435,21 +435,21 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Blaster",
+        "Blaster",
         "eq",
         "arch",
         "source.owner>",
-        "Class_Stalker",
-        "eq",
-        "||",
-        "arch",
-        "source.owner>",
-        "Class_Arachnos_Widow",
+        "Stalker",
         "eq",
         "||",
         "arch",
         "source.owner>",
-        "Class_Arachnos_Soldier",
+        "Arachnos Widow",
+        "eq",
+        "||",
+        "arch",
+        "source.owner>",
+        "Arachnos Soldier",
         "eq",
         "||"
       ],
@@ -488,8 +488,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -513,11 +513,11 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Peacebringer",
+        "Peacebringer",
         "eq",
         "arch",
         "source.owner>",
-        "Class_Warshade",
+        "Warshade",
         "eq",
         "||"
       ],
@@ -556,8 +556,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -581,11 +581,11 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Peacebringer",
+        "Peacebringer",
         "eq",
         "arch",
         "source.owner>",
-        "Class_Warshade",
+        "Warshade",
         "eq",
         "||"
       ],
@@ -624,8 +624,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -649,7 +649,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Tanker",
+        "Tanker",
         "eq"
       ],
       "flags": [],
@@ -687,8 +687,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -712,7 +712,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Tanker",
+        "Tanker",
         "eq"
       ],
       "flags": [],
@@ -750,8 +750,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -775,11 +775,11 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Brute",
+        "Brute",
         "eq",
         "arch",
         "source.owner>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "||"
       ],
@@ -818,8 +818,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -843,11 +843,11 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Brute",
+        "Brute",
         "eq",
         "arch",
         "source.owner>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "||"
       ],
@@ -886,8 +886,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -911,11 +911,11 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "arch",
         "source.owner>",
-        "Class_Defender",
+        "Defender",
         "eq",
         "||",
         "arch",
@@ -959,8 +959,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -984,11 +984,11 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "arch",
         "source.owner>",
-        "Class_Defender",
+        "Defender",
         "eq",
         "||",
         "arch",
@@ -1032,8 +1032,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -1057,7 +1057,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "kImmobilized",
         "target>",
@@ -1118,8 +1118,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -1143,7 +1143,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Controller",
+        "Controller",
         "eq",
         "kImmobilized",
         "target>",
@@ -1204,8 +1204,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -1267,8 +1267,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1956156720",
-              "victimHit": "P3390955917",
+              "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+              "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }
@@ -1336,8 +1336,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1956156720",
-              "victimHit": "P3390955917",
+              "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+              "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }
@@ -1361,7 +1361,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Sentinel",
+        "Sentinel",
         "eq"
       ],
       "flags": [],
@@ -1399,8 +1399,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -1424,7 +1424,7 @@
       "requires": [
         "arch",
         "source.owner>",
-        "Class_Sentinel",
+        "Sentinel",
         "eq"
       ],
       "flags": [],
@@ -1462,8 +1462,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }

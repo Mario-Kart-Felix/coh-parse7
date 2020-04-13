@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P2518891674",
-  "help": "P2310069644",
-  "shortHelp": "P4090855954",
-  "targetHelp": "P4046402808",
-  "targetShortHelp": "P3404880007",
+  "display": "Frigid Grasp",
+  "help": "You freeze a single target in a mass of death energy. The target is held and suffers cold damage, as well as negative energy damage over time. Some of the drained health is returned to you, healing you. The target also suffers lingering reductions in their movement and recharge speeds after the hold ends. Finally, the longer the Sentinel remains alive, the more likely his presence will sap the target's soul, causing them to suffer increased endurance cost for all powers.",
+  "shortHelp": "Ranged (Secondary Target), Moderate DMG(Cold), Minor DoT(Negative Energy), Grounded(Foe), -Speed(Foe,All), -Rech(Foe), Chance for +EndCost(Foe), Heal(Self)",
+  "targetHelp": "You have been caught in a mass of frozen death energy and have been held. When the hold ends, you will suffer reduced movement and attack speeds. There is also the potential for your powers to cost more endurance to execute.",
+  "targetShortHelp": "Hold, -Speed(All), -Rech, Chance for +EndCost",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -134,8 +134,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4134654113",
-              "victimHit": "P3642575485",
+              "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -176,8 +176,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4173738004",
-              "victimHit": "P1163387325",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -218,8 +218,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1461699593",
-              "victimHit": "P3815778435",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -372,7 +372,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P746236466",
+              "victimHit": "You suffer from the reduction in movement and slowed recharge aftereffects of {PlayerSource}'s {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -561,7 +561,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P4179021727",
+              "victimHit": "{PlayerSource}'s {PowerName} has increased the endurance cost of your powers!",
               "float": "",
               "defenseFloat": ""
             }

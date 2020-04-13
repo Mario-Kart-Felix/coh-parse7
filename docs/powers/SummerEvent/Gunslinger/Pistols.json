@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P372881666",
-  "help": "P2367287806",
-  "shortHelp": "P1884795216",
-  "targetHelp": "P2749873115",
-  "targetShortHelp": "P3885675710",
+  "display": "Single Shot",
+  "help": "You fire a single shot from one of your pistols, which deals lethal damage to your target. Flying targets are brought to the ground. Note that Single Shot is unaffected by Range changes. Recharge: Fast",
+  "shortHelp": "Ranged, Minor DMG(Lethal)",
+  "targetHelp": "You are unable to fly.",
+  "targetShortHelp": "-Fly",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -132,8 +132,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -175,7 +175,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P3732528915",
+              "victimHit": "You are unable to fly due to {PlayerSource}'s {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }

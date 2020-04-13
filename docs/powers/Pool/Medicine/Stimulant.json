@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P318795767",
-  "help": "P1459388746",
-  "shortHelp": "P1913008537",
-  "targetHelp": "P2272198144",
-  "targetShortHelp": "P1988279693",
+  "display": "Injection",
+  "help": "You fire a small dart at a target. The dart is set up to release a beneficial serum or deleterious toxin, depending on whether it strikes friend or foe. If striking a friend, the ally is freed from any Immobilization, Sleep, Disorient, Hold, Fear or Confuse effects and is resistant to such effects for a brief time. If striking a foe, the enemy suffers reduced damage potential, attack speed and chance to hit. The serum's effects will improve with multiple applications from you, but the toxin's do not. The toxin's effect is also shorter in duration than the serum's effect. Both serum and toxin improve as you advance in level.",
+  "shortHelp": "Ranged, +Status Protection(Ally, PvE), +Status Resistance(Ally, PvP) OR -DMG(Foe, All), -Rech(Foe), -ToHit(Foe)",
+  "targetHelp": "You have been struck by a dart fired by a Field Medic. If the Medic is you ally, you have gained protections against Status Effects. If the Medic is your enemy, you are suffering reduced damage, attack speed and chance to hit.",
+  "targetShortHelp": "Special (Ally or Foe)",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -151,8 +151,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3625688781",
-              "victimHit": "P346663008",
+              "attackerHit": "You aid {PlayerDest} with an {PowerName} that increases their status effect protections.",
+              "victimHit": "{PlayerSource} aids you with an {PowerName} that boosts your status protections.",
               "float": "",
               "defenseFloat": ""
             }
@@ -219,8 +219,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1826984151",
-              "victimHit": "P2690098810",
+              "attackerHit": "You aid {PlayerDest} with an {PowerName} that increases their status effect resistances.",
+              "victimHit": "{PlayerSource} aids you with an {PowerName} that boosts your status resistances.",
               "float": "",
               "defenseFloat": ""
             }
@@ -292,8 +292,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3219803828",
-              "victimHit": "P1542844764",
+              "attackerHit": "You harm {PlayerDest} with an {PowerName} that reduces damage, attack speed and chance to hit.",
+              "victimHit": "{PlayerSource} harms you with an {PowerName} that reduces your damage, attack speed and chance to hit.",
               "float": "",
               "defenseFloat": ""
             }
@@ -435,8 +435,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3219803828",
-              "victimHit": "P1542844764",
+              "attackerHit": "You harm {PlayerDest} with an {PowerName} that reduces damage, attack speed and chance to hit.",
+              "victimHit": "{PlayerSource} harms you with an {PowerName} that reduces your damage, attack speed and chance to hit.",
               "float": "",
               "defenseFloat": ""
             }

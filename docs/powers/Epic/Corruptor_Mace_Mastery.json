@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1402461231",
-    "help": "P4036835268",
-    "shortHelp": "P4011995531",
-    "targetHelp": "P1331007656",
-    "targetShortHelp": "P3505771407",
+    "display": "Web Envelope",
+    "help": "The Executioner's Mace can lob a modified Web Grenade. Upon impact, the Web Grenade expels a strong, tenuous, and very sticky substance that can Immobilize most targets in a wide area. This non-lethal device deals no damage and does not prevent targets from attacking, although their attack rate is Slowed. The Web can bring down flying entities and halts jumping. Recharge: Slow",
+    "shortHelp": "Ranged (Targeted AoE) Immobilize, -Recharge, -Fly",
+    "targetHelp": "You have been caught in a web. You cannot move or fly and your attack speed is reduced.",
+    "targetShortHelp": "Immobilize, -Fly, -Recharge",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -168,8 +168,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -257,8 +257,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -485,14 +485,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2874341642",
-    "help": "P2713246616",
-    "shortHelp": "P3556458012",
+    "display": "Scorpion Shield",
+    "help": "Black Scorpion's technologies are impressive indeed. This energy shield grants you Defense to Lethal, Smashing and Energy attacks, as well as improves your damage resistance to Toxic damage. Recharge: Fast",
+    "shortHelp": "Toggle: Self, +Def(Smash,Lethal,Energy), +Res(Toxic)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P562105923",
+    "attackerHit": "Your {PowerName} protects you from lethal, smashing, Toxic and energy.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -926,14 +926,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4148086331",
-    "help": "P65844350",
-    "shortHelp": "P2378869502",
+    "display": "Focused Accuracy",
+    "help": "When this power is activated, the Villain focuses their senses to dramatically improve their accuracy. Additionally, Focused Accuracy increase your Perception, allowing you to better see stealthy foes. It also grants you resistance to powers that DeBuff your Accuracy. Focused Accuracy is a toggle power and must be activated and deactivated manually. Like all toggle powers, while active, Focused Accuracy drains Endurance while active. You must be level 41 and have Web Envelope or Scorpion Shield before selecting this power. Recharge: Slow",
+    "shortHelp": "Toggle: Self +To Hit, +ACC, +Perception, Res(DeBuff To Hit)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2534745051",
+    "attackerHit": "Your {PowerName} increases your accuracy.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1307,11 +1307,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1125963887",
-    "help": "P3615922097",
-    "shortHelp": "P2792298988",
-    "targetHelp": "P1170448504",
-    "targetShortHelp": "P827831154",
+    "display": "Web Cocoon",
+    "help": "The Bane Mace can fire a more powerful version the common web grenade. The sinewy fibers of this grenade are strong enough to completely Hold one target. Targets able to resist the Hold are still likely to have their attack and movement speed dramatically slowed. Web Cocoon can also bring down flying targets and prevent foes from jumping. You must be level 41 and have Web Envelope or Scorpion Shield before selecting this power. Recharge: Long",
+    "shortHelp": "Ranged, Foe Hold, -Recharge, -Fly, -Jump, Slow",
+    "targetHelp": "You have been caught in a Web Cocoon and are Held. You cannot move or fly and your attack and movement speed is reduced.",
+    "targetShortHelp": "Hold, -Fly, -Recharge, Slow",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1468,8 +1468,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1557,8 +1557,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1785,9 +1785,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3743136785",
-    "help": "P3405801156",
-    "shortHelp": "P2832651078",
+    "display": "Summon Disruptor",
+    "help": "Black Scorpion has granted you an Arachnobot Disruptor for you to command. Arachnobots were created by Arachnos Orb Weavers to take down particularly powerful super-powered threats. Your access to this Arachnobot is very limited. You can only summon it once every 15 minutes and it will leave after 4 minutes, or if you exit a zone or mission. You must be level 44 and have two other Mace Mastery Powers before selecting this power. Recharge: Extremely Long",
+    "shortHelp": "Summon Arachnobot: Ranged Moderate DMG(Energy)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

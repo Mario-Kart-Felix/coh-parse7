@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P2506127736",
-  "help": "P1072755048",
-  "shortHelp": "P2047935837",
-  "targetHelp": "P188451334",
-  "targetShortHelp": "P4113447123",
+  "display": "Misery",
+  "help": "You channel energy through your body and into a targeted foe. Through transference from the target, some of your health and that of your allies is restored. Additionally, your personal recovery and regeneration are boosted briefly. The targeted foe's regeneration, chance to hit and damage are reduced.",
+  "shortHelp": "Ranged, Moderate DoT(Energy), Heal(Ally,Self), +Regen(Self), +Rec(Self), -DMG(Foe, All), -ToHit(Foe), -Regen(Foe)",
+  "targetHelp": "Your regeneration, damage potential and chance to hit have been reduced. You are also taking energy damage over time.",
+  "targetShortHelp": "DoT(Energy), -DMG(All), -ToHit, -Regen",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -303,8 +303,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P59899910",
-              "victimHit": "P3210640873",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -346,7 +346,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P2378715413",
+              "victimHit": "The {PowerName} caused by {PlayerSource} also reduces your damage, chance to hit and regeneration rate!",
               "float": "",
               "defenseFloat": ""
             }

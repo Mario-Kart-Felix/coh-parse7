@@ -2,16 +2,16 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P2164945405",
-  "help": "P2050360356",
-  "shortHelp": "P2944072660",
-  "targetHelp": "P2346481796",
-  "targetShortHelp": "P2211841663",
+  "display": "Elixir of Life",
+  "help": "With this Elixir, you can revive a fallen ally and turn him into a killing machine. The revived target has increased damage, chance to hit, Endurance recovery, and attack speed, and gains a resistance to Toxic damage. A brew of this sort is not without its side effects. The revived target will soon become very sick and severely weak after about 90 seconds. All effects of the Elixir will eventually wear off. Elixir of Life can only be used on Players and cannot be used on your Henchmen. Recharge: Very Long",
+  "shortHelp": "Close, Ally Rez, Special",
+  "targetHelp": "Your have been saved by the Elixir of Life. Your chance to hit and attack rate are improved. Your damage and Endurance recovery are increased as well and you gain a resistance to Toxic damage. You are also protected from XP Debt for 90 seconds. The experience is taxing however, and you will soon weaken when all of the effects of the Elixir wear off.",
+  "targetShortHelp": "Special",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
   "victimHit": "",
-  "confirm": "P100097354",
+  "confirm": "{PlayerSource} would like to Resurrect you. You will have full Health and Endurance and be extremely powerful for a while, but will weaken after 90 seconds. Do you Accept?",
   "floatRewarded": "",
   "powerDefenseFloat": "",
   "icon": "Poison_ElixirOfLife.tga",
@@ -137,8 +137,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P610729340",
-              "victimHit": "P2029379553",
+              "attackerHit": "You heal {PlayerDest} with {PowerName} for {Damage} points of damage over time.",
+              "victimHit": "{PlayerSource} heals you with their {PowerName} for {Damage} points of damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -437,7 +437,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P3379169905",
+              "victimHit": "Your Elixir has worn off, and you are now sick and weakened.",
               "float": "",
               "defenseFloat": ""
             }

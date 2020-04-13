@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4010487265",
-    "help": "P534490996",
-    "shortHelp": "P3553522374",
-    "targetHelp": "P3100642824",
-    "targetShortHelp": "P4135187929",
+    "display": "Dull Pain",
+    "help": "You activate special programming within your armor that temporarily boosts your maximum hit points.",
+    "shortHelp": "Self, +MaxHP",
+    "targetHelp": "Your maximum hit points have been increased.",
+    "targetShortHelp": "+MaxHP",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -230,11 +230,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1196525362",
-    "help": "P2051560552",
-    "shortHelp": "P1274357725",
-    "targetHelp": "P2051560552",
-    "targetShortHelp": "P236873044",
+    "display": "Resistance",
+    "help": "You are resistant to smashing, lethal and cold damage, but are vulnerable to energy damage.",
+    "shortHelp": "Self (Auto), +RES (Smashing, Lethal, Cold), -RES (Energy)",
+    "targetHelp": "You are resistant to smashing, lethal and cold damage, but are vulnerable to energy damage.",
+    "targetShortHelp": "+RES (Smashing, Lethal, Cold), -RES (Energy)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -457,11 +457,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1647552401",
-    "help": "P1676708735",
-    "shortHelp": "P3363625452",
-    "targetHelp": "P4045466778",
-    "targetShortHelp": "P1739487621",
+    "display": "Sawblade",
+    "help": "You throw sawblades with great force due to your cybernetic enhancements. This sawblade strikes a distant target, causing an initial burst of lethal damage and lethal damage over time. The target also suffers reduced regeneration and recovery. There is also a small chance the target will be knocked back.",
+    "shortHelp": "Ranged, Minor DMG (Lethal), Minor DoT (Lethal), -Regen (Foe), -Rec (Foe), Chance for Knockback (Foe)",
+    "targetHelp": "You are suffering lethal damage over time. Additionally, your regeneration and recovery have been reduced.",
+    "targetShortHelp": "DoT (Lethal), -Regen, -Rec",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -587,8 +587,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -629,8 +629,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -764,8 +764,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -833,8 +833,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -901,11 +901,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3414514037",
-    "help": "P1758537821",
-    "shortHelp": "P1019816708",
-    "targetHelp": "P1179259810",
-    "targetShortHelp": "P1149385915",
+    "display": "Cybernetic Hammers",
+    "help": "You smash a single target with one of your cybernetic hammers. This causes smashing damage and reduces the target's defenses. There is also a chance that the target may be stunned.",
+    "shortHelp": "Melee, High DMG (Smashing), -DEF (Foe, All), Chance for Stun (Foe)",
+    "targetHelp": "Your defenses have been reduced and you may be stunned.",
+    "targetShortHelp": "-DEF (All), Chance for Stun",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1031,8 +1031,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1129,8 +1129,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1199,8 +1199,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1267,11 +1267,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1707211600",
-    "help": "P2590051214",
-    "shortHelp": "P1210220156",
-    "targetHelp": "P21874267",
-    "targetShortHelp": "P1397128752",
+    "display": "Hammer Clap",
+    "help": "You crash both of your cybernetic hammers together with tremendous force, creating a shockwave that causes smashing damage to all foes around you. Affected targets may also be knocked back and stunned.",
+    "shortHelp": "PBAoE, High DMG (Smashing), Chance for Stun (Foe), Knockback (Foe)",
+    "targetHelp": "You have been stunned.",
+    "targetShortHelp": "Stun",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1396,8 +1396,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1459,8 +1459,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1501,8 +1501,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1571,8 +1571,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1619,8 +1619,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1687,9 +1687,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P95265371",
-    "help": "P2694150439",
-    "shortHelp": "P2932830822",
+    "display": "Tank Grenade",
+    "help": "You launch a fragmentation grenade at long range from your armor's backpack. This explodes on impact, throwing shrapnel that causes smashing and lethal damage. There is also a high chance that the concussive effect from the explosion will knock affected targets back.",
+    "shortHelp": "Ranged (Targeted AoE), Superior DMG (Lethal/Smashing), Chance for Knockback (Foe)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1818,8 +1818,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1860,8 +1860,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1923,8 +1923,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1992,8 +1992,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }

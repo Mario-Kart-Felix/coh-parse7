@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2291166133",
-    "help": "P1345220427",
-    "shortHelp": "P2821032649",
+    "display": "Dominion of Arachnos: Recharge/Chance for -Dmg and Terrorize",
+    "help": "UNIQUE -- No more than 1 enhancement of this type may be slotted by a character. Gives the slotted power a chance to Terrorize the target and reduce their damage for 10 seconds and reduces recharge time by {Boost.Attrib.RechargeTime.Scale}%. This effect will trigger roughly 4 times per minute. This enhancement can only be slotted by Soldiers of Arachnos and may be slotted into any Arachnos Soldier or Arachnos Widow damage power.",
+    "shortHelp": "Increases Attack Rate, Chance for -DMG and Terrorize",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -33,11 +33,11 @@
       "&&",
       "arch",
       "char>",
-      "Class_Arachnos_Soldier",
+      "Arachnos Soldier",
       "eq",
       "arch",
       "char>",
-      "Class_Arachnos_Widow",
+      "Arachnos Widow",
       "eq",
       "||",
       "&&"
@@ -169,8 +169,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P354439872",
-                "victimHit": "P3649568276",
+                "attackerHit": "You terrify {PlayerDest} with your {PowerName} causing them to have reduced damage.",
+                "victimHit": "{PlayerSource} poisons you with their {PowerName} causing you to have your damage reduced and suffer toxic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -237,8 +237,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -331,8 +331,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }

@@ -3,15 +3,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2955500409",
-    "help": "P3479638575",
-    "shortHelp": "P2190406988",
-    "targetHelp": "P701752453",
-    "targetShortHelp": "P925615151",
+    "display": "Link Minds",
+    "help": "Your Mind Link Power will enable you to link the minds of all your teammates who are near you for the next 90 seconds. This shared link improves your team's chance to hit foes, your defensive abilities and dramatically reduces psionic damage. Recharge: Very Long",
+    "shortHelp": "PBAoE Team +To Hit, +DEF (All), +RES (Psionic)",
+    "targetHelp": "Your chance to hit, Defense and Psionic Resistance improve due to the Mind Link.",
+    "targetShortHelp": "+To Hit, +DEF (All), +RES (Psionic)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3478802383",
-    "victimHit": "P2010842502",
+    "attackerHit": "Your {PowerName} increases your team's chance to hit, Defense and Psionic Resistance.",
+    "victimHit": "{PlayerSource} increases your team's chance to hit, Defense and Psionic Resistance with their {PowerName}.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -284,14 +284,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4268714550",
-    "help": "P2811014407",
-    "shortHelp": "P2691525548",
+    "display": "Indomitable Will",
+    "help": "Activating this power greatly boosts your resistance to Sleep, Disorient, Fear and Hold effects for 90 seconds. Indomitable Will also grants a high defense to Psionic based attacks. Recharge: Very Long",
+    "shortHelp": "Self Res( Disorient, Hold, Sleep, Fear). DEF(Psionics)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P4005305938",
+    "attackerHit": "Your {PowerName} protects you from Immobilization, Sleep, Disorient, and Hold effects.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -601,14 +601,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2948774010",
-    "help": "P264604725",
-    "shortHelp": "P2207717524",
+    "display": "Mind Over Body",
+    "help": "When you toggle on this power, you empower your Mind Over Body to become highly resistant to Smashing, Lethal and Psionic damage. You must be level 41 and have Link Minds or Indomitable Will before selecting this power. Recharge: Very Fast",
+    "shortHelp": "Toggle: Self +Res(Smash, Lethal, Psionics)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P631656156",
+    "attackerHit": "Your {PowerName} has made you highly resistant to smashing and lethal damage.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -912,11 +912,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3752193437",
-    "help": "P700072992",
-    "shortHelp": "P1307556126",
-    "targetHelp": "P4213198885",
-    "targetShortHelp": "P1116895679",
+    "display": "World of Confusion",
+    "help": "This toggle power allows you to cause psionic damage and cause confusion within a group of foes, creating chaos. The chance of confusing an enemy is lower than then chance of damaging them, and it may take multiple hits to affect stronger opponents. All affected foes within the area will turn and attack each other, ignoring all heroes. You will not receive any Experience Points for foes defeated by Confused enemies. You must be level 41 and have Link Minds or Indomitable Will before selecting this power. Recharge: Slow",
+    "shortHelp": "Toggle: PBAoE, Minor DoT(Psionic), Foe Confuse",
+    "targetHelp": "You are confused and may attack an incorrect target.",
+    "targetShortHelp": "Confuse",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1070,8 +1070,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4049735792",
-                "victimHit": "P553075930",
+                "attackerHit": "You Confuse {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Confuses you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1139,8 +1139,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4049735792",
-                "victimHit": "P553075930",
+                "attackerHit": "You Confuse {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Confuses you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1214,9 +1214,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P664593777",
-                "victimHit": "P1506017657",
-                "float": "P2144434522",
+                "attackerHit": "You Confuse {PlayerDest} with your {PowerName} [OVERPOWER].",
+                "victimHit": "{PlayerSource} Confuses you with their {PowerName} [OVERPOWER].",
+                "float": "Overpower",
                 "defenseFloat": ""
               }
             ],
@@ -1272,8 +1272,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1341,9 +1341,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P664593777",
-                "victimHit": "P1506017657",
-                "float": "P2144434522",
+                "attackerHit": "You Confuse {PlayerDest} with your {PowerName} [OVERPOWER].",
+                "victimHit": "{PlayerSource} Confuses you with their {PowerName} [OVERPOWER].",
+                "float": "Overpower",
                 "defenseFloat": ""
               }
             ],
@@ -1409,11 +1409,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1282813950",
-    "help": "P679188811",
-    "shortHelp": "P1737092425",
-    "targetHelp": "P2035661399",
-    "targetShortHelp": "P786987390",
+    "display": "Psionic Tornado",
+    "help": "Unleashes a whirlwind of Psionic energy on a target, tossing nearby foes into the air. The Psionic Tornado damages foes and Slows their attack speed. You must be level 44 and have two other Psionic Mastery Powers before selecting this power. Damage: Moderate(DoT), Recharge: Slow",
+    "shortHelp": "Ranged (Targeted AoE), Moderate DoT(Psionic), Foe Knockback",
+    "targetHelp": "You are taking damage from the Psionic Tornado.",
+    "targetShortHelp": "DoT(Psionic)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1575,8 +1575,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2287672660",
-                "victimHit": "P3092393664",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1690,8 +1690,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2287672660",
-                "victimHit": "P3092393664",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1742,7 +1742,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -1781,8 +1781,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2287672660",
-                "victimHit": "P3092393664",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1830,7 +1830,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "==",
           "&&"
         ],
@@ -1869,8 +1869,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2287672660",
-                "victimHit": "P3092393664",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1938,8 +1938,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2001,8 +2001,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }

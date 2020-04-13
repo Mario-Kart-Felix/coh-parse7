@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4129595908",
-    "help": "P4284083662",
-    "shortHelp": "P1846627950",
+    "display": "Jump Kick",
+    "help": "A good jumping kick attack that may knock foes down. Good if you are looking for another attack power. Recharge: Very Fast",
+    "shortHelp": "Melee, Moderate DMG(Smash), Foe Knockdown",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -150,8 +150,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -219,8 +219,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -282,8 +282,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -307,7 +307,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq",
           "enttype",
           "target>",
@@ -350,9 +350,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -384,7 +384,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "&&",
           "kMeter",
@@ -433,9 +433,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -458,7 +458,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "kMeter",
           "source>",
@@ -506,9 +506,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -553,7 +553,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "&&",
           "enttype",
@@ -597,8 +597,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -639,7 +639,7 @@
           "<",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&",
           "enttype",
@@ -683,9 +683,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2008332946",
-                "victimHit": "P2162615548",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -708,7 +708,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq",
           "enttype",
           "target>",
@@ -751,9 +751,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -798,7 +798,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "&&",
           "enttype",
@@ -842,8 +842,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -876,7 +876,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "&&",
           "kMeter",
@@ -925,9 +925,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -950,7 +950,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "kMeter",
           "source>",
@@ -998,9 +998,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1040,7 +1040,7 @@
           "<",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&",
           "enttype",
@@ -1084,9 +1084,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2008332946",
-                "victimHit": "P2162615548",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -1147,8 +1147,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1217,18 +1217,18 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3474890240",
-    "help": "P3211918353",
-    "shortHelp": "P2977037445",
+    "display": "Combat Jumping",
+    "help": "While active, Combat Jumping increases your Defense to all attacks, and adds resistance to Immobilization. Moderately increases your jump height and distance while providing good air control.",
+    "shortHelp": "Toggle: Self +Jump, +DEF(All), Res(Immobilization)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3690202278",
+    "attackerHit": "Your {PowerName} has made you harder to hit.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
-    "powerDefenseFloat": "P2514521623",
+    "powerDefenseFloat": "Dodged",
     "icon": "Jump_CombatJump.tga",
     "type": "TOGGLE",
     "numAllowed": 1,
@@ -1749,9 +1749,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3752711311",
-    "help": "P3112038252",
-    "shortHelp": "P741067350",
+    "display": "Super Jump",
+    "help": "While this power is active, you can leap great distances and heights, easily jumping over buildings and from rooftop to rooftop! If you attack a target while this power is on, you will temporarily be reduced to a normal jump height.",
+    "shortHelp": "Toggle: Self Long Jump",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2273,14 +2273,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2709404738",
-    "help": "P778174228",
-    "shortHelp": "P1246888341",
+    "display": "Acrobatics",
+    "help": "While this power is active, you are very nimble and Acrobatic. You can avoid most Knockback effects and are resistant to Hold effects. You must be at least level 14 and have two other Leaping Powers before selecting Acrobatics. Recharge: Moderate",
+    "shortHelp": "Toggle: Self +Res(Knockback, Hold)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3469491994",
+    "attackerHit": "You become more nimble and are less likely to be knocked down or held.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -2729,9 +2729,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1683889127",
-    "help": "P1859371370",
-    "shortHelp": "P579280320",
+    "display": "Spring Attack",
+    "help": "You leap into the air and smash down among ranks of foes in the blink of an eye. Using this power allows you to jump to a selected area to deal significant smashing damage to all foes near the location you teleport to, most foes that are struck by your Spring Attack will be knocked down. You must be at least level 14 and have two other Leaping Powers before selecting Spring Attack. Damage: High, Recharge: Long",
+    "shortHelp": "PBAoE Superior DMG(Smashing), Foe Knockdown; Self Teleport",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

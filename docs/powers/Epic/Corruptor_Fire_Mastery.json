@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4044677581",
-    "help": "P2594760455",
-    "shortHelp": "P2075769125",
+    "display": "Consume",
+    "help": "You can drain body heat from all nearby foes in order to replenish your own Endurance. The more foes affected, the more Endurance is gained. Foes suffer minimal Fire damage. Damage: Minor, Recharge: Very Long",
+    "shortHelp": "PBAoE, Minor DMG(Fire), Self +End",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -147,8 +147,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -321,7 +321,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "==",
           "&&"
         ],
@@ -360,9 +360,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1795411494",
-                "victimHit": "P2679775304",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -428,11 +428,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P751630497",
-    "help": "P2330182960",
-    "shortHelp": "P878115326",
-    "targetHelp": "P3211993838",
-    "targetShortHelp": "P3128198270",
+    "display": "Char",
+    "help": "Incapacitates a distant foe by Charring him with smoldering soot and cinders. The target is left helpless, choking on the soot. Damage: Moderate(DoT), Recharge: Moderate",
+    "shortHelp": "Ranged, Moderate DoT(Fire), Foe Hold",
+    "targetHelp": "You are being held and are on fire.",
+    "targetShortHelp": "DoT(Fire), Hold",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -578,8 +578,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -620,8 +620,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1083355571",
-                "victimHit": "P3022741469",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -667,7 +667,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "==",
           "&&"
         ],
@@ -706,9 +706,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3646821",
-                "victimHit": "P1684347033",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage over time [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage over time [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -769,8 +769,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1083355571",
-                "victimHit": "P3022741469",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -837,8 +837,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -884,7 +884,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "==",
           "&&"
         ],
@@ -923,9 +923,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3646821",
-                "victimHit": "P1684347033",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage over time [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage over time [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -991,14 +991,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1503020951",
-    "help": "P599089574",
-    "shortHelp": "P3104420862",
+    "display": "Fire Shield",
+    "help": "While this power is active, you get a good resistance to Lethal, Smashing and Fire damage. Fire Shield also provides minimal resistance to Cold damage. You must be level 41 and have Consume or Char before selecting this power. Recharge: Very Fast",
+    "shortHelp": "Toggle: Self +Res(Fire, Lethal, Smash, Cold)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3569681516",
+    "attackerHit": "You are now more resistant to Smashing, Lethal, Fire, and Cold damage.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1375,14 +1375,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1688885746",
-    "help": "P3317524262",
-    "shortHelp": "P3228648468",
-    "targetHelp": "P526672781",
-    "targetShortHelp": "P2862738113",
+    "display": "Rise of the Phoenix",
+    "help": "If you are defeated, you can rise from the ashes. The fiery resurrection blasts nearby foes with an explosion and knocks them down. You will revive with about half of your Hit Points and Endurance. Rise of the Phoenix will actually leave you invulnerable for a brief time and protected from XP Debt for 20 seconds. You must be level 41 and have Consume or Char before selecting this power. Recharge: Very Long",
+    "shortHelp": "Self Rez, Special",
+    "targetHelp": "You have risen from the ashes. You are untouchable for 15 seconds and are protected from XP Debt for 20 seconds.",
+    "targetShortHelp": "Invulnerable, +XP Debt Protection",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3309961538",
+    "attackerHit": "You rise from the ashes with the power of the Phoenix.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1601,7 +1601,7 @@
               {
                 "attackerHit": "",
                 "victimHit": "",
-                "float": "P2901365799",
+                "float": "Untouchable",
                 "defenseFloat": ""
               }
             ],
@@ -1774,11 +1774,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1412058975",
-    "help": "P4130694572",
-    "shortHelp": "P3350481188",
-    "targetHelp": "P3168769471",
-    "targetShortHelp": "P3423146141",
+    "display": "Greater Fire Sword",
+    "help": "Your mastery of fire allows you to create an enhanced Sword of Fire that can set foes ablaze. Successful attacks from the Greater Fire Sword will ignite your target, dealing damage over time. You must be level 44 and have two other Flame Mastery Powers before selecting this power. Damage: Superior, Recharge: Slow",
+    "shortHelp": "Melee, Superior DMG(Fire/Lethal)",
+    "targetHelp": "You are burning!",
+    "targetShortHelp": "DoT(Fire)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1941,8 +1941,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1983,8 +1983,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2030,7 +2030,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "==",
           "&&"
         ],
@@ -2069,9 +2069,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2425438994",
-                "victimHit": "P744308477",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -2111,9 +2111,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1795411494",
-                "victimHit": "P2679775304",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -2174,8 +2174,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2216,8 +2216,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2263,7 +2263,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "==",
           "&&"
         ],
@@ -2302,9 +2302,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2425438994",
-                "victimHit": "P744308477",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -2344,9 +2344,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1795411494",
-                "victimHit": "P2679775304",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -2403,8 +2403,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1083355571",
-                "victimHit": "P3022741469",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }

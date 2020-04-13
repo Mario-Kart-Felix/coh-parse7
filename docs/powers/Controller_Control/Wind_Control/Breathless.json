@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3646522798",
-  "help": "P3051915327",
-  "shortHelp": "P746724063",
-  "targetHelp": "P3038756986",
-  "targetShortHelp": "P169884591",
+  "display": "Breathless",
+  "help": "You release all available Pressure to create a localized high pressure sphere at a location of your choosing. This high pressure crushes foes continually while they remain within the sphere, causing lethal damage over time. Affected foes will be immobilized and suffer from a reduced attack speed. In normal combat, affected foes will also suffer reduced damage potential, while in PvP, affected foes will suffer from increased endurance cost of their powers. The damage done increases in proportion to the amount of Pressure released when using this power. Also, Breathless can reduce the damage potential of all targets, in PvE or PvP, if used at the lowest levels of Pressure accumulation. Damage: Variable, Recharge: Moderate",
+  "shortHelp": "Ranged (Targeted AoE), Minor DMG (Lethal), Immobilize (Foe), -DMG(Foe, All), +EndCost(Foe, PvP), Consumes Pressure",
+  "targetHelp": "You are caught in a very high pressure area that leaves you immobilized and weakened. You suffer lethal damage, your attack speed is reduced and all powers cost more endurance to use for as long as you remain in the field of effect.",
+  "targetShortHelp": "Immobilize, -Rech, -EndCost(PvP)",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -159,8 +159,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -201,8 +201,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4257051740",
-              "victimHit": "P2588894681",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -343,8 +343,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -427,8 +427,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -470,8 +470,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -533,9 +533,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2458169698",
-              "victimHit": "P690160208",
-              "float": "P2144434522",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName} [OVERPOWER].",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName} [OVERPOWER].",
+              "float": "Overpower",
               "defenseFloat": ""
             }
           ],
@@ -622,8 +622,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4257051740",
-              "victimHit": "P2588894681",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -722,7 +722,7 @@
             {
               "attackerHit": "",
               "victimHit": "",
-              "float": "P2883443510",
+              "float": "I Drain Pressure!",
               "defenseFloat": ""
             }
           ],
@@ -770,7 +770,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P123669248",
+              "victimHit": "You release all atmospheric Pressure changes you have accumulated.",
               "float": "",
               "defenseFloat": ""
             }

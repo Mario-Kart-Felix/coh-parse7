@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1363030893",
-    "help": "P4018294709",
-    "shortHelp": "P2791213138",
-    "targetHelp": "P2366756416",
-    "targetShortHelp": "P2848422893",
+    "display": "Thunder Strike",
+    "help": "A massive attack. You smash your foes with all the power of a lightning bolt. The pummeled victim takes tremendous damage and may be Disoriented. Any nearby foes may be knocked down and take some damage from the shockwave. Damage: High, Recharge: Slow",
+    "shortHelp": "Melee (AoE), High DMG(Smash, Energy), Foe Disorient, Knockback",
+    "targetHelp": "You have been Disoriented.",
+    "targetShortHelp": "Disorient",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -134,8 +134,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -192,8 +192,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -301,8 +301,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -359,8 +359,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -427,9 +427,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2664724052",
-    "help": "P2353135322",
-    "shortHelp": "P3080198159",
+    "display": "Power Sink",
+    "help": "Power Sink leeches energy directly from the bodies of all nearby foes, draining their Endurance. Each foe you draw energy from increases your Endurance. If there are no foes within range, you will not gain any Endurance. Recharge: Long",
+    "shortHelp": "PBAoE, Self +End, Foe -End",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -558,7 +558,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P1933366843",
+                "victimHit": "{PlayerSource} shocks you with a {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -600,7 +600,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P3264726269",
+                "victimHit": "Your {PowerName} increases your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -718,9 +718,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P996414698",
-    "help": "P1248518276",
-    "shortHelp": "P3136448214",
+    "display": "Static Shield",
+    "help": "When you toggle on this power, you are surrounded in a charged field that makes you highly resistant to Smashing, Lethal, Fire, Cold, Energy and Negative Energy damage. This Static Shield protects you from Hold, Sleep, and Disorient effects as well as Endurance Drain, Recovery DeBuffs and enemy Teleportation. Static Shield can also help normalize your synaptic activity, granting you good resistance to Psionic Damage. Recharge: Fast",
+    "shortHelp": "Toggle: Self +Res(Smash, Lethal, Fire, Cold, Energy, Negative Energy), +Res(Hold, Sleep, Disorient, End Drain, Recovery DeBuff, Psionic, Teleport)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1058,9 +1058,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2138267515",
-    "help": "P2467806480",
-    "shortHelp": "P1831456333",
+    "display": "Ball Lightning",
+    "help": "The Ball Lightning is continuing to electrocute you.",
+    "shortHelp": "DoT(Energy)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1188,8 +1188,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1230,8 +1230,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1273,7 +1273,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P1933366843",
+                "victimHit": "{PlayerSource} shocks you with a {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1375,11 +1375,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1045457615",
-    "help": "P2937017059",
-    "shortHelp": "P2980306831",
-    "targetHelp": "P211370863",
-    "targetShortHelp": "P1988226113",
+    "display": "Chain Induction",
+    "help": "This Electric Melee attack deals moderate Smashing and Energy damage and may drain some of the targets Endurance. However, this attack also induces an unstable electric charge that may jump to another enemy target. The charge will jump randomly between multiple targets, until it inevitably dissipates. Enhancements and Fury will only boost the effectiveness of the initial attacks, not the jumping charge. Damage: Moderate, Recharge: Slow",
+    "shortHelp": "Melee, Moderate DMG(Smash/Energy), Foe -End +Special",
+    "targetHelp": "You still carry a charge leftover from the Chain Induction punch. You may accidentally release this charge and zap a nearby ally.",
+    "targetShortHelp": "Charged",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1506,8 +1506,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1548,8 +1548,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1668,7 +1668,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P1933366843",
+                "victimHit": "{PlayerSource} shocks you with a {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }

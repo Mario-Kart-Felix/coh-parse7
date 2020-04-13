@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4043578058",
-    "help": "P840867967",
-    "shortHelp": "P4176814676",
-    "targetHelp": "P479275776",
-    "targetShortHelp": "P3721528132",
+    "display": "Psionic Blast",
+    "help": "You fire a psionic burst at the target, causing damage and increasing recharge time.",
+    "shortHelp": "Ranged, High DMG (Psionic), -Rech(Foe)",
+    "targetHelp": "Your recharge rate has been reduced!",
+    "targetShortHelp": "-Rech",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -133,8 +133,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -237,11 +237,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1938572341",
-    "help": "P587756611",
-    "shortHelp": "P1385854695",
-    "targetHelp": "P3396203752",
-    "targetShortHelp": "P2221929303",
+    "display": "Psionic Crush",
+    "help": "You imprison your target in a field of collapsing psionic energy. They are held in place and suffer continuous damage and endurance loss.",
+    "shortHelp": "Ranged, DoT (Psionic), -Endurance(Foe), Hold(Foe)",
+    "targetHelp": "You are suffering psionic damage over time and losing endurance!",
+    "targetShortHelp": "DoT (Psionic), -Endurance",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -369,7 +369,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2883455073",
+                "victimHit": "{PlayerSource} holds you with her {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -410,8 +410,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2287672660",
-                "victimHit": "P3092393664",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -487,8 +487,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -555,11 +555,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P692062634",
-    "help": "P3617882692",
-    "shortHelp": "P2892763903",
-    "targetHelp": "P293206814",
-    "targetShortHelp": "P1469938864",
+    "display": "Psionic Torment",
+    "help": "You create painful visions within the mind of your target, and these visions manifest as bleeding wounds. When the visions end, the targets suffer reduced regeneration, recovery and recharge rate.",
+    "shortHelp": "Ranged, High DMG (Psionic), DoT(Lethal), -End(Foe), -Regen(Foe), -Rec(Foe), -Rech(Foe)",
+    "targetHelp": "You are suffering lethal damage and endurance loss over time. Additionally, your regeneration, recovery and recharge rate have been reduced.",
+    "targetShortHelp": "DoT(Lethal), -End, -Regen, -Rec, -Rech",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -687,7 +687,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2406693638",
+                "victimHit": "{PlayerSource} creates unrelenting torment within your mind, causing {Damage} points of psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -730,7 +730,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P265833478",
+                "victimHit": "Your mind makes the pain of {PlayerSource}'s {PowerName} real, causing {Damage} points of lethal damage and draining your endurance.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -906,11 +906,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4146362474",
-    "help": "P1327586528",
-    "shortHelp": "P3148822177",
-    "targetHelp": "P4091344101",
-    "targetShortHelp": "P211773159",
+    "display": "Psionic Drift",
+    "help": "You induce a dream state in all nearby targets around you while also dealing continuous psionic damage. These dreams can manifest as nightmares, lucid dreams or deep sleep, which manifest as fear, confusion or stun.",
+    "shortHelp": "PBAoE, High DMG (Psionic), Minor DoT (Psionic), Stun/Fear/Confuse(Foe)",
+    "targetHelp": "You are suffering psionic damage over time and are either feared, confused or stunned.",
+    "targetShortHelp": "DoT (Psionic), Special",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1038,7 +1038,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2146801776",
+                "victimHit": "{PlayerSource} causes your mind to be affected by {PowerName}, inducing weakness and causing {Damage} points of psionic damage!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1081,7 +1081,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2834630215",
+                "victimHit": "You continue to suffer {Damage} points of psionic damage while your mind is trapped in {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1185,8 +1185,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1256,8 +1256,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4049735792",
-                "victimHit": "P553075930",
+                "attackerHit": "You Confuse {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Confuses you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1323,8 +1323,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1391,11 +1391,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2757588380",
-    "help": "P226875044",
-    "shortHelp": "P2494817372",
-    "targetHelp": "P1353582034",
-    "targetShortHelp": "P2644570344",
+    "display": "Psionic Pulse",
+    "help": "You unleash a powerful psionic shockwave that ripples through the air around you, dealing Psionic and Smashing damage to any hit by the wave. The shockwave also has a chance to knockback its targets.",
+    "shortHelp": "PBAoE, Moderate DMG (Psionic, Smashing), Knockup(Foe)",
+    "targetHelp": "You are knocked off your feet!",
+    "targetShortHelp": "Knockup",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1522,8 +1522,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1564,8 +1564,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1623,8 +1623,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1691,11 +1691,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2654453422",
-    "help": "P1661657711",
-    "shortHelp": "P4270877096",
-    "targetHelp": "P919969351",
-    "targetShortHelp": "P661514070",
+    "display": "Psionic Blade",
+    "help": "You create a blade of crystalline psionic energy around your hand and use it to stab your target with a quick attack. The target suffers psionic damage, followed by a bleeding wound and reduced defense.",
+    "shortHelp": "Melee, Moderate DMG(Psionic), Moderate DoT (Lethal), -Def(Foe, All)",
+    "targetHelp": "Your defenses have been reduced.",
+    "targetShortHelp": "-Def(All)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1822,8 +1822,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1864,8 +1864,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1969,11 +1969,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3611631710",
-    "help": "P3914973950",
-    "shortHelp": "P2957459055",
-    "targetHelp": "P2196353411",
-    "targetShortHelp": "P2443421899",
+    "display": "Psionic Thrust",
+    "help": "You create a blade of crystalline psionic energy around your hand and viciously stab your target. The target suffers psionic damage, followed by a bleeding wound and reduced resistance to further psionic damage.",
+    "shortHelp": "Melee, High DMG (Psionic), Moderate DoT (Lethal), -Res(Foe, Psionic)",
+    "targetHelp": "You are bleeding and suffering from reduced resistance to psionic damage.",
+    "targetShortHelp": "DoT(Lethal), -Res(Psionic)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2100,8 +2100,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2142,8 +2142,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2247,9 +2247,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2452951707",
-    "help": "P4164180957",
-    "shortHelp": "P3418814687",
+    "display": "Psionic Nexus",
+    "help": "You create a a nexus of psionic energy at your location.",
+    "shortHelp": "Summon",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2379,7 +2379,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P1984608796",
+                "victimHit": "{PlayerSource} creates a deadly {PowerName} to assist her in battle.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2454,11 +2454,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2691984378",
-    "help": "P2898444216",
-    "shortHelp": "P3552256447",
-    "targetHelp": "P2898444216",
-    "targetShortHelp": "P3552256447",
+    "display": "Impenetrable Mind",
+    "help": "You are naturally protected from psionic damage, gaining a boost to your psionic resistance and defense.",
+    "shortHelp": "Psionic Affinity",
+    "targetHelp": "You are naturally protected from psionic damage, gaining a boost to your psionic resistance and defense.",
+    "targetShortHelp": "Psionic Affinity",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",

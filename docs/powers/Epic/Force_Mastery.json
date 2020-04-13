@@ -3,14 +3,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3978803010",
-    "help": "P4044875704",
-    "shortHelp": "P3032934705",
+    "display": "Personal Force Field",
+    "help": "The Personal Force Field is almost impenetrable to all attacks, even Psionics and Enemy Teleportation, although attacks from more powerful foes may get through more easily. Personal Force Field will also reduce the damage of almost any attacks that do get through. The Personal Force Field works both ways; while it is active, you can only use powers that affect yourself. Cannot be used with Rest. Recharge: Slow",
+    "shortHelp": "Toggle: Self +Def, Res(All except Toxic)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3782792257",
+    "attackerHit": "Your {PowerName} makes you virtually invulnerable to most attacks, but you can only cast powers on yourself while the Force Field is active.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -489,14 +489,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3240570147",
-    "help": "P716710627",
-    "shortHelp": "P2358627271",
+    "display": "Repulsion Field",
+    "help": "This Toggle power creates a field that violently repels nearby foes. Each villain that is repelled costs you additional Endurance. Recharge: Slow",
+    "shortHelp": "Toggle: PBAoE Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P662208976",
+    "attackerHit": "You protect yourself with your {PowerName}, and will knock down any villain that approaches you.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -633,8 +633,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1153017445",
-                "victimHit": "P4162104512",
+                "attackerHit": "You knocked {PlayerDest} from their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you from your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -738,8 +738,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1153017445",
-                "victimHit": "P4162104512",
+                "attackerHit": "You knocked {PlayerDest} from their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you from your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -848,14 +848,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1042181802",
-    "help": "P3760148820",
-    "shortHelp": "P834102750",
+    "display": "Temp Invulnerability",
+    "help": "When you toggle on this power, you become highly resistant to Smashing and Lethal damage. You must be level 41 and have Personal Force Field or Repulsion Field before selecting this power. Recharge: Fast",
+    "shortHelp": "Toggle: Self +Res(Smash, Lethal)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P631656156",
+    "attackerHit": "Your {PowerName} has made you highly resistant to smashing and lethal damage.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1120,11 +1120,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3990140054",
-    "help": "P3480541300",
-    "shortHelp": "P2541127357",
-    "targetHelp": "P2366756416",
-    "targetShortHelp": "P2848422893",
+    "display": "Repulsion Bomb",
+    "help": "A powerful Repulsion Bomb is hurled at your foes dealing a moderate amount of damage and knocking them off of their feet. Foes struck by Repulsion Bomb have a good chance to become disoriented. You must be level 41 and have either Personal Force Field or Repulsion Field to select this power. Damage: Moderate, Recharge: Slow",
+    "shortHelp": "Ranged (Targeted AoE), Moderate DMG(Smash), Foe Knockdown, Disorient",
+    "targetHelp": "You have been Disoriented.",
+    "targetShortHelp": "Disorient",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1266,8 +1266,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1372,8 +1372,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1441,8 +1441,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1505,8 +1505,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1595,8 +1595,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1663,14 +1663,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1400119757",
-    "help": "P4231160674",
-    "shortHelp": "P4087303864",
+    "display": "Force of Nature",
+    "help": "When you activate this power, you become highly resistant to all damage types except psionics. Your endurance recovery is also increased. Force of Nature costs little endurance to activate, but when it wears off you are left exhausted, and drained of almost all endurance, and unable to recover endurance for a short while. You must be level 44 and have two other Force Mastery Powers before selecting this power. Recharge: Very Long",
+    "shortHelp": "Self, +Res(All DMG but Psionics)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2734417508",
+    "attackerHit": "You are now practically {PowerName}!",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1933,7 +1933,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P3718465258",
+                "victimHit": "Your {PowerName} power has left you exhausted.",
                 "float": "",
                 "defenseFloat": ""
               }

@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2119099857",
-    "help": "P3874865543",
-    "shortHelp": "P553708814",
+    "display": "Imbue",
+    "help": "Heals a single targeted ally by cauterizing their wounds. You cannot use this power to heal yourself. Recharge: Fast",
+    "shortHelp": "Ally Heal",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -133,7 +133,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P4291132995",
+                "victimHit": "{PlayerSource} heals you for {Damage} points of damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -270,11 +270,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1876939246",
-    "help": "P2860701227",
-    "shortHelp": "P3995331739",
-    "targetHelp": "P1252034598",
-    "targetShortHelp": "P3220742713",
+    "display": "Enlightenment",
+    "help": "You create an aura of energy which floods the mind of your targets, showing them visions of enlightenment that overwhelm their senses. Affected targets are held in place and suffer psionic damage due to the strength of the visions.",
+    "shortHelp": "Ranged (Targeted AoE), High DMG(Psionic), Hold(Foe)",
+    "targetHelp": "You have been held in place and cannot move.",
+    "targetShortHelp": "Hold",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -400,8 +400,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -442,8 +442,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -555,11 +555,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1727066036",
-    "help": "P44753919",
-    "shortHelp": "P1308770569",
-    "targetHelp": "P2014040690",
-    "targetShortHelp": "P1194626745",
+    "display": "Soul Staff Bolt",
+    "help": "You fire a bolt of magical energy from your staff at a single target. The magical bolt causes energy damage and scorches the target's soul, causing negative energy damage over time.",
+    "shortHelp": "Ranged, High DMG (Energy), High DoT (Negative Energy), -ToHit(Foe)",
+    "targetHelp": "You are suffering negative energy damage over time and a reduced chance to hit.",
+    "targetShortHelp": "DoT (Negative Energy), -ToHit",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -686,8 +686,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -728,8 +728,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1461699593",
-                "victimHit": "P3815778435",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -832,9 +832,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3541511492",
-    "help": "P3381350399",
-    "shortHelp": "P1360413156",
+    "display": "Haunt",
+    "help": "You summon a pair of shades from the Netherworld to harass your target. Shades deal moderate damage and terrorize their victims.",
+    "shortHelp": "Ranged, Summon",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1118,11 +1118,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3245292122",
-    "help": "P2186513873",
-    "shortHelp": "P627343335",
-    "targetHelp": "P49997633",
-    "targetShortHelp": "P4039099458",
+    "display": "Soul Field",
+    "help": "You blanket a targeted area in darkness, afflicting your main target with negative energy damage. Any foe who enters this area will have their chance to hit reduced and has a chance to be held for a short period of time.",
+    "shortHelp": "Targeted AoE, Moderate DMG(Negative Energy), -ToHit (Foe), Chance for Hold (Foe)",
+    "targetHelp": "You are suffering a reduced chance to hit. You may also be held in place and unable to move.",
+    "targetShortHelp": "-ToHit, Chance for Hold",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1295,8 +1295,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2637081052",
-                "victimHit": "P936402029",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }

@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1844795986",
-    "help": "P270947576",
-    "shortHelp": "P2816012083",
-    "targetHelp": "P705818675",
-    "targetShortHelp": "P1943041994",
+    "display": "Pacify",
+    "help": "Through persuasion or subtle intimidation, you attempt to placate a single target for a short time. If successful, the affected target will no longer attack you. This persists until the effect expires or you attack the target. Unlike other placation effects, this power will not hide you or give any concealment bonuses.",
+    "shortHelp": "Ranged, Placate (Foe)",
+    "targetHelp": "You have been placated.",
+    "targetShortHelp": "Placate",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -147,7 +147,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P516925851",
+                "attackerHit": "You placate {PlayerDest}, convincing them to break off their attack.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -210,8 +210,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P516925851",
-                "victimHit": "P135371575",
+                "attackerHit": "You placate {PlayerDest}, convincing them to break off their attack.",
+                "victimHit": "You have been placated by {PlayerSource}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -278,11 +278,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1430204025",
-    "help": "P1724230386",
-    "shortHelp": "P1055493688",
-    "targetHelp": "P30067664",
-    "targetShortHelp": "P1980192711",
+    "display": "Provoke",
+    "help": "When you have established that a fight is absolutely necessary, you step up to take the lead, provoking the attention of several targets at a targeted location. Use this to pull the attention of your foes off of an ally in trouble. This provocation effect is not as powerful as similar powers used by Tankers, and also has a chance to miss.",
+    "shortHelp": "Targeted AoE, Taunt (Foe)",
+    "targetHelp": "You have been taunted.",
+    "targetShortHelp": "Taunt",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -422,7 +422,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P543539169",
+                "attackerHit": "You provoke {PlayerDest} to attack you.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -485,8 +485,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P543539169",
-                "victimHit": "P2150770763",
+                "attackerHit": "You provoke {PlayerDest} to attack you.",
+                "victimHit": "You have been provoked by {PlayerSource}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -553,11 +553,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2283956648",
-    "help": "P4023174741",
-    "shortHelp": "P754602662",
-    "targetHelp": "P860302379",
-    "targetShortHelp": "P332045248",
+    "display": "Intimidate",
+    "help": "When fully engaged in battle, you are a frightening presence and can use this to your advantage. You threaten a single foe and cause that foe to tremble helplessly in fear for a short time. In order to acquire this ability, you must be level 14 and possess either Pacify or Provoke.",
+    "shortHelp": "Ranged, Fear (Foe)",
+    "targetHelp": "You have been terrorized.",
+    "targetShortHelp": "Fear",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -703,8 +703,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -766,8 +766,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -855,8 +855,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -889,7 +889,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Dominator",
+          "Dominator",
           "eq",
           "&&"
         ],
@@ -928,9 +928,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3990911190",
-                "victimHit": "P2101634009",
-                "float": "P3920860852",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName} [DOMINATION!].",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName} [DOMINATION!].",
+                "float": "Domination!",
                 "defenseFloat": ""
               }
             ],
@@ -962,7 +962,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Dominator",
+          "Dominator",
           "eq",
           "&&"
         ],
@@ -1028,9 +1028,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3990911190",
-                "victimHit": "P2101634009",
-                "float": "P3920860852",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName} [DOMINATION!].",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName} [DOMINATION!].",
+                "float": "Domination!",
                 "defenseFloat": ""
               }
             ],
@@ -1096,11 +1096,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1725419144",
-    "help": "P3362584505",
-    "shortHelp": "P190660955",
-    "targetHelp": "P860302379",
-    "targetShortHelp": "P332045248",
+    "display": "Invoke Panic",
+    "help": "When fully engaged in battle, you are a frightening presence and can use this to your advantage. This power causes sheer terror in all foes around you, causing them to tremble uncontrollably in fear. In order to acquire this ability, you must be level 14 and possess any two other powers from the Presence pool.",
+    "shortHelp": "PBAoE, Fear (Foe)",
+    "targetHelp": "You have been terrorized.",
+    "targetShortHelp": "Fear",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1253,8 +1253,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1342,8 +1342,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P508540991",
-                "victimHit": "P1197143274",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1376,7 +1376,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Dominator",
+          "Dominator",
           "eq",
           "&&"
         ],
@@ -1415,9 +1415,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3990911190",
-                "victimHit": "P2101634009",
-                "float": "P3920860852",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName} [DOMINATION!].",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName} [DOMINATION!].",
+                "float": "Domination!",
                 "defenseFloat": ""
               }
             ],
@@ -1449,7 +1449,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Dominator",
+          "Dominator",
           "eq",
           "&&"
         ],
@@ -1514,9 +1514,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3990911190",
-                "victimHit": "P2101634009",
-                "float": "P3920860852",
+                "attackerHit": "You Terrorize {PlayerDest} with your {PowerName} [DOMINATION!].",
+                "victimHit": "{PlayerSource} Terrorizes you with their {PowerName} [DOMINATION!].",
+                "float": "Domination!",
                 "defenseFloat": ""
               }
             ],
@@ -1582,11 +1582,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1388360999",
-    "help": "P3537341373",
-    "shortHelp": "P1421969585",
-    "targetHelp": "P1974006744",
-    "targetShortHelp": "P3924420667",
+    "display": "Unrelenting",
+    "help": "You channel your inner confidence to become a relentless opponent, gaining significant boosts to your damage, recovery and attack speed for a short while. Additionally, you will be able to fight though the pain caused by opponents, healing continuously over time. You can also use this power to fight your way back to the living after defeat - if you are defeated when you use this power, you will be revived with 50% health. You must be level 14 and have trained any two other Presence pool powers before you can train Unrelenting.",
+    "shortHelp": "Self, Heal over Time, +DMG(All), +Rech, +Rec, Self Resurrect (Special)",
+    "targetHelp": "You are healing over time and have gained bonuses to damage, attack speed and recovery.",
+    "targetShortHelp": "Heal over Time, +DMG(All), +Rech, +Rec, Self Resurrect (Special)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1744,8 +1744,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P610729340",
-                "victimHit": "P2029379553",
+                "attackerHit": "You heal {PlayerDest} with {PowerName} for {Damage} points of damage over time.",
+                "victimHit": "{PlayerSource} heals you with their {PowerName} for {Damage} points of damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1923,8 +1923,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P610729340",
-                "victimHit": "P2029379553",
+                "attackerHit": "You heal {PlayerDest} with {PowerName} for {Damage} points of damage over time.",
+                "victimHit": "{PlayerSource} heals you with their {PowerName} for {Damage} points of damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }

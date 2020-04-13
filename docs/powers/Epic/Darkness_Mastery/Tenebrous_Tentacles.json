@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P2726905308",
-  "help": "P3711086346",
-  "shortHelp": "P2254400840",
-  "targetHelp": "P2406217298",
-  "targetShortHelp": "P636577031",
+  "display": "Tenebrous Tentacles",
+  "help": "You can create a cone shaped rift to the Netherworld that allows its native creatures to slip their oily Tentacles into our reality. These creatures will snare all foes within range, Immobilizing them while the Tentacles drain their life and reduce their Accuracy. You must be level 44 and have two other Darkness Mastery Powers before selecting this power. Damage: Moderate(DoT), Recharge: Slow",
+  "shortHelp": "Ranged (Cone), Moderate DMG(Negative/Smash), Foe Immobilize, -ACC",
+  "targetHelp": "The Tenebrous Tentacles are holding you in place and reducing your Accuracy.",
+  "targetShortHelp": "Immobilize, -ACC",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -170,8 +170,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1461699593",
-              "victimHit": "P3815778435",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -212,8 +212,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2637081052",
-              "victimHit": "P936402029",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -254,8 +254,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4257051740",
-              "victimHit": "P2588894681",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -317,8 +317,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1461699593",
-              "victimHit": "P3815778435",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -359,8 +359,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2637081052",
-              "victimHit": "P936402029",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -427,8 +427,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4257051740",
-              "victimHit": "P2588894681",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -507,7 +507,7 @@
         "eq",
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "==",
         "&&"
       ],
@@ -546,9 +546,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P18433730",
-              "victimHit": "P213926672",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -590,7 +590,7 @@
         "||",
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "==",
         "&&"
       ],
@@ -629,9 +629,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P18433730",
-              "victimHit": "P213926672",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -679,7 +679,7 @@
         "!",
         "arch",
         "source>",
-        "Class_Scrapper",
+        "Scrapper",
         "==",
         "&&"
       ],
@@ -718,9 +718,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P18433730",
-              "victimHit": "P213926672",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -752,7 +752,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "&&"
       ],
@@ -791,9 +791,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P18433730",
-              "victimHit": "P213926672",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -835,7 +835,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "&&"
       ],
@@ -874,9 +874,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P18433730",
-              "victimHit": "P213926672",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -908,7 +908,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "&&"
       ],
@@ -948,9 +948,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P18433730",
-              "victimHit": "P213926672",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],
@@ -982,7 +982,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Stalker",
+        "Stalker",
         "eq",
         "&&"
       ],
@@ -1021,9 +1021,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P18433730",
-              "victimHit": "P213926672",
-              "float": "P2440464263",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage [CRITICAL].",
+              "float": "CRITICAL",
               "defenseFloat": ""
             }
           ],

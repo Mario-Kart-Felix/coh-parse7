@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1082437617",
-    "help": "P1283732797",
-    "shortHelp": "P3536834546",
-    "targetHelp": "P95960894",
-    "targetShortHelp": "P1433855085",
+    "display": "Electric Fence",
+    "help": "Surrounds and Immobilizes a single target in an Electric Fence. Deals some damage over time and slowly drains some Endurance. Useful for keeping villains at bay. Damage: Minor(DoT), Recharge: Fast",
+    "shortHelp": "Ranged, Moderate DoT(Energy), Foe Immobilize, -End",
+    "targetHelp": "You are Immobilized by an Electric Fence and taking damage over time.",
+    "targetShortHelp": "DoT(Energy), Immobilize",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -158,8 +158,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -200,8 +200,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -242,8 +242,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2154700027",
-                "victimHit": "P1318363829",
+                "attackerHit": "Your {PowerName} drains some endurance from {PlayerDest}!",
+                "victimHit": "{PlayerSource} shocks you with his {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -305,8 +305,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -373,8 +373,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -415,8 +415,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2154700027",
-                "victimHit": "P1318363829",
+                "attackerHit": "Your {PowerName} drains some endurance from {PlayerDest}!",
+                "victimHit": "{PlayerSource} shocks you with his {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -462,7 +462,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "==",
           "&&"
         ],
@@ -502,9 +502,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1108631074",
-                "victimHit": "P1338858480",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -549,7 +549,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "==",
           "&&"
         ],
@@ -589,9 +589,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1108631074",
-                "victimHit": "P1338858480",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -797,11 +797,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1363030893",
-    "help": "P4018294709",
-    "shortHelp": "P2791213138",
-    "targetHelp": "P2366756416",
-    "targetShortHelp": "P2848422893",
+    "display": "Thunder Strike",
+    "help": "A massive attack. You smash your foes with all the power of a lightning bolt. The pummeled victim takes tremendous damage and may be Disoriented. Any nearby foes may be knocked down and take some damage from the shockwave. Damage: High, Recharge: Slow",
+    "shortHelp": "Melee (AoE), High DMG(Smash, Energy), Foe Disorient, Knockback",
+    "targetHelp": "You have been Disoriented.",
+    "targetShortHelp": "Disorient",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -952,8 +952,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -994,8 +994,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1057,8 +1057,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1120,8 +1120,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1168,8 +1168,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1231,8 +1231,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1278,7 +1278,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "==",
           "&&"
         ],
@@ -1317,9 +1317,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P671317907",
-                "victimHit": "P2496594556",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -1364,7 +1364,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "==",
           "&&"
         ],
@@ -1403,9 +1403,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P671317907",
-                "victimHit": "P2496594556",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -1492,8 +1492,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1606,8 +1606,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1669,8 +1669,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1738,8 +1738,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1806,14 +1806,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P571716827",
-    "help": "P2871263687",
-    "shortHelp": "P3265949263",
+    "display": "Charged Armor",
+    "help": "When you toggle on this power, you are surrounded in a charged field that makes you highly resistant to Smashing, Lethal and Energy damage. You must be level 41 and have one other Electricity Mastery power to select this power. Recharge: Fast",
+    "shortHelp": "Toggle: Self +Res(Smash, Lethal, Energy)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P631656156",
+    "attackerHit": "Your {PowerName} has made you highly resistant to smashing and lethal damage.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -2117,11 +2117,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2651575508",
-    "help": "P2291778141",
-    "shortHelp": "P3713900758",
-    "targetHelp": "P3211993838",
-    "targetShortHelp": "P3859267840",
+    "display": "Shocking Bolt",
+    "help": "Holds a distant foe by shocking him with electricity. The seized target is left writhing in agony and is unable to defend himself. Shocking Bolt also drains some Endurance from the target over time. A portion of drained Endurance may be returned to you. You must be level 41 and have one other Electricity Mastery power to select this power. Damage: Minor(DoT), Recharge: Moderate",
+    "shortHelp": "Ranged, Minor DoT(Energy), Foe Hold, -END",
+    "targetHelp": "You are being held and are on fire.",
+    "targetShortHelp": "DoT(Energy), Hold",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2268,8 +2268,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2310,8 +2310,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2352,8 +2352,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2154700027",
-                "victimHit": "P1318363829",
+                "attackerHit": "Your {PowerName} drains some endurance from {PlayerDest}!",
+                "victimHit": "{PlayerSource} shocks you with his {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2415,8 +2415,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P59899910",
-                "victimHit": "P3210640873",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2483,8 +2483,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2525,8 +2525,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2154700027",
-                "victimHit": "P1318363829",
+                "attackerHit": "Your {PowerName} drains some endurance from {PlayerDest}!",
+                "victimHit": "{PlayerSource} shocks you with his {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2572,7 +2572,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "==",
           "&&"
         ],
@@ -2611,9 +2611,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1108631074",
-                "victimHit": "P1338858480",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -2658,7 +2658,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "==",
           "&&"
         ],
@@ -2697,9 +2697,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1108631074",
-                "victimHit": "P1338858480",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -2755,7 +2755,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1051884142",
+                "attackerHit": "You recover some of the Endurance you drained.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -2823,9 +2823,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2664724052",
-    "help": "P337336465",
-    "shortHelp": "P3080198159",
+    "display": "Power Sink",
+    "help": "Power Sink leeches energy directly from the bodies of all nearby foes, draining their Endurance. Each foe you draw energy from increases your Endurance. If there are no foes within range, you will not gain any Endurance. You must be level 44 and have two other Electricity Mastery Powers before selecting this power. Recharge: Long",
+    "shortHelp": "PBAoE, Self +End, Foe -End",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2990,7 +2990,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2636688992",
+                "attackerHit": "{PowerName} steals some Endurance from {PlayerDest}.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -3053,7 +3053,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2636688992",
+                "attackerHit": "{PowerName} steals some Endurance from {PlayerDest}.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -3163,7 +3163,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P3264726269",
+                "victimHit": "Your {PowerName} increases your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }

@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1196525362",
-    "help": "P142062258",
-    "shortHelp": "P3740769832",
+    "display": "Resistance",
+    "help": "Lionesses are resistant to Placate and Confuse effects as well as cold, lethal and smashing damage. They also have a minor amount of defense to Melee, Ranged and AoE attacks.",
+    "shortHelp": "Auto: +Res(Placate, Confuse, Taunt, Cold, Lethal, Smash) +Def(Melee, Ranged, AoE)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -412,11 +412,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4021652017",
-    "help": "P4166708361",
-    "shortHelp": "P429012212",
-    "targetHelp": "P3272411351",
-    "targetShortHelp": "P2103286178",
+    "display": "Claw Rake",
+    "help": "The beast swipes their target with their razor sharp claws causing Light Lethal damage and Minor Lethal damage over time. Damage: Light, Recharge: Very Fast",
+    "shortHelp": "Melee, Light DMG(Lethal), Foe Minor DoT(Lethal)",
+    "targetHelp": "You're bleeding from the Vicious Bite.",
+    "targetShortHelp": "Minor DoT(Lethal)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -548,8 +548,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -591,8 +591,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -661,11 +661,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2993048958",
-    "help": "P873880524",
-    "shortHelp": "P712756399",
-    "targetHelp": "P3272411351",
-    "targetShortHelp": "P2103286178",
+    "display": "Vicious Bite",
+    "help": "The beast delivers a quick bite to their target causing Moderate Lethal damage and Minor Lethal damage over time. Damage: Moderate, Recharge: Fast",
+    "shortHelp": "Melee, Moderate DMG(Lethal), Foe Minor DoT (Lethal)",
+    "targetHelp": "You're bleeding from the Vicious Bite.",
+    "targetShortHelp": "Minor DoT(Lethal)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -797,8 +797,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -840,8 +840,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -910,9 +910,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1247110959",
-    "help": "P1720205226",
-    "shortHelp": "P3583698820",
+    "display": "Super Leap",
+    "help": "Beasts can super leap!",
+    "shortHelp": "Self Leap",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1242,9 +1242,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3586044733",
-    "help": "P1515326513",
-    "shortHelp": "P1291662329",
+    "display": "Wild Charge",
+    "help": "The beast breaks into a sprint that boosts damage dealt for the next few seconds. While Wild Charge is in effect the beast will move much faster than normal and be resistant to slow effects. Recharge: Long",
+    "shortHelp": "Self +DMG, +Speed, +Res(Slow, Immobilize)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1373,7 +1373,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2068452172",
+                "attackerHit": "{PlayerSource} begins a {PowerName} boosting their damage and movement speed.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -1559,14 +1559,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2056503097",
-    "help": "P2433597817",
-    "shortHelp": "P1034666788",
+    "display": "Lion's Roar",
+    "help": "At the beginning of battle the Lion will let out a terrible roar that bolsters the defense of nearby beasts moderately for a short time. Recharge: Very Long",
+    "shortHelp": "Click, Ally Beasts +Def(All)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3860773513",
+    "attackerHit": "{PlayerSource} lets out an howl bolstering the defense of nearby beast allies!",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1779,9 +1779,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1630129436",
-    "help": "P183083637",
-    "shortHelp": "P3940928652",
+    "display": "Lick Wounds",
+    "help": "Should the beast become wounded they will lick their wounds to recover a small amount of health and recover additional health over time. Recharge: Long",
+    "shortHelp": "Click, Self Minor Heal, +Regen",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1913,8 +1913,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2062251721",
-                "victimHit": "P4291132995",
+                "attackerHit": "{PlayerSource} licks their wounds to heal {Damage} points of health and begins to rapidly regenerate.",
+                "victimHit": "{PlayerSource} heals you for {Damage} points of damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2018,9 +2018,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1659836107",
-    "help": "P1493142107",
-    "shortHelp": "P1659836107",
+    "display": "Train Beasts",
+    "help": "The Lioness has been trained and now can use Lick Wounds and Train Beasts.",
+    "shortHelp": "Train Beasts",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2207,9 +2207,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2723419145",
-    "help": "P1361930583",
-    "shortHelp": "P3392756777",
+    "display": "Ferocious Growl",
+    "help": "The beast rattles her foes by letting out a ferocious growl. Affected foes will be stunned for a short time. Recharge: Very Long",
+    "shortHelp": "PBAoE, Foe Stun",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2346,8 +2346,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2435,8 +2435,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2505,11 +2505,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3267943523",
-    "help": "P1848480434",
-    "shortHelp": "P1823787649",
-    "targetHelp": "P1144929472",
-    "targetShortHelp": "P2103286178",
+    "display": "Claw Swipe",
+    "help": "The beast lashes out with a very wide swipe of its claws striking all foes in front of them causing Moderate Lethal damage and causing Minor Lethal damage over time. Damage: Moderate, Recharge: Slow",
+    "shortHelp": "Melee, Moderate DMG(Lethal), Foe Minor DoT(Lethal)",
+    "targetHelp": "You are bleeding from the Lioness' Claw Swipe.",
+    "targetShortHelp": "Minor DoT(Lethal)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2641,8 +2641,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2683,8 +2683,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2725,8 +2725,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2767,8 +2767,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2810,8 +2810,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2880,9 +2880,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P594479349",
-    "help": "P1990233846",
-    "shortHelp": "P594479349",
+    "display": "Tame Beasts",
+    "help": "The Lioness has been tamed and can now use Ferocious Growl and Claw Swipe.",
+    "shortHelp": "Tame Beasts",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

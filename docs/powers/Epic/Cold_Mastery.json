@@ -3,14 +3,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4107230931",
-    "help": "P384020691",
-    "shortHelp": "P1849705065",
-    "targetHelp": "P2093128173",
-    "targetShortHelp": "P1490875287",
+    "display": "Snow Storm",
+    "help": "While active, the chill from this Snow Storm can dramatically Slow the attack and movement speed of the target and all nearby foes. Recharge: Slow",
+    "shortHelp": "Toggle: Ranged (Targeted AoE), Foe -Speed, -Recharge",
+    "targetHelp": "The Snow Storm has reduced your Attack rate and Running speed.",
+    "targetShortHelp": "-SPD, -Recharge",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P94096402",
+    "attackerHit": "You Slow the attack and movement speed of all nearby foes with your {PowerName}.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -148,7 +148,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P115947258",
+                "victimHit": "{PlayerSource} Slows you with his {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -344,11 +344,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P889361091",
-    "help": "P574642158",
-    "shortHelp": "P1242338930",
-    "targetHelp": "P2439637276",
-    "targetShortHelp": "P3472027048",
+    "display": "Flash Freeze",
+    "help": "You can Flash Freeze a large patch of ground beneath a targeted foe, instantly forming dozens of deadly ice shards that do Cold damage to all enemies in the area. The victims are left trapped within the icicles, but can break free if disturbed. Only targets near the ground can be affected. Damage: Minor, Recharge: Slow",
+    "shortHelp": "Ranged (Targeted AoE), Minor DMG(Cold/Lethal), Foe Sleep",
+    "targetHelp": "The Flash Freeze has rendered you Unconscious.",
+    "targetShortHelp": "Sleep",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -497,8 +497,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P786700626",
-                "victimHit": "P2415654930",
+                "attackerHit": "You Sleep {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Sleeps you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -540,8 +540,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -583,8 +583,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -673,8 +673,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P786700626",
-                "victimHit": "P2415654930",
+                "attackerHit": "You Sleep {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Sleeps you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -716,8 +716,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3785438311",
-                "victimHit": "P1873832980",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -759,8 +759,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4173738004",
-                "victimHit": "P1163387325",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Cold damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Cold damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -827,14 +827,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P638981578",
-    "help": "P3066037829",
-    "shortHelp": "P183553588",
+    "display": "Hoarfrost",
+    "help": "Activating this power covers you in a thick layer of Hoarfrost. The frost can absorb the impact from enemy attacks, effectively increasing your maximum Hit Points for a short time. Hoarfrost also grants you resistance to Toxic Damage. You must be level 41 and have Snow Storm or Flash Freeze before selecting this power. Recharge: Very Long",
+    "shortHelp": "Self Heal, +Max HP, Res(Toxic)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3809918813",
+    "attackerHit": "Your {PowerName} increases your maximum Hit Points and grants you some resistance to Toxic damage.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1134,14 +1134,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3142488911",
-    "help": "P3864757623",
-    "shortHelp": "P1519366478",
+    "display": "Frozen Armor",
+    "help": "While this power is active, you coat yourself in rock hard Frozen Armor. The hardness of the Frozen Armor offers good defense to Smashing and Lethal attack as well as reduces Cold damage. Also, Fire attacks deal slightly less damage. You must be level 41 and have Snow Storm or Flash Freeze before selecting this power. Recharge: Very Fast",
+    "shortHelp": "Toggle: Self +Def(Smash, Lethal), +Res(Cold, Fire)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P484090270",
+    "attackerHit": "You are now more defensive to smashing and lethal attacks.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1609,14 +1609,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1870821033",
-    "help": "P4020606534",
-    "shortHelp": "P2940947448",
+    "display": "Hibernate",
+    "help": "When you activate this power, you encase yourself in a block of solid ice, making yourself invulnerable, though you are frozen solid and cannot act. While Hibernating within this block of ice, you heal damage and recover endurance at an incredible rate. You can emerge at will by deactivating the power, but you cannot Hibernate for more than 30 seconds. If you activate this power while in the air, you will fall. You must be level 44 and have two other Cold Mastery Powers before selecting this power. Recharge: Long",
+    "shortHelp": "Toggle: Self +Regeneration, +Recovery, Invulnerable; Self Hold",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P2677645364",
+    "attackerHit": "You Hibernate in a block of ice, and are almost completely invulnerable while you heal at an astonishing rate.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",

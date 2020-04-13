@@ -21,10 +21,10 @@ for (let f in pigg) {
     if (str == '{}') continue;
     let name = f.replace(/^bin\//, '').replace(/\.bin$/, '');
     console.log(name);
-    writeFiles(hierarchy(pigg[f]), rename[name] || name, depth[name] || 0);
+    writeFiles(replacePMessages(hierarchy(pigg[f]), pigg['bin/clientmessages-en.bin']), rename[name] || name, depth[name] || 0);
 }
 const powers = parse(Pigg, './bins/bin_powers.pigg')["bin/powers.bin"];
-writeFiles(hierarchy(powers), 'powers', 3);
+writeFiles(hierarchy(powers), 'powers', 3, pigg['bin/clientmessages-en.bin']);
 
 function hierarchy(input) {
     const output = {};
@@ -42,9 +42,16 @@ function hierarchy(input) {
     return output;
 }
 
-function writeFiles(output, name, depth) {
+function replacePMessages(input, messages) {
+    if (typeof input === 'string') return messages[input] || input;
+    if (typeof input === 'object') for (let i in input) input[i] = replacePMessages(input[i], messages);
+    return input;
+}
+
+function writeFiles(output, name, depth, messages) {
     fs.writeFileSync(`./docs/${name}.json`, JSON.stringify(output));
     if (depth == 0) return;
+    if (messages) output = replacePMessages(output, messages);
     for (let a in output) {
         if (!fs.existsSync(`docs/${name}`)) fs.mkdirSync(`docs/${name}`);
         fs.writeFileSync(`./docs/${name}/${a}.json`, JSON.stringify(output[a], null, 2));

@@ -2,16 +2,16 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3057588896",
-  "help": "P221070614",
-  "shortHelp": "P2944072660",
-  "targetHelp": "P4243034196",
-  "targetShortHelp": "P1832549363",
+  "display": "Mutation",
+  "help": "Using a concentrated burst of radiation, you can revive a fallen hero and Mutate them into a killing machine. The Mutated hero has increased damage, chance to hit, Endurance recovery, and attack speed and is protected from XP Debt fort 90 seconds. The entire experience is very taxing on the Mutated hero, and they will soon be severely weakened. All effects of the Mutation will eventually wear off. Recharge: Very Long",
+  "shortHelp": "Close, Ally Rez, Special",
+  "targetHelp": "Your have been mutated. Your chance to hit and attack rate are improved. Your damage and Endurance recovery are increased as well. You are also protected from XP Debt for 90 seconds. The experience is taxing however, and you will soon weaken when all of the effects of this mutation wear off.",
+  "targetShortHelp": "Mutated",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
   "victimHit": "",
-  "confirm": "P2790445096",
+  "confirm": "{PlayerSource} would like to Resurrect and Mutate you. You will have full Health and Endurance and be extremely powerful for a while, but will weaken after 90 seconds. Do you Accept?",
   "floatRewarded": "",
   "powerDefenseFloat": "",
   "icon": "RadiationPoisoning_Mutation.tga",
@@ -136,8 +136,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P610729340",
-              "victimHit": "P2029379553",
+              "attackerHit": "You heal {PlayerDest} with {PowerName} for {Damage} points of damage over time.",
+              "victimHit": "{PlayerSource} heals you with their {PowerName} for {Damage} points of damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -365,7 +365,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P3161843313",
+              "victimHit": "Your accelerated Mutation has worn off, and you are now weakened.",
               "float": "",
               "defenseFloat": ""
             }

@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3265040049",
-  "help": "P3280144655",
-  "shortHelp": "P1156109482",
-  "targetHelp": "P3520993723",
-  "targetShortHelp": "P3941186290",
+  "display": "Innocuous Strike",
+  "help": "You repeatedly batter your foes' feet and legs with a flurry strikes from your staff. This attack deals moderate smashing damage to all foes within its cone, also reducing movement speeds. Each target also has a chance to be immobilized briefly. This attack also has a chance for a critical hit, which deals increased smashing damage.",
+  "shortHelp": "Melee (Cone), High DMG(Smashing), -Speed(Foe,All), Chance for Immobilize(Foe), Critical DMG",
+  "targetHelp": "Your movement speed has been reduced and may be immobilized!",
+  "targetShortHelp": "-Speed, Chance for Immobilize",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -132,8 +132,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1545979143",
-              "victimHit": "P2876742505",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -177,7 +177,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P1841303227",
+              "victimHit": "Your movement speed has been reduced by {PlayerSource}'s {PowerName}s.",
               "float": "",
               "defenseFloat": ""
             }
@@ -276,8 +276,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4257051740",
-              "victimHit": "P2588894681",
+              "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }

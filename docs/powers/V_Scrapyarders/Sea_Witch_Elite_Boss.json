@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1760327861",
-    "help": "P2810352472",
-    "shortHelp": "P108962572",
-    "targetHelp": "P2810352472",
-    "targetShortHelp": "P108962572",
+    "display": "Hurricane",
+    "help": "The driving winds of the Hurricane are blinding you. Your Range and Accuracy are reduced.",
+    "shortHelp": "-Range, -ACC, Knockback",
+    "targetHelp": "The driving winds of the Hurricane are blinding you. Your Range and Accuracy are reduced.",
+    "targetShortHelp": "-Range, -ACC, Knockback",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -101,21 +101,21 @@
         "requires": [
           "arch",
           "target>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq",
           "arch",
           "target>",
-          "Class_Tanker",
-          "eq",
-          "||",
-          "arch",
-          "target>",
-          "Class_Stalker",
+          "Tanker",
           "eq",
           "||",
           "arch",
           "target>",
-          "Class_Brute",
+          "Stalker",
+          "eq",
+          "||",
+          "arch",
+          "target>",
+          "Brute",
           "eq",
           "||",
           "!"
@@ -258,8 +258,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -326,9 +326,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2901832587",
-    "help": "P43660505",
-    "shortHelp": "P3892317725",
+    "display": "Static Discharge",
+    "help": "Discharges a cone of Static Electricity that deals damage and drains Endurance from all affected foes in the area. Damage: Moderate, Recharge: Slow",
+    "shortHelp": "Ranged (Cone), Moderate DMG(Energy), -END",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -456,8 +456,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -499,7 +499,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P1318363829",
+                "victimHit": "{PlayerSource} shocks you with his {PowerName} and drains some of your Endurance!",
                 "float": "",
                 "defenseFloat": ""
               }

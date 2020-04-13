@@ -3,10 +3,10 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P310781374",
-    "help": "P3389218973",
-    "shortHelp": "P2268586793",
-    "targetHelp": "P2354725627",
+    "display": "Fallout",
+    "help": "After an ally falls in battle, you can activate this power to extract the energy from their body to deal a massive amount of Energy damage to any nearby foes. All affected foes are extremely weakened by the Fallout, and their chance to hit, Defense, Damage and Damage Resistance is severely reduced. Damage: Extreme, Recharge: Very Long",
+    "shortHelp": "Post-Defeat: PBAoE, Extreme DMG(Energy), Debuff",
+    "targetHelp": "You are extremely weakened by the Fallout. Your chance to hit, Defense, Damage and Damage Resistance is severely reduced.",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
@@ -105,7 +105,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Defender",
+          "Defender",
           "eq"
         ],
         "flags": [],
@@ -143,8 +143,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -324,7 +324,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Controller",
+          "Controller",
           "eq"
         ],
         "flags": [],
@@ -362,8 +362,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -409,7 +409,7 @@
           "||",
           "arch",
           "source.owner>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "&&"
         ],
@@ -448,8 +448,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -473,7 +473,7 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq"
         ],
         "flags": [],
@@ -511,8 +511,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -553,7 +553,7 @@
           "<",
           "arch",
           "source.owner>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&"
         ],
@@ -592,8 +592,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -655,8 +655,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2559786529",
-                "victimHit": "P377644626",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -830,11 +830,11 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "||"
         ],
@@ -1005,11 +1005,11 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "||"
         ],
@@ -1067,11 +1067,11 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "||"
         ],
@@ -1129,11 +1129,11 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "||"
         ],
@@ -1191,11 +1191,11 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "||"
         ],
@@ -1253,11 +1253,11 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "||"
         ],
@@ -1315,11 +1315,11 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "||"
         ],
@@ -1377,11 +1377,11 @@
         "requires": [
           "arch",
           "source.owner>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "arch",
           "source.owner>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "||"
         ],

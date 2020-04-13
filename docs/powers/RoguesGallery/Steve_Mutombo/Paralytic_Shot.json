@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3099675223",
-  "help": "P751349973",
-  "shortHelp": "P2677330896",
-  "targetHelp": "P1745720302",
-  "targetShortHelp": "P219962235",
+  "display": "Paralytic Shot",
+  "help": "You chamber an armor-piercing round at your target that explodes into shrapnel on impact. The force of this round causes paralyzes your opponent, holding them in place while also causing lethal damage. There is a chance that the target will also suffer reduced regeneration and recovery.",
+  "shortHelp": "Ranged, Superior DMG (Lethal), Hold (Foe), Chance for -Regen (Foe), -Rec (Foe)",
+  "targetHelp": "You are held in place and unable to move. Your regeneration and recovery may also be reduced.",
+  "targetShortHelp": "Hold, Chance for -Regen, -Rec",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -132,8 +132,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3785438311",
-              "victimHit": "P1873832980",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -195,8 +195,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4134654113",
-              "victimHit": "P3642575485",
+              "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -265,8 +265,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4134654113",
-              "victimHit": "P3642575485",
+              "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -332,7 +332,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P393554342",
+              "victimHit": "Your regeneration and recovery have been reduced by {PlayerSource}'s {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }

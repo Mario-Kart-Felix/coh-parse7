@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P189132002",
-    "help": "P135640947",
-    "shortHelp": "P2562606845",
-    "targetHelp": "P2366756416",
-    "targetShortHelp": "P2848422893",
+    "display": "Flurry",
+    "help": "Unleashes a super fast Flurry of punches to pummel your foe. Flurry is so dizzying that it has a chance to Disorient the target. Recharge: Very Fast",
+    "shortHelp": "Melee, Moderate DMG(Smash), Foe Disorient",
+    "targetHelp": "You have been Disoriented.",
+    "targetShortHelp": "Disorient",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -149,8 +149,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1545979143",
-                "victimHit": "P2876742505",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -212,8 +212,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -275,8 +275,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1545979143",
-                "victimHit": "P2876742505",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -364,8 +364,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -398,7 +398,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Dominator",
+          "Dominator",
           "eq",
           "&&"
         ],
@@ -437,8 +437,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -471,7 +471,7 @@
           "&&",
           "arch",
           "source>",
-          "Class_Dominator",
+          "Dominator",
           "eq",
           "&&"
         ],
@@ -536,8 +536,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -561,7 +561,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq",
           "enttype",
           "target>",
@@ -604,9 +604,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -638,7 +638,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "&&",
           "kMeter",
@@ -687,9 +687,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -712,7 +712,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "kMeter",
           "source>",
@@ -760,9 +760,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -802,7 +802,7 @@
           "<",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&",
           "enttype",
@@ -846,9 +846,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2008332946",
-                "victimHit": "P2162615548",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -893,7 +893,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "&&",
           "enttype",
@@ -937,8 +937,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1545979143",
-                "victimHit": "P2876742505",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -962,7 +962,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Scrapper",
+          "Scrapper",
           "eq",
           "enttype",
           "target>",
@@ -1005,9 +1005,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1049,7 +1049,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Controller",
+          "Controller",
           "eq",
           "&&",
           "enttype",
@@ -1093,8 +1093,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1545979143",
-                "victimHit": "P2876742505",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1127,7 +1127,7 @@
           "||",
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "&&",
           "kMeter",
@@ -1176,9 +1176,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1201,7 +1201,7 @@
         "requires": [
           "arch",
           "source>",
-          "Class_Stalker",
+          "Stalker",
           "eq",
           "kMeter",
           "source>",
@@ -1249,9 +1249,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3869921732",
-                "victimHit": "P1280790469",
-                "float": "P2440464263",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [CRITICAL].",
+                "float": "CRITICAL",
                 "defenseFloat": ""
               }
             ],
@@ -1291,7 +1291,7 @@
           "<",
           "arch",
           "source>",
-          "Class_Corruptor",
+          "Corruptor",
           "eq",
           "&&",
           "enttype",
@@ -1335,9 +1335,9 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2008332946",
-                "victimHit": "P2162615548",
-                "float": "P111359259",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage [SCOURGE].",
+                "float": "Scourge",
                 "defenseFloat": ""
               }
             ],
@@ -1405,14 +1405,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1852402460",
-    "help": "P532402986",
-    "shortHelp": "P1776881406",
+    "display": "Hasten",
+    "help": "You can reduce the recharge time of all powers for 2 minutes. Although Hasten does not cost any Endurance to activate, you can tire easily since your Endurance does not recover more rapidly. After Hasten wears off, you become tired and will lose some Endurance. This crash can be mitigated by using Unrelenting from the Presence pool before initiating this power. Recharge: Very Long",
+    "shortHelp": "Self +Recharge",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3207966633",
+    "attackerHit": "Your {PowerName} has increased your rate of attack.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -1575,7 +1575,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2233482238",
+                "victimHit": "Your {PowerName} drains {Damage} points of endurance.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1724,9 +1724,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2257439684",
-    "help": "P1918191772",
-    "shortHelp": "P295778697",
+    "display": "Super Speed",
+    "help": "You can run at super-human speeds! While running at such speeds, you are a blur, and many foes will not even notice you as you speed past them. If you attack a target while this power is on, you will temporarily be slowed to normal speed.",
+    "shortHelp": "Toggle: Self +Speed",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2113,14 +2113,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4152178509",
-    "help": "P1806885099",
-    "shortHelp": "P3487441435",
+    "display": "Whirlwind",
+    "help": "You spin around at an amazing speed to create a Whirlwind around yourself. Any foes that enter this Whirlwind will be tossed into the air. You must be at least level 14 and have two other Speed Powers before selecting Whirlwind. Recharge: Slow",
+    "shortHelp": "Toggle: PBAoE, Foe Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3144030591",
+    "attackerHit": "You spin into a {PowerName}, and can now toss your foes in the air like the garbage they are.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -2320,8 +2320,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2364,7 +2364,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2233482238",
+                "victimHit": "Your {PowerName} drains {Damage} points of endurance.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2432,8 +2432,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2476,7 +2476,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2233482238",
+                "victimHit": "Your {PowerName} drains {Damage} points of endurance.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2543,14 +2543,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P190292040",
-    "help": "P1218780076",
-    "shortHelp": "P1776881406",
+    "display": "Burnout",
+    "help": "Burnout allows you to instantly recharge all of your Primary and Secondary powers. Burnout is very expensive in terms of endurance, and reduces your maximum endurance slightly for 60 seconds after use. You must be at least level 14 and have two other Speed Powers before selecting Burnout. Recharge: Extremely Long",
+    "shortHelp": "Self +Recharge",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3207966633",
+    "attackerHit": "Your {PowerName} has increased your rate of attack.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",

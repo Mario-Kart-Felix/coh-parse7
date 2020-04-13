@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P2973226331",
-  "help": "P3033630842",
-  "shortHelp": "P1862125547",
-  "targetHelp": "P4145186101",
-  "targetShortHelp": "P2867007302",
+  "display": "Short Circuit",
+  "help": "Releases a burst of electrical energy around you, shocking all nearby foes. This highly accurate discharge deals Moderate damage over time, drains a lot of Endurance from the targets and renders them unable to recover Endurance for quite a while. Additionally, Short Circuit deals extra damage to most robots and mechanical foes. Short Circuit is very effective when used with your other Endurance draining powers. Damage: Moderate, Recharge: Slow",
+  "shortHelp": "PBAoE, Moderate DoT(Energy), Foe -End, -Recovery",
+  "targetHelp": "The Short Circuit is continuing to electrocute you. Your Endurance recovery is greatly reduced.",
+  "targetShortHelp": "DoT(Energy), -Recovery",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -132,8 +132,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P59899910",
-              "victimHit": "P3210640873",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -174,8 +174,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3810503626",
-              "victimHit": "P1318363829",
+              "attackerHit": "Your {PowerName} drains {PlayerDest} Endurance!",
+              "victimHit": "{PlayerSource} shocks you with his {PowerName} and drains some of your Endurance!",
               "float": "",
               "defenseFloat": ""
             }

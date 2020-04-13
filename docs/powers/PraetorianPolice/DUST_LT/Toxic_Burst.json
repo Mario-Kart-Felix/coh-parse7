@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P3237785869",
-  "help": "P2106143102",
-  "shortHelp": "P2551738773",
-  "targetHelp": "P2463278616",
-  "targetShortHelp": "P2810172070",
+  "display": "Toxic Burst",
+  "help": "The DUST primary weapon can have its ignition system switched off, allowing the soldier to fire the fuel as a projectile. This projectile bursts in a small area around the target, dealing toxic damage to all those in the vicinity. The volatile chemicals evaporate quickly, causing continuous toxic damage, as well as regeneration reduction and possible Endurance drain.",
+  "shortHelp": "Targeted AoE Toxic, DoT (Toxic), -Regen, -End",
+  "targetHelp": "You are being choked by noxious fumes, which also reduces your regeneration rate and may cause Endurance drain.",
+  "targetShortHelp": "DoT (Toxic), -Regen, -End",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -132,8 +132,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P2851307520",
-              "victimHit": "P105122461",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -174,8 +174,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4250172858",
-              "victimHit": "P1470793739",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Toxic damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Toxic damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -218,7 +218,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P1685074847",
+              "victimHit": "Your regeneration rate has been reduced by {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }
@@ -276,7 +276,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P220831481",
+              "victimHit": "Your endurance is being drained by {PowerName}!",
               "float": "",
               "defenseFloat": ""
             }

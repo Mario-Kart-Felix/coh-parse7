@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3744203529",
-    "help": "P472461651",
-    "shortHelp": "P3526115468",
+    "display": "Superior Malice of the Corruptor: Recharge/Chance for Negative Energy Damage",
+    "help": "UNIQUE -- No more than 1 enhancement of this type may be slotted by a character. Gives the slotted power a chance to inflict moderate negative energy damage and reduces recharge time by {Boost.Attrib.RechargeTime.Scale}%. This effect will trigger roughly 5 times per minute. This enhancement can only be slotted by Corruptors and may be slotted into any Corruptor damage power.",
+    "shortHelp": "Increases Attack Rate, Chance for Negative Energy Damage",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -33,7 +33,7 @@
       "&&",
       "arch",
       "char>",
-      "Class_Corruptor",
+      "Corruptor",
       "eq",
       "&&",
       "level",
@@ -167,8 +167,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2637081052",
-                "victimHit": "P936402029",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -235,8 +235,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2637081052",
-                "victimHit": "P936402029",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage.",
                 "float": "",
                 "defenseFloat": ""
               }

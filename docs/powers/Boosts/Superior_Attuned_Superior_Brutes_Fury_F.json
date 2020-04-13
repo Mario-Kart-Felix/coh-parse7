@@ -3,9 +3,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3660115907",
-    "help": "P610096871",
-    "shortHelp": "P3315438664",
+    "display": "Superior Brute's Fury: Recharge/Fury Bonus",
+    "help": "UNIQUE -- No more than 1 enhancement of this type may be slotted by a character. Gives this power a chance to grant 7 Fury to the Brute and reduces recharge time by {Boost.Attrib.RechargeTime.Scale}%. This enhancement can only be slotted by Brutes and may be slotted into any Brute damage power.",
+    "shortHelp": "Increases Attack Rate and has a chance to grant extra Fury.",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -33,7 +33,7 @@
       "&&",
       "arch",
       "char>",
-      "Class_Brute",
+      "Brute",
       "eq",
       "&&",
       "level",
@@ -211,7 +211,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2232366172",
+                "attackerHit": "You gain {Damage} Fury from {PowerName}!",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""

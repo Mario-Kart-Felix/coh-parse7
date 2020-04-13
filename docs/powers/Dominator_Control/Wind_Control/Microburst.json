@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P522412001",
-  "help": "P1943438390",
-  "shortHelp": "P1402110756",
-  "targetHelp": "P1249260964",
-  "targetShortHelp": "P641419673",
+  "display": "Microburst",
+  "help": "You release all available Pressure to create an extremely powerful blast of air that descends from the skies and spreads out over a large radius. Any foes caught within the burst are immediately stunned by the force of the wind and suffer smashing damage.Flying foes are knocked out of the sky, while all foes suffer reduced movement speed that lingers for some time. The damage done increases in proportion to the amount of Pressure released when using this power. Also, Microburst can reduce your target's defenses at the when the highest levels of Pressure are released. Damage: Variable, Recharge: Long",
+  "shortHelp": "Ranged (Targeted AoE), Minor DMG(Smashing), Stun(Foe), -Speed(Foe, All), -Fly(Foe), -Rech(Foe), Chance for -DEF(Foe, All), Consumes Pressure",
+  "targetHelp": "You are caught in a powerful microburst and have been stunned. You also suffer reduced movement and attack speeds and are unable to fly. There is a chance that you are also suffering from reduced defenses, depending on the Pressure released when your attacker created this microburst.",
+  "targetShortHelp": "Stun, -Speed(All), -Rech, -Fly, Chance for -DEF(All)",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -167,8 +167,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -210,8 +210,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P583235414",
-              "victimHit": "P3613904985",
+              "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -286,8 +286,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P119576033",
-              "victimHit": "P1719855107",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
               "float": "",
               "defenseFloat": ""
             }
@@ -355,8 +355,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P583235414",
-              "victimHit": "P3613904985",
+              "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -424,9 +424,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3111502541",
-              "victimHit": "P631948408",
-              "float": "P2610687982",
+              "attackerHit": "You Stun {PlayerDest} with your {PowerName} [DOMINATION].",
+              "victimHit": "{PlayerSource} Stuns you with their {PowerName} [DOMINATION].",
+              "float": "DOMINATION",
               "defenseFloat": ""
             }
           ],
@@ -519,9 +519,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3111502541",
-              "victimHit": "P631948408",
-              "float": "P2610687982",
+              "attackerHit": "You Stun {PlayerDest} with your {PowerName} [DOMINATION].",
+              "victimHit": "{PlayerSource} Stuns you with their {PowerName} [DOMINATION].",
+              "float": "DOMINATION",
               "defenseFloat": ""
             }
           ],
@@ -707,8 +707,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P3931143024",
-              "victimHit": "P3572259374",
+              "attackerHit": "The Pressure released with your {PowerName} is enough to allow it to lower your opponent's defenses.",
+              "victimHit": "Your defenses have been lowered by {PlayerSource}'s {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -827,7 +827,7 @@
             {
               "attackerHit": "",
               "victimHit": "",
-              "float": "P2883443510",
+              "float": "I Drain Pressure!",
               "defenseFloat": ""
             }
           ],
@@ -875,7 +875,7 @@
           "messages": [
             {
               "attackerHit": "",
-              "victimHit": "P123669248",
+              "victimHit": "You release all atmospheric Pressure changes you have accumulated.",
               "float": "",
               "defenseFloat": ""
             }

@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P4048782706",
-    "help": "P504846955",
-    "shortHelp": "P553708814",
+    "display": "Heal Other",
+    "help": "Heals a single targeted ally. You cannot use this power to heal yourself. Recharge: Fast",
+    "shortHelp": "Ally Heal",
     "targetHelp": "",
-    "targetShortHelp": "P553708814",
+    "targetShortHelp": "Ally Heal",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -133,7 +133,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P4291132995",
+                "victimHit": "{PlayerSource} heals you for {Damage} points of damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -200,11 +200,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2121818994",
-    "help": "P1027827377",
-    "shortHelp": "P1906443399",
-    "targetHelp": "P1027827377",
-    "targetShortHelp": "P1906443399",
+    "display": "Healing Aura",
+    "help": "Healing Aura restores some Hit Points to you and all nearby heroes. Healing Aura is not as potent as Heal Other, but can heal multiple targets at once. Recharge: Moderate",
+    "shortHelp": "PBAoE, Team +Heal",
+    "targetHelp": "Healing Aura restores some Hit Points to you and all nearby heroes. Healing Aura is not as potent as Heal Other, but can heal multiple targets at once. Recharge: Moderate",
+    "targetShortHelp": "PBAoE, Team +Heal",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -332,7 +332,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P4291132995",
+                "victimHit": "{PlayerSource} heals you for {Damage} points of damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -399,11 +399,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3146510421",
-    "help": "P4272063715",
-    "shortHelp": "P1801592273",
-    "targetHelp": "P902449338",
-    "targetShortHelp": "P368684123",
+    "display": "Subdue",
+    "help": "Subdue deals moderate Psionic damage and may leave the targeted foe Immobilized for a brief time. Immobilized foes cannot move but can still attack. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Ranged, Moderate DMG(Psionic), Foe Immobilize",
+    "targetHelp": "You have been Subdued and are being held immobile.",
+    "targetShortHelp": "Immobilize",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -529,8 +529,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -588,8 +588,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4257051740",
-                "victimHit": "P2588894681",
+                "attackerHit": "You Immobilize {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Immobilizes you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -656,9 +656,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1128608213",
-    "help": "P634414874",
-    "shortHelp": "P2663199646",
+    "display": "Telekinetic Blast",
+    "help": "You can use Telekinesis to Blast a targeted foe with the power of your mind. This attack deals Smashing and Psionic damage, and can knock your opponent back. Damage: Moderate, Recharge: Moderate",
+    "shortHelp": "Ranged, Moderate DMG(Smash/Psionic), Foe Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -787,8 +787,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -829,8 +829,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -887,8 +887,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -955,11 +955,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2292978182",
-    "help": "P915789469",
-    "shortHelp": "P2707916763",
-    "targetHelp": "P3199664469",
-    "targetShortHelp": "P3214140212",
+    "display": "Mental Blast",
+    "help": "This basic attack does moderate Psionic damage, and can slightly reduce a target's attack speed. Damage: Moderate, Recharge: Fast",
+    "shortHelp": "Ranged, Moderate DMG(Psionic), Target -Recharge",
+    "targetHelp": "The Mental Blast has slowed your Attack rate.",
+    "targetShortHelp": "-Recharge",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1085,8 +1085,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P801507873",
-                "victimHit": "P3863231487",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Psionic damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Psionic damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1189,15 +1189,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2736170087",
-    "help": "P4242341930",
-    "shortHelp": "P1723798362",
-    "targetHelp": "P625679156",
-    "targetShortHelp": "P2594982000",
+    "display": "Regeneration Aura",
+    "help": "The Regeneration Aura dramatically increases the healing rate of all nearby heroes for a limited time. Emitting this Aura costs you a lot of Endurance, and it takes a long time to recharge. Recharge: Very Long",
+    "shortHelp": "PBAoE, Ally +Regeneration",
+    "targetHelp": "The Regeneration Aura is improving your Healing Rate, allowing you to battle longer!",
+    "targetShortHelp": "+Regeneration",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P345019805",
-    "victimHit": "P3274973399",
+    "attackerHit": "You increase the Hit Point Regeneration of {PlayerDest}.",
+    "victimHit": "{PlayerSource} increases your Hit Point Regeneration.",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",

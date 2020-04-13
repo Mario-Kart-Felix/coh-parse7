@@ -2,11 +2,11 @@
   "autoIssue": false,
   "autoIssueSaveLevel": false,
   "free": false,
-  "display": "P1796648775",
-  "help": "P2698330643",
-  "shortHelp": "P1048474847",
-  "targetHelp": "P1069028202",
-  "targetShortHelp": "P337683231",
+  "display": "Soul Storm",
+  "help": "Like Ghost Widow, you can summon the souls of your victims to do your bidding. Soul Storm enraptures a single target Holding them while their life-force is drained from their body. You must be level 41 and have Soul Drain or Dark Embrace before selecting this power. Recharge: Slow",
+  "shortHelp": "Ranged, Moderate DoT(Negative), Foe Hold",
+  "targetHelp": "You are being Held by a Soul Storm. You are taking negative Damage over time as your life is drained.",
+  "targetShortHelp": "Hold DoT(Negative)",
   "attackerAttack": "",
   "attackerAttackFloater": "",
   "attackerHit": "",
@@ -164,8 +164,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4134654113",
-              "victimHit": "P3642575485",
+              "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -206,8 +206,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1461699593",
-              "victimHit": "P3815778435",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -295,8 +295,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P4134654113",
-              "victimHit": "P3642575485",
+              "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+              "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
               "float": "",
               "defenseFloat": ""
             }
@@ -337,8 +337,8 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1461699593",
-              "victimHit": "P3815778435",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time.",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time.",
               "float": "",
               "defenseFloat": ""
             }
@@ -384,7 +384,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&"
       ],
@@ -423,9 +423,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1234176580",
-              "victimHit": "P3108255959",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],
@@ -470,7 +470,7 @@
         "&&",
         "arch",
         "source>",
-        "Class_Corruptor",
+        "Corruptor",
         "eq",
         "&&"
       ],
@@ -509,9 +509,9 @@
           ],
           "messages": [
             {
-              "attackerHit": "P1234176580",
-              "victimHit": "P3108255959",
-              "float": "P111359259",
+              "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Negative Energy damage over time [SCOURGE].",
+              "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Negative Energy damage over time [SCOURGE].",
+              "float": "Scourge",
               "defenseFloat": ""
             }
           ],

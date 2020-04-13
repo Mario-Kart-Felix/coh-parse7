@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1426350644",
-    "help": "P1534959746",
-    "shortHelp": "P3522246723",
-    "targetHelp": "P2721162609",
-    "targetShortHelp": "P2646575536",
+    "display": "Defensive Sweep",
+    "help": "You take a defensive stance and strike your opponents. Successfully executing this attack will cause light smashing damage to nearby foes, while giving you increased defense against their melee and smashing attacks. Note that Defensive Sweep is unaffected by Arc changes. Damage: Light, Recharge: Fast",
+    "shortHelp": "Melee(Cone), Light DMG(Smashing), Self +DEF(Melee, Smash)",
+    "targetHelp": "Your Defense has been increased by your Defensive Sweep.",
+    "targetShortHelp": "+Def",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -173,9 +173,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P775678673",
-    "help": "P3190808904",
-    "shortHelp": "P3529617148",
+    "display": "Crushing Blow",
+    "help": "You swing a mighty crushing blow at your opponent dealing High Smashing damage and reducing their defense. Damage: High, Recharge: Moderate",
+    "shortHelp": "Melee, High DMG(Smashing), -DEF",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -342,9 +342,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1827797673",
-    "help": "P1057615877",
-    "shortHelp": "P2455120661",
+    "display": "Titan Sweep",
+    "help": "You make a sweeping slash with your weapon, causing high damage and possibly knocking your opponent down. Note that Titan Sweep is unaffected by Arc changes. Damage: High, Recharge: Moderate",
+    "shortHelp": "Melee (Cone), High DMG(Smashing), Foe Knockdown",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -509,15 +509,15 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1980192711",
-    "help": "P4288897194",
-    "shortHelp": "P45218014",
-    "targetHelp": "P4173113734",
-    "targetShortHelp": "P1980192711",
+    "display": "Taunt",
+    "help": "Taunts a foe, and some nearby foes, to attack you. Useful for pulling villains off an ally who find themselves in over their head. Taunted foes tend to ignore other Heroes and focus on you for quite a while, so use this power cautiously. A To Hit check is required to Taunt enemy players, but is not needed against critter targets. Recharge: Moderate",
+    "shortHelp": "Ranged (Targeted AoE), Foe Taunt",
+    "targetHelp": "You have been Taunted.",
+    "targetShortHelp": "Taunt",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
-    "victimHit": "P1469662144",
+    "victimHit": "{PlayerSource} Taunts you!",
     "confirm": "",
     "floatRewarded": "",
     "powerDefenseFloat": "",
@@ -650,7 +650,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3752458412",
+                "attackerHit": "You Taunt {PlayerDest} to attack you.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -719,8 +719,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583975673",
-                "victimHit": "P3669502634",
+                "attackerHit": "Your {PowerName} hit, and you Taunt {PlayerDest} to attack you.",
+                "victimHit": "{Playersource} hit you with their {Powername}. You have been Taunted!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -788,8 +788,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1479558089",
-                "victimHit": "P4215765545",
+                "attackerHit": "Your {PowerName} partially hit! {PlayerDest} is not taunted but their range is reduced!",
+                "victimHit": "{Playersource} partially hits you with their Taunt! Your range is reduced but the Taunt is not successful!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -908,11 +908,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2466830066",
-    "help": "P285555551",
-    "shortHelp": "P3456552698",
-    "targetHelp": "P3968446753",
-    "targetShortHelp": "P1066116238",
+    "display": "Follow Through",
+    "help": "You Follow Through with a massive attack dealing Superior Smashing damage, knocking your opponent down and possibly stunning them. Additionally, Follow Through can cause the target to suffer a small amount of Lethal damage over time. NOTE: Follow Through requires Momentum in order to be activated. Damage: Superior, Recharge: Moderate",
+    "shortHelp": "Melee, Superior DMG(Smashing), Foe Minor DoT(Lethal), Knockdown, Stun, Requires Momentum",
+    "targetHelp": "You are disoriented.",
+    "targetShortHelp": "Disoriented",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1055,8 +1055,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1098,8 +1098,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1140,8 +1140,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1209,8 +1209,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1251,8 +1251,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1314,8 +1314,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1403,8 +1403,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P583235414",
-                "victimHit": "P3613904985",
+                "attackerHit": "You Stun {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Stuns you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1461,8 +1461,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1534,9 +1534,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2699767456",
-    "help": "P1713412078",
-    "shortHelp": "P984588183",
+    "display": "Build Momentum",
+    "help": "Grants you momentum, moderately increases the amount of damage you deal for a few seconds and slightly increases your chance to hit. Build Momentum grants you Momentum for 10 seconds and it replaces any remaining Momentum you may still have. Recharge: Long",
+    "shortHelp": "Self +DMG, +To Hit, +Momentum",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1667,7 +1667,7 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1761228578",
+                "attackerHit": "You tap into your inner strength with your {PowerName} and are more accurate and more deadly for a short while.",
                 "victimHit": "",
                 "float": "",
                 "defenseFloat": ""
@@ -1790,7 +1790,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P2796945418",
+                "victimHit": "Momentum",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1857,11 +1857,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1299120964",
-    "help": "P323779869",
-    "shortHelp": "P1053380827",
-    "targetHelp": "P3101919881",
-    "targetShortHelp": "P1870741899",
+    "display": "Rend Armor",
+    "help": "You batter your enemy with your mighty weapon dealing Extreme Smashing damage and reducing their resistance to damage as well as their defense to all types of attacks for a short time. Damage: Extreme, Recharge: Slow",
+    "shortHelp": "Melee, Extreme DMG(Smashing), Foe -Def(All), -Res(All)",
+    "targetHelp": "You are bruised and dazed, which reduces your damage resistance and defense.",
+    "targetShortHelp": "-DEF, -Res(All)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -2023,9 +2023,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3681436250",
-    "help": "P1494084759",
-    "shortHelp": "P3363089864",
+    "display": "Whirling Smash",
+    "help": "You perform a powerful Whirling Smash that deals Moderate Smashing damage, and can knock an opponent down. Additionally, Whirling Smash can cause the target to suffer a small amount of Lethal damage over time. NOTE: Whirling Smash requires Momentum in order to be activated. Note that Whirling Smash is unaffected by Radius changes. Damage: Moderate, Recharge: Slow",
+    "shortHelp": "PBAoE Melee, Moderate DMG(Smashing), Foe Minor DoT(Lethal), Knockdown, Requires Momentum",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -2169,8 +2169,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2212,8 +2212,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P3137354887",
-                "victimHit": "P130826600",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Lethal damage over time.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Lethal damage over time.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2275,8 +2275,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2338,8 +2338,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2407,8 +2407,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2465,8 +2465,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P2798397535",
-                "victimHit": "P459143670",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Fire damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Fire damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -2539,9 +2539,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3552304298",
-    "help": "P2943831780",
-    "shortHelp": "P3611358446",
+    "display": "Arc of Destruction",
+    "help": "You swing your weapon in a devastating Arc of Destruction that deals Superior Smashing damage and has a good chance to knock foes down. Arc of Destruction may only be used while on the ground. Note that Arc of Destruction is unaffected by Arc changes. Damage: Superior, Recharge: Slow",
+    "shortHelp": "Melee (Cone), Superior DMG(Smashing), Foe Knockback",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",

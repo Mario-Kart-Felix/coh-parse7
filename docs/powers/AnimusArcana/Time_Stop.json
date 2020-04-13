@@ -3,11 +3,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3545215282",
-    "help": "P391882084",
-    "shortHelp": "P1688142890",
-    "targetHelp": "P357099267",
-    "targetShortHelp": "P3885675710",
+    "display": "Lift",
+    "help": "You negate the force of gravity around your target, violently sending them into the air. This causes smashing damage when they fall to the ground.",
+    "shortHelp": "Ranged, High DMG(Smashing), Knockup(Foe), -Fly",
+    "targetHelp": "You are unable to fly for a short time.",
+    "targetShortHelp": "-Fly",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -133,8 +133,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -175,8 +175,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -278,11 +278,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P2238940030",
-    "help": "P272630926",
-    "shortHelp": "P2389358242",
-    "targetHelp": "P2148040383",
-    "targetShortHelp": "P4141268350",
+    "display": "Time Crawl",
+    "help": "You dramatically slow time around a single enemy, reducing their movement speed and attack rate. Time is slowed to such an extreme that their wounds will take longer to heal, reducing their regeneration rate. Time Crawl applies the Delayed effect on its target. Debuff and control effects from other Time Manipulation powers are increased on targets affected by Delayed.",
+    "shortHelp": "Ranged, -Rech(Foe), -Speed(Foe, All), -Regen(Foe), Special",
+    "targetHelp": "Your attack rate, movement speed and regeneration rate have been reduced. You are also affected by a persistent time slowdown.",
+    "targetShortHelp": "-Rech, -Speed(All), -Regen, Special",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -413,7 +413,7 @@
             "messages": [
               {
                 "attackerHit": "",
-                "victimHit": "P227873764",
+                "victimHit": "{PlayerSource} slows you down with {PowerName}, reducing your movement speed, attack speed and regeneration speed.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -701,14 +701,14 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3035182246",
-    "help": "P3285842852",
-    "shortHelp": "P281704942",
-    "targetHelp": "P2413134340",
-    "targetShortHelp": "P3604726126",
+    "display": "Distortion Field",
+    "help": "You slow the flow of time in a targeted area. Enemies who enter the field will have their attack rate and speed slowed dramatically. In addition, affected enemies might become held as they are frozen in time.",
+    "shortHelp": "Targeted AoE, -Rech(Foe), -Speed(Foe, All), Chance for Hold(Foe)",
+    "targetHelp": "Your movement and attack speeds have been reduced. You may also be held and unable to move.",
+    "targetShortHelp": "-Rech, -Speed, Chance for Hold",
     "attackerAttack": "",
     "attackerAttackFloater": "",
-    "attackerHit": "P3340992146",
+    "attackerHit": "Your {PowerName} reduces your targets' Movement and Recharge Speed.",
     "victimHit": "",
     "confirm": "",
     "floatRewarded": "",
@@ -900,11 +900,11 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1303004440",
-    "help": "P3848216655",
-    "shortHelp": "P2974280093",
-    "targetHelp": "P3983397988",
-    "targetShortHelp": "P126729942",
+    "display": "Time Stop",
+    "help": "You trap your target within the flow of time, causing them to be held helpless and to suffer from reduced effectiveness of regeneration and healing. The hold is more severe if the target is Delayed by Time Crawl.",
+    "shortHelp": "Ranged, Hold(Foe), -Regen(Foe), +RES(Foe, Heal)",
+    "targetHelp": "You are held and unable to move. Your regeneration rate and ability to be healed have been reduced.",
+    "targetShortHelp": "Hold, -Regen, +RES(Heal)",
     "attackerAttack": "",
     "attackerAttackFloater": "",
     "attackerHit": "",
@@ -1032,8 +1032,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1074,8 +1074,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P4134654113",
-                "victimHit": "P3642575485",
+                "attackerHit": "You Hold {PlayerDest} with your {PowerName}.",
+                "victimHit": "{PlayerSource} Holds you with their {PowerName}.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1213,9 +1213,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P3129124653",
-    "help": "P3889235211",
-    "shortHelp": "P489565726",
+    "display": "Chrono Shift",
+    "help": "You cause nearby allies to act more quickly by allowing them to slip through the time stream seamlessly, allowing your allies to recover from battle and speed up their ability to fight back.",
+    "shortHelp": "PBAoE, Heal(Team), +HoT(Team), +End(Team), +Rec(Team), +Rech(Team)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1584,9 +1584,9 @@
     "autoIssue": false,
     "autoIssueSaveLevel": false,
     "free": false,
-    "display": "P1432627055",
-    "help": "P1462262047",
-    "shortHelp": "P2969868635",
+    "display": "Propel",
+    "help": "You open a gravitational rift and retrieve a heavy object. You then launch this object at your target, causing smashing damage on impact and knocking the target back.",
+    "shortHelp": "Ranged, Extreme DMG(Smashing), Knockback (Foe)",
     "targetHelp": "",
     "targetShortHelp": "",
     "attackerAttack": "",
@@ -1714,8 +1714,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P119576033",
-                "victimHit": "P1719855107",
+                "attackerHit": "You hit {PlayerDest} with your {PowerName} for {Damage} points of Smashing damage.",
+                "victimHit": "{PlayerSource} hits you with their {PowerName} for {Damage} points of Smashing damage.",
                 "float": "",
                 "defenseFloat": ""
               }
@@ -1756,8 +1756,8 @@
             ],
             "messages": [
               {
-                "attackerHit": "P1956156720",
-                "victimHit": "P3390955917",
+                "attackerHit": "You knock {PlayerDest} off their feet with your {PowerName}!",
+                "victimHit": "{PlayerSource} knocks you off your feet with their {PowerName}!",
                 "float": "",
                 "defenseFloat": ""
               }
