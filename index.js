@@ -11,13 +11,17 @@ const depth = {
     powercats: 1,
     powersets: 2
 };
+const rename = {
+    classes: 'archetypes'
+};
+
 const pigg = parse(Pigg, './bins/bin.pigg');
 for (let f in pigg) {
     let str = JSON.stringify(pigg[f], null, 2);
     if (str == '{}') continue;
     let name = f.replace(/^bin\//, '').replace(/\.bin$/, '');
     console.log(name);
-    writeFiles(hierarchy(pigg[f]), name, depth[name] || 0);
+    writeFiles(hierarchy(pigg[f]), rename[name] || name, depth[name] || 0);
 }
 const powers = parse(Pigg, './bins/bin_powers.pigg')["bin/powers.bin"];
 writeFiles(hierarchy(powers), 'powers', 3);
