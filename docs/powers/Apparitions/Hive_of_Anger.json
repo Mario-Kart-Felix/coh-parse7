@@ -1,0 +1,1587 @@
+{
+  "Possession": {
+    "autoIssue": false,
+    "autoIssueSaveLevel": false,
+    "free": false,
+    "display": "P3065199762",
+    "help": "P215902766",
+    "shortHelp": "P2218361239",
+    "targetHelp": "P215902766",
+    "targetShortHelp": "P2218361239",
+    "attackerAttack": "",
+    "attackerAttackFloater": "",
+    "attackerHit": "",
+    "victimHit": "",
+    "confirm": "",
+    "floatRewarded": "",
+    "powerDefenseFloat": "",
+    "icon": "Apparitions_EnragedRegeneration.tga",
+    "type": "TOGGLE",
+    "numAllowed": 1,
+    "attackTypes": [
+      "RANGED_DEF",
+      "PSIONIC_DEF"
+    ],
+    "buyRequires": [],
+    "activateRequires": [],
+    "slotRequires": [],
+    "targetRequires": [],
+    "rewardRequires": [],
+    "auctionRequires": [],
+    "rewardFallback": "",
+    "accuracy": 1,
+    "castFlags": [],
+    "aiReport": "ALWAYS",
+    "effectArea": "CHARACTER",
+    "maxTargetsHit": 0,
+    "unknown": 0,
+    "radius": 0,
+    "arc": 0,
+    "chainDelay": 0,
+    "chainEff": [],
+    "chainFork": [],
+    "boxOffset": [
+      0,
+      0,
+      0
+    ],
+    "boxSize": [
+      0,
+      0,
+      0
+    ],
+    "range": 40,
+    "rangeSecondary": 0,
+    "timeToActivate": 0,
+    "rechargeTime": 20,
+    "activatePeriod": 2,
+    "enduranceCost": 5,
+    "ideaCost": 0,
+    "timeToConfirm": 0,
+    "selfConfirm": 0,
+    "confirmRequires": [],
+    "destroyOnLimit": true,
+    "stackingUsage": false,
+    "numCharges": 0,
+    "maxNumCharges": 0,
+    "usageTime": 0,
+    "maxUsageTime": 0,
+    "lifetime": 0,
+    "maxLifetime": 0,
+    "lifetimeInGame": 0,
+    "maxLifetimeInGame": 0,
+    "interruptTime": 0,
+    "targetVisibility": "LINE_OF_SIGHT",
+    "target": "FOE",
+    "targetSecondary": "NONE",
+    "autoHit": [
+      "NONE"
+    ],
+    "affected": [
+      "FOE"
+    ],
+    "targetsThroughVisionPhase": false,
+    "boostsAllowed": [],
+    "groupMembership": [],
+    "modesRequired": [],
+    "modesDisallowed": [],
+    "aiGroups": [
+      "kMidBattle"
+    ],
+    "redirect": [],
+    "effects": [
+      {
+        "tag": [
+          "Ones"
+        ],
+        "chance": 1,
+        "procsPerMinute": 0,
+        "delay": 0,
+        "radiusInner": -1,
+        "radiusOuter": -1,
+        "requires": [
+          "kHitPoints%",
+          "target>",
+          "kHitPoints%",
+          "source>",
+          ">"
+        ],
+        "flags": [],
+        "evalFlags": 4,
+        "attribMod": [
+          {
+            "attrib": [
+              "PSIONIC_DMG"
+            ],
+            "aspect": "MODIFIERS",
+            "applicationType": "TICK",
+            "type": "EXPRESSION",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Ones",
+            "scale": 1,
+            "duration": 0,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [
+              "kHitPoints%",
+              "target>",
+              "kHitPoints%",
+              "source>",
+              "-",
+              "negate",
+              "200",
+              "/",
+              "@Scale",
+              "*"
+            ],
+            "delay": 0,
+            "period": 0,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "STACK",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "ignoreResistance",
+              "ignoreStrength",
+              "combatModMagnitude"
+            ],
+            "messages": [
+              {
+                "attackerHit": "P4164208306",
+                "victimHit": "P3640235457",
+                "float": "",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "recType": 0
+            }
+          },
+          {
+            "attrib": [
+              "PSIONIC_DMG"
+            ],
+            "aspect": "MODIFIERS",
+            "applicationType": "TICK",
+            "type": "EXPRESSION",
+            "target": "SELF",
+            "targetInfo": [],
+            "table": "Ranged_Ones",
+            "scale": 1,
+            "duration": 0,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [
+              "kHitPoints%",
+              "target>",
+              "kHitPoints%",
+              "source>",
+              "-",
+              "200",
+              "/",
+              "@Scale",
+              "*"
+            ],
+            "delay": 0,
+            "period": 0,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "STACK",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "ignoreResistance",
+              "ignoreStrength",
+              "combatModMagnitude"
+            ],
+            "messages": [
+              {
+                "attackerHit": "P4164208306",
+                "victimHit": "P3640235457",
+                "float": "",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "recType": 0
+            }
+          }
+        ],
+        "effect": []
+      },
+      {
+        "tag": [
+          "Ones"
+        ],
+        "chance": 1,
+        "procsPerMinute": 0,
+        "delay": 0,
+        "radiusInner": -1,
+        "radiusOuter": -1,
+        "requires": [
+          "kHitPoints%",
+          "target>",
+          "kHitPoints%",
+          "source>",
+          "<"
+        ],
+        "flags": [],
+        "evalFlags": 4,
+        "attribMod": [
+          {
+            "attrib": [
+              "PSIONIC_DMG"
+            ],
+            "aspect": "MODIFIERS",
+            "applicationType": "TICK",
+            "type": "EXPRESSION",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Ones",
+            "scale": 1,
+            "duration": 0,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [
+              "kHitPoints%",
+              "source>",
+              "kHitPoints%",
+              "target>",
+              "-",
+              "200",
+              "/",
+              "@Scale",
+              "*"
+            ],
+            "delay": 0,
+            "period": 0,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "STACK",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "ignoreResistance",
+              "ignoreStrength",
+              "combatModMagnitude"
+            ],
+            "messages": [
+              {
+                "attackerHit": "P4164208306",
+                "victimHit": "P3640235457",
+                "float": "",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "recType": 0
+            }
+          },
+          {
+            "attrib": [
+              "PSIONIC_DMG"
+            ],
+            "aspect": "MODIFIERS",
+            "applicationType": "TICK",
+            "type": "EXPRESSION",
+            "target": "SELF",
+            "targetInfo": [],
+            "table": "Ranged_Ones",
+            "scale": 1,
+            "duration": 0,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [
+              "kHitPoints%",
+              "source>",
+              "kHitPoints%",
+              "target>",
+              "-",
+              "negate",
+              "200",
+              "/",
+              "@Scale",
+              "*"
+            ],
+            "delay": 0,
+            "period": 0,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "STACK",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "ignoreResistance",
+              "ignoreStrength",
+              "combatModMagnitude"
+            ],
+            "messages": [
+              {
+                "attackerHit": "P4164208306",
+                "victimHit": "P3640235457",
+                "float": "",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "recType": 0
+            }
+          }
+        ],
+        "effect": []
+      }
+    ],
+    "ignoreStrength": false,
+    "showBuffIcon": true,
+    "showInInventory": "DEFAULT",
+    "showInManage": true,
+    "showInInfo": true,
+    "deletable": false,
+    "tradeable": false,
+    "maxBoosts": 6,
+    "doNotSave": false,
+    "boostFlags": [
+      "boostTradeable",
+      "boostCombinable"
+    ],
+    "boostCatalystConversion": "",
+    "storeProduct": "",
+    "boostLicenseLevel": 999,
+    "minSlotLevel": -3,
+    "maxSlotLevel": 49,
+    "maxBoostLevel": 50,
+    "var": [],
+    "toggleDroppable": "SOMETIMES",
+    "procAllowed": "ALL",
+    "strengthsDisallowed": [],
+    "procMainTargetOnly": false,
+    "animMainTargetOnly": false,
+    "highlightEval": [],
+    "highlightIcon": "",
+    "highlightRing": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0
+    },
+    "travelSuppression": 0,
+    "preferenceMultiplier": 100,
+    "dontSetStance": false,
+    "pointValue": 0,
+    "pointMultiplier": 0,
+    "chainIntoPower": "",
+    "instanceLocked": false,
+    "isEnvironmentHit": false,
+    "shuffleTargets": false,
+    "forceLevelBought": -1,
+    "refreshesOnActivePlayerChange": false,
+    "cancelable": false,
+    "ignoreToggleMaxDistance": false,
+    "serverTrayPriority": 0,
+    "serverTrayRequires": [],
+    "abusiveBuff": true
+  },
+  "Hateful_Burst": {
+    "autoIssue": false,
+    "autoIssueSaveLevel": false,
+    "free": false,
+    "display": "P3633772210",
+    "help": "P4119060276",
+    "shortHelp": "P4126216683",
+    "targetHelp": "P2150911424",
+    "targetShortHelp": "P4142006014",
+    "attackerAttack": "",
+    "attackerAttackFloater": "",
+    "attackerHit": "",
+    "victimHit": "",
+    "confirm": "",
+    "floatRewarded": "",
+    "powerDefenseFloat": "",
+    "icon": "Apparitions_HatefulBlast.tga",
+    "type": "CLICK",
+    "numAllowed": 1,
+    "attackTypes": [
+      "AREA_DEF",
+      "LETHAL_DEF",
+      "NEGATIVE_ENERGY_DEF"
+    ],
+    "buyRequires": [],
+    "activateRequires": [],
+    "slotRequires": [],
+    "targetRequires": [],
+    "rewardRequires": [],
+    "auctionRequires": [],
+    "rewardFallback": "",
+    "accuracy": 1,
+    "castFlags": [],
+    "aiReport": "ALWAYS",
+    "effectArea": "CONE",
+    "maxTargetsHit": 16,
+    "unknown": 0,
+    "radius": 0,
+    "arc": 2.094395160675049,
+    "chainDelay": 0,
+    "chainEff": [],
+    "chainFork": [],
+    "boxOffset": [
+      0,
+      0,
+      0
+    ],
+    "boxSize": [
+      0,
+      0,
+      0
+    ],
+    "range": 40,
+    "rangeSecondary": 0,
+    "timeToActivate": 1,
+    "rechargeTime": 8,
+    "activatePeriod": 0,
+    "enduranceCost": 12,
+    "ideaCost": 0,
+    "timeToConfirm": 0,
+    "selfConfirm": 0,
+    "confirmRequires": [],
+    "destroyOnLimit": true,
+    "stackingUsage": false,
+    "numCharges": 0,
+    "maxNumCharges": 0,
+    "usageTime": 0,
+    "maxUsageTime": 0,
+    "lifetime": 0,
+    "maxLifetime": 0,
+    "lifetimeInGame": 0,
+    "maxLifetimeInGame": 0,
+    "interruptTime": 0,
+    "targetVisibility": "LINE_OF_SIGHT",
+    "target": "CASTER",
+    "targetSecondary": "NONE",
+    "autoHit": [
+      "NONE"
+    ],
+    "affected": [
+      "FOE"
+    ],
+    "targetsThroughVisionPhase": false,
+    "boostsAllowed": [],
+    "groupMembership": [],
+    "modesRequired": [],
+    "modesDisallowed": [],
+    "aiGroups": [],
+    "redirect": [],
+    "effects": [
+      {
+        "tag": [
+          "Ones"
+        ],
+        "chance": 1,
+        "procsPerMinute": 0,
+        "delay": 0,
+        "radiusInner": -1,
+        "radiusOuter": -1,
+        "requires": [],
+        "flags": [],
+        "evalFlags": 0,
+        "attribMod": [
+          {
+            "attrib": [
+              "LETHAL_DMG"
+            ],
+            "aspect": "ABSOLUTE",
+            "applicationType": "TICK",
+            "type": "MAGNITUDE",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Damage",
+            "scale": 0.41999998688697815,
+            "duration": 0,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [],
+            "delay": 0,
+            "period": 0,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "STACK",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "resistMagnitude",
+              "combatModMagnitude"
+            ],
+            "messages": [
+              {
+                "attackerHit": "P3785438311",
+                "victimHit": "P1873832980",
+                "float": "",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "recType": 0
+            }
+          },
+          {
+            "attrib": [
+              "NEGATIVE_ENERGY_DMG"
+            ],
+            "aspect": "ABSOLUTE",
+            "applicationType": "TICK",
+            "type": "MAGNITUDE",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Damage",
+            "scale": 0.41999998688697815,
+            "duration": 0,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [],
+            "delay": 0,
+            "period": 0,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "STACK",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "resistMagnitude",
+              "combatModMagnitude"
+            ],
+            "messages": [
+              {
+                "attackerHit": "P2637081052",
+                "victimHit": "P936402029",
+                "float": "",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "recType": 0
+            }
+          },
+          {
+            "attrib": [
+              "SMASHING_DMG",
+              "LETHAL_DMG",
+              "FIRE_DMG",
+              "COLD_DMG",
+              "ENERGY_DMG",
+              "NEGATIVE_ENERGY_DMG",
+              "PSIONIC_DMG",
+              "TOXIC_DMG"
+            ],
+            "aspect": "STRENGTH",
+            "applicationType": "TICK",
+            "type": "MAGNITUDE",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Debuff_Dam",
+            "scale": 0.5,
+            "duration": 5,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [],
+            "delay": 0,
+            "period": 0,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "REPLACE",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "resistMagnitude",
+              "ignoreStrength",
+              "combatModMagnitude"
+            ],
+            "messages": [],
+            "params": {
+              "recType": 0
+            }
+          }
+        ],
+        "effect": []
+      }
+    ],
+    "ignoreStrength": false,
+    "showBuffIcon": true,
+    "showInInventory": "DEFAULT",
+    "showInManage": true,
+    "showInInfo": true,
+    "deletable": false,
+    "tradeable": false,
+    "maxBoosts": 6,
+    "doNotSave": false,
+    "boostFlags": [
+      "boostTradeable",
+      "boostCombinable"
+    ],
+    "boostCatalystConversion": "",
+    "storeProduct": "",
+    "boostLicenseLevel": 999,
+    "minSlotLevel": -3,
+    "maxSlotLevel": 49,
+    "maxBoostLevel": 50,
+    "var": [],
+    "toggleDroppable": "SOMETIMES",
+    "procAllowed": "ALL",
+    "strengthsDisallowed": [],
+    "procMainTargetOnly": false,
+    "animMainTargetOnly": false,
+    "highlightEval": [],
+    "highlightIcon": "",
+    "highlightRing": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0
+    },
+    "travelSuppression": 0,
+    "preferenceMultiplier": 4,
+    "dontSetStance": false,
+    "pointValue": 0,
+    "pointMultiplier": 0,
+    "chainIntoPower": "",
+    "instanceLocked": false,
+    "isEnvironmentHit": false,
+    "shuffleTargets": false,
+    "forceLevelBought": -1,
+    "refreshesOnActivePlayerChange": false,
+    "cancelable": false,
+    "ignoreToggleMaxDistance": false,
+    "serverTrayPriority": 0,
+    "serverTrayRequires": [],
+    "abusiveBuff": true
+  },
+  "Wrathful_Infusion": {
+    "autoIssue": false,
+    "autoIssueSaveLevel": false,
+    "free": false,
+    "display": "P3528307723",
+    "help": "P1998996662",
+    "shortHelp": "P3345718934",
+    "targetHelp": "P3578021407",
+    "targetShortHelp": "P3045814655",
+    "attackerAttack": "",
+    "attackerAttackFloater": "",
+    "attackerHit": "",
+    "victimHit": "",
+    "confirm": "",
+    "floatRewarded": "",
+    "powerDefenseFloat": "",
+    "icon": "Apparitions_CrushingHate.tga",
+    "type": "CLICK",
+    "numAllowed": 1,
+    "attackTypes": [],
+    "buyRequires": [],
+    "activateRequires": [],
+    "slotRequires": [],
+    "targetRequires": [],
+    "rewardRequires": [],
+    "auctionRequires": [],
+    "rewardFallback": "",
+    "accuracy": 1,
+    "castFlags": [],
+    "aiReport": "ALWAYS",
+    "effectArea": "CHARACTER",
+    "maxTargetsHit": 0,
+    "unknown": 0,
+    "radius": 0,
+    "arc": 0,
+    "chainDelay": 0,
+    "chainEff": [],
+    "chainFork": [],
+    "boxOffset": [
+      0,
+      0,
+      0
+    ],
+    "boxSize": [
+      0,
+      0,
+      0
+    ],
+    "range": 60,
+    "rangeSecondary": 0,
+    "timeToActivate": 2,
+    "rechargeTime": 20,
+    "activatePeriod": 0,
+    "enduranceCost": 10,
+    "ideaCost": 0,
+    "timeToConfirm": 0,
+    "selfConfirm": 0,
+    "confirmRequires": [],
+    "destroyOnLimit": true,
+    "stackingUsage": false,
+    "numCharges": 0,
+    "maxNumCharges": 0,
+    "usageTime": 0,
+    "maxUsageTime": 0,
+    "lifetime": 0,
+    "maxLifetime": 0,
+    "lifetimeInGame": 0,
+    "maxLifetimeInGame": 0,
+    "interruptTime": 0,
+    "targetVisibility": "LINE_OF_SIGHT",
+    "target": "FOE",
+    "targetSecondary": "NONE",
+    "autoHit": [
+      "FOE"
+    ],
+    "affected": [
+      "FOE"
+    ],
+    "targetsThroughVisionPhase": false,
+    "boostsAllowed": [],
+    "groupMembership": [],
+    "modesRequired": [],
+    "modesDisallowed": [],
+    "aiGroups": [],
+    "redirect": [],
+    "effects": [
+      {
+        "tag": [
+          "Ones"
+        ],
+        "chance": 1,
+        "procsPerMinute": 0,
+        "delay": 0,
+        "radiusInner": -1,
+        "radiusOuter": -1,
+        "requires": [],
+        "flags": [],
+        "evalFlags": 0,
+        "attribMod": [
+          {
+            "attrib": [
+              "TAUNT"
+            ],
+            "aspect": "ABSOLUTE",
+            "applicationType": "TICK",
+            "type": "DURATION",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Taunt",
+            "scale": 6,
+            "duration": 0,
+            "magnitude": 4,
+            "durationExpr": [],
+            "magnitudeExpr": [],
+            "delay": 0,
+            "period": 1,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "STACK",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "combatModDuration",
+              "resistDuration"
+            ],
+            "messages": [
+              {
+                "attackerHit": "",
+                "victimHit": "P394899830",
+                "float": "",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "recType": 0
+            }
+          },
+          {
+            "attrib": [
+              "NEGATIVE_ENERGY_DMG"
+            ],
+            "aspect": "ABSOLUTE",
+            "applicationType": "TICK",
+            "type": "MAGNITUDE",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Damage",
+            "scale": 0.10000000149011612,
+            "duration": 6,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [],
+            "delay": 0,
+            "period": 1,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "STACK",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "resistMagnitude",
+              "combatModMagnitude"
+            ],
+            "messages": [
+              {
+                "attackerHit": "P1461699593",
+                "victimHit": "P3815778435",
+                "float": "",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "recType": 0
+            }
+          }
+        ],
+        "effect": []
+      }
+    ],
+    "ignoreStrength": false,
+    "showBuffIcon": true,
+    "showInInventory": "DEFAULT",
+    "showInManage": true,
+    "showInInfo": true,
+    "deletable": false,
+    "tradeable": false,
+    "maxBoosts": 6,
+    "doNotSave": false,
+    "boostFlags": [
+      "boostTradeable",
+      "boostCombinable"
+    ],
+    "boostCatalystConversion": "",
+    "storeProduct": "",
+    "boostLicenseLevel": 999,
+    "minSlotLevel": -3,
+    "maxSlotLevel": 49,
+    "maxBoostLevel": 50,
+    "var": [],
+    "toggleDroppable": "SOMETIMES",
+    "procAllowed": "ALL",
+    "strengthsDisallowed": [],
+    "procMainTargetOnly": false,
+    "animMainTargetOnly": false,
+    "highlightEval": [],
+    "highlightIcon": "",
+    "highlightRing": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0
+    },
+    "travelSuppression": 0,
+    "preferenceMultiplier": 8,
+    "dontSetStance": false,
+    "pointValue": 0,
+    "pointMultiplier": 0,
+    "chainIntoPower": "",
+    "instanceLocked": false,
+    "isEnvironmentHit": false,
+    "shuffleTargets": false,
+    "forceLevelBought": -1,
+    "refreshesOnActivePlayerChange": false,
+    "cancelable": false,
+    "ignoreToggleMaxDistance": false,
+    "serverTrayPriority": 0,
+    "serverTrayRequires": [],
+    "abusiveBuff": true
+  },
+  "Crushing_Hate": {
+    "autoIssue": false,
+    "autoIssueSaveLevel": false,
+    "free": false,
+    "display": "P332473140",
+    "help": "P3989111665",
+    "shortHelp": "P2679586185",
+    "targetHelp": "P3578021407",
+    "targetShortHelp": "P3045814655",
+    "attackerAttack": "",
+    "attackerAttackFloater": "",
+    "attackerHit": "",
+    "victimHit": "",
+    "confirm": "",
+    "floatRewarded": "",
+    "powerDefenseFloat": "",
+    "icon": "Apparitions_CrushingHate.tga",
+    "type": "CLICK",
+    "numAllowed": 1,
+    "attackTypes": [
+      "RANGED_DEF",
+      "LETHAL_DEF",
+      "NEGATIVE_ENERGY_DEF"
+    ],
+    "buyRequires": [],
+    "activateRequires": [],
+    "slotRequires": [],
+    "targetRequires": [],
+    "rewardRequires": [],
+    "auctionRequires": [],
+    "rewardFallback": "",
+    "accuracy": 1,
+    "castFlags": [],
+    "aiReport": "ALWAYS",
+    "effectArea": "CHARACTER",
+    "maxTargetsHit": 0,
+    "unknown": 0,
+    "radius": 0,
+    "arc": 0,
+    "chainDelay": 0,
+    "chainEff": [],
+    "chainFork": [],
+    "boxOffset": [
+      0,
+      0,
+      0
+    ],
+    "boxSize": [
+      0,
+      0,
+      0
+    ],
+    "range": 80,
+    "rangeSecondary": 0,
+    "timeToActivate": 2,
+    "rechargeTime": 15,
+    "activatePeriod": 0,
+    "enduranceCost": 13.699999809265137,
+    "ideaCost": 0,
+    "timeToConfirm": 0,
+    "selfConfirm": 0,
+    "confirmRequires": [],
+    "destroyOnLimit": true,
+    "stackingUsage": false,
+    "numCharges": 0,
+    "maxNumCharges": 0,
+    "usageTime": 0,
+    "maxUsageTime": 0,
+    "lifetime": 0,
+    "maxLifetime": 0,
+    "lifetimeInGame": 0,
+    "maxLifetimeInGame": 0,
+    "interruptTime": 0,
+    "targetVisibility": "LINE_OF_SIGHT",
+    "target": "FOE",
+    "targetSecondary": "NONE",
+    "autoHit": [
+      "NONE"
+    ],
+    "affected": [
+      "FOE"
+    ],
+    "targetsThroughVisionPhase": false,
+    "boostsAllowed": [],
+    "groupMembership": [],
+    "modesRequired": [],
+    "modesDisallowed": [],
+    "aiGroups": [],
+    "redirect": [],
+    "effects": [
+      {
+        "tag": [
+          "Ones"
+        ],
+        "chance": 1,
+        "procsPerMinute": 0,
+        "delay": 0,
+        "radiusInner": -1,
+        "radiusOuter": -1,
+        "requires": [],
+        "flags": [],
+        "evalFlags": 0,
+        "attribMod": [
+          {
+            "attrib": [
+              "NEGATIVE_ENERGY_DMG"
+            ],
+            "aspect": "ABSOLUTE",
+            "applicationType": "TICK",
+            "type": "MAGNITUDE",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Damage",
+            "scale": 0.16300000250339508,
+            "duration": 6,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [],
+            "delay": 0,
+            "period": 1,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "STACK",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "resistMagnitude",
+              "combatModMagnitude"
+            ],
+            "messages": [
+              {
+                "attackerHit": "P1461699593",
+                "victimHit": "P3815778435",
+                "float": "",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "recType": 0
+            }
+          },
+          {
+            "attrib": [
+              "HELD"
+            ],
+            "aspect": "MODIFIERS",
+            "applicationType": "TICK",
+            "type": "DURATION",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Immobilize",
+            "scale": 6,
+            "duration": 0,
+            "magnitude": 3,
+            "durationExpr": [],
+            "magnitudeExpr": [],
+            "delay": 0,
+            "period": 0,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "REPLACE",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "combatModDuration",
+              "resistDuration"
+            ],
+            "messages": [
+              {
+                "attackerHit": "P4134654113",
+                "victimHit": "P3642575485",
+                "float": "",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "recType": 0
+            }
+          }
+        ],
+        "effect": []
+      },
+      {
+        "tag": [
+          "Ones"
+        ],
+        "chance": 0.800000011920929,
+        "procsPerMinute": 0,
+        "delay": 0,
+        "radiusInner": -1,
+        "radiusOuter": -1,
+        "requires": [],
+        "flags": [],
+        "evalFlags": 0,
+        "attribMod": [
+          {
+            "attrib": [
+              "LETHAL_DMG"
+            ],
+            "aspect": "ABSOLUTE",
+            "applicationType": "TICK",
+            "type": "MAGNITUDE",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Damage",
+            "scale": 0.16300000250339508,
+            "duration": 6,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [],
+            "delay": 0,
+            "period": 1,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "STACK",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "resistMagnitude",
+              "combatModMagnitude"
+            ],
+            "messages": [
+              {
+                "attackerHit": "P3137354887",
+                "victimHit": "P130826600",
+                "float": "",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "recType": 0
+            }
+          }
+        ],
+        "effect": []
+      }
+    ],
+    "ignoreStrength": false,
+    "showBuffIcon": true,
+    "showInInventory": "DEFAULT",
+    "showInManage": true,
+    "showInInfo": true,
+    "deletable": false,
+    "tradeable": false,
+    "maxBoosts": 6,
+    "doNotSave": false,
+    "boostFlags": [
+      "boostTradeable",
+      "boostCombinable"
+    ],
+    "boostCatalystConversion": "",
+    "storeProduct": "",
+    "boostLicenseLevel": 999,
+    "minSlotLevel": -3,
+    "maxSlotLevel": 49,
+    "maxBoostLevel": 50,
+    "var": [],
+    "toggleDroppable": "SOMETIMES",
+    "procAllowed": "ALL",
+    "strengthsDisallowed": [],
+    "procMainTargetOnly": false,
+    "animMainTargetOnly": false,
+    "highlightEval": [],
+    "highlightIcon": "",
+    "highlightRing": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0
+    },
+    "travelSuppression": 0,
+    "preferenceMultiplier": 8,
+    "dontSetStance": false,
+    "pointValue": 0,
+    "pointMultiplier": 0,
+    "chainIntoPower": "",
+    "instanceLocked": false,
+    "isEnvironmentHit": false,
+    "shuffleTargets": false,
+    "forceLevelBought": -1,
+    "refreshesOnActivePlayerChange": false,
+    "cancelable": false,
+    "ignoreToggleMaxDistance": false,
+    "serverTrayPriority": 0,
+    "serverTrayRequires": [],
+    "abusiveBuff": true
+  },
+  "Dissipate": {
+    "autoIssue": false,
+    "autoIssueSaveLevel": false,
+    "free": false,
+    "display": "P979793278",
+    "help": "P833473005",
+    "shortHelp": "P2211841663",
+    "targetHelp": "P833473005",
+    "targetShortHelp": "P2211841663",
+    "attackerAttack": "",
+    "attackerAttackFloater": "",
+    "attackerHit": "",
+    "victimHit": "",
+    "confirm": "",
+    "floatRewarded": "",
+    "powerDefenseFloat": "",
+    "icon": "Possessed_Emerge.tga",
+    "type": "CLICK",
+    "numAllowed": 1,
+    "attackTypes": [],
+    "buyRequires": [],
+    "activateRequires": [],
+    "slotRequires": [],
+    "targetRequires": [],
+    "rewardRequires": [],
+    "auctionRequires": [],
+    "rewardFallback": "",
+    "accuracy": 1.2000000476837158,
+    "castFlags": [
+      "castableAfterDeath"
+    ],
+    "aiReport": "ALWAYS",
+    "effectArea": "CHARACTER",
+    "maxTargetsHit": 0,
+    "unknown": 0,
+    "radius": 0,
+    "arc": 0,
+    "chainDelay": 0,
+    "chainEff": [],
+    "chainFork": [],
+    "boxOffset": [
+      0,
+      0,
+      0
+    ],
+    "boxSize": [
+      0,
+      0,
+      0
+    ],
+    "range": 0,
+    "rangeSecondary": 0,
+    "timeToActivate": 3.0999999046325684,
+    "rechargeTime": 600,
+    "activatePeriod": 0,
+    "enduranceCost": 0,
+    "ideaCost": 0,
+    "timeToConfirm": 0,
+    "selfConfirm": 0,
+    "confirmRequires": [],
+    "destroyOnLimit": true,
+    "stackingUsage": false,
+    "numCharges": 0,
+    "maxNumCharges": 0,
+    "usageTime": 0,
+    "maxUsageTime": 0,
+    "lifetime": 0,
+    "maxLifetime": 0,
+    "lifetimeInGame": 0,
+    "maxLifetimeInGame": 0,
+    "interruptTime": 0,
+    "targetVisibility": "LINE_OF_SIGHT",
+    "target": "CASTER",
+    "targetSecondary": "NONE",
+    "autoHit": [
+      "CASTER"
+    ],
+    "affected": [
+      "CASTER"
+    ],
+    "targetsThroughVisionPhase": false,
+    "boostsAllowed": [],
+    "groupMembership": [],
+    "modesRequired": [],
+    "modesDisallowed": [],
+    "aiGroups": [
+      "kPostDeath"
+    ],
+    "redirect": [],
+    "effects": [
+      {
+        "tag": [
+          "Ones"
+        ],
+        "chance": 0.30000001192092896,
+        "procsPerMinute": 0,
+        "delay": 0,
+        "radiusInner": -1,
+        "radiusOuter": -1,
+        "requires": [],
+        "flags": [],
+        "evalFlags": 0,
+        "attribMod": [
+          {
+            "attrib": [
+              "ENT_CREATE"
+            ],
+            "aspect": "MODIFIERS",
+            "applicationType": "TICK",
+            "type": "MAGNITUDE",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Ones",
+            "scale": -2,
+            "duration": 0,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [],
+            "delay": 0,
+            "period": 0,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "IGNORE",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "ignoreResistance",
+              "ignoreStrength",
+              "combatModMagnitude",
+              "noTokenTime"
+            ],
+            "messages": [
+              {
+                "attackerHit": "",
+                "victimHit": "",
+                "float": "P3183324880",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "entityDef": "Apparitions_Fractured_Spirit",
+              "class": "",
+              "costumeName": "",
+              "display": "",
+              "priorityList": "PL_FightPreferRanged",
+              "aiConfig": "",
+              "categories": [],
+              "powersets": [],
+              "powers": []
+            }
+          },
+          {
+            "attrib": [
+              "ENT_CREATE"
+            ],
+            "aspect": "MODIFIERS",
+            "applicationType": "TICK",
+            "type": "MAGNITUDE",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Ones",
+            "scale": -2,
+            "duration": 0,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [],
+            "delay": 0,
+            "period": 0,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "IGNORE",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "ignoreResistance",
+              "ignoreStrength",
+              "combatModMagnitude",
+              "noTokenTime"
+            ],
+            "messages": [
+              {
+                "attackerHit": "",
+                "victimHit": "",
+                "float": "P3183324880",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "entityDef": "Apparitions_Fractured_Spirit",
+              "class": "",
+              "costumeName": "",
+              "display": "",
+              "priorityList": "PL_FightPreferRanged",
+              "aiConfig": "",
+              "categories": [],
+              "powersets": [],
+              "powers": []
+            }
+          },
+          {
+            "attrib": [
+              "ENT_CREATE"
+            ],
+            "aspect": "MODIFIERS",
+            "applicationType": "TICK",
+            "type": "MAGNITUDE",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Ones",
+            "scale": -2,
+            "duration": 0,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [],
+            "delay": 0,
+            "period": 0,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "IGNORE",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "ignoreResistance",
+              "ignoreStrength",
+              "combatModMagnitude",
+              "noTokenTime"
+            ],
+            "messages": [
+              {
+                "attackerHit": "",
+                "victimHit": "",
+                "float": "P3183324880",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "entityDef": "Apparitions_Fractured_Spirit",
+              "class": "",
+              "costumeName": "",
+              "display": "",
+              "priorityList": "PL_FightPreferRanged",
+              "aiConfig": "",
+              "categories": [],
+              "powersets": [],
+              "powers": []
+            }
+          },
+          {
+            "attrib": [
+              "ENT_CREATE"
+            ],
+            "aspect": "MODIFIERS",
+            "applicationType": "TICK",
+            "type": "MAGNITUDE",
+            "target": "AFFECTED",
+            "targetInfo": [],
+            "table": "Ranged_Ones",
+            "scale": -2,
+            "duration": 0,
+            "magnitude": 1,
+            "durationExpr": [],
+            "magnitudeExpr": [],
+            "delay": 0,
+            "period": 0,
+            "tickChance": 1,
+            "delayedRequires": [],
+            "casterStack": "INDIVIDUAL",
+            "stack": "IGNORE",
+            "stackLimit": 2,
+            "stackKey": 4294967295,
+            "cancelEvents": [],
+            "suppress": [],
+            "boostModAllowed": "SMASHING_DMG",
+            "flags": [
+              "ignoreResistance",
+              "ignoreStrength",
+              "combatModMagnitude",
+              "noTokenTime"
+            ],
+            "messages": [
+              {
+                "attackerHit": "",
+                "victimHit": "",
+                "float": "P3183324880",
+                "defenseFloat": ""
+              }
+            ],
+            "params": {
+              "entityDef": "Apparitions_Fractured_Spirit",
+              "class": "",
+              "costumeName": "",
+              "display": "",
+              "priorityList": "PL_FightPreferRanged",
+              "aiConfig": "",
+              "categories": [],
+              "powersets": [],
+              "powers": []
+            }
+          }
+        ],
+        "effect": []
+      }
+    ],
+    "ignoreStrength": false,
+    "showBuffIcon": true,
+    "showInInventory": "DEFAULT",
+    "showInManage": true,
+    "showInInfo": true,
+    "deletable": false,
+    "tradeable": false,
+    "maxBoosts": 6,
+    "doNotSave": false,
+    "boostFlags": [
+      "boostTradeable",
+      "boostCombinable"
+    ],
+    "boostCatalystConversion": "",
+    "storeProduct": "",
+    "boostLicenseLevel": 999,
+    "minSlotLevel": -3,
+    "maxSlotLevel": 49,
+    "maxBoostLevel": 50,
+    "var": [],
+    "toggleDroppable": "SOMETIMES",
+    "procAllowed": "ALL",
+    "strengthsDisallowed": [],
+    "procMainTargetOnly": false,
+    "animMainTargetOnly": false,
+    "highlightEval": [],
+    "highlightIcon": "",
+    "highlightRing": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0
+    },
+    "travelSuppression": 0,
+    "preferenceMultiplier": 999,
+    "dontSetStance": false,
+    "pointValue": 0,
+    "pointMultiplier": 0,
+    "chainIntoPower": "",
+    "instanceLocked": false,
+    "isEnvironmentHit": false,
+    "shuffleTargets": false,
+    "forceLevelBought": -1,
+    "refreshesOnActivePlayerChange": false,
+    "cancelable": false,
+    "ignoreToggleMaxDistance": false,
+    "serverTrayPriority": 0,
+    "serverTrayRequires": [],
+    "abusiveBuff": true
+  }
+}

@@ -1,0 +1,729 @@
+{
+  "autoIssue": false,
+  "autoIssueSaveLevel": false,
+  "free": false,
+  "display": "P1813440506",
+  "help": "P805744800",
+  "shortHelp": "P335947475",
+  "targetHelp": "",
+  "targetShortHelp": "",
+  "attackerAttack": "",
+  "attackerAttackFloater": "",
+  "attackerHit": "",
+  "victimHit": "",
+  "confirm": "",
+  "floatRewarded": "",
+  "powerDefenseFloat": "",
+  "icon": "Invulnerability_ToughHide.tga",
+  "type": "AUTO",
+  "numAllowed": 1,
+  "attackTypes": [],
+  "buyRequires": [],
+  "activateRequires": [],
+  "slotRequires": [],
+  "targetRequires": [],
+  "rewardRequires": [],
+  "auctionRequires": [],
+  "rewardFallback": "",
+  "accuracy": 0,
+  "castFlags": [],
+  "aiReport": "ALWAYS",
+  "effectArea": "CHARACTER",
+  "maxTargetsHit": 0,
+  "unknown": 0,
+  "radius": 0,
+  "arc": 0,
+  "chainDelay": 0,
+  "chainEff": [],
+  "chainFork": [],
+  "boxOffset": [
+    0,
+    0,
+    0
+  ],
+  "boxSize": [
+    0,
+    0,
+    0
+  ],
+  "range": 0,
+  "rangeSecondary": 0,
+  "timeToActivate": 0,
+  "rechargeTime": 0,
+  "activatePeriod": 15,
+  "enduranceCost": 0,
+  "ideaCost": 0,
+  "timeToConfirm": 0,
+  "selfConfirm": 0,
+  "confirmRequires": [],
+  "destroyOnLimit": true,
+  "stackingUsage": false,
+  "numCharges": 0,
+  "maxNumCharges": 0,
+  "usageTime": 0,
+  "maxUsageTime": 0,
+  "lifetime": 0,
+  "maxLifetime": 0,
+  "lifetimeInGame": 0,
+  "maxLifetimeInGame": 0,
+  "interruptTime": 0,
+  "targetVisibility": "LINE_OF_SIGHT",
+  "target": "CASTER",
+  "targetSecondary": "NONE",
+  "autoHit": [
+    "CASTER"
+  ],
+  "affected": [
+    "CASTER"
+  ],
+  "targetsThroughVisionPhase": false,
+  "boostsAllowed": [],
+  "groupMembership": [],
+  "modesRequired": [],
+  "modesDisallowed": [
+    "NOT_IN_COMBAT"
+  ],
+  "aiGroups": [],
+  "redirect": [],
+  "effects": [
+    {
+      "tag": [
+        "Ones"
+      ],
+      "chance": 1,
+      "procsPerMinute": 0,
+      "delay": 0,
+      "radiusInner": -1,
+      "radiusOuter": -1,
+      "requires": [
+        "kNotInCombat",
+        "Source.Mode?",
+        "!"
+      ],
+      "flags": [],
+      "evalFlags": 0,
+      "attribMod": [
+        {
+          "attrib": [
+            "ENT_CREATE"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "SELF",
+          "targetInfo": [],
+          "table": "Melee_Ones",
+          "scale": -1,
+          "duration": 300,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 1,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK_THEN_IGNORE",
+          "stackLimit": 4,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "ignoreStrength",
+            "combatModMagnitude",
+            "noTokenTime"
+          ],
+          "messages": [],
+          "params": {
+            "entityDef": "Neuron_Neuron_Clone_AlphaStrike",
+            "class": "",
+            "costumeName": "",
+            "display": "",
+            "priorityList": "PL_UseAIConfig",
+            "aiConfig": "",
+            "categories": [],
+            "powersets": [],
+            "powers": []
+          }
+        },
+        {
+          "attrib": [
+            "ENT_CREATE"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "SELF",
+          "targetInfo": [],
+          "table": "Melee_Ones",
+          "scale": -1,
+          "duration": 300,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 1,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK_THEN_IGNORE",
+          "stackLimit": 4,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "ignoreStrength",
+            "combatModMagnitude",
+            "noTokenTime"
+          ],
+          "messages": [],
+          "params": {
+            "entityDef": "Neuron_Neuron_Clone_AlphaStrike",
+            "class": "",
+            "costumeName": "",
+            "display": "",
+            "priorityList": "PL_UseAIConfig",
+            "aiConfig": "",
+            "categories": [],
+            "powersets": [],
+            "powers": []
+          }
+        },
+        {
+          "attrib": [
+            "ENT_CREATE"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "SELF",
+          "targetInfo": [],
+          "table": "Melee_Ones",
+          "scale": -1,
+          "duration": 300,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 1.5,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK_THEN_IGNORE",
+          "stackLimit": 4,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "ignoreStrength",
+            "combatModMagnitude",
+            "noTokenTime"
+          ],
+          "messages": [],
+          "params": {
+            "entityDef": "Neuron_Neuron_Clone_AlphaStrike",
+            "class": "",
+            "costumeName": "",
+            "display": "",
+            "priorityList": "PL_UseAIConfig",
+            "aiConfig": "",
+            "categories": [],
+            "powersets": [],
+            "powers": []
+          }
+        },
+        {
+          "attrib": [
+            "ENT_CREATE"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "SELF",
+          "targetInfo": [],
+          "table": "Melee_Ones",
+          "scale": -1,
+          "duration": 300,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 1.5,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK_THEN_IGNORE",
+          "stackLimit": 4,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "ignoreStrength",
+            "combatModMagnitude",
+            "noTokenTime"
+          ],
+          "messages": [],
+          "params": {
+            "entityDef": "Neuron_Neuron_Clone_AlphaStrike",
+            "class": "",
+            "costumeName": "",
+            "display": "",
+            "priorityList": "PL_UseAIConfig",
+            "aiConfig": "",
+            "categories": [],
+            "powersets": [],
+            "powers": []
+          }
+        }
+      ],
+      "effect": []
+    },
+    {
+      "tag": [
+        "NeuronClone"
+      ],
+      "chance": -1,
+      "procsPerMinute": 0,
+      "delay": 0,
+      "radiusInner": -1,
+      "radiusOuter": -1,
+      "requires": [
+        "kNotInCombat",
+        "Source.Mode?",
+        "!"
+      ],
+      "flags": [],
+      "evalFlags": 0,
+      "attribMod": [
+        {
+          "attrib": [
+            "ENT_CREATE"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "SELF",
+          "targetInfo": [],
+          "table": "Melee_Ones",
+          "scale": -1,
+          "duration": 300,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 2,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK_THEN_IGNORE",
+          "stackLimit": 4,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "ignoreStrength",
+            "combatModMagnitude",
+            "noTokenTime"
+          ],
+          "messages": [],
+          "params": {
+            "entityDef": "Neuron_Neuron_Clone_AlphaStrike",
+            "class": "",
+            "costumeName": "",
+            "display": "",
+            "priorityList": "PL_UseAIConfig",
+            "aiConfig": "",
+            "categories": [],
+            "powersets": [],
+            "powers": []
+          }
+        }
+      ],
+      "effect": []
+    },
+    {
+      "tag": [
+        "NeuronClone"
+      ],
+      "chance": -2,
+      "procsPerMinute": 0,
+      "delay": 0,
+      "radiusInner": -1,
+      "radiusOuter": -1,
+      "requires": [
+        "kNotInCombat",
+        "Source.Mode?",
+        "!"
+      ],
+      "flags": [],
+      "evalFlags": 0,
+      "attribMod": [
+        {
+          "attrib": [
+            "ENT_CREATE"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "SELF",
+          "targetInfo": [],
+          "table": "Melee_Ones",
+          "scale": -1,
+          "duration": 300,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 2,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK_THEN_IGNORE",
+          "stackLimit": 4,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "ignoreStrength",
+            "combatModMagnitude",
+            "noTokenTime"
+          ],
+          "messages": [],
+          "params": {
+            "entityDef": "Neuron_Neuron_Clone_AlphaStrike",
+            "class": "",
+            "costumeName": "",
+            "display": "",
+            "priorityList": "PL_UseAIConfig",
+            "aiConfig": "",
+            "categories": [],
+            "powersets": [],
+            "powers": []
+          }
+        }
+      ],
+      "effect": []
+    },
+    {
+      "tag": [
+        "NeuronClone"
+      ],
+      "chance": -3,
+      "procsPerMinute": 0,
+      "delay": 0,
+      "radiusInner": -1,
+      "radiusOuter": -1,
+      "requires": [
+        "kNotInCombat",
+        "Source.Mode?",
+        "!"
+      ],
+      "flags": [],
+      "evalFlags": 0,
+      "attribMod": [
+        {
+          "attrib": [
+            "ENT_CREATE"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "SELF",
+          "targetInfo": [],
+          "table": "Melee_Ones",
+          "scale": -1,
+          "duration": 300,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 2.5,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK_THEN_IGNORE",
+          "stackLimit": 4,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "ignoreStrength",
+            "combatModMagnitude",
+            "noTokenTime"
+          ],
+          "messages": [],
+          "params": {
+            "entityDef": "Neuron_Neuron_Clone_AlphaStrike",
+            "class": "",
+            "costumeName": "",
+            "display": "",
+            "priorityList": "PL_UseAIConfig",
+            "aiConfig": "",
+            "categories": [],
+            "powersets": [],
+            "powers": []
+          }
+        }
+      ],
+      "effect": []
+    },
+    {
+      "tag": [
+        "NeuronClone"
+      ],
+      "chance": -4,
+      "procsPerMinute": 0,
+      "delay": 0,
+      "radiusInner": -1,
+      "radiusOuter": -1,
+      "requires": [
+        "kNotInCombat",
+        "Source.Mode?",
+        "!"
+      ],
+      "flags": [],
+      "evalFlags": 0,
+      "attribMod": [
+        {
+          "attrib": [
+            "ENT_CREATE"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "SELF",
+          "targetInfo": [],
+          "table": "Melee_Ones",
+          "scale": -1,
+          "duration": 300,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 2.5,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK_THEN_IGNORE",
+          "stackLimit": 4,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "ignoreStrength",
+            "combatModMagnitude",
+            "noTokenTime"
+          ],
+          "messages": [],
+          "params": {
+            "entityDef": "Neuron_Neuron_Clone_AlphaStrike",
+            "class": "",
+            "costumeName": "",
+            "display": "",
+            "priorityList": "PL_UseAIConfig",
+            "aiConfig": "",
+            "categories": [],
+            "powersets": [],
+            "powers": []
+          }
+        }
+      ],
+      "effect": []
+    },
+    {
+      "tag": [
+        "NeuronClone"
+      ],
+      "chance": -5,
+      "procsPerMinute": 0,
+      "delay": 0,
+      "radiusInner": -1,
+      "radiusOuter": -1,
+      "requires": [
+        "kNotInCombat",
+        "Source.Mode?",
+        "!"
+      ],
+      "flags": [],
+      "evalFlags": 0,
+      "attribMod": [
+        {
+          "attrib": [
+            "ENT_CREATE"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "SELF",
+          "targetInfo": [],
+          "table": "Melee_Ones",
+          "scale": -1,
+          "duration": 300,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 3,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK_THEN_IGNORE",
+          "stackLimit": 4,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "ignoreStrength",
+            "combatModMagnitude",
+            "noTokenTime"
+          ],
+          "messages": [],
+          "params": {
+            "entityDef": "Neuron_Neuron_Clone_AlphaStrike",
+            "class": "",
+            "costumeName": "",
+            "display": "",
+            "priorityList": "PL_UseAIConfig",
+            "aiConfig": "",
+            "categories": [],
+            "powersets": [],
+            "powers": []
+          }
+        }
+      ],
+      "effect": []
+    },
+    {
+      "tag": [
+        "NeuronClone"
+      ],
+      "chance": -6,
+      "procsPerMinute": 0,
+      "delay": 0,
+      "radiusInner": -1,
+      "radiusOuter": -1,
+      "requires": [
+        "kNotInCombat",
+        "Source.Mode?",
+        "!"
+      ],
+      "flags": [],
+      "evalFlags": 0,
+      "attribMod": [
+        {
+          "attrib": [
+            "ENT_CREATE"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "SELF",
+          "targetInfo": [],
+          "table": "Melee_Ones",
+          "scale": -1,
+          "duration": 300,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 3,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK_THEN_IGNORE",
+          "stackLimit": 4,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "ignoreStrength",
+            "combatModMagnitude",
+            "noTokenTime"
+          ],
+          "messages": [],
+          "params": {
+            "entityDef": "Neuron_Neuron_Clone_AlphaStrike",
+            "class": "",
+            "costumeName": "",
+            "display": "",
+            "priorityList": "PL_UseAIConfig",
+            "aiConfig": "",
+            "categories": [],
+            "powersets": [],
+            "powers": []
+          }
+        }
+      ],
+      "effect": []
+    }
+  ],
+  "ignoreStrength": false,
+  "showBuffIcon": true,
+  "showInInventory": "DEFAULT",
+  "showInManage": true,
+  "showInInfo": true,
+  "deletable": false,
+  "tradeable": false,
+  "maxBoosts": 6,
+  "doNotSave": false,
+  "boostFlags": [
+    "boostTradeable",
+    "boostCombinable"
+  ],
+  "boostCatalystConversion": "",
+  "storeProduct": "",
+  "boostLicenseLevel": 999,
+  "minSlotLevel": -3,
+  "maxSlotLevel": 49,
+  "maxBoostLevel": 50,
+  "var": [],
+  "toggleDroppable": "SOMETIMES",
+  "procAllowed": "ALL",
+  "strengthsDisallowed": [],
+  "procMainTargetOnly": false,
+  "animMainTargetOnly": false,
+  "highlightEval": [],
+  "highlightIcon": "",
+  "highlightRing": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 0
+  },
+  "travelSuppression": 0,
+  "preferenceMultiplier": 1,
+  "dontSetStance": false,
+  "pointValue": 0,
+  "pointMultiplier": 0,
+  "chainIntoPower": "",
+  "instanceLocked": false,
+  "isEnvironmentHit": false,
+  "shuffleTargets": false,
+  "forceLevelBought": -1,
+  "refreshesOnActivePlayerChange": false,
+  "cancelable": false,
+  "ignoreToggleMaxDistance": false,
+  "serverTrayPriority": 0,
+  "serverTrayRequires": [],
+  "abusiveBuff": true
+}

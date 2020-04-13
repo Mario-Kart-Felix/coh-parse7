@@ -14,10 +14,10 @@ types:
   classes_struct:
     seq:
       - {id: len, type: u4}
-      - {id: value, type: classes_item, size: len}
+      - {id: key, type: string}
+      - {id: value, type: classes_item, size: len - 4}
   classes_item:
     seq:
-      - {id: name, type: string}
       - {id: display, type: string}
       - {id: help, type: string}
       - {id: origins, type: string_array}
@@ -59,10 +59,10 @@ types:
   named_table_struct:
     seq:
       - {id: len, type: u4}
-      - {id: value, type: named_table, size: len}
+      - {id: key, type: string}
+      - {id: value, type: named_table, size: len - 4}
   named_table:
     seq:
-      - {id: key, type: string}
       - {id: value, type: f4array(1)}
   attributes_array:
     params:

@@ -1,0 +1,272 @@
+{
+  "autoIssue": false,
+  "autoIssueSaveLevel": false,
+  "free": true,
+  "display": "P3207869624",
+  "help": "P2422738312",
+  "shortHelp": "P3439946572",
+  "targetHelp": "",
+  "targetShortHelp": "",
+  "attackerAttack": "",
+  "attackerAttackFloater": "",
+  "attackerHit": "",
+  "victimHit": "",
+  "confirm": "",
+  "floatRewarded": "",
+  "powerDefenseFloat": "",
+  "icon": "Temporary_MeleeModerateDamage.tga",
+  "type": "CLICK",
+  "numAllowed": 1,
+  "attackTypes": [
+    "MELEE_DEF",
+    "SMASHING_DEF"
+  ],
+  "buyRequires": [],
+  "activateRequires": [],
+  "slotRequires": [],
+  "targetRequires": [],
+  "rewardRequires": [],
+  "auctionRequires": [],
+  "rewardFallback": "",
+  "accuracy": 1,
+  "castFlags": [],
+  "aiReport": "ALWAYS",
+  "effectArea": "CHARACTER",
+  "maxTargetsHit": 0,
+  "unknown": 0,
+  "radius": 0,
+  "arc": 0,
+  "chainDelay": 0,
+  "chainEff": [],
+  "chainFork": [],
+  "boxOffset": [
+    0,
+    0,
+    0
+  ],
+  "boxSize": [
+    0,
+    0,
+    0
+  ],
+  "range": 7,
+  "rangeSecondary": 0,
+  "timeToActivate": 1.8300000429153442,
+  "rechargeTime": 3,
+  "activatePeriod": 0,
+  "enduranceCost": 3.25,
+  "ideaCost": 0,
+  "timeToConfirm": 0,
+  "selfConfirm": 0,
+  "confirmRequires": [],
+  "destroyOnLimit": true,
+  "stackingUsage": false,
+  "numCharges": 100,
+  "maxNumCharges": 100,
+  "usageTime": 0,
+  "maxUsageTime": 0,
+  "lifetime": 0,
+  "maxLifetime": 0,
+  "lifetimeInGame": 0,
+  "maxLifetimeInGame": 0,
+  "interruptTime": 0,
+  "targetVisibility": "LINE_OF_SIGHT",
+  "target": "ANY",
+  "targetSecondary": "NONE",
+  "autoHit": [
+    "NONE"
+  ],
+  "affected": [
+    "ANY"
+  ],
+  "targetsThroughVisionPhase": false,
+  "boostsAllowed": [],
+  "groupMembership": [],
+  "modesRequired": [],
+  "modesDisallowed": [
+    "DISABLE_TEMP",
+    "DISABLE_ALL"
+  ],
+  "aiGroups": [],
+  "redirect": [],
+  "effects": [
+    {
+      "tag": [
+        "Ones"
+      ],
+      "chance": 1,
+      "procsPerMinute": 0,
+      "delay": 0,
+      "radiusInner": -1,
+      "radiusOuter": -1,
+      "requires": [
+        "enttype",
+        "target>",
+        "critter",
+        "eq"
+      ],
+      "flags": [],
+      "evalFlags": 0,
+      "attribMod": [
+        {
+          "attrib": [
+            "SMASHING_DMG"
+          ],
+          "aspect": "ABSOLUTE",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "AFFECTED",
+          "targetInfo": [],
+          "table": "Melee_TempDamage",
+          "scale": 0.36000001430511475,
+          "duration": 0,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 0,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK",
+          "stackLimit": 2,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "resistMagnitude",
+            "combatModMagnitude"
+          ],
+          "messages": [
+            {
+              "attackerHit": "P119576033",
+              "victimHit": "P1719855107",
+              "float": "",
+              "defenseFloat": ""
+            }
+          ],
+          "params": {
+            "recType": 0
+          }
+        }
+      ],
+      "effect": []
+    },
+    {
+      "tag": [
+        "Ones"
+      ],
+      "chance": 1,
+      "procsPerMinute": 0,
+      "delay": 0,
+      "radiusInner": -1,
+      "radiusOuter": -1,
+      "requires": [
+        "enttype",
+        "target>",
+        "player",
+        "eq"
+      ],
+      "flags": [],
+      "evalFlags": 0,
+      "attribMod": [
+        {
+          "attrib": [
+            "RUNNING_SPEED"
+          ],
+          "aspect": "ABSOLUTE",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "AFFECTED",
+          "targetInfo": [],
+          "table": "Melee_Ones",
+          "scale": 0,
+          "duration": 0,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 0,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK",
+          "stackLimit": 2,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "ignoreStrength",
+            "combatModMagnitude"
+          ],
+          "messages": [
+            {
+              "attackerHit": "P940528378",
+              "victimHit": "P260398696",
+              "float": "",
+              "defenseFloat": ""
+            }
+          ],
+          "params": {
+            "recType": 0
+          }
+        }
+      ],
+      "effect": []
+    }
+  ],
+  "ignoreStrength": false,
+  "showBuffIcon": true,
+  "showInInventory": "DEFAULT",
+  "showInManage": true,
+  "showInInfo": true,
+  "deletable": true,
+  "tradeable": false,
+  "maxBoosts": 0,
+  "doNotSave": false,
+  "boostFlags": [
+    "boostTradeable",
+    "boostCombinable"
+  ],
+  "boostCatalystConversion": "",
+  "storeProduct": "",
+  "boostLicenseLevel": 999,
+  "minSlotLevel": -3,
+  "maxSlotLevel": 49,
+  "maxBoostLevel": 50,
+  "var": [],
+  "toggleDroppable": "SOMETIMES",
+  "procAllowed": "ALL",
+  "strengthsDisallowed": [
+    "RANGE"
+  ],
+  "procMainTargetOnly": false,
+  "animMainTargetOnly": false,
+  "highlightEval": [],
+  "highlightIcon": "",
+  "highlightRing": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 0
+  },
+  "travelSuppression": 1,
+  "preferenceMultiplier": 1,
+  "dontSetStance": false,
+  "pointValue": 0,
+  "pointMultiplier": 0,
+  "chainIntoPower": "",
+  "instanceLocked": false,
+  "isEnvironmentHit": false,
+  "shuffleTargets": false,
+  "forceLevelBought": -1,
+  "refreshesOnActivePlayerChange": false,
+  "cancelable": false,
+  "ignoreToggleMaxDistance": false,
+  "serverTrayPriority": 0,
+  "serverTrayRequires": [],
+  "abusiveBuff": true
+}

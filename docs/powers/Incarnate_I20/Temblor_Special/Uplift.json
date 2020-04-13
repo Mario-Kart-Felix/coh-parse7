@@ -1,0 +1,419 @@
+{
+  "autoIssue": false,
+  "autoIssueSaveLevel": false,
+  "free": false,
+  "display": "P1181358392",
+  "help": "P507640528",
+  "shortHelp": "P2644570344",
+  "targetHelp": "",
+  "targetShortHelp": "",
+  "attackerAttack": "",
+  "attackerAttackFloater": "P1660367556",
+  "attackerHit": "",
+  "victimHit": "",
+  "confirm": "",
+  "floatRewarded": "",
+  "powerDefenseFloat": "",
+  "icon": "StoneMelee_Tremor.tga",
+  "type": "CLICK",
+  "numAllowed": 1,
+  "attackTypes": [
+    "AREA_DEF",
+    "SMASHING_DEF"
+  ],
+  "buyRequires": [],
+  "activateRequires": [],
+  "slotRequires": [],
+  "targetRequires": [],
+  "rewardRequires": [],
+  "auctionRequires": [],
+  "rewardFallback": "",
+  "accuracy": 2,
+  "castFlags": [],
+  "aiReport": "ALWAYS",
+  "effectArea": "SPHERE",
+  "maxTargetsHit": 255,
+  "unknown": 0,
+  "radius": 90,
+  "arc": 0,
+  "chainDelay": 0,
+  "chainEff": [],
+  "chainFork": [],
+  "boxOffset": [
+    0,
+    0,
+    0
+  ],
+  "boxSize": [
+    0,
+    0,
+    0
+  ],
+  "range": 0,
+  "rangeSecondary": 0,
+  "timeToActivate": 3.299999952316284,
+  "rechargeTime": 0,
+  "activatePeriod": 0,
+  "enduranceCost": 0,
+  "ideaCost": 0,
+  "timeToConfirm": 0,
+  "selfConfirm": 0,
+  "confirmRequires": [],
+  "destroyOnLimit": true,
+  "stackingUsage": false,
+  "numCharges": 0,
+  "maxNumCharges": 0,
+  "usageTime": 0,
+  "maxUsageTime": 0,
+  "lifetime": 0,
+  "maxLifetime": 0,
+  "lifetimeInGame": 0,
+  "maxLifetimeInGame": 0,
+  "interruptTime": 0,
+  "targetVisibility": "LINE_OF_SIGHT",
+  "target": "CASTER",
+  "targetSecondary": "NONE",
+  "autoHit": [
+    "ANY"
+  ],
+  "affected": [
+    "ANY"
+  ],
+  "targetsThroughVisionPhase": false,
+  "boostsAllowed": [],
+  "groupMembership": [],
+  "modesRequired": [],
+  "modesDisallowed": [],
+  "aiGroups": [],
+  "redirect": [],
+  "effects": [
+    {
+      "tag": [
+        "Ones"
+      ],
+      "chance": 1,
+      "procsPerMinute": 0,
+      "delay": 0,
+      "radiusInner": -1,
+      "radiusOuter": -1,
+      "requires": [
+        "kEnraged",
+        "Source.Mode?",
+        "@ToHitRoll",
+        "@ToHit",
+        "<",
+        "@ForceHit",
+        "||",
+        "&&"
+      ],
+      "flags": [],
+      "evalFlags": 2,
+      "attribMod": [
+        {
+          "attrib": [
+            "KNOCKUP"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "AFFECTED",
+          "targetInfo": [],
+          "table": "Melee_Knockback",
+          "scale": 10,
+          "duration": 0,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 0,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK",
+          "stackLimit": 2,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "combatModMagnitude"
+          ],
+          "messages": [
+            {
+              "attackerHit": "P1956156720",
+              "victimHit": "P3390955917",
+              "float": "",
+              "defenseFloat": ""
+            }
+          ],
+          "params": {
+            "recType": 0
+          }
+        }
+      ],
+      "effect": []
+    },
+    {
+      "tag": [
+        "Ones"
+      ],
+      "chance": 1,
+      "procsPerMinute": 0,
+      "delay": 0,
+      "radiusInner": -1,
+      "radiusOuter": -1,
+      "requires": [
+        "kEnraged",
+        "Source.Mode?",
+        "!",
+        "@ToHitRoll",
+        "@ToHit",
+        "<",
+        "@ForceHit",
+        "||",
+        "&&"
+      ],
+      "flags": [],
+      "evalFlags": 2,
+      "attribMod": [
+        {
+          "attrib": [
+            "KNOCKUP"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "EXPRESSION",
+          "target": "AFFECTED",
+          "targetInfo": [],
+          "table": "Melee_Knockback",
+          "scale": 10,
+          "duration": 0,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [
+            "Mod.kKnockup",
+            "target>",
+            "negate",
+            "10",
+            "+"
+          ],
+          "delay": 0,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK",
+          "stackLimit": 2,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "combatModMagnitude"
+          ],
+          "messages": [
+            {
+              "attackerHit": "P1956156720",
+              "victimHit": "P3390955917",
+              "float": "",
+              "defenseFloat": ""
+            }
+          ],
+          "params": {
+            "recType": 0
+          }
+        }
+      ],
+      "effect": []
+    },
+    {
+      "tag": [
+        "Ones"
+      ],
+      "chance": 1,
+      "procsPerMinute": 0,
+      "delay": 0,
+      "radiusInner": -1,
+      "radiusOuter": 15,
+      "requires": [
+        "PraetorianIDF_Fusion",
+        "target.VillainName>"
+      ],
+      "flags": [],
+      "evalFlags": 0,
+      "attribMod": [
+        {
+          "attrib": [
+            "KNOCKUP"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "AFFECTED",
+          "targetInfo": [],
+          "table": "Melee_Knockback",
+          "scale": 124,
+          "duration": 0,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 0,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK",
+          "stackLimit": 2,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreResistance",
+            "combatModMagnitude"
+          ],
+          "messages": [
+            {
+              "attackerHit": "P1956156720",
+              "victimHit": "P3390955917",
+              "float": "",
+              "defenseFloat": ""
+            }
+          ],
+          "params": {
+            "recType": 0
+          }
+        },
+        {
+          "attrib": [
+            "SET_MODE"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "CONSTANT",
+          "target": "AFFECTED",
+          "targetInfo": [],
+          "table": "Melee_Ones",
+          "scale": 1,
+          "duration": 10.300000190734863,
+          "magnitude": 90,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 0,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "REPLACE",
+          "stackLimit": 2,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreCombatMods",
+            "ignoreResistance",
+            "ignoreStrength"
+          ],
+          "messages": [],
+          "params": {
+            "recType": 0
+          }
+        },
+        {
+          "attrib": [
+            "GRANT_POWER"
+          ],
+          "aspect": "MODIFIERS",
+          "applicationType": "TICK",
+          "type": "MAGNITUDE",
+          "target": "AFFECTED",
+          "targetInfo": [],
+          "table": "Melee_Ones",
+          "scale": 1,
+          "duration": 1,
+          "magnitude": 1,
+          "durationExpr": [],
+          "magnitudeExpr": [],
+          "delay": 0,
+          "period": 0,
+          "tickChance": 1,
+          "delayedRequires": [],
+          "casterStack": "INDIVIDUAL",
+          "stack": "STACK",
+          "stackLimit": 2,
+          "stackKey": 4294967295,
+          "cancelEvents": [],
+          "suppress": [],
+          "boostModAllowed": "SMASHING_DMG",
+          "flags": [
+            "ignoreCombatMods",
+            "ignoreResistance",
+            "ignoreStrength"
+          ],
+          "messages": [],
+          "params": {
+            "categories": [],
+            "powersets": [],
+            "powers": [
+              "Incarnate_I20.Fusion_Special.Ow"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "effect": []
+    }
+  ],
+  "ignoreStrength": false,
+  "showBuffIcon": true,
+  "showInInventory": "DEFAULT",
+  "showInManage": true,
+  "showInInfo": true,
+  "deletable": false,
+  "tradeable": false,
+  "maxBoosts": 6,
+  "doNotSave": false,
+  "boostFlags": [
+    "boostTradeable",
+    "boostCombinable"
+  ],
+  "boostCatalystConversion": "",
+  "storeProduct": "",
+  "boostLicenseLevel": 999,
+  "minSlotLevel": -3,
+  "maxSlotLevel": 49,
+  "maxBoostLevel": 50,
+  "var": [],
+  "toggleDroppable": "SOMETIMES",
+  "procAllowed": "ALL",
+  "strengthsDisallowed": [],
+  "procMainTargetOnly": false,
+  "animMainTargetOnly": false,
+  "highlightEval": [],
+  "highlightIcon": "",
+  "highlightRing": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 0
+  },
+  "travelSuppression": 0,
+  "preferenceMultiplier": -1,
+  "dontSetStance": false,
+  "pointValue": 0,
+  "pointMultiplier": 0,
+  "chainIntoPower": "",
+  "instanceLocked": false,
+  "isEnvironmentHit": false,
+  "shuffleTargets": false,
+  "forceLevelBought": -1,
+  "refreshesOnActivePlayerChange": false,
+  "cancelable": false,
+  "ignoreToggleMaxDistance": false,
+  "serverTrayPriority": 0,
+  "serverTrayRequires": [],
+  "abusiveBuff": true
+}

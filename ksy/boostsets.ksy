@@ -14,10 +14,10 @@ types:
   boostset_struct:
     seq:
       - {id: len, type: u4}
-      - {id: value, size: len, type: boostset}
+      - {id: key, type: string}
+      - {id: value, size: len - 4, type: boostset}
   boostset:
     seq:
-      - {id: name, type: string}
       - {id: display, type: string}
       - {id: group, type: string}
       - {id: conversions, type: conversion_group_array}

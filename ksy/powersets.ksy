@@ -14,13 +14,13 @@ types:
   powerset_struct:
     seq:
       - {id: len, type: u4}
-      - {id: value, type: powerset, size: len}
+      - {id: source, type: string}
+      - {id: key, type: string}
+      - {id: value, type: powerset, size: len - 8}
     -webide-representation: "{value.fullName}"
   powerset:
     seq:
-      - {id: source, type: string}
-      - {id: full_name, type: string}
-      - {id: name, type: string}
+      - {type: string, doc: 'name'}
       - {id: system, type: u4}
       - {id: shared, type: u4}
       - {id: display, type: string}
@@ -60,6 +60,6 @@ types:
       - {id: len, type: u2}
       - {id: value, type: str, size: len}
       - {id: pad, size: (4 - _io.pos) % 4}
-  header: {seq: [{size: 20},{id: s, type: u4},{size: ((s-1)/4+1)*4}]}
+  header: {seq: [{size: 20},{id: s, type: u4},{size: s + (4 - s) % 4}]}
   string: {seq: [{id: ofs, type: u4}], instances: {value: {pos: ofs+24, type: strz, io: _root._io}},-webide-representation: "{value}"}
   string_array: {seq: [{id: count, type: u4}, {id: value, type: string, repeat: expr, repeat-expr: count}]}

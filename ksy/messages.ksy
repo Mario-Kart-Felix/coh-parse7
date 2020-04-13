@@ -6,7 +6,7 @@ seq:
   - {type: u4}
   - {id: strings, type: strings}
   - {id: vars, type: strings}
-  - {id: stash, type: stash}
+  - {id: value, type: stash}
 types:
   strings:
     seq:

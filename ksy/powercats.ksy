@@ -14,11 +14,11 @@ types:
   powercat_struct:
     seq:
       - {id: len, type: u4}
-      - {id: value, type: powercat, size: len}
+      - {id: source, type: string}
+      - {id: key, type: string}
+      - {id: value, type: powercat, size: len - 8}
   powercat:
     seq:
-      - {id: source, type: string}
-      - {id: name, type: string}
       - {id: display, type: string}
       - {id: help, type: string}
       - {id: short_help, type: string}

@@ -14,14 +14,25 @@ var Messages = (function() {
     this._io = _io;
     this._parent = _parent;
     this._root = _root || this;
+    this._debug = {};
 
-    this._read();
   }
   Messages.prototype._read = function() {
+    this._debug._unnamed0 = { start: this._io.pos, ioOffset: this._io.byteOffset };
     this._unnamed0 = this._io.readU4le();
+    this._debug._unnamed0.end = this._io.pos;
+    this._debug.strings = { start: this._io.pos, ioOffset: this._io.byteOffset };
     this.strings = new Strings(this._io, this, this._root);
+    this.strings._read();
+    this._debug.strings.end = this._io.pos;
+    this._debug.vars = { start: this._io.pos, ioOffset: this._io.byteOffset };
     this.vars = new Strings(this._io, this, this._root);
-    this.stash = new Stash(this._io, this, this._root);
+    this.vars._read();
+    this._debug.vars.end = this._io.pos;
+    this._debug.value = { start: this._io.pos, ioOffset: this._io.byteOffset };
+    this.value = new Stash(this._io, this, this._root);
+    this.value._read();
+    this._debug.value.end = this._io.pos;
   }
 
   var Stash = Messages.Stash = (function() {
@@ -29,15 +40,24 @@ var Messages = (function() {
       this._io = _io;
       this._parent = _parent;
       this._root = _root || this;
+      this._debug = {};
 
-      this._read();
     }
     Stash.prototype._read = function() {
+      this._debug.count = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.count = this._io.readU4le();
+      this._debug.count.end = this._io.pos;
+      this._debug.value = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.value = new Array(this.count);
+      this._debug.value.arr = new Array(this.count);
       for (var i = 0; i < this.count; i++) {
-        this.value[i] = new Item(this._io, this, this._root);
+        this._debug.value.arr[i] = { start: this._io.pos, ioOffset: this._io.byteOffset };
+        var _t_value = new Item(this._io, this, this._root);
+        _t_value._read();
+        this.value[i] = _t_value;
+        this._debug.value.arr[i].end = this._io.pos;
       }
+      this._debug.value.end = this._io.pos;
     }
 
     return Stash;
@@ -48,16 +68,21 @@ var Messages = (function() {
       this._io = _io;
       this._parent = _parent;
       this._root = _root || this;
+      this._debug = {};
 
-      this._read();
     }
     String.prototype._read = function() {
+      this._debug.value = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.value = [];
+      this._debug.value.arr = [];
       var i = 0;
       while (!this._io.isEof()) {
+        this._debug.value.arr[this.value.length] = { start: this._io.pos, ioOffset: this._io.byteOffset };
         this.value.push(KaitaiStream.bytesToStr(this._io.readBytesTerm(0, false, true, true), "ascii"));
+        this._debug.value.arr[this.value.length - 1].end = this._io.pos;
         i++;
       }
+      this._debug.value.end = this._io.pos;
     }
 
     return String;
@@ -68,16 +93,19 @@ var Messages = (function() {
       this._io = _io;
       this._parent = _parent;
       this._root = _root || this;
+      this._debug = {};
 
-      this._read();
     }
     VarId.prototype._read = function() {
+      this._debug.index = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.index = this._io.readU4le();
+      this._debug.index.end = this._io.pos;
     }
     Object.defineProperty(VarId.prototype, 'value', {
       get: function() {
         if (this._m_value !== undefined)
           return this._m_value;
+        this._debug._m_value = {  };
         this._m_value = this._root.vars.value.value[this.index];
         return this._m_value;
       }
@@ -91,15 +119,22 @@ var Messages = (function() {
       this._io = _io;
       this._parent = _parent;
       this._root = _root || this;
+      this._debug = {};
 
-      this._read();
     }
     Strings.prototype._read = function() {
+      this._debug.count = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.count = this._io.readU4le();
+      this._debug.count.end = this._io.pos;
+      this._debug.len = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.len = this._io.readU4le();
+      this._debug.len.end = this._io.pos;
+      this._debug.value = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this._raw_value = this._io.readBytes(this.len);
       var _io__raw_value = new KaitaiStream(this._raw_value);
       this.value = new String(_io__raw_value, this, this._root);
+      this.value._read();
+      this._debug.value.end = this._io.pos;
     }
 
     return Strings;
@@ -110,16 +145,19 @@ var Messages = (function() {
       this._io = _io;
       this._parent = _parent;
       this._root = _root || this;
+      this._debug = {};
 
-      this._read();
     }
     StringId.prototype._read = function() {
+      this._debug.index = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.index = this._io.readU4le();
+      this._debug.index.end = this._io.pos;
     }
     Object.defineProperty(StringId.prototype, 'value', {
       get: function() {
         if (this._m_value !== undefined)
           return this._m_value;
+        this._debug._m_value = {  };
         this._m_value = this._root.strings.value.value[this.index];
         return this._m_value;
       }
@@ -133,12 +171,16 @@ var Messages = (function() {
       this._io = _io;
       this._parent = _parent;
       this._root = _root || this;
+      this._debug = {};
 
-      this._read();
     }
     U4string.prototype._read = function() {
+      this._debug.len = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.len = this._io.readU4le();
+      this._debug.len.end = this._io.pos;
+      this._debug.value = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.value = KaitaiStream.bytesToStr(this._io.readBytes(this.len), "ascii");
+      this._debug.value.end = this._io.pos;
     }
 
     return U4string;
@@ -149,15 +191,24 @@ var Messages = (function() {
       this._io = _io;
       this._parent = _parent;
       this._root = _root || this;
+      this._debug = {};
 
-      this._read();
     }
     VarArray.prototype._read = function() {
+      this._debug.count = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.count = this._io.readU4le();
+      this._debug.count.end = this._io.pos;
+      this._debug.value = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.value = new Array(this.count);
+      this._debug.value.arr = new Array(this.count);
       for (var i = 0; i < this.count; i++) {
-        this.value[i] = new VarId(this._io, this, this._root);
+        this._debug.value.arr[i] = { start: this._io.pos, ioOffset: this._io.byteOffset };
+        var _t_value = new VarId(this._io, this, this._root);
+        _t_value._read();
+        this.value[i] = _t_value;
+        this._debug.value.arr[i].end = this._io.pos;
       }
+      this._debug.value.end = this._io.pos;
     }
 
     return VarArray;
@@ -168,14 +219,26 @@ var Messages = (function() {
       this._io = _io;
       this._parent = _parent;
       this._root = _root || this;
+      this._debug = {};
 
-      this._read();
     }
     Item.prototype._read = function() {
+      this._debug.key = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.key = new U4string(this._io, this, this._root);
+      this.key._read();
+      this._debug.key.end = this._io.pos;
+      this._debug.value = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.value = new StringId(this._io, this, this._root);
+      this.value._read();
+      this._debug.value.end = this._io.pos;
+      this._debug.help = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.help = new StringId(this._io, this, this._root);
+      this.help._read();
+      this._debug.help.end = this._io.pos;
+      this._debug.vars = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.vars = new VarArray(this._io, this, this._root);
+      this.vars._read();
+      this._debug.vars.end = this._io.pos;
     }
 
     return Item;
