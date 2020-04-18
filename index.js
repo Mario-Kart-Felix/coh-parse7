@@ -1,7 +1,10 @@
+const { getConfig, findFile } = require("./config");
 const fs = require('fs');
 const zlib = require('zlib');
 const Pigg = require('./gen/Pigg');
+//for enums in eval()
 const Powers = require('./gen/Powers');
+const VillainDef = require('./gen/VillainDef');
 const KaitaiStream = require('kaitai-struct/KaitaiStream');
 KaitaiStream.processZlib = buf => buf.length ? zlib.inflateSync(buf) : buf;
 
@@ -15,16 +18,21 @@ const rename = {
     classes: 'archetypes'
 };
 
-const pigg = parse(Pigg, './bins/bin.pigg');
-for (let f in pigg) {
-    let str = JSON.stringify(pigg[f], null, 2);
-    if (str == '{}') continue;
-    let name = f.replace(/^bin\//, '').replace(/\.bin$/, '');
-    console.log(name);
-    writeFiles(replacePMessages(hierarchy(pigg[f]), pigg['bin/clientmessages-en.bin']), rename[name] || name, depth[name] || 0);
-}
-const powers = parse(Pigg, './bins/bin_powers.pigg')["bin/powers.bin"];
-writeFiles(hierarchy(powers), 'powers', 3, pigg['bin/clientmessages-en.bin']);
+getConfig().then(() => {
+    const pigg = parse(Pigg, findFile(`bin.pigg`));
+    for (let f in pigg) {
+        let str = JSON.stringify(pigg[f], null, 2);
+        if (str == '{}') continue;
+        let name = f.replace(/^bin\//, '').replace(/\.bin$/, '');
+        console.log(name);
+        writeFiles(replacePMessages(hierarchy(pigg[f]), pigg['bin/clientmessages-en.bin']), rename[name] || name, depth[name] || 0);
+    }
+    console.log('powers');
+    const powers = parse(Pigg, findFile(`bin_powers.pigg`))["bin/powers.bin"];
+    writeFiles(hierarchy(powers), 'powers', 3, pigg['bin/clientmessages-en.bin']);
+    console.log('done');
+    process.exit();
+});
 
 function hierarchy(input) {
     const output = {};
@@ -44,7 +52,10 @@ function hierarchy(input) {
 
 function replacePMessages(input, messages) {
     if (typeof input === 'string') return messages[input] || input;
-    if (typeof input === 'object') for (let i in input) input[i] = replacePMessages(input[i], messages);
+    if (typeof input === 'object') for (let i in input) {
+        if (i.match(/[Ii]con$/) && typeof input[i] === 'string') input[i] = input[i].replace(/\.tga$/, '.png');
+        else input[i] = replacePMessages(input[i], messages);
+    }
     return input;
 }
 

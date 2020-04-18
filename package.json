@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node --max-old-space-size=8192 index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ksc": "kaitai-struct-compiler --debug -t javascript -d gen ksy/*"
+    "ksc": "kaitai-struct-compiler --debug -t javascript -d gen ksy/*",
+    "bin": "kaitai-struct-compiler -t javascript -d gen ksy/bin.ksy"
   },
   "repository": {
     "type": "git",

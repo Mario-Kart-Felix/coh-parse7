@@ -2,13 +2,13 @@
 
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
-    define(['kaitai-struct/KaitaiStream', './Powersets', './Powers', './Boostsets', './AttribNames', './Messages', './Classes', './Powercats', './Origins'], factory);
+    define(['kaitai-struct/KaitaiStream', './Powersets', './VillainDef', './Powers', './Boostsets', './AttribNames', './Messages', './Classes', './Powercats', './Origins'], factory);
   } else if (typeof module === 'object' && module.exports) {
-    module.exports = factory(require('kaitai-struct/KaitaiStream'), require('./Powersets'), require('./Powers'), require('./Boostsets'), require('./AttribNames'), require('./Messages'), require('./Classes'), require('./Powercats'), require('./Origins'));
+    module.exports = factory(require('kaitai-struct/KaitaiStream'), require('./Powersets'), require('./VillainDef'), require('./Powers'), require('./Boostsets'), require('./AttribNames'), require('./Messages'), require('./Classes'), require('./Powercats'), require('./Origins'));
   } else {
-    root.Pigg = factory(root.KaitaiStream, root.Powersets, root.Powers, root.Boostsets, root.AttribNames, root.Messages, root.Classes, root.Powercats, root.Origins);
+    root.Pigg = factory(root.KaitaiStream, root.Powersets, root.VillainDef, root.Powers, root.Boostsets, root.AttribNames, root.Messages, root.Classes, root.Powercats, root.Origins);
   }
-}(this, function (KaitaiStream, Powersets, Powers, Boostsets, AttribNames, Messages, Classes, Powercats, Origins) {
+}(this, function (KaitaiStream, Powersets, VillainDef, Powers, Boostsets, AttribNames, Messages, Classes, Powercats, Origins) {
 var Pigg = (function() {
   function Pigg(_io, _parent, _root) {
     this._io = _io;
@@ -168,6 +168,13 @@ var Pigg = (function() {
           this._raw__m_value = KaitaiStream.processZlib(this._raw__raw__m_value);
           var _io__raw__m_value = new KaitaiStream(this._raw__m_value);
           this._m_value = new Messages(_io__raw__m_value, this, null);
+          this._m_value._read();
+          break;
+        case "bin/VillainDef.bin":
+          this._raw__raw__m_value = io.readBytes(this.packSize);
+          this._raw__m_value = KaitaiStream.processZlib(this._raw__raw__m_value);
+          var _io__raw__m_value = new KaitaiStream(this._raw__m_value);
+          this._m_value = new VillainDef(_io__raw__m_value, this, null);
           this._m_value._read();
           break;
         default:

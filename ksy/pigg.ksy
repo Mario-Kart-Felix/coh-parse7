@@ -3,7 +3,7 @@ meta:
   file-extension: pigg
   endian: le
   encoding: ascii
-  imports: ['messages', 'attrib_names', 'boostsets', 'classes', 'powercats', 'powersets', 'powers', 'origins']
+  imports: ['messages', 'attrib_names', 'boostsets', 'classes', 'powercats', 'powersets', 'powers', 'origins', 'villain_def']
 seq:
   - {id: magic, contents: [0x23, 0x1, 0,0]}
   - {id: version, type: u2}
@@ -44,6 +44,7 @@ types:
             '"bin/powersets.bin"': powersets
             '"bin/origins.bin"': origins
             '"bin/powers.bin"': powers
+            '"bin/VillainDef.bin"': villain_def
             _: nothing
   nothing: {}
   strings:
