@@ -28,15 +28,7 @@ getConfig().then(() => {
         console.log(name);
         let data = replacePMessages(hierarchy(pigg[f]), pigg['bin/clientmessages-en.bin']);
         if (name in rename) name = rename[name];
-        if (name === 'archetypes') {
-            for (let k in data) {
-                console.log(k);
-                for (let v of ['primary', 'secondary']) {
-                    console.log('', v);
-                    data[k][v] = data[k][v].replace(/(?<=_[A-Z])[A-Z]*/, m => m.toLowerCase());
-                }
-            }
-        }
+        if (fixup[name]) fixup[name](data);
         writeFiles(data, name, depth[name] || 0);
     }
     console.log('powers');
@@ -45,6 +37,19 @@ getConfig().then(() => {
     console.log('done');
     process.exit();
 });
+
+const fixup = {
+    archetypes: function(data) {
+        for (let k in data) {
+            console.log(k);
+            for (let v of ['primary', 'secondary']) {
+                console.log('', v);
+                data[k][v] = data[k][v].replace(/(?<=_[A-Z])[A-Z]*/, m => m.toLowerCase());
+            }
+            data[k].icon = data[k].icon.toLowerCase();
+        }
+    }
+}
 
 function hierarchy(input) {
     const output = {};
