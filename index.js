@@ -8,14 +8,15 @@ const VillainDef = require('./gen/VillainDef');
 const KaitaiStream = require('kaitai-struct/KaitaiStream');
 KaitaiStream.processZlib = buf => buf.length ? zlib.inflateSync(buf) : buf;
 
-const depth = {
-    boostsets: 1,
-    classes: 1,
-    powercats: 1,
-    powersets: 2
-};
 const rename = {
     classes: 'archetypes'
+};
+
+const depth = {
+    boostsets: 1,
+    archetypes: 1,
+    powercats: 1,
+    powersets: 2
 };
 
 getConfig().then(() => {
@@ -25,7 +26,18 @@ getConfig().then(() => {
         if (str == '{}') continue;
         let name = f.replace(/^bin\//, '').replace(/\.bin$/, '');
         console.log(name);
-        writeFiles(replacePMessages(hierarchy(pigg[f]), pigg['bin/clientmessages-en.bin']), rename[name] || name, depth[name] || 0);
+        let data = replacePMessages(hierarchy(pigg[f]), pigg['bin/clientmessages-en.bin']);
+        if (name in rename) name = rename[name];
+        if (name === 'archetypes') {
+            for (let k in data) {
+                console.log(k);
+                for (let v of ['primary', 'secondary']) {
+                    console.log('', v);
+                    data[k][v] = data[k][v].replace(/(?<=_[A-Z])[A-Z]*/, m => m.toLowerCase());
+                }
+            }
+        }
+        writeFiles(data, name, depth[name] || 0);
     }
     console.log('powers');
     const powers = parse(Pigg, findFile(`bin_powers.pigg`))["bin/powers.bin"];
