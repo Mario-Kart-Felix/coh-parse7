@@ -28,3 +28,13 @@ exports.findFile = function findFile(file) {
         if (fs.existsSync(path)) return path;
     return null;
 }
+
+exports.allPiggs = function allPiggs() {
+    let files = {};
+    for (let file of fs.readdirSync(`${config.path}/homecoming`)) if (file.match(/\.pigg$/)) files[file] = true;
+    for (let file of fs.readdirSync(`${config.path}/piggs`)) if (file.match(/\.pigg$/)) files[file] = true;
+    for (let file of fs.readdirSync(`${config.path}`)) if (file.match(/\.pigg$/)) files[file] = true;
+    let fl = [];
+    for (let f in files) fl.push(f);
+    return fl;
+}

@@ -16,7 +16,8 @@ const depth = {
     boostsets: 1,
     archetypes: 1,
     powercats: 1,
-    powersets: 2
+    powersets: 2,
+    VillainDef: 1
 };
 
 getConfig().then(() => {
@@ -76,21 +77,24 @@ function replacePMessages(input, messages) {
     return input;
 }
 
+function sanitize(name) {
+    return name.replace(/[^A-Za-z0-9_-]/g, '_');
+}
 function writeFiles(output, name, depth, messages) {
     fs.writeFileSync(`./docs/${name}.json`, JSON.stringify(output));
     if (depth == 0) return;
     if (messages) output = replacePMessages(output, messages);
     for (let a in output) {
         if (!fs.existsSync(`docs/${name}`)) fs.mkdirSync(`docs/${name}`);
-        fs.writeFileSync(`./docs/${name}/${a}.json`, JSON.stringify(output[a], null, 2));
+        fs.writeFileSync(`./docs/${name}/${sanitize(a)}.json`, JSON.stringify(output[a], null, 2));
         if (depth == 1) continue;
         for (let b in output[a]) {
-            if (!fs.existsSync(`docs/${name}/${a}`)) fs.mkdirSync(`docs/${name}/${a}`);
-            fs.writeFileSync(`./docs/${name}/${a}/${b}.json`, JSON.stringify(output[a][b], null, 2));
+            if (!fs.existsSync(`docs/${name}/${sanitize(a)}`)) fs.mkdirSync(`docs/${name}/${sanitize(a)}`);
+            fs.writeFileSync(`./docs/${name}/${sanitize(a)}/${sanitize(b)}.json`, JSON.stringify(output[a][b], null, 2));
             if (depth == 2) continue;
             for (let c in output[a][b]) {
-                if (!fs.existsSync(`docs/${name}/${a}/${b}`)) fs.mkdirSync(`docs/${name}/${a}/${b}`);
-                fs.writeFileSync(`./docs/${name}/${a}/${b}/${c}.json`, JSON.stringify(output[a][b][c], null, 2));
+                if (!fs.existsSync(`docs/${name}/${sanitize(a)}/${sanitize(b)}`)) fs.mkdirSync(`docs/${name}/${sanitize(a)}/${sanitize(b)}`);
+                fs.writeFileSync(`./docs/${name}/${sanitize(a)}/${sanitize(b)}/${sanitize(c)}.json`, JSON.stringify(output[a][b][c], null, 2));
             }
         }
     }

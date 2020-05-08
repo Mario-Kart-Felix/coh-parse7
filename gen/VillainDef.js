@@ -269,10 +269,6 @@ var VillainDef = (function() {
 
     }
     Villain.prototype._read = function() {
-      this._debug.name = { start: this._io.pos, ioOffset: this._io.byteOffset };
-      this.name = new String(this._io, this, this._root);
-      this.name._read();
-      this._debug.name.end = this._io.pos;
       this._debug.class = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.class = new String(this._io, this, this._root);
       this.class._read();
@@ -375,9 +371,9 @@ var VillainDef = (function() {
       this._debug.badgeFlags = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.badgeFlags = this._io.readU4le();
       this._debug.badgeFlags.end = this._io.pos;
-      this._debug._unnamed29 = { start: this._io.pos, ioOffset: this._io.byteOffset };
-      this._unnamed29 = this._io.readBytes(4);
-      this._debug._unnamed29.end = this._io.pos;
+      this._debug._unnamed28 = { start: this._io.pos, ioOffset: this._io.byteOffset };
+      this._unnamed28 = this._io.readBytes(4);
+      this._debug._unnamed28.end = this._io.pos;
     }
 
     return Villain;
@@ -556,8 +552,12 @@ var VillainDef = (function() {
       this._debug.len = { start: this._io.pos, ioOffset: this._io.byteOffset };
       this.len = this._io.readU4le();
       this._debug.len.end = this._io.pos;
+      this._debug.key = { start: this._io.pos, ioOffset: this._io.byteOffset };
+      this.key = new String(this._io, this, this._root);
+      this.key._read();
+      this._debug.key.end = this._io.pos;
       this._debug.value = { start: this._io.pos, ioOffset: this._io.byteOffset };
-      this._raw_value = this._io.readBytes(this.len);
+      this._raw_value = this._io.readBytes((this.len - 4));
       var _io__raw_value = new KaitaiStream(this._raw_value);
       this.value = new Villain(_io__raw_value, this, this._root);
       this.value._read();

@@ -14,10 +14,10 @@ types:
   villain_struct:
     seq:
       - {id: len, type: u4}
-      - {id: value, type: villain, size: len}
+      - {id: key, type: string}
+      - {id: value, type: villain, size: len-4}
   villain:
     seq:
-      - {id: name, type: string}
       - {id: class, type: string}
       - {id: gender, type: u4, enum: gender}
       - {id: description, type: string}
