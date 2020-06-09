@@ -61,12 +61,13 @@ types:
       - {id: ai_report, type: u4, enum: ai_report}
       - {id: effect_area, type: u4, enum: effect_area}
       - {id: max_targets_hit, type: u4}
-      - {id: unknown, type: f4}
+      - {id: chain_effect_array, type: string_array} #See Electrical Affinity Rejuvenating Circuit (4306)
       - {id: radius, type: f4}
       - {id: arc, type: f4}
       - {id: chain_delay, type: f4}
       - {id: chain_eff, type: string_array}
-      - {id: chain_fork, type: u4_array}
+      - {id: chain_fork, type: string_array}
+      - {id: unknown1, type: u4_array} #It's true for Electrical Affinity Rejuvenating Circuit (4306)
       - {id: box_offset, type: f4, repeat: expr, repeat-expr: 3}
       - {id: box_size, type: f4, repeat: expr, repeat-expr: 3}
       - {id: range, type: f4}
@@ -119,12 +120,15 @@ types:
       - {id: min_slot_level, type: s4}
       - {id: max_slot_level, type: u4}
       - {id: max_boost_level, type: u4}
-      - {id: var, type: var_array}
+      - {id: unknown2, type: f4}
+      - {id: unknown3, type: f4}
+      - {id: unknown4, type: f4}
+      - {id: var, type: u4_array}
       - {id: toggle_droppable, type: u4, enum: toggle_droppable}
       - {id: proc_allowed, type: u4, enum: proc_allowed}
-      - {id: strengths_disallowed, type: attrib_array}
-      - {id: proc_main_target_only, type: bool}
-      - {id: anim_main_target_only, type: bool}
+      #- {id: strengths_disallowed, type: attrib_array}
+      #- {id: proc_main_target_only, type: bool}
+      #- {id: anim_main_target_only, type: bool}
       - {id: highlight_eval, type: string_array}
       - {id: highlight_icon, type: string}
       - {id: highlight_ring, type: rgba}
@@ -497,7 +501,7 @@ types:
       - {id: attrib_cache, type: attrib_array}
       - {id: source_file, type: string}
       - {id: power_fx, type: power_fx}
-      - {id: custom_fx, type: custom_fx_array}
+      #- {id: custom_fx, type: custom_fx_array}
   custom_fx_array:
     seq:
       - {id: count, type: u4}
